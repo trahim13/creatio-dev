@@ -85,6 +85,9 @@ services:
       - ./creatio/Logs:/app/Logs
       #      включить режим разработки
       - ./creatio/Terrasoft.WebHost.dll.config:/app/Terrasoft.WebHost.dll.config:ro
+      # Creatio берёт текущие пакеты (packages), которые сейчас “живут” в базе данных (и/или собраны в приложении), и выгружает их исходники на диск в папку Terrasoft.Configuration
+      #    Вся Terrasoft.Configuration\Pkg — можно удалить, но это “жёсткий reset” файловой копии (“удалить рабочую копию”)
+      - ./creatio/Terrasoft.Configuration:/app/Terrasoft.Configuration
     restart: unless-stopped
 
 volumes:
