@@ -1,7 +1,7 @@
 services:
   postgres:
     image: postgis/postgis:17-3.4
-    container_name: postgres17-creatio
+    container_name: postgres17-creatio-dev2
     environment:
       POSTGRES_DB: app
       POSTGRES_USER: app
@@ -11,9 +11,9 @@ services:
       LC_ALL: en_US.UTF-8
       POSTGRES_INITDB_ARGS: "--data-checksums --encoding=UTF8 --locale=en_US.UTF-8"
     ports:
-      - "4000:5432"
+      - "4100:5432"
     volumes:
-      - pg_data_creatio:/var/lib/postgresql/data
+      - pg_data_creatio_dev2:/var/lib/postgresql/data
     healthcheck:
       test: [ "CMD-SHELL", "pg_isready -h 127.0.0.1 -p 5432 -U app -d app || exit 1" ]
       interval: 10s
@@ -49,14 +49,14 @@ services:
 
   redis:
     image: redis:7-alpine
-    container_name: redis7-creatio
+    container_name: redis7-creatio-dev2
     command: [ "redis-server", "--appendonly", "yes" ]
     environment:
       TZ: UTC
     ports:
-      - "4001:6379"
+      - "4101:6379"
     volumes:
-      - redis_data_creatio:/data
+      - redis_data_creatio_dev2:/data
     healthcheck:
       test: [ "CMD", "redis-cli", "ping" ]
       interval: 5s
@@ -65,10 +65,8 @@ services:
     restart: unless-stopped
 
   creatio:
-    build:
-      context: ./creatio
-      dockerfile: Dockerfile
-    container_name: creatio83
+    image: creatio83:8.3-dev
+    container_name: creatio83-dev2
     depends_on:
       postgres:
         condition: service_healthy
@@ -79,22 +77,15 @@ services:
       ASPNETCORE_ENVIRONMENT: Development
       COMPlus_ThreadPool_ForceMinWorkerThreads: "100"
     ports:
-      - "5000:5000"   # HTTP
-      - "5002:5002"   # HTTPS
+      - "5100:5000"
+      - "5102:5002"
     volumes:
-      # Логи наружу — смотреть без входа в контейнер
-      - ./creatio/Logs:/app/Logs
-      # Главный runtime-конфиг Creatio (.NET): меняем параметры без пересборки образа.
-      # Здесь включаем File System Development Mode и другие appSettings.
-      - ./creatio/Terrasoft.WebHost.dll.config:/app/Terrasoft.WebHost.dll.config:ro
-      # ConnectionStrings.config (DB/Redis/Temp paths): хотим править без пересборки образа.
-      - ./creatio/ConnectionStrings.config:/app/ConnectionStrings.config:ro
-      # File System Development Mode (FSD): пакеты выгружаются на диск после
-      # Configuration → Actions → File system development mode → Download packages to file system.
-      # Это позволяет разработчикам коммитить изменения пакета в Git.
-      - ./creatio/Terrasoft.Configuration:/app/Terrasoft.Configuration
+      - ./runtime/dev2/Logs:/app/Logs
+      - ./runtime/dev2/Terrasoft.WebHost.dll.config:/app/Terrasoft.WebHost.dll.config:ro
+      - ./runtime/dev2/ConnectionStrings.config:/app/ConnectionStrings.config:ro
+      - ./runtime/dev2/Terrasoft.Configuration:/app/Terrasoft.Configuration
     restart: unless-stopped
 
 volumes:
-  pg_data_creatio:
-  redis_data_creatio:
+  pg_data_creatio_dev2:
+  redis_data_creatio_dev2:

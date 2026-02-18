@@ -1,0 +1,10 @@
+services:
+  clio:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: creatio-clio:local
+    working_dir: /work
+    volumes:
+      - ./volumes/home:/root/creatio/clio
+      - ./volumes/out:/work/out
