@@ -50,7 +50,7 @@ services:
   redis:
     image: redis:7-alpine
     container_name: redis7-creatio
-    command: ["redis-server", "--appendonly", "yes"]
+    command: [ "redis-server", "--appendonly", "yes" ]
     environment:
       TZ: UTC
     ports:
@@ -58,7 +58,7 @@ services:
     volumes:
       - redis_data_creatio:/data
     healthcheck:
-      test: ["CMD", "redis-cli", "ping"]
+      test: [ "CMD", "redis-cli", "ping" ]
       interval: 5s
       timeout: 3s
       retries: 20
@@ -83,6 +83,8 @@ services:
       - "5002:5002"   # HTTPS
     volumes:
       - ./creatio/Logs:/app/Logs
+      #      включить режим разработки
+      - ./creatio/Terrasoft.WebHost.dll.config:/app/Terrasoft.WebHost.dll.config:ro
     restart: unless-stopped
 
 volumes:
