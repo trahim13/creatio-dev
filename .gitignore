@@ -26,3 +26,4 @@
 !/creatio/Terrasoft.Configuration/Pkg/UsrYachts/
 !/creatio/Terrasoft.Configuration/Pkg/UsrYachts/**
 /creatio-instruction.iml
+/tools/clio-docker/volumes/
