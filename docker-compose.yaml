@@ -82,11 +82,16 @@ services:
       - "5000:5000"   # HTTP
       - "5002:5002"   # HTTPS
     volumes:
+      # Логи наружу — смотреть без входа в контейнер
       - ./creatio/Logs:/app/Logs
-      #      включить режим разработки
+      # Главный runtime-конфиг Creatio (.NET): меняем параметры без пересборки образа.
+      # Здесь включаем File System Development Mode и другие appSettings.
       - ./creatio/Terrasoft.WebHost.dll.config:/app/Terrasoft.WebHost.dll.config:ro
-      # Creatio берёт текущие пакеты (packages), которые сейчас “живут” в базе данных (и/или собраны в приложении), и выгружает их исходники на диск в папку Terrasoft.Configuration
-      #    Вся Terrasoft.Configuration\Pkg — можно удалить, но это “жёсткий reset” файловой копии (“удалить рабочую копию”)
+      # ConnectionStrings.config (DB/Redis/Temp paths): хотим править без пересборки образа.
+      - ./creatio/ConnectionStrings.config:/app/ConnectionStrings.config:ro
+      # File System Development Mode (FSD): пакеты выгружаются на диск после
+      # Configuration → Actions → File system development mode → Download packages to file system.
+      # Это позволяет разработчикам коммитить изменения пакета в Git.
       - ./creatio/Terrasoft.Configuration:/app/Terrasoft.Configuration
     restart: unless-stopped
 
