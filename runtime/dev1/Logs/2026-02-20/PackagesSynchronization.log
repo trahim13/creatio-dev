@@ -56,3 +56,1273 @@
    at Terrasoft.Core.Packages.PackageDBStorage.<>c__DisplayClass514_1.<SaveModifiedPackageSchemas>b__1()
    at Terrasoft.Core.Packages.PackageStorage.SafeItemOperation(Descriptor descriptor, Action action)
 2026-02-20 08:35:13,859 <-- PackageFileDesignModeDBStorage.SavePackage - UsrYacht
+2026-02-20 08:39:08,045 --> PackageInstallUtilities.LoadPackagesToDB
+2026-02-20 08:39:08,045 --> PackageFileDesignModeStorage.Load
+2026-02-20 08:39:08,500 <-- PackageFileDesignModeStorage.Load
+2026-02-20 08:39:08,500 --> PackageFileDesignModeDBStorage.Load
+2026-02-20 08:39:48,442 <-- PackageFileDesignModeDBStorage.Load
+2026-02-20 08:39:48,442 --> PackageStorageComposer.Compose
+2026-02-20 08:39:48,442 --> PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-20 08:39:48,442 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2026-02-20 08:39:48,442 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-20 08:39:48,453 --> PackageFileDesignModeDBStorage.ActualizePackageResourcesState
+2026-02-20 08:39:48,453 <-- PackageFileDesignModeDBStorage.ActualizePackageResourcesState
+2026-02-20 08:39:48,453 <-- PackageStorageComposer.Compose
+2026-02-20 08:39:48,453 --> PackageFileDesignModeDBStorage.Save: Packages [1] Schemas [1] ReferenceAssemblies [0] SqlScripts [0] PackageData [2] SchemaResources [0] CoreResources [0]
+2026-02-20 08:39:48,495 --> PackageFileDesignModeDBStorage.SavePackage - UsrYachts
+2026-02-20 08:39:48,495 --> PackageDBStorage.Load
+2026-02-20 08:40:28,599 <-- PackageDBStorage.Load
+2026-02-20 08:40:28,639 <-- PackageFileDesignModeDBStorage.SavePackage - UsrYachts
+2026-02-20 08:40:29,553 InstallColumnLookupValues. Count (total): 0
+2026-02-20 08:40:29,996 <-- PackageFileDesignModeDBStorage.Save
+2026-02-20 08:40:29,996 <-- PackageInstallUtilities.LoadPackagesToDB
+2026-02-20 08:58:12,939 --> PackageInstallUtilities.LoadPackagesToDB
+2026-02-20 08:58:12,939 --> PackageFileDesignModeStorage.Load
+2026-02-20 08:58:14,536 <-- PackageFileDesignModeStorage.Load
+2026-02-20 08:58:14,536 --> PackageFileDesignModeDBStorage.Load
+2026-02-20 08:58:56,248 <-- PackageFileDesignModeDBStorage.Load
+2026-02-20 08:58:56,252 --> PackageStorageComposer.Compose
+2026-02-20 08:58:56,252 --> PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-20 08:58:56,252 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-20 08:58:56,271 --> PackageFileDesignModeDBStorage.ActualizePackageResourcesState
+2026-02-20 08:58:56,271 <-- PackageFileDesignModeDBStorage.ActualizePackageResourcesState
+2026-02-20 08:58:56,271 <-- PackageStorageComposer.Compose
+2026-02-20 08:58:56,271 --> PackageFileDesignModeDBStorage.Save: Packages [1] Schemas [13] ReferenceAssemblies [0] SqlScripts [2] PackageData [20] SchemaResources [204] CoreResources [0]
+2026-02-20 08:58:56,314 --> PackageFileDesignModeDBStorage.SavePackage - UsrYacht
+2026-02-20 08:58:56,314 --> PackageDBStorage.Load
+2026-02-20 08:59:35,453 <-- PackageDBStorage.Load
+2026-02-20 08:59:35,453 Terrasoft.Common.InvalidNameException: "UsrTestProcess" configuration schema already exists in the following package(s): "UsrYacht", "UsrYachts"
+   at Terrasoft.Core.SchemaDuplicationDetector.CheckDuplicateSchemaNameExists(SchemaDescriptor schema, IEnumerable`1 schemas)
+   at Terrasoft.Core.InstallSchemaDuplicationDetector.CheckDuplicateSchemaNameExists(SchemaDescriptor schema)
+   at Terrasoft.Core.Packages.PackageDBStorage.CheckIsSchemaWithSameNameExist(SchemaDescriptor schema)
+   at Terrasoft.Core.Packages.PackageDBStorage.<>c__DisplayClass514_1.<SaveModifiedPackageSchemas>b__1()
+   at Terrasoft.Core.Packages.PackageStorage.SafeItemOperation(Descriptor descriptor, Action action)
+2026-02-20 08:59:35,453 Terrasoft.Common.InvalidNameException: "UsrTrafficLight" configuration schema already exists in the following package(s): "UsrYacht", "UsrYachts"
+   at Terrasoft.Core.SchemaDuplicationDetector.CheckDuplicateSchemaNameExists(SchemaDescriptor schema, IEnumerable`1 schemas)
+   at Terrasoft.Core.InstallSchemaDuplicationDetector.CheckDuplicateSchemaNameExists(SchemaDescriptor schema)
+   at Terrasoft.Core.Packages.PackageDBStorage.CheckIsSchemaWithSameNameExist(SchemaDescriptor schema)
+   at Terrasoft.Core.Packages.PackageDBStorage.<>c__DisplayClass514_1.<SaveModifiedPackageSchemas>b__1()
+   at Terrasoft.Core.Packages.PackageStorage.SafeItemOperation(Descriptor descriptor, Action action)
+2026-02-20 08:59:36,781 <-- PackageFileDesignModeDBStorage.SavePackage - UsrYacht
+2026-02-20 09:01:15,199 --> PackageZipFileStorage.Load
+2026-02-20 09:01:15,199 --> PackageZipFileStorage.UnZipPackages
+2026-02-20 09:01:15,368 <-- PackageZipFileStorage.UnZipPackages
+2026-02-20 09:01:15,368 <-- PackageZipFileStorage.Load
+2026-02-20 09:01:17,856 --> PackageStorageComposer.Compose
+2026-02-20 09:01:17,856 --> PackageZipFileStorage.Load
+2026-02-20 09:01:17,856 --> PackageZipFileStorage.UnZipPackages
+2026-02-20 09:01:17,856 <-- PackageZipFileStorage.UnZipPackages
+2026-02-20 09:01:17,856 --> PackageZipFileStorage.LoadSchemaProperties
+2026-02-20 09:01:17,856 <-- PackageZipFileStorage.LoadSchemaProperties
+2026-02-20 09:01:17,856 <-- PackageZipFileStorage.Load
+2026-02-20 09:01:17,856 --> PackageDBStorage.Load
+2026-02-20 09:01:58,123 <-- PackageDBStorage.Load
+2026-02-20 09:01:58,123 --> PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-20 09:01:58,123 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-20 09:01:58,129 --> PackageDBStorage.ActualizePackageResourcesState
+2026-02-20 09:01:58,129 <-- PackageDBStorage.ActualizePackageResourcesState
+2026-02-20 09:01:58,129 <-- PackageStorageComposer.Compose
+2026-02-20 09:01:58,182 --> PackageZipFileStorage.Load
+2026-02-20 09:01:58,182 --> PackageZipFileStorage.UnZipPackages
+2026-02-20 09:01:58,205 <-- PackageZipFileStorage.UnZipPackages
+2026-02-20 09:01:58,205 <-- PackageZipFileStorage.Load
+2026-02-20 09:01:58,220 --> PackageStorageComposer.Compose
+2026-02-20 09:01:58,220 --> PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-20 09:01:58,220 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-20 09:01:58,220 --> IntermediatePackageStorage.ActualizePackageResourcesState
+2026-02-20 09:01:58,220 <-- IntermediatePackageStorage.ActualizePackageResourcesState
+2026-02-20 09:01:58,220 <-- PackageStorageComposer.Compose
+2026-02-20 09:01:58,265 --> PackageZipFileStorage.Load
+2026-02-20 09:01:58,265 --> PackageZipFileStorage.UnZipPackages
+2026-02-20 09:01:58,277 <-- PackageZipFileStorage.UnZipPackages
+2026-02-20 09:01:58,277 <-- PackageZipFileStorage.Load
+2026-02-20 09:02:13,157 --> PackageZipFileStorage.Load
+2026-02-20 09:02:13,157 --> PackageZipFileStorage.UnZipPackages
+2026-02-20 09:02:13,157 <-- PackageZipFileStorage.UnZipPackages
+2026-02-20 09:02:13,157 <-- PackageZipFileStorage.Load
+2026-02-20 09:02:13,175 --> PackageZipFileStorage.Load
+2026-02-20 09:02:13,175 --> PackageZipFileStorage.UnZipPackages
+2026-02-20 09:02:13,198 <-- PackageZipFileStorage.UnZipPackages
+2026-02-20 09:02:13,207 <-- PackageZipFileStorage.Load
+2026-02-20 09:02:13,220 --> PackageStorageComposer.Compose
+2026-02-20 09:02:13,220 --> PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-20 09:02:13,220 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-20 09:02:13,220 --> IntermediatePackageStorage.ActualizePackageResourcesState
+2026-02-20 09:02:13,220 <-- IntermediatePackageStorage.ActualizePackageResourcesState
+2026-02-20 09:02:13,220 <-- PackageStorageComposer.Compose
+2026-02-20 09:02:13,231 --> PackageZipFileStorage.SavePackage - CrtApolloInC360
+2026-02-20 09:02:13,231 --> PackageZipFileStorage.SavePackageDescriptor - CrtApolloInC360
+2026-02-20 09:02:13,231 <-- PackageZipFileStorage.SavePackageDescriptor - CrtApolloInC360
+2026-02-20 09:02:13,231 --> PackageZipFileStorage.SaveStandalonePackageSpecificFiles - CrtApolloInC360
+2026-02-20 09:02:13,268 <-- PackageZipFileStorage.SaveStandalonePackageSpecificFiles - CrtApolloInC360
+2026-02-20 09:02:13,268 --> PackageZipFileStorage.SavePackageSchemas - CrtApolloInC360
+2026-02-20 09:02:13,278 <-- PackageZipFileStorage.SavePackageSchemas - CrtApolloInC360
+2026-02-20 09:02:13,278 --> PackageZipFileStorage.SavePackageReferenceAssemblies - CrtApolloInC360
+2026-02-20 09:02:13,278 <-- PackageZipFileStorage.SavePackageReferenceAssemblies - CrtApolloInC360
+2026-02-20 09:02:13,278 --> PackageZipFileStorage.SavePackageSqlScripts - CrtApolloInC360
+2026-02-20 09:02:13,278 <-- PackageZipFileStorage.SavePackageSqlScripts - CrtApolloInC360
+2026-02-20 09:02:13,278 --> PackageZipFileStorage.SavePackageData - CrtApolloInC360
+2026-02-20 09:02:13,278 <-- PackageZipFileStorage.SavePackageData - CrtApolloInC360
+2026-02-20 09:02:13,278 <-- PackageZipFileStorage.SavePackage - CrtApolloInC360
+2026-02-20 09:02:13,306 --> PackageZipFileStorage.SavePackage - CrtApolloInC360
+2026-02-20 09:02:13,306 --> PackageZipFileStorage.SavePackageDescriptor - CrtApolloInC360
+2026-02-20 09:02:13,306 <-- PackageZipFileStorage.SavePackageDescriptor - CrtApolloInC360
+2026-02-20 09:02:13,306 --> PackageZipFileStorage.SaveStandalonePackageSpecificFiles - CrtApolloInC360
+2026-02-20 09:02:13,323 <-- PackageZipFileStorage.SaveStandalonePackageSpecificFiles - CrtApolloInC360
+2026-02-20 09:02:13,323 --> PackageZipFileStorage.SavePackageSchemas - CrtApolloInC360
+2026-02-20 09:02:13,330 <-- PackageZipFileStorage.SavePackageSchemas - CrtApolloInC360
+2026-02-20 09:02:13,330 --> PackageZipFileStorage.SavePackageReferenceAssemblies - CrtApolloInC360
+2026-02-20 09:02:13,330 <-- PackageZipFileStorage.SavePackageReferenceAssemblies - CrtApolloInC360
+2026-02-20 09:02:13,330 --> PackageZipFileStorage.SavePackageSqlScripts - CrtApolloInC360
+2026-02-20 09:02:13,330 <-- PackageZipFileStorage.SavePackageSqlScripts - CrtApolloInC360
+2026-02-20 09:02:13,330 --> PackageZipFileStorage.SavePackageData - CrtApolloInC360
+2026-02-20 09:02:13,330 <-- PackageZipFileStorage.SavePackageData - CrtApolloInC360
+2026-02-20 09:02:13,330 <-- PackageZipFileStorage.SavePackage - CrtApolloInC360
+2026-02-20 09:02:13,368 --> PackageDBStorageInternal.SavePackage - GlbDataBinding
+2026-02-20 09:02:13,368 --> PackageDBStorage.Load
+2026-02-20 09:02:54,046 <-- PackageDBStorage.Load
+2026-02-20 09:02:54,147 <-- PackageDBStorageInternal.SavePackage - GlbDataBinding
+2026-02-20 09:02:54,187 Added - 1 en-US resource values for schema 'GlbDataBindingService'
+2026-02-20 09:02:54,187 Added - 1 ru-RU resource values for schema 'GlbDataBindingHelper'
+2026-02-20 09:02:54,194 Added - 2 en-US resource values for schema 'GlbDataBindingHelper'
+2026-02-20 09:02:54,275 Added - 20 ru-RU resource values for schema 'GlbDataBindingMixin'
+2026-02-20 09:02:54,286 Added - 22 en-US resource values for schema 'GlbDataBindingMixin'
+2026-02-20 09:02:57,168 InstallColumnLookupValues. Count (total): 1
+2026-02-20 09:02:57,168 Count (by package [06b2f9c5-2217-4cca-9749-77d954e77765]): 2
+2026-02-20 09:02:57,168 Count (by schema [SysAdminOperation]): 2
+2026-02-20 09:02:57,172 Count (by schema [SysAdminOperationGrantee]): 1
+2026-02-20 09:02:57,603 --> PackageDBStorage.Load
+2026-02-20 09:03:39,267 <-- PackageDBStorage.Load
+2026-02-20 09:03:48,459 --> PackageDBStorage.Load
+2026-02-20 09:04:30,169 <-- PackageDBStorage.Load
+2026-02-20 09:23:09,971 --> AppTemplatePackageStorage.Load
+2026-02-20 09:23:09,971 --> AppTemplatePackageStorage.UnZipPackages
+2026-02-20 09:23:10,035 <-- AppTemplatePackageStorage.UnZipPackages
+2026-02-20 09:23:10,083 <-- AppTemplatePackageStorage.Load
+2026-02-20 09:23:10,124 --> SinglePackageDBStorage.Load
+2026-02-20 09:23:55,318 <-- SinglePackageDBStorage.Load
+2026-02-20 09:23:55,323 --> PackageDBStorage.Load
+2026-02-20 09:24:38,122 <-- PackageDBStorage.Load
+2026-02-20 09:24:38,208 --> PackageDBStorageInternal.SavePackage - UsrYachts
+2026-02-20 09:24:38,223 --> PackageDBStorage.Load
+2026-02-20 09:25:20,158 <-- PackageDBStorage.Load
+2026-02-20 09:25:20,367 <-- PackageDBStorageInternal.SavePackage - UsrYachts
+2026-02-20 09:25:20,401 Culture fa-IR not found for resources of schema 'UsrYachts_FormPage'
+2026-02-20 09:25:20,417 Added - 1 uk-UA resource values for schema 'UsrYachts_FormPage'
+2026-02-20 09:25:20,417 Added - 1 en-US resource values for schema 'UsrYachts_FormPage'
+2026-02-20 09:25:20,417 Added - 1 pt-PT resource values for schema 'UsrYachts_FormPage'
+2026-02-20 09:25:20,417 Added - 1 de-DE resource values for schema 'UsrYachts_FormPage'
+2026-02-20 09:25:20,417 Added - 1 he-IL resource values for schema 'UsrYachts_FormPage'
+2026-02-20 09:25:20,417 Added - 1 th-TH resource values for schema 'UsrYachts_FormPage'
+2026-02-20 09:25:20,417 Added - 1 sv-SE resource values for schema 'UsrYachts_FormPage'
+2026-02-20 09:25:20,417 Added - 1 fr-FR resource values for schema 'UsrYachts_FormPage'
+2026-02-20 09:25:20,426 Culture fa-IR not found for resources of schema 'UsrYachts_ListPage'
+2026-02-20 09:25:20,426 Added - 1 pl-PL resource values for schema 'UsrYachts_FormPage'
+2026-02-20 09:25:20,426 Added - 1 ar-SA resource values for schema 'UsrYachts_FormPage'
+2026-02-20 09:25:20,426 Added - 1 nl-NL resource values for schema 'UsrYachts_FormPage'
+2026-02-20 09:25:20,426 Added - 1 ru-RU resource values for schema 'UsrYachts_FormPage'
+2026-02-20 09:25:20,426 Added - 1 vi-VN resource values for schema 'UsrYachts_FormPage'
+2026-02-20 09:25:20,426 Added - 1 es-ES resource values for schema 'UsrYachts_FormPage'
+2026-02-20 09:25:20,426 Added - 1 pt-BR resource values for schema 'UsrYachts_FormPage'
+2026-02-20 09:25:20,426 Added - 1 ro-RO resource values for schema 'UsrYachts_FormPage'
+2026-02-20 09:25:20,426 Added - 1 en-US resource values for schema 'UsrYachts_ListPage'
+2026-02-20 09:25:20,426 Added - 1 ro-RO resource values for schema 'UsrYachts_ListPage'
+2026-02-20 09:25:20,426 Added - 2 en-US resource values for schema 'UsrYachts_Detail'
+2026-02-20 09:25:20,426 Added - 1 cs-CZ resource values for schema 'UsrYachts_FormPage'
+2026-02-20 09:25:20,426 Added - 1 uk-UA resource values for schema 'UsrYachts_ListPage'
+2026-02-20 09:25:20,426 Added - 1 cs-CZ resource values for schema 'UsrYachts_ListPage'
+2026-02-20 09:25:20,426 Added - 1 it-IT resource values for schema 'UsrYachts_FormPage'
+2026-02-20 09:25:20,426 Added - 1 ru-RU resource values for schema 'UsrYachts_ListPage'
+2026-02-20 09:25:20,426 Added - 1 sv-SE resource values for schema 'UsrYachts_ListPage'
+2026-02-20 09:25:20,426 Added - 1 nl-NL resource values for schema 'UsrYachts_ListPage'
+2026-02-20 09:25:20,426 Added - 2 ru-RU resource values for schema 'UsrYachts_Detail'
+2026-02-20 09:25:20,426 Added - 1 pt-BR resource values for schema 'UsrYachts_ListPage'
+2026-02-20 09:25:20,426 Added - 1 it-IT resource values for schema 'UsrYachts_ListPage'
+2026-02-20 09:25:20,426 Added - 1 ar-SA resource values for schema 'UsrYachts_ListPage'
+2026-02-20 09:25:20,426 Added - 1 pt-PT resource values for schema 'UsrYachts_ListPage'
+2026-02-20 09:25:20,441 Added - 1 th-TH resource values for schema 'UsrYachts_ListPage'
+2026-02-20 09:25:20,441 Culture fa-IR not found for resources of schema 'UsrYachts'
+2026-02-20 09:25:20,441 Added - 1 pl-PL resource values for schema 'UsrYachts_ListPage'
+2026-02-20 09:25:20,441 Added - 1 de-DE resource values for schema 'UsrYachts_ListPage'
+2026-02-20 09:25:20,441 Added - 1 fr-FR resource values for schema 'UsrYachts_ListPage'
+2026-02-20 09:25:20,441 Added - 1 he-IL resource values for schema 'UsrYachts_ListPage'
+2026-02-20 09:25:20,441 Added - 1 es-ES resource values for schema 'UsrYachts_ListPage'
+2026-02-20 09:25:20,441 Added - 1 ru-RU resource values for schema 'UsrYachts_MobileFormPage'
+2026-02-20 09:25:20,441 Added - 1 en-US resource values for schema 'UsrYachts_MobileFormPage'
+2026-02-20 09:25:20,441 Added - 1 vi-VN resource values for schema 'UsrYachts_ListPage'
+2026-02-20 09:25:20,441 Added - 0 en-US resource values for schema 'MobileApplicationManifestDefaultWorkplace'
+2026-02-20 09:25:20,441 Added - 0 ru-RU resource values for schema 'MobileApplicationManifestDefaultWorkplace'
+2026-02-20 09:25:20,447 Added - 2 ru-RU resource values for schema 'UsrYachts'
+2026-02-20 09:25:20,447 Added - 2 en-US resource values for schema 'UsrYachts'
+2026-02-20 09:25:20,447 Added - 2 it-IT resource values for schema 'UsrYachts'
+2026-02-20 09:25:20,447 Added - 1 en-US resource values for schema 'UsrYachtsMobileRelatedPage'
+2026-02-20 09:25:20,447 Added - 2 uk-UA resource values for schema 'UsrYachts'
+2026-02-20 09:25:20,447 Added - 2 nl-NL resource values for schema 'UsrYachts'
+2026-02-20 09:25:20,447 Added - 2 es-ES resource values for schema 'UsrYachts'
+2026-02-20 09:25:20,447 Added - 2 pt-BR resource values for schema 'UsrYachts'
+2026-02-20 09:25:20,447 Added - 2 de-DE resource values for schema 'UsrYachts'
+2026-02-20 09:25:20,447 Added - 2 he-IL resource values for schema 'UsrYachts'
+2026-02-20 09:25:20,447 Added - 2 sv-SE resource values for schema 'UsrYachts'
+2026-02-20 09:25:20,447 Added - 2 th-TH resource values for schema 'UsrYachts'
+2026-02-20 09:25:20,447 Added - 2 fr-FR resource values for schema 'UsrYachts'
+2026-02-20 09:25:20,447 Added - 2 pt-PT resource values for schema 'UsrYachts'
+2026-02-20 09:25:20,456 Added - 2 pl-PL resource values for schema 'UsrYachts'
+2026-02-20 09:25:20,456 Added - 2 vi-VN resource values for schema 'UsrYachts'
+2026-02-20 09:25:20,456 Added - 2 cs-CZ resource values for schema 'UsrYachts'
+2026-02-20 09:25:20,456 Added - 1 ru-RU resource values for schema 'UsrYachtsRelatedPage'
+2026-02-20 09:25:20,456 Added - 1 en-US resource values for schema 'UsrYachtsRelatedPage'
+2026-02-20 09:25:20,456 Added - 2 ru-RU resource values for schema 'UsrYachts_MobileListPage'
+2026-02-20 09:25:20,456 Added - 2 en-US resource values for schema 'UsrYachts_MobileListPage'
+2026-02-20 09:25:20,456 Added - 2 ar-SA resource values for schema 'UsrYachts'
+2026-02-20 09:25:20,456 Added - 2 ro-RO resource values for schema 'UsrYachts'
+2026-02-20 09:25:20,456 Added - 1 ru-RU resource values for schema 'UsrYachtsMobileRelatedPage'
+2026-02-20 09:25:23,417 InstallColumnLookupValues. Count (total): 1
+2026-02-20 09:25:23,417 Count (by package [b9c3012e-576e-4972-8acd-e03e1c98e198]): 4
+2026-02-20 09:25:23,417 Count (by schema [SysWorkplace]): 4
+2026-02-20 09:25:23,505 Count (by schema [SysAdminUnitInWorkplace]): 2
+2026-02-20 09:25:23,539 Count (by schema [SysModuleInWorkplace]): 2
+2026-02-20 09:25:23,569 Count (by schema [SysModule]): 1
+2026-02-20 09:27:55,908 --> PackageInstallUtilities.LoadPackagesToDB
+2026-02-20 09:27:55,908 --> PackageFileDesignModeStorage.Load
+2026-02-20 09:27:56,040 <-- PackageFileDesignModeStorage.Load
+2026-02-20 09:27:56,040 --> PackageFileDesignModeDBStorage.Load
+2026-02-20 09:28:52,496 <-- PackageFileDesignModeDBStorage.Load
+2026-02-20 09:29:07,494 --> PackageInstallUtilities.LoadPackagesToFileSystem
+2026-02-20 09:29:07,494 --> PackageStorageComposer.Compose
+2026-02-20 09:29:07,494 --> PackageFileDesignModeDBStorage.Load
+2026-02-20 09:29:49,598 <-- PackageFileDesignModeDBStorage.Load
+2026-02-20 09:29:49,598 --> PackageFileDesignModeStorage.Load
+2026-02-20 09:29:49,678 <-- PackageFileDesignModeStorage.Load
+2026-02-20 09:29:49,678 --> PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-20 09:29:49,686 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-20 09:29:49,695 --> PackageFileDesignModeStorage.ActualizePackageResourcesState
+2026-02-20 09:29:49,695 <-- PackageFileDesignModeStorage.ActualizePackageResourcesState
+2026-02-20 09:29:49,695 <-- PackageStorageComposer.Compose
+2026-02-20 09:29:49,704 --> PackageFileDesignModeStorage.Save: Packages [167] Schemas [6139] ReferenceAssemblies [31] SqlScripts [975] PackageData [3392] SchemaResources [159087] CoreResources [0]
+2026-02-20 09:29:49,704 --> PackageFileDesignModeStorage.MarkNotEditablePackagesAsNotChanged
+2026-02-20 09:29:49,704 <-- PackageFileDesignModeStorage.MarkNotEditablePackagesAsNotChanged
+2026-02-20 09:29:49,704 --> PackageFileDesignModeStorage.SavePackage - UsrYachts
+2026-02-20 09:29:49,704 --> PackageFileDesignModeStorage.SavePackageDescriptor - UsrYachts
+2026-02-20 09:29:49,719 <-- PackageFileDesignModeStorage.SavePackageDescriptor - UsrYachts
+2026-02-20 09:29:49,719 --> PackageFileDesignModeStorage.SaveStandalonePackageSpecificFiles - UsrYachts
+2026-02-20 09:29:49,768 <-- PackageFileDesignModeStorage.SaveStandalonePackageSpecificFiles - UsrYachts
+2026-02-20 09:29:49,768 --> PackageFileDesignModeStorage.SavePackageSchemas - UsrYachts
+2026-02-20 09:29:50,038 <-- PackageFileDesignModeStorage.SavePackageSchemas - UsrYachts
+2026-02-20 09:29:51,736 --> PackageFileDesignModeStorage.SavePackageReferenceAssemblies - UsrYachts
+2026-02-20 09:29:51,736 <-- PackageFileDesignModeStorage.SavePackageReferenceAssemblies - UsrYachts
+2026-02-20 09:29:51,736 --> PackageFileDesignModeStorage.SavePackageSqlScripts - UsrYachts
+2026-02-20 09:29:51,742 <-- PackageFileDesignModeStorage.SavePackageSqlScripts - UsrYachts
+2026-02-20 09:29:51,742 --> PackageFileDesignModeStorage.SavePackageData - UsrYachts
+2026-02-20 09:29:52,077 <-- PackageFileDesignModeStorage.SavePackageData - UsrYachts
+2026-02-20 09:29:52,077 <-- PackageFileDesignModeStorage.SavePackage - UsrYachts
+2026-02-20 09:29:52,077 --> PackageFileDesignModeStorage.SavePackage - Custom
+2026-02-20 09:29:52,077 --> PackageFileDesignModeStorage.SavePackageDescriptor - Custom
+2026-02-20 09:29:52,083 <-- PackageFileDesignModeStorage.SavePackageDescriptor - Custom
+2026-02-20 09:29:52,083 --> PackageFileDesignModeStorage.SavePackageSchemas - Custom
+2026-02-20 09:29:52,106 <-- PackageFileDesignModeStorage.SavePackageSchemas - Custom
+2026-02-20 09:29:52,114 --> PackageFileDesignModeStorage.SavePackageReferenceAssemblies - Custom
+2026-02-20 09:29:52,114 <-- PackageFileDesignModeStorage.SavePackageReferenceAssemblies - Custom
+2026-02-20 09:29:52,114 --> PackageFileDesignModeStorage.SavePackageSqlScripts - Custom
+2026-02-20 09:29:52,114 <-- PackageFileDesignModeStorage.SavePackageSqlScripts - Custom
+2026-02-20 09:29:52,114 --> PackageFileDesignModeStorage.SavePackageData - Custom
+2026-02-20 09:29:52,123 <-- PackageFileDesignModeStorage.SavePackageData - Custom
+2026-02-20 09:29:52,123 <-- PackageFileDesignModeStorage.SavePackage - Custom
+2026-02-20 09:29:53,873 <-- PackageFileDesignModeStorage.Save
+2026-02-20 09:29:53,873 --> PackageInstallUtilities.UpdatePackagesAutogeneratedContent
+2026-02-20 09:29:53,873 --> PackageDBStorage.Load
+2026-02-20 09:30:35,165 <-- PackageDBStorage.Load
+2026-02-20 09:30:51,302 --> PackageInstallUtilities.UpdateWorkspaceSolution
+2026-02-20 09:30:51,302 --> PackageDBStorage.Load
+2026-02-20 09:31:33,600 <-- PackageDBStorage.Load
+2026-02-20 09:32:09,041 <-- PackageInstallUtilities.UpdateWorkspaceSolution
+2026-02-20 09:32:09,041 <-- PackageInstallUtilities.UpdatePackagesAutogeneratedContent
+2026-02-20 09:32:09,041 <-- PackageInstallUtilities.LoadPackagesToFileSystem
+2026-02-20 09:32:49,048 --> PackageDBStorageInternal.Load
+2026-02-20 09:33:31,264 <-- PackageDBStorageInternal.Load
+2026-02-20 09:33:31,303 --> PackageStorageComposer.Compose
+2026-02-20 09:33:31,303 --> PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-20 09:33:31,303 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-20 09:33:31,303 --> IntermediatePackageStorage.ActualizePackageResourcesState
+2026-02-20 09:33:31,303 <-- IntermediatePackageStorage.ActualizePackageResourcesState
+2026-02-20 09:33:31,303 <-- PackageStorageComposer.Compose
+2026-02-20 09:33:31,399 --> PackageDBStorageInternal.DeletePackage - UsrYachts
+2026-02-20 09:33:33,767 <-- PackageDBStorageInternal.DeletePackage - UsrYachts
+2026-02-20 09:34:26,334 --> PackageInstallUtilities.LoadPackagesToFileSystem
+2026-02-20 09:34:26,334 --> PackageStorageComposer.Compose
+2026-02-20 09:34:26,334 --> PackageFileDesignModeDBStorage.Load
+2026-02-20 09:35:07,603 <-- PackageFileDesignModeDBStorage.Load
+2026-02-20 09:35:07,603 --> PackageFileDesignModeStorage.Load
+2026-02-20 09:35:07,713 <-- PackageFileDesignModeStorage.Load
+2026-02-20 09:35:07,713 --> PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-20 09:35:07,728 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2026-02-20 09:35:07,728 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-20 09:35:07,735 --> PackageFileDesignModeStorage.ActualizePackageResourcesState
+2026-02-20 09:35:07,735 <-- PackageFileDesignModeStorage.ActualizePackageResourcesState
+2026-02-20 09:35:07,735 <-- PackageStorageComposer.Compose
+2026-02-20 09:35:07,743 --> PackageFileDesignModeStorage.Save: Packages [165] Schemas [6128] ReferenceAssemblies [31] SqlScripts [975] PackageData [3382] SchemaResources [158967] CoreResources [0]
+2026-02-20 09:35:07,743 --> PackageFileDesignModeStorage.MarkNotEditablePackagesAsNotChanged
+2026-02-20 09:35:07,743 <-- PackageFileDesignModeStorage.MarkNotEditablePackagesAsNotChanged
+2026-02-20 09:35:07,743 <-- PackageFileDesignModeStorage.Save
+2026-02-20 09:35:07,743 <-- PackageInstallUtilities.LoadPackagesToFileSystem
+2026-02-20 09:36:13,328 --> PackageInstallUtilities.LoadPackagesToDB
+2026-02-20 09:36:13,328 --> PackageFileDesignModeStorage.Load
+2026-02-20 09:36:15,078 <-- PackageFileDesignModeStorage.Load
+2026-02-20 09:36:15,078 --> PackageFileDesignModeDBStorage.Load
+2026-02-20 09:36:54,894 <-- PackageFileDesignModeDBStorage.Load
+2026-02-20 09:36:54,894 --> PackageStorageComposer.Compose
+2026-02-20 09:36:54,894 --> PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-20 09:36:54,894 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2026-02-20 09:36:54,894 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-20 09:36:54,905 --> PackageFileDesignModeDBStorage.ActualizePackageResourcesState
+2026-02-20 09:36:54,913 <-- PackageFileDesignModeDBStorage.ActualizePackageResourcesState
+2026-02-20 09:36:54,913 <-- PackageStorageComposer.Compose
+2026-02-20 09:36:54,913 --> PackageFileDesignModeDBStorage.Save: Packages [1] Schemas [13] ReferenceAssemblies [0] SqlScripts [2] PackageData [20] SchemaResources [204] CoreResources [0]
+2026-02-20 09:36:54,959 --> PackageFileDesignModeDBStorage.SavePackage - UsrYacht
+2026-02-20 09:36:54,965 --> PackageDBStorage.Load
+2026-02-20 09:37:33,523 <-- PackageDBStorage.Load
+2026-02-20 09:37:35,008 <-- PackageFileDesignModeDBStorage.SavePackage - UsrYacht
+2026-02-20 09:37:35,069 Added - 1 es-ES resource values for schema 'UsrTestProcess'
+2026-02-20 09:37:35,069 Added - 1 fr-FR resource values for schema 'UsrTestProcess'
+2026-02-20 09:37:35,069 Added - 1 nl-NL resource values for schema 'UsrTestProcess'
+2026-02-20 09:37:35,073 Added - 1 cs-CZ resource values for schema 'UsrTestProcess'
+2026-02-20 09:37:35,073 Added - 1 pt-PT resource values for schema 'UsrTestProcess'
+2026-02-20 09:37:35,073 Added - 1 hu-HU resource values for schema 'UsrTestProcess'
+2026-02-20 09:37:35,073 Added - 1 it-IT resource values for schema 'UsrTestProcess'
+2026-02-20 09:37:35,073 Added - 1 id-ID resource values for schema 'UsrTestProcess'
+2026-02-20 09:37:35,073 Added - 1 de-DE resource values for schema 'UsrTestProcess'
+2026-02-20 09:37:35,073 Added - 1 ru-RU resource values for schema 'UsrTestProcess'
+2026-02-20 09:37:35,073 Added - 1 pt-BR resource values for schema 'UsrTestProcess'
+2026-02-20 09:37:35,073 Added - 1 ar-SA resource values for schema 'UsrTestProcess'
+2026-02-20 09:37:35,073 Added - 1 lv-LV resource values for schema 'UsrTestProcess'
+2026-02-20 09:37:35,073 Added - 1 he-IL resource values for schema 'UsrTestProcess'
+2026-02-20 09:37:35,073 Added - 1 ja-JP resource values for schema 'UsrTestProcess'
+2026-02-20 09:37:35,092 Added - 1 sv-SE resource values for schema 'UsrTestProcess'
+2026-02-20 09:37:35,092 Added - 1 ro-RO resource values for schema 'UsrTestProcess'
+2026-02-20 09:37:35,092 Added - 1 bg-BG resource values for schema 'UsrTestProcess'
+2026-02-20 09:37:35,092 Added - 1 vi-VN resource values for schema 'UsrTestProcess'
+2026-02-20 09:37:35,092 Added - 1 pl-PL resource values for schema 'UsrTestProcess'
+2026-02-20 09:37:35,092 Added - 2 hr-HR resource values for schema 'UsrTrafficLight'
+2026-02-20 09:37:35,092 Added - 1 uk-UA resource values for schema 'UsrTestProcess'
+2026-02-20 09:37:35,092 Added - 1 hr-HR resource values for schema 'UsrTestProcess'
+2026-02-20 09:37:35,093 Added - 1 th-TH resource values for schema 'UsrTestProcess'
+2026-02-20 09:37:35,093 Added - 1 ko-KR resource values for schema 'UsrTestProcess'
+2026-02-20 09:37:35,093 Added - 1 tr-TR resource values for schema 'UsrTestProcess'
+2026-02-20 09:37:35,093 Added - 1 sq-AL resource values for schema 'UsrTestProcess'
+2026-02-20 09:37:35,093 Added - 2 pt-PT resource values for schema 'UsrTrafficLight'
+2026-02-20 09:37:35,093 Added - 2 sv-SE resource values for schema 'UsrTrafficLight'
+2026-02-20 09:37:35,093 Added - 2 th-TH resource values for schema 'UsrTrafficLight'
+2026-02-20 09:37:35,093 Added - 2 sq-AL resource values for schema 'UsrTrafficLight'
+2026-02-20 09:37:35,093 Added - 2 hu-HU resource values for schema 'UsrTrafficLight'
+2026-02-20 09:37:35,093 Added - 2 bg-BG resource values for schema 'UsrTrafficLight'
+2026-02-20 09:37:35,093 Added - 2 es-ES resource values for schema 'UsrTrafficLight'
+2026-02-20 09:37:35,093 Added - 2 de-DE resource values for schema 'UsrTrafficLight'
+2026-02-20 09:37:35,093 Added - 2 he-IL resource values for schema 'UsrTrafficLight'
+2026-02-20 09:37:35,093 Added - 2 uk-UA resource values for schema 'UsrTrafficLight'
+2026-02-20 09:37:35,093 Added - 2 fr-FR resource values for schema 'UsrTrafficLight'
+2026-02-20 09:37:35,093 Added - 2 cs-CZ resource values for schema 'UsrTrafficLight'
+2026-02-20 09:37:35,105 Added - 1 zh-TW resource values for schema 'UsrTestProcess'
+2026-02-20 09:37:35,105 Added - 2 zh-TW resource values for schema 'UsrTrafficLight'
+2026-02-20 09:37:35,105 Added - 3 en-US resource values for schema 'UsrTrafficLight'
+2026-02-20 09:37:35,105 Added - 1 de-DE resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 09:37:35,105 Added - 1 es-ES resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 09:37:35,105 Added - 1 bg-BG resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 09:37:35,105 Added - 1 ar-SA resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 09:37:35,105 Added - 2 ar-SA resource values for schema 'UsrTrafficLight'
+2026-02-20 09:37:35,105 Added - 2 id-ID resource values for schema 'UsrTrafficLight'
+2026-02-20 09:37:35,105 Added - 1 fr-FR resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 09:37:35,105 Added - 2 it-IT resource values for schema 'UsrTrafficLight'
+2026-02-20 09:37:35,105 Added - 2 vi-VN resource values for schema 'UsrTrafficLight'
+2026-02-20 09:37:35,105 Added - 2 nl-NL resource values for schema 'UsrTrafficLight'
+2026-02-20 09:37:35,114 Added - 1 cs-CZ resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 09:37:35,114 Added - 2 tr-TR resource values for schema 'UsrTrafficLight'
+2026-02-20 09:37:35,114 Added - 2 pt-BR resource values for schema 'UsrTrafficLight'
+2026-02-20 09:37:35,114 Added - 2 pl-PL resource values for schema 'UsrTrafficLight'
+2026-02-20 09:37:35,114 Added - 2 ru-RU resource values for schema 'UsrTrafficLight'
+2026-02-20 09:37:35,114 Added - 2 ja-JP resource values for schema 'UsrTrafficLight'
+2026-02-20 09:37:35,114 Added - 1 he-IL resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 09:37:35,114 Added - 2 ko-KR resource values for schema 'UsrTrafficLight'
+2026-02-20 09:37:35,114 Added - 2 ro-RO resource values for schema 'UsrTrafficLight'
+2026-02-20 09:37:35,114 Added - 2 lv-LV resource values for schema 'UsrTrafficLight'
+2026-02-20 09:37:35,124 Added - 1 hu-HU resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 09:37:35,124 Added - 7 en-US resource values for schema 'UsrTestProcess'
+2026-02-20 09:37:35,124 Added - 1 hr-HR resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 09:37:35,124 Added - 1 ja-JP resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 09:37:35,124 Added - 1 id-ID resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 09:37:35,124 Added - 1 ko-KR resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 09:37:35,133 Added - 1 it-IT resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 09:37:35,133 Added - 1 lv-LV resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 09:37:35,133 Added - 1 tr-TR resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 09:37:35,133 Added - 1 ro-RO resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 09:37:35,133 Added - 1 pt-PT resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 09:37:35,133 Added - 1 pl-PL resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 09:37:35,133 Added - 1 ru-RU resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 09:37:35,133 Added - 1 th-TH resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 09:37:35,133 Added - 1 sq-AL resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 09:37:35,143 Added - 1 nl-NL resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 09:37:35,143 Added - 7 en-US resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 09:37:35,143 Added - 1 uk-UA resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 09:37:35,143 Added - 1 vi-VN resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 09:37:35,143 Added - 1 zh-TW resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 09:37:35,143 Added - 1 pt-BR resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 09:37:35,158 Added - 1 nl-NL resource values for schema 'UsrYacht'
+2026-02-20 09:37:35,158 Added - 1 ar-SA resource values for schema 'UsrYacht'
+2026-02-20 09:37:35,158 Added - 1 he-IL resource values for schema 'UsrYacht'
+2026-02-20 09:37:35,158 Added - 1 de-DE resource values for schema 'UsrYacht'
+2026-02-20 09:37:35,158 Added - 1 sv-SE resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 09:37:35,158 Added - 1 it-IT resource values for schema 'UsrYacht'
+2026-02-20 09:37:35,158 Added - 1 cs-CZ resource values for schema 'UsrYacht'
+2026-02-20 09:37:35,158 Added - 1 pt-BR resource values for schema 'UsrYacht'
+2026-02-20 09:37:35,158 Added - 1 pt-PT resource values for schema 'UsrYacht'
+2026-02-20 09:37:35,158 Added - 1 fr-FR resource values for schema 'UsrYacht'
+2026-02-20 09:37:35,164 Added - 1 ro-RO resource values for schema 'UsrYacht'
+2026-02-20 09:37:35,164 Added - 1 ru-RU resource values for schema 'UsrYacht'
+2026-02-20 09:37:35,164 Added - 1 th-TH resource values for schema 'UsrYacht'
+2026-02-20 09:37:35,164 Added - 1 es-ES resource values for schema 'UsrYacht'
+2026-02-20 09:37:35,164 Added - 1 vi-VN resource values for schema 'UsrYacht'
+2026-02-20 09:37:35,164 Added - 1 sv-SE resource values for schema 'UsrYacht'
+2026-02-20 09:37:35,164 Added - 1 uk-UA resource values for schema 'UsrYacht'
+2026-02-20 09:37:35,164 Added - 1 pl-PL resource values for schema 'UsrYacht'
+2026-02-20 09:37:35,177 Added - 1 de-DE resource values for schema 'UsrYachtDriveType'
+2026-02-20 09:37:35,177 Added - 1 cs-CZ resource values for schema 'UsrYachtDriveType'
+2026-02-20 09:37:35,177 Added - 1 bg-BG resource values for schema 'UsrYachtDriveType'
+2026-02-20 09:37:35,177 Added - 1 es-ES resource values for schema 'UsrYachtDriveType'
+2026-02-20 09:37:35,177 Added - 1 hr-HR resource values for schema 'UsrYachtDriveType'
+2026-02-20 09:37:35,177 Added - 1 ar-SA resource values for schema 'UsrYachtDriveType'
+2026-02-20 09:37:35,177 Added - 1 he-IL resource values for schema 'UsrYachtDriveType'
+2026-02-20 09:37:35,177 Added - 1 lv-LV resource values for schema 'UsrYachtDriveType'
+2026-02-20 09:37:35,177 Added - 1 hu-HU resource values for schema 'UsrYachtDriveType'
+2026-02-20 09:37:35,177 Added - 1 fr-FR resource values for schema 'UsrYachtDriveType'
+2026-02-20 09:37:35,177 Added - 1 ja-JP resource values for schema 'UsrYachtDriveType'
+2026-02-20 09:37:35,177 Added - 1 id-ID resource values for schema 'UsrYachtDriveType'
+2026-02-20 09:37:35,177 Added - 1 ko-KR resource values for schema 'UsrYachtDriveType'
+2026-02-20 09:37:35,177 Added - 1 ru-RU resource values for schema 'UsrYachtDriveType'
+2026-02-20 09:37:35,177 Added - 1 sq-AL resource values for schema 'UsrYachtDriveType'
+2026-02-20 09:37:35,177 Added - 1 pt-PT resource values for schema 'UsrYachtDriveType'
+2026-02-20 09:37:35,177 Added - 1 nl-NL resource values for schema 'UsrYachtDriveType'
+2026-02-20 09:37:35,177 Added - 1 uk-UA resource values for schema 'UsrYachtDriveType'
+2026-02-20 09:37:35,177 Added - 1 th-TH resource values for schema 'UsrYachtDriveType'
+2026-02-20 09:37:35,177 Added - 1 pl-PL resource values for schema 'UsrYachtDriveType'
+2026-02-20 09:37:35,177 Added - 1 ro-RO resource values for schema 'UsrYachtDriveType'
+2026-02-20 09:37:35,177 Added - 1 vi-VN resource values for schema 'UsrYachtDriveType'
+2026-02-20 09:37:35,177 Added - 1 pt-BR resource values for schema 'UsrYachtDriveType'
+2026-02-20 09:37:35,177 Added - 1 sv-SE resource values for schema 'UsrYachtDriveType'
+2026-02-20 09:37:35,177 Added - 1 tr-TR resource values for schema 'UsrYachtDriveType'
+2026-02-20 09:37:35,177 Added - 1 it-IT resource values for schema 'UsrYachtDriveType'
+2026-02-20 09:37:35,177 Added - 2 en-US resource values for schema 'UsrYachtDriveType'
+2026-02-20 09:37:35,190 Added - 1 en-US resource values for schema 'UsrYachtMobileRelatedPage'
+2026-02-20 09:37:35,190 Added - 1 zh-TW resource values for schema 'UsrYachtDriveType'
+2026-02-20 09:37:35,190 Added - 1 en-US resource values for schema 'UsrYachtRelatedPage'
+2026-02-20 09:37:35,190 Added - 1 ko-KR resource values for schema 'UsrYachtStatus'
+2026-02-20 09:37:35,190 Added - 1 cs-CZ resource values for schema 'UsrYachtStatus'
+2026-02-20 09:37:35,190 Added - 1 pl-PL resource values for schema 'UsrYachtStatus'
+2026-02-20 09:37:35,190 Added - 1 ar-SA resource values for schema 'UsrYachtStatus'
+2026-02-20 09:37:35,190 Added - 1 de-DE resource values for schema 'UsrYachtStatus'
+2026-02-20 09:37:35,190 Added - 1 es-ES resource values for schema 'UsrYachtStatus'
+2026-02-20 09:37:35,190 Added - 1 it-IT resource values for schema 'UsrYachtStatus'
+2026-02-20 09:37:35,190 Added - 1 ja-JP resource values for schema 'UsrYachtStatus'
+2026-02-20 09:37:35,190 Added - 1 nl-NL resource values for schema 'UsrYachtStatus'
+2026-02-20 09:37:35,190 Added - 1 hu-HU resource values for schema 'UsrYachtStatus'
+2026-02-20 09:37:35,190 Added - 1 hr-HR resource values for schema 'UsrYachtStatus'
+2026-02-20 09:37:35,190 Added - 1 id-ID resource values for schema 'UsrYachtStatus'
+2026-02-20 09:37:35,190 Added - 1 he-IL resource values for schema 'UsrYachtStatus'
+2026-02-20 09:37:35,190 Added - 1 bg-BG resource values for schema 'UsrYachtStatus'
+2026-02-20 09:37:35,190 Added - 1 ru-RU resource values for schema 'UsrYachtStatus'
+2026-02-20 09:37:35,190 Added - 1 sq-AL resource values for schema 'UsrYachtStatus'
+2026-02-20 09:37:35,190 Added - 1 sv-SE resource values for schema 'UsrYachtStatus'
+2026-02-20 09:37:35,190 Added - 1 ru-RU resource values for schema 'UsrYachtMobileRelatedPage'
+2026-02-20 09:37:35,190 Added - 1 fr-FR resource values for schema 'UsrYachtStatus'
+2026-02-20 09:37:35,190 Added - 1 ru-RU resource values for schema 'UsrYachtRelatedPage'
+2026-02-20 09:37:35,190 Added - 1 th-TH resource values for schema 'UsrYachtStatus'
+2026-02-20 09:37:35,195 Added - 1 tr-TR resource values for schema 'UsrYachtStatus'
+2026-02-20 09:37:35,195 Added - 1 zh-TW resource values for schema 'UsrYachtStatus'
+2026-02-20 09:37:35,195 Added - 1 ro-RO resource values for schema 'UsrYachtStatus'
+2026-02-20 09:37:35,195 Added - 1 pt-BR resource values for schema 'UsrYachtStatus'
+2026-02-20 09:37:35,195 Added - 1 lv-LV resource values for schema 'UsrYachtStatus'
+2026-02-20 09:37:35,195 Added - 1 pt-PT resource values for schema 'UsrYachtStatus'
+2026-02-20 09:37:35,195 Added - 1 uk-UA resource values for schema 'UsrYachtStatus'
+2026-02-20 09:37:35,195 Added - 2 en-US resource values for schema 'UsrYachtStatus'
+2026-02-20 09:37:35,195 Added - 1 ar-SA resource values for schema 'UsrYacht_FormPage'
+2026-02-20 09:37:35,195 Added - 1 he-IL resource values for schema 'UsrYacht_FormPage'
+2026-02-20 09:37:35,195 Added - 1 fr-FR resource values for schema 'UsrYacht_FormPage'
+2026-02-20 09:37:35,195 Added - 1 de-DE resource values for schema 'UsrYacht_FormPage'
+2026-02-20 09:37:35,195 Added - 1 es-ES resource values for schema 'UsrYacht_FormPage'
+2026-02-20 09:37:35,195 Added - 1 nl-NL resource values for schema 'UsrYacht_FormPage'
+2026-02-20 09:37:35,195 Added - 1 it-IT resource values for schema 'UsrYacht_FormPage'
+2026-02-20 09:37:35,195 Added - 1 ro-RO resource values for schema 'UsrYacht_FormPage'
+2026-02-20 09:37:35,195 Added - 1 vi-VN resource values for schema 'UsrYacht_FormPage'
+2026-02-20 09:37:35,195 Added - 1 ru-RU resource values for schema 'UsrYacht_FormPage'
+2026-02-20 09:37:35,195 Added - 1 cs-CZ resource values for schema 'UsrYacht_FormPage'
+2026-02-20 09:37:35,195 Added - 1 pt-BR resource values for schema 'UsrYacht_FormPage'
+2026-02-20 09:37:35,195 Added - 1 th-TH resource values for schema 'UsrYacht_FormPage'
+2026-02-20 09:37:35,195 Added - 1 pl-PL resource values for schema 'UsrYacht_FormPage'
+2026-02-20 09:37:35,195 Added - 1 sv-SE resource values for schema 'UsrYacht_FormPage'
+2026-02-20 09:37:35,204 Added - 1 pt-PT resource values for schema 'UsrYacht_FormPage'
+2026-02-20 09:37:35,204 Added - 1 vi-VN resource values for schema 'UsrYachtStatus'
+2026-02-20 09:37:35,204 Added - 1 uk-UA resource values for schema 'UsrYacht_FormPage'
+2026-02-20 09:37:35,204 Added - 2 en-US resource values for schema 'UsrYacht_Detail'
+2026-02-20 09:37:35,204 Added - 1 fr-FR resource values for schema 'UsrYacht_ListPage'
+2026-02-20 09:37:35,204 Added - 1 en-US resource values for schema 'UsrYacht_ListPage'
+2026-02-20 09:37:35,204 Added - 1 cs-CZ resource values for schema 'UsrYacht_ListPage'
+2026-02-20 09:37:35,204 Added - 1 pl-PL resource values for schema 'UsrYacht_ListPage'
+2026-02-20 09:37:35,204 Added - 1 nl-NL resource values for schema 'UsrYacht_ListPage'
+2026-02-20 09:37:35,204 Added - 1 vi-VN resource values for schema 'UsrYacht_ListPage'
+2026-02-20 09:37:35,204 Added - 1 sv-SE resource values for schema 'UsrYacht_ListPage'
+2026-02-20 09:37:35,204 Added - 1 ru-RU resource values for schema 'UsrYacht_ListPage'
+2026-02-20 09:37:35,204 Added - 1 ro-RO resource values for schema 'UsrYacht_ListPage'
+2026-02-20 09:37:35,204 Added - 9 en-US resource values for schema 'UsrYacht'
+2026-02-20 09:37:35,204 Added - 1 pt-PT resource values for schema 'UsrYacht_ListPage'
+2026-02-20 09:37:35,204 Added - 1 es-ES resource values for schema 'UsrYacht_ListPage'
+2026-02-20 09:37:35,204 Added - 1 he-IL resource values for schema 'UsrYacht_ListPage'
+2026-02-20 09:37:35,204 Added - 1 th-TH resource values for schema 'UsrYacht_ListPage'
+2026-02-20 09:37:35,204 Added - 1 it-IT resource values for schema 'UsrYacht_ListPage'
+2026-02-20 09:37:35,204 Added - 2 ru-RU resource values for schema 'UsrYacht_Detail'
+2026-02-20 09:37:35,204 Added - 1 ar-SA resource values for schema 'UsrYacht_ListPage'
+2026-02-20 09:37:35,204 Added - 1 uk-UA resource values for schema 'UsrYacht_ListPage'
+2026-02-20 09:37:35,204 Added - 1 de-DE resource values for schema 'UsrYacht_ListPage'
+2026-02-20 09:37:35,204 Added - 1 ru-RU resource values for schema 'UsrYacht_MobileFormPage'
+2026-02-20 09:37:35,204 Added - 1 en-US resource values for schema 'UsrYacht_MobileFormPage'
+2026-02-20 09:37:35,215 Added - 1 pt-BR resource values for schema 'UsrYacht_ListPage'
+2026-02-20 09:37:35,215 Added - 4 en-US resource values for schema 'UsrYacht_FormPage'
+2026-02-20 09:37:35,215 Added - 2 ru-RU resource values for schema 'UsrYacht_MobileListPage'
+2026-02-20 09:37:35,215 Added - 2 en-US resource values for schema 'UsrYacht_MobileListPage'
+2026-02-20 09:37:39,809 InstallColumnLookupValues. Count (total): 1
+2026-02-20 09:37:39,809 Count (by package [cd548646-0af3-42dd-b037-549a354225db]): 6
+2026-02-20 09:37:39,809 Count (by schema [SysWorkplace]): 4
+2026-02-20 09:37:39,845 Count (by schema [SysSettingsValue]): 1
+2026-02-20 09:37:39,864 Count (by schema [SysAdminUnitInWorkplace]): 2
+2026-02-20 09:37:39,880 Count (by schema [SysModuleInWorkplace]): 3
+2026-02-20 09:37:39,906 Count (by schema [Lookup]): 56
+2026-02-20 09:37:40,413 Count (by schema [SysModule]): 28
+2026-02-20 09:37:41,014 <-- PackageFileDesignModeDBStorage.Save
+2026-02-20 09:37:41,014 <-- PackageInstallUtilities.LoadPackagesToDB
+2026-02-20 09:39:08,837 --> PackageDBStorage.Load
+2026-02-20 09:39:08,883 <-- PackageDBStorage.Load
+2026-02-20 09:39:20,626 --> PackageDBStorage.Load
+2026-02-20 09:39:20,660 <-- PackageDBStorage.Load
+2026-02-20 09:39:30,770 --> PackageDBStorage.Load
+2026-02-20 09:39:30,810 <-- PackageDBStorage.Load
+2026-02-20 09:40:00,139 --> PackageDBStorage.Load
+2026-02-20 09:40:00,172 <-- PackageDBStorage.Load
+2026-02-20 09:40:04,279 --> PackageDBStorage.Load
+2026-02-20 09:40:04,312 <-- PackageDBStorage.Load
+2026-02-20 09:40:26,792 --> PackageDBStorage.Load
+2026-02-20 09:40:26,827 <-- PackageDBStorage.Load
+2026-02-20 09:41:39,478 --> PackageDBStorage.Load
+2026-02-20 09:41:39,487 <-- PackageDBStorage.Load
+2026-02-20 09:41:45,822 --> PackageDBStorage.Load
+2026-02-20 09:41:45,827 <-- PackageDBStorage.Load
+2026-02-20 09:45:09,245 --> PackageDBStorage.Load
+2026-02-20 09:45:09,280 <-- PackageDBStorage.Load
+2026-02-20 09:47:26,810 --> PackageDBStorage.Load
+2026-02-20 09:47:26,843 <-- PackageDBStorage.Load
+2026-02-20 09:48:48,051 --> PackageDBStorage.Load
+2026-02-20 09:48:48,081 <-- PackageDBStorage.Load
+2026-02-20 09:48:53,207 --> PackageDBStorage.Load
+2026-02-20 09:48:53,240 <-- PackageDBStorage.Load
+2026-02-20 09:52:32,146 --> PackageDBStorage.Load
+2026-02-20 09:52:32,146 <-- PackageDBStorage.Load
+2026-02-20 09:52:38,851 --> PackageDBStorage.Load
+2026-02-20 09:52:38,856 <-- PackageDBStorage.Load
+2026-02-20 09:54:39,344 InstallColumnLookupValues. Count (total): 0
+2026-02-20 09:54:50,740 InstallColumnLookupValues. Count (total): 0
+2026-02-20 09:55:01,021 InstallColumnLookupValues. Count (total): 0
+2026-02-20 09:58:57,266 InstallColumnLookupValues. Count (total): 0
+2026-02-20 09:59:24,715 InstallColumnLookupValues. Count (total): 0
+2026-02-20 09:59:43,078 InstallColumnLookupValues. Count (total): 0
+2026-02-20 10:02:20,776 --> PackageDBStorage.Load
+2026-02-20 10:02:20,782 --> PackageDBStorage.Load
+2026-02-20 10:02:20,782 <-- PackageDBStorage.Load
+2026-02-20 10:02:20,782 <-- PackageDBStorage.Load
+2026-02-20 10:02:21,762 --> PackageDBStorage.Load
+2026-02-20 10:02:21,762 <-- PackageDBStorage.Load
+2026-02-20 10:02:26,543 --> PackageDBStorage.Load
+2026-02-20 10:02:26,543 <-- PackageDBStorage.Load
+2026-02-20 10:02:26,567 --> PackageDBStorage.Load
+2026-02-20 10:03:05,906 <-- PackageDBStorage.Load
+2026-02-20 10:03:14,569 --> PackageDBStorage.Load
+2026-02-20 10:03:53,898 <-- PackageDBStorage.Load
+2026-02-20 10:05:30,527 --> PackageDBStorage.Load
+2026-02-20 10:06:10,599 <-- PackageDBStorage.Load
+2026-02-20 10:06:39,325 --> PackageDBStorage.Load
+2026-02-20 10:06:39,332 <-- PackageDBStorage.Load
+2026-02-20 10:06:39,341 --> PackageDBStorage.Load
+2026-02-20 10:06:39,341 <-- PackageDBStorage.Load
+2026-02-20 10:06:40,165 --> PackageDBStorage.Load
+2026-02-20 10:06:40,170 <-- PackageDBStorage.Load
+2026-02-20 10:06:52,917 --> PackageDBStorage.Load
+2026-02-20 10:06:52,922 <-- PackageDBStorage.Load
+2026-02-20 10:06:52,948 --> PackageDBStorage.Load
+2026-02-20 10:07:35,279 <-- PackageDBStorage.Load
+2026-02-20 10:07:45,056 --> PackageDBStorage.Load
+2026-02-20 10:08:25,353 <-- PackageDBStorage.Load
+2026-02-20 10:09:59,689 --> PackageDBStorage.Load
+2026-02-20 10:10:40,727 <-- PackageDBStorage.Load
+2026-02-20 13:49:38,027 --> PackageDBStorage.Load
+2026-02-20 13:50:20,900 <-- PackageDBStorage.Load
+2026-02-20 13:51:00,922 --> PackageZipFileStorage.Load
+2026-02-20 13:51:00,922 --> PackageZipFileStorage.UnZipPackages
+2026-02-20 13:51:01,067 <-- PackageZipFileStorage.UnZipPackages
+2026-02-20 13:51:01,067 <-- PackageZipFileStorage.Load
+2026-02-20 13:51:05,435 --> PackageStorageComposer.Compose
+2026-02-20 13:51:05,435 --> PackageZipFileStorage.Load
+2026-02-20 13:51:05,435 --> PackageZipFileStorage.UnZipPackages
+2026-02-20 13:51:05,435 <-- PackageZipFileStorage.UnZipPackages
+2026-02-20 13:51:05,435 --> PackageZipFileStorage.LoadSchemaProperties
+2026-02-20 13:51:05,435 <-- PackageZipFileStorage.LoadSchemaProperties
+2026-02-20 13:51:05,435 <-- PackageZipFileStorage.Load
+2026-02-20 13:51:05,435 --> PackageDBStorage.Load
+2026-02-20 13:51:46,504 <-- PackageDBStorage.Load
+2026-02-20 13:51:46,504 --> PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-20 13:51:46,506 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-20 13:51:46,517 --> PackageDBStorage.ActualizePackageResourcesState
+2026-02-20 13:51:46,517 <-- PackageDBStorage.ActualizePackageResourcesState
+2026-02-20 13:51:46,517 <-- PackageStorageComposer.Compose
+2026-02-20 13:51:46,559 --> PackageZipFileStorage.Load
+2026-02-20 13:51:46,559 --> PackageZipFileStorage.UnZipPackages
+2026-02-20 13:51:46,559 <-- PackageZipFileStorage.UnZipPackages
+2026-02-20 13:51:46,569 <-- PackageZipFileStorage.Load
+2026-02-20 13:51:46,569 --> PackageStorageComposer.Compose
+2026-02-20 13:51:46,569 --> PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-20 13:51:46,569 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-20 13:51:46,569 --> IntermediatePackageStorage.ActualizePackageResourcesState
+2026-02-20 13:51:46,569 <-- IntermediatePackageStorage.ActualizePackageResourcesState
+2026-02-20 13:51:46,569 <-- PackageStorageComposer.Compose
+2026-02-20 13:51:46,614 --> PackageZipFileStorage.Load
+2026-02-20 13:51:46,614 --> PackageZipFileStorage.UnZipPackages
+2026-02-20 13:51:46,616 <-- PackageZipFileStorage.UnZipPackages
+2026-02-20 13:51:46,616 <-- PackageZipFileStorage.Load
+2026-02-20 13:52:01,411 --> PackageZipFileStorage.Load
+2026-02-20 13:52:01,411 --> PackageZipFileStorage.UnZipPackages
+2026-02-20 13:52:01,411 <-- PackageZipFileStorage.UnZipPackages
+2026-02-20 13:52:01,411 <-- PackageZipFileStorage.Load
+2026-02-20 13:52:01,427 --> PackageZipFileStorage.Load
+2026-02-20 13:52:01,427 --> PackageZipFileStorage.UnZipPackages
+2026-02-20 13:52:01,427 <-- PackageZipFileStorage.UnZipPackages
+2026-02-20 13:52:01,435 <-- PackageZipFileStorage.Load
+2026-02-20 13:52:01,435 --> PackageStorageComposer.Compose
+2026-02-20 13:52:01,435 --> PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-20 13:52:01,435 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-20 13:52:01,435 --> IntermediatePackageStorage.ActualizePackageResourcesState
+2026-02-20 13:52:01,435 <-- IntermediatePackageStorage.ActualizePackageResourcesState
+2026-02-20 13:52:01,435 <-- PackageStorageComposer.Compose
+2026-02-20 13:52:01,457 --> PackageZipFileStorage.SavePackage - CrtApolloInC360
+2026-02-20 13:52:01,457 --> PackageZipFileStorage.SavePackageDescriptor - CrtApolloInC360
+2026-02-20 13:52:01,460 <-- PackageZipFileStorage.SavePackageDescriptor - CrtApolloInC360
+2026-02-20 13:52:01,460 --> PackageZipFileStorage.SaveStandalonePackageSpecificFiles - CrtApolloInC360
+2026-02-20 13:52:01,499 <-- PackageZipFileStorage.SaveStandalonePackageSpecificFiles - CrtApolloInC360
+2026-02-20 13:52:01,499 --> PackageZipFileStorage.SavePackageSchemas - CrtApolloInC360
+2026-02-20 13:52:01,511 <-- PackageZipFileStorage.SavePackageSchemas - CrtApolloInC360
+2026-02-20 13:52:01,511 --> PackageZipFileStorage.SavePackageReferenceAssemblies - CrtApolloInC360
+2026-02-20 13:52:01,511 <-- PackageZipFileStorage.SavePackageReferenceAssemblies - CrtApolloInC360
+2026-02-20 13:52:01,511 --> PackageZipFileStorage.SavePackageSqlScripts - CrtApolloInC360
+2026-02-20 13:52:01,511 <-- PackageZipFileStorage.SavePackageSqlScripts - CrtApolloInC360
+2026-02-20 13:52:01,511 --> PackageZipFileStorage.SavePackageData - CrtApolloInC360
+2026-02-20 13:52:01,511 <-- PackageZipFileStorage.SavePackageData - CrtApolloInC360
+2026-02-20 13:52:01,518 <-- PackageZipFileStorage.SavePackage - CrtApolloInC360
+2026-02-20 13:52:01,542 --> PackageZipFileStorage.SavePackage - CrtApolloInC360
+2026-02-20 13:52:01,542 --> PackageZipFileStorage.SavePackageDescriptor - CrtApolloInC360
+2026-02-20 13:52:01,542 <-- PackageZipFileStorage.SavePackageDescriptor - CrtApolloInC360
+2026-02-20 13:52:01,542 --> PackageZipFileStorage.SaveStandalonePackageSpecificFiles - CrtApolloInC360
+2026-02-20 13:52:01,560 <-- PackageZipFileStorage.SaveStandalonePackageSpecificFiles - CrtApolloInC360
+2026-02-20 13:52:01,560 --> PackageZipFileStorage.SavePackageSchemas - CrtApolloInC360
+2026-02-20 13:52:01,560 <-- PackageZipFileStorage.SavePackageSchemas - CrtApolloInC360
+2026-02-20 13:52:01,570 --> PackageZipFileStorage.SavePackageReferenceAssemblies - CrtApolloInC360
+2026-02-20 13:52:01,570 <-- PackageZipFileStorage.SavePackageReferenceAssemblies - CrtApolloInC360
+2026-02-20 13:52:01,570 --> PackageZipFileStorage.SavePackageSqlScripts - CrtApolloInC360
+2026-02-20 13:52:01,570 <-- PackageZipFileStorage.SavePackageSqlScripts - CrtApolloInC360
+2026-02-20 13:52:01,570 --> PackageZipFileStorage.SavePackageData - CrtApolloInC360
+2026-02-20 13:52:01,570 <-- PackageZipFileStorage.SavePackageData - CrtApolloInC360
+2026-02-20 13:52:01,570 <-- PackageZipFileStorage.SavePackage - CrtApolloInC360
+2026-02-20 13:52:01,610 --> PackageDBStorageInternal.SavePackage - CrtCustomer360App
+2026-02-20 13:52:01,610 --> PackageDBStorage.Load
+2026-02-20 13:52:41,634 <-- PackageDBStorage.Load
+2026-02-20 13:52:41,956 <-- PackageDBStorageInternal.SavePackage - CrtCustomer360App
+2026-02-20 13:52:41,962 --> PackageDBStorageInternal.SavePackage - CrtC360InUiV2
+2026-02-20 13:52:42,001 <-- PackageDBStorageInternal.SavePackage - CrtC360InUiV2
+2026-02-20 13:52:42,001 --> PackageDBStorageInternal.SavePackage - CrtCustomer360Mobile
+2026-02-20 13:52:42,066 <-- PackageDBStorageInternal.SavePackage - CrtCustomer360Mobile
+2026-02-20 13:52:42,069 --> PackageDBStorageInternal.SavePackage - CrtCustomer360AI
+2026-02-20 13:52:42,246 <-- PackageDBStorageInternal.SavePackage - CrtCustomer360AI
+2026-02-20 13:52:42,568 Added - 1 en-US resource values for schema 'AIInsightTimelineEntity'
+2026-02-20 13:52:42,571 Added - 1 en-US resource values for schema 'ContactAddressEventListener'
+2026-02-20 13:52:42,571 Added - 1 ru-RU resource values for schema 'BaseAddress'
+2026-02-20 13:52:42,571 Added - 1 en-US resource values for schema 'ContactRelatedPage'
+2026-02-20 13:52:42,571 Added - 1 en-US resource values for schema 'ContactType'
+2026-02-20 13:52:42,578 Added - 2 ru-RU resource values for schema 'AIInsight'
+2026-02-20 13:52:42,578 Added - 1 ru-RU resource values for schema 'ContactRelatedPage'
+2026-02-20 13:52:42,578 Added - 1 en-US resource values for schema 'AccountRelatedPage'
+2026-02-20 13:52:42,578 Added - 1 uk-UA resource values for schema 'Accounts_FormPage'
+2026-02-20 13:52:42,578 Added - 2 en-US resource values for schema 'ContactBusinessRule'
+2026-02-20 13:52:42,590 Added - 1 ru-RU resource values for schema 'AccountCategory'
+2026-02-20 13:52:42,590 Added - 1 ru-RU resource values for schema 'AIInsightTimelineEntity'
+2026-02-20 13:52:42,590 Added - 1 en-US resource values for schema 'AccountCategory'
+2026-02-20 13:52:42,590 Added - 1 en-US resource values for schema 'AddressType'
+2026-02-20 13:52:42,590 Added - 1 en-US resource values for schema 'AccountAddressEventListener'
+2026-02-20 13:52:42,590 Added - 1 ru-RU resource values for schema 'AccountType'
+2026-02-20 13:52:42,590 Added - 2 en-US resource values for schema 'Accounts_FormPageBusinessRule'
+2026-02-20 13:52:42,590 Added - 1 ru-RU resource values for schema 'AddressType'
+2026-02-20 13:52:42,599 Added - 2 ru-RU resource values for schema 'Contacts_FormPageBusinessRule'
+2026-02-20 13:52:42,599 Added - 1 en-US resource values for schema 'BaseAddressEventListener'
+2026-02-20 13:52:42,599 Added - 1 en-US resource values for schema 'Contacts_MiniPageBusinessRule'
+2026-02-20 13:52:42,599 Added - 1 ru-RU resource values for schema 'AccountRelatedPage'
+2026-02-20 13:52:42,599 Added - 3 en-US resource values for schema 'AIInsight'
+2026-02-20 13:52:42,599 Added - 1 ru-RU resource values for schema 'ContactBusinessRule'
+2026-02-20 13:52:42,599 Added - 1 en-US resource values for schema 'AccountBillingInfo'
+2026-02-20 13:52:42,599 Added - 1 en-US resource values for schema 'AccountAddressBusinessRule'
+2026-02-20 13:52:42,599 Added - 2 en-US resource values for schema 'Contacts_FormPageBusinessRule'
+2026-02-20 13:52:42,599 Added - 1 ru-RU resource values for schema 'ContactType'
+2026-02-20 13:52:42,599 Added - 1 en-US resource values for schema 'ContactAddressBusinessRule'
+2026-02-20 13:52:42,599 Added - 1 en-US resource values for schema 'AccountType'
+2026-02-20 13:52:42,599 Added - 1 ru-RU resource values for schema 'Contacts_MiniPageBusinessRule'
+2026-02-20 13:52:42,599 Added - 3 en-US resource values for schema 'BaseAddress'
+2026-02-20 13:52:42,609 Added - 2 ru-RU resource values for schema 'Accounts_FormPageBusinessRule'
+2026-02-20 13:52:42,609 Added - 2 ru-RU resource values for schema 'AccountCompetitor'
+2026-02-20 13:52:42,609 Added - 5 en-US resource values for schema 'Account'
+2026-02-20 13:52:42,609 Added - 4 en-US resource values for schema 'AccountCompetitor'
+2026-02-20 13:52:42,619 Added - 9 en-US resource values for schema 'Contacts_MiniPage'
+2026-02-20 13:52:42,619 Added - 4 ru-RU resource values for schema 'Account'
+2026-02-20 13:52:42,619 Added - 7 ru-RU resource values for schema 'Accounts_MiniPage'
+2026-02-20 13:52:42,631 Added - 8 ru-RU resource values for schema 'Contact'
+2026-02-20 13:52:42,631 Added - 9 en-US resource values for schema 'Accounts_ListPage'
+2026-02-20 13:52:42,631 Added - 8 ru-RU resource values for schema 'Contacts_MiniPage'
+2026-02-20 13:52:42,631 Added - 8 ru-RU resource values for schema 'Accounts_ListPage'
+2026-02-20 13:52:42,644 Added - 8 en-US resource values for schema 'AgeActualizationC360'
+2026-02-20 13:52:42,644 Added - 8 ru-RU resource values for schema 'AgeActualizationC360'
+2026-02-20 13:52:42,650 Added - 9 ru-RU resource values for schema 'Contacts_ListPage'
+2026-02-20 13:52:42,650 Added - 13 ru-RU resource values for schema 'AccountsAnalyticsDashboard'
+2026-02-20 13:52:42,650 Added - 10 en-US resource values for schema 'Accounts_MiniPage'
+2026-02-20 13:52:42,660 Added - 11 en-US resource values for schema 'Contacts_ListPage'
+2026-02-20 13:52:42,679 Added - 15 ru-RU resource values for schema 'ContactsAnalyticsDashboard'
+2026-02-20 13:52:42,679 Added - 16 en-US resource values for schema 'Contact'
+2026-02-20 13:52:42,679 Added - 21 en-US resource values for schema 'AccountsAnalyticsDashboard'
+2026-02-20 13:52:42,703 Added - 21 en-US resource values for schema 'ContactsAnalyticsDashboard'
+2026-02-20 13:52:42,737 Added - 29 ru-RU resource values for schema 'Contacts_FormPage'
+2026-02-20 13:52:42,742 Added - 30 ru-RU resource values for schema 'Accounts_FormPage'
+2026-02-20 13:52:42,778 Added - 38 en-US resource values for schema 'Contacts_FormPage'
+2026-02-20 13:52:42,794 Added - 43 en-US resource values for schema 'Accounts_FormPage'
+2026-02-20 13:52:42,809 Added - 2 ru-RU resource values for schema 'Tasks_FormPage'
+2026-02-20 13:52:42,809 Added - 2 en-US resource values for schema 'Tasks_FormPage'
+2026-02-20 13:52:42,824 Added - 1 en-US resource values for schema 'MobileApplicationManifestDefaultWorkplace'
+2026-02-20 13:52:42,824 Added - 1 en-US resource values for schema 'MobileFUIAccountGridPageSettingsDefaultWorkplace'
+2026-02-20 13:52:42,824 Added - 1 ru-RU resource values for schema 'MobileApplicationManifestDefaultWorkplace'
+2026-02-20 13:52:42,824 Added - 1 ru-RU resource values for schema 'MobileFUIAccountGridPageSettingsDefaultWorkplace'
+2026-02-20 13:52:42,824 Added - 1 ru-RU resource values for schema 'MobileFUIContactGridPageSettingsDefaultWorkplace'
+2026-02-20 13:52:42,824 Added - 1 en-US resource values for schema 'MobileFUIContactGridPageSettingsDefaultWorkplace'
+2026-02-20 13:52:42,850 Added - 6 ru-RU resource values for schema 'MobileFUIAccountRecordPageSettingsDefaultWorkplace'
+2026-02-20 13:52:42,850 Added - 6 ru-RU resource values for schema 'MobileFUIContactRecordPageSettingsDefaultWorkplace'
+2026-02-20 13:52:42,865 Added - 9 en-US resource values for schema 'MobileFUIAccountRecordPageSettingsDefaultWorkplace'
+2026-02-20 13:52:42,865 Added - 10 en-US resource values for schema 'MobileFUIContactRecordPageSettingsDefaultWorkplace'
+2026-02-20 13:52:42,881 Added - 1 ru-RU resource values for schema 'AddContact'
+2026-02-20 13:52:42,881 Added - 1 ru-RU resource values for schema 'CreateMessageFromAIChat'
+2026-02-20 13:52:42,881 Added - 1 ru-RU resource values for schema 'ReadIndustries'
+2026-02-20 13:52:42,881 Added - 1 ru-RU resource values for schema 'SkillIndustriesCollection'
+2026-02-20 13:52:42,881 Added - 1 ru-RU resource values for schema 'BingSearchProcess'
+2026-02-20 13:52:42,881 Added - 1 ru-RU resource values for schema 'SkillAdressSplitter'
+2026-02-20 13:52:42,881 Added - 1 ru-RU resource values for schema 'FindContactDuplicates'
+2026-02-20 13:52:42,881 Added - 1 en-US resource values for schema 'AccountNewsAndInsights'
+2026-02-20 13:52:42,881 Added - 1 ru-RU resource values for schema 'CheckApolloZoominfoAvailableProcess'
+2026-02-20 13:52:42,881 Added - 1 ru-RU resource values for schema 'CheckBingApiKey'
+2026-02-20 13:52:42,881 Added - 1 en-US resource values for schema 'EnrichAccountData'
+2026-02-20 13:52:42,881 Added - 1 ru-RU resource values for schema 'EnrichAccountData'
+2026-02-20 13:52:42,881 Added - 1 en-US resource values for schema 'SalesAIAssistant'
+2026-02-20 13:52:42,881 Added - 1 ru-RU resource values for schema 'BingSearchApiCall'
+2026-02-20 13:52:42,881 Added - 1 ru-RU resource values for schema 'SaveNewApiKey'
+2026-02-20 13:52:42,881 Added - 1 ru-RU resource values for schema 'AddContactsToAccount'
+2026-02-20 13:52:42,881 Added - 1 ru-RU resource values for schema 'SalesAIAssistant'
+2026-02-20 13:52:42,881 Added - 1 ru-RU resource values for schema 'AccountNewsAndInsights'
+2026-02-20 13:52:42,881 Added - 1 ru-RU resource values for schema 'ReadAccountEmployeesNumber'
+2026-02-20 13:52:42,905 Added - 4 en-US resource values for schema 'SkillIndustriesCollection'
+2026-02-20 13:52:42,914 Added - 6 en-US resource values for schema 'SkillAdressSplitter'
+2026-02-20 13:52:42,924 Added - 8 ru-RU resource values for schema 'AddInsights'
+2026-02-20 13:52:42,924 Added - 8 ru-RU resource values for schema 'AddPrimaryContact'
+2026-02-20 13:52:42,924 Added - 8 en-US resource values for schema 'SaveNewApiKey'
+2026-02-20 13:52:42,962 Added - 16 en-US resource values for schema 'CreateMessageFromAIChat'
+2026-02-20 13:52:42,971 Added - 17 en-US resource values for schema 'FindContactDuplicates'
+2026-02-20 13:52:42,985 Added - 20 en-US resource values for schema 'AddPrimaryContact'
+2026-02-20 13:52:42,985 Added - 20 ru-RU resource values for schema 'Copilot_GetCurrentUserTimeZone'
+2026-02-20 13:52:42,985 Added - 20 ru-RU resource values for schema 'CheckAccountHasWebLink'
+2026-02-20 13:52:42,985 Added - 20 ru-RU resource values for schema 'CheckIfOperatorHasAccountOwnershipRights'
+2026-02-20 13:52:42,990 Added - 21 en-US resource values for schema 'AddInsights'
+2026-02-20 13:52:42,990 Added - 22 ru-RU resource values for schema 'UpdateAccountData'
+2026-02-20 13:52:43,000 Added - 23 ru-RU resource values for schema 'BusinessEntity'
+2026-02-20 13:52:43,027 Added - 29 en-US resource values for schema 'CheckAccountHasWebLink'
+2026-02-20 13:52:43,034 Added - 30 en-US resource values for schema 'CheckBingApiKey'
+2026-02-20 13:52:43,044 Added - 32 en-US resource values for schema 'Copilot_GetCurrentUserTimeZone'
+2026-02-20 13:52:43,059 Added - 35 en-US resource values for schema 'CheckIfOperatorHasAccountOwnershipRights'
+2026-02-20 13:52:43,059 Added - 37 en-US resource values for schema 'ReadAccountEmployeesNumber'
+2026-02-20 13:52:43,074 Added - 38 en-US resource values for schema 'ReadIndustries'
+2026-02-20 13:52:43,088 Added - 41 en-US resource values for schema 'AddContact'
+2026-02-20 13:52:43,090 Added - 42 en-US resource values for schema 'BingSearchApiCall'
+2026-02-20 13:52:43,090 Added - 42 en-US resource values for schema 'BusinessEntity'
+2026-02-20 13:52:43,199 Added - 65 en-US resource values for schema 'AddContactsToAccount'
+2026-02-20 13:52:43,305 Added - 88 en-US resource values for schema 'CheckApolloZoominfoAvailableProcess'
+2026-02-20 13:52:43,448 Added - 121 en-US resource values for schema 'BingSearchProcess'
+2026-02-20 13:52:44,066 Added - 317 en-US resource values for schema 'UpdateAccountData'
+2026-02-20 13:52:53,549 InstallColumnLookupValues. Count (total): 3
+2026-02-20 13:52:53,549 Count (by package [379003f3-74dc-4305-c4de-04f43be2bfb0]): 1
+2026-02-20 13:52:53,549 Count (by schema [AdminUnitFeatureState]): 1
+2026-02-20 13:52:53,556 Count (by package [2ecba2bd-b810-47a5-a1b1-08c888529d6c]): 7
+2026-02-20 13:52:53,556 Count (by schema [SysProfileData]): 2
+2026-02-20 13:52:53,577 Count (by schema [SysWorkplace]): 2
+2026-02-20 13:52:53,586 Count (by schema [QuickAddItem]): 2
+2026-02-20 13:52:53,609 Count (by schema [SysAdminUnitInWorkplace]): 1
+2026-02-20 13:52:53,617 Count (by schema [SysModuleInWorkplace]): 2
+2026-02-20 13:52:53,626 Count (by schema [SysSchemaAdminUnitRight]): 2
+2026-02-20 13:52:53,649 Count (by schema [SysModule]): 4
+2026-02-20 13:52:53,669 Count (by package [c1a044a2-cb8c-9387-837b-d9ae9183cd47]): 2
+2026-02-20 13:52:53,669 Count (by schema [SysSettings]): 1
+2026-02-20 13:52:53,676 Count (by schema [SysSchemaOperationRight]): 2
+2026-02-20 13:53:14,943 --> PackageDBStorage.Load
+2026-02-20 13:53:56,514 <-- PackageDBStorage.Load
+2026-02-20 13:54:01,193 --> PackageDBStorage.Load
+2026-02-20 13:54:46,391 <-- PackageDBStorage.Load
+2026-02-20 13:55:13,174 --> PackageZipFileStorage.Load
+2026-02-20 13:55:13,174 --> PackageZipFileStorage.UnZipPackages
+2026-02-20 13:55:13,515 <-- PackageZipFileStorage.UnZipPackages
+2026-02-20 13:55:13,526 <-- PackageZipFileStorage.Load
+2026-02-20 13:55:15,797 --> PackageStorageComposer.Compose
+2026-02-20 13:55:15,797 --> PackageZipFileStorage.Load
+2026-02-20 13:55:15,797 --> PackageZipFileStorage.UnZipPackages
+2026-02-20 13:55:15,797 <-- PackageZipFileStorage.UnZipPackages
+2026-02-20 13:55:15,803 --> PackageZipFileStorage.LoadSchemaProperties
+2026-02-20 13:55:15,803 <-- PackageZipFileStorage.LoadSchemaProperties
+2026-02-20 13:55:15,803 <-- PackageZipFileStorage.Load
+2026-02-20 13:55:15,803 --> PackageDBStorage.Load
+2026-02-20 13:56:16,018 <-- PackageDBStorage.Load
+2026-02-20 13:56:16,021 --> PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-20 13:56:16,021 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-20 13:56:16,035 --> PackageDBStorage.ActualizePackageResourcesState
+2026-02-20 13:56:16,035 <-- PackageDBStorage.ActualizePackageResourcesState
+2026-02-20 13:56:16,035 <-- PackageStorageComposer.Compose
+2026-02-20 13:56:16,110 --> PackageZipFileStorage.Load
+2026-02-20 13:56:16,110 --> PackageZipFileStorage.UnZipPackages
+2026-02-20 13:56:16,173 <-- PackageZipFileStorage.UnZipPackages
+2026-02-20 13:56:16,185 <-- PackageZipFileStorage.Load
+2026-02-20 13:56:16,204 --> PackageStorageComposer.Compose
+2026-02-20 13:56:16,204 --> PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-20 13:56:16,204 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-20 13:56:16,204 --> IntermediatePackageStorage.ActualizePackageResourcesState
+2026-02-20 13:56:16,204 <-- IntermediatePackageStorage.ActualizePackageResourcesState
+2026-02-20 13:56:16,204 <-- PackageStorageComposer.Compose
+2026-02-20 13:56:16,256 --> PackageZipFileStorage.Load
+2026-02-20 13:56:16,256 --> PackageZipFileStorage.UnZipPackages
+2026-02-20 13:56:16,273 <-- PackageZipFileStorage.UnZipPackages
+2026-02-20 13:56:16,273 <-- PackageZipFileStorage.Load
+2026-02-20 13:56:31,223 --> PackageZipFileStorage.Load
+2026-02-20 13:56:31,223 --> PackageZipFileStorage.UnZipPackages
+2026-02-20 13:56:31,223 <-- PackageZipFileStorage.UnZipPackages
+2026-02-20 13:56:31,223 <-- PackageZipFileStorage.Load
+2026-02-20 13:56:31,242 --> PackageZipFileStorage.Load
+2026-02-20 13:56:31,242 --> PackageZipFileStorage.UnZipPackages
+2026-02-20 13:56:31,294 <-- PackageZipFileStorage.UnZipPackages
+2026-02-20 13:56:31,294 <-- PackageZipFileStorage.Load
+2026-02-20 13:56:31,310 --> PackageStorageComposer.Compose
+2026-02-20 13:56:31,310 --> PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-20 13:56:31,310 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-20 13:56:31,310 --> IntermediatePackageStorage.ActualizePackageResourcesState
+2026-02-20 13:56:31,310 <-- IntermediatePackageStorage.ActualizePackageResourcesState
+2026-02-20 13:56:31,310 <-- PackageStorageComposer.Compose
+2026-02-20 13:56:31,322 --> PackageZipFileStorage.SavePackage - CrtApolloInC360
+2026-02-20 13:56:31,322 --> PackageZipFileStorage.SavePackageDescriptor - CrtApolloInC360
+2026-02-20 13:56:31,322 <-- PackageZipFileStorage.SavePackageDescriptor - CrtApolloInC360
+2026-02-20 13:56:31,322 --> PackageZipFileStorage.SaveStandalonePackageSpecificFiles - CrtApolloInC360
+2026-02-20 13:56:31,378 <-- PackageZipFileStorage.SaveStandalonePackageSpecificFiles - CrtApolloInC360
+2026-02-20 13:56:31,378 --> PackageZipFileStorage.SavePackageSchemas - CrtApolloInC360
+2026-02-20 13:56:31,402 <-- PackageZipFileStorage.SavePackageSchemas - CrtApolloInC360
+2026-02-20 13:56:31,412 --> PackageZipFileStorage.SavePackageReferenceAssemblies - CrtApolloInC360
+2026-02-20 13:56:31,412 <-- PackageZipFileStorage.SavePackageReferenceAssemblies - CrtApolloInC360
+2026-02-20 13:56:31,412 --> PackageZipFileStorage.SavePackageSqlScripts - CrtApolloInC360
+2026-02-20 13:56:31,412 <-- PackageZipFileStorage.SavePackageSqlScripts - CrtApolloInC360
+2026-02-20 13:56:31,412 --> PackageZipFileStorage.SavePackageData - CrtApolloInC360
+2026-02-20 13:56:31,412 <-- PackageZipFileStorage.SavePackageData - CrtApolloInC360
+2026-02-20 13:56:31,412 <-- PackageZipFileStorage.SavePackage - CrtApolloInC360
+2026-02-20 13:56:31,438 --> PackageZipFileStorage.SavePackage - CrtApolloInC360
+2026-02-20 13:56:31,441 --> PackageZipFileStorage.SavePackageDescriptor - CrtApolloInC360
+2026-02-20 13:56:31,441 <-- PackageZipFileStorage.SavePackageDescriptor - CrtApolloInC360
+2026-02-20 13:56:31,441 --> PackageZipFileStorage.SaveStandalonePackageSpecificFiles - CrtApolloInC360
+2026-02-20 13:56:31,458 <-- PackageZipFileStorage.SaveStandalonePackageSpecificFiles - CrtApolloInC360
+2026-02-20 13:56:31,458 --> PackageZipFileStorage.SavePackageSchemas - CrtApolloInC360
+2026-02-20 13:56:31,481 <-- PackageZipFileStorage.SavePackageSchemas - CrtApolloInC360
+2026-02-20 13:56:31,481 --> PackageZipFileStorage.SavePackageReferenceAssemblies - CrtApolloInC360
+2026-02-20 13:56:31,481 <-- PackageZipFileStorage.SavePackageReferenceAssemblies - CrtApolloInC360
+2026-02-20 13:56:31,481 --> PackageZipFileStorage.SavePackageSqlScripts - CrtApolloInC360
+2026-02-20 13:56:31,481 <-- PackageZipFileStorage.SavePackageSqlScripts - CrtApolloInC360
+2026-02-20 13:56:31,481 --> PackageZipFileStorage.SavePackageData - CrtApolloInC360
+2026-02-20 13:56:31,491 <-- PackageZipFileStorage.SavePackageData - CrtApolloInC360
+2026-02-20 13:56:31,491 <-- PackageZipFileStorage.SavePackage - CrtApolloInC360
+2026-02-20 13:56:31,760 --> PackageDBStorageInternal.SavePackage - CSL_MaintenanceTools
+2026-02-20 13:56:31,771 --> PackageDBStorage.Load
+2026-02-20 13:57:13,954 <-- PackageDBStorage.Load
+2026-02-20 13:57:14,148 <-- PackageDBStorageInternal.SavePackage - CSL_MaintenanceTools
+2026-02-20 13:57:14,604 Added - 22 pt-PT resource values for schema 'SystemDesigner'
+2026-02-20 13:57:14,604 Added - 22 nl-NL resource values for schema 'SystemDesigner'
+2026-02-20 13:57:14,604 Added - 22 de-DE resource values for schema 'SystemDesigner'
+2026-02-20 13:57:14,604 Added - 22 cs-CZ resource values for schema 'SystemDesigner'
+2026-02-20 13:57:14,613 Added - 26 ru-RU resource values for schema 'SystemDesigner'
+2026-02-20 13:57:14,613 Added - 22 sv-SE resource values for schema 'SystemDesigner'
+2026-02-20 13:57:14,613 Added - 22 pl-PL resource values for schema 'SystemDesigner'
+2026-02-20 13:57:14,613 Added - 22 es-ES resource values for schema 'SystemDesigner'
+2026-02-20 13:57:14,623 Added - 22 uk-UA resource values for schema 'SystemDesigner'
+2026-02-20 13:57:14,623 Added - 22 it-IT resource values for schema 'SystemDesigner'
+2026-02-20 13:57:14,623 Added - 22 pt-BR resource values for schema 'SystemDesigner'
+2026-02-20 13:57:14,635 Added - 26 fr-FR resource values for schema 'SystemDesigner'
+2026-02-20 13:57:14,635 Added - 29 en-US resource values for schema 'SystemDesigner'
+2026-02-20 13:57:15,652 InstallColumnLookupValues. Count (total): 0
+2026-02-20 13:58:13,546 --> PackageDBStorage.Load
+2026-02-20 13:58:55,194 <-- PackageDBStorage.Load
+2026-02-20 13:58:56,183 --> PackageDBStorage.Load
+2026-02-20 13:59:36,914 <-- PackageDBStorage.Load
+2026-02-20 14:04:18,583 --> PackageDBStorage.Load
+2026-02-20 14:05:00,655 <-- PackageDBStorage.Load
+2026-02-20 14:05:36,885 --> PackageInstallUtilities.LoadPackagesToFileSystem
+2026-02-20 14:05:36,885 --> PackageStorageComposer.Compose
+2026-02-20 14:05:36,885 --> PackageFileDesignModeDBStorage.Load
+2026-02-20 14:06:17,975 <-- PackageFileDesignModeDBStorage.Load
+2026-02-20 14:06:17,975 --> PackageFileDesignModeStorage.Load
+2026-02-20 14:06:18,095 <-- PackageFileDesignModeStorage.Load
+2026-02-20 14:06:18,095 --> PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-20 14:06:18,112 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2026-02-20 14:06:18,114 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-20 14:06:18,124 --> PackageFileDesignModeStorage.ActualizePackageResourcesState
+2026-02-20 14:06:18,124 <-- PackageFileDesignModeStorage.ActualizePackageResourcesState
+2026-02-20 14:06:18,124 <-- PackageStorageComposer.Compose
+2026-02-20 14:06:18,140 --> PackageFileDesignModeStorage.Save: Packages [166] Schemas [6114] ReferenceAssemblies [31] SqlScripts [975] PackageData [3380] SchemaResources [158975] CoreResources [0]
+2026-02-20 14:06:18,140 --> PackageFileDesignModeStorage.MarkNotEditablePackagesAsNotChanged
+2026-02-20 14:06:18,140 <-- PackageFileDesignModeStorage.MarkNotEditablePackagesAsNotChanged
+2026-02-20 14:06:18,140 --> PackageFileDesignModeStorage.DeletePackageItems - Custom
+2026-02-20 14:06:18,143 <-- PackageFileDesignModeStorage.DeletePackageItems - Custom
+2026-02-20 14:06:18,143 --> PackageFileDesignModeStorage.UpdatePackage - Custom
+2026-02-20 14:06:18,143 --> PackageFileDesignModeStorage.SavePackage - Custom
+2026-02-20 14:06:18,143 --> PackageFileDesignModeStorage.SavePackageDescriptor - Custom
+2026-02-20 14:06:18,143 <-- PackageFileDesignModeStorage.SavePackageDescriptor - Custom
+2026-02-20 14:06:18,143 --> PackageFileDesignModeStorage.SavePackageSchemas - Custom
+2026-02-20 14:06:18,195 <-- PackageFileDesignModeStorage.SavePackageSchemas - Custom
+2026-02-20 14:06:18,205 --> PackageFileDesignModeStorage.SavePackageReferenceAssemblies - Custom
+2026-02-20 14:06:18,205 <-- PackageFileDesignModeStorage.SavePackageReferenceAssemblies - Custom
+2026-02-20 14:06:18,205 --> PackageFileDesignModeStorage.SavePackageSqlScripts - Custom
+2026-02-20 14:06:18,205 <-- PackageFileDesignModeStorage.SavePackageSqlScripts - Custom
+2026-02-20 14:06:18,205 --> PackageFileDesignModeStorage.SavePackageData - Custom
+2026-02-20 14:06:18,205 <-- PackageFileDesignModeStorage.SavePackageData - Custom
+2026-02-20 14:06:18,205 <-- PackageFileDesignModeStorage.SavePackage - Custom
+2026-02-20 14:06:18,205 <-- PackageFileDesignModeStorage.UpdatePackage - Custom
+2026-02-20 14:06:18,243 <-- PackageFileDesignModeStorage.Save
+2026-02-20 14:06:18,243 --> PackageInstallUtilities.UpdatePackagesAutogeneratedContent
+2026-02-20 14:06:18,243 --> PackageDBStorage.Load
+2026-02-20 14:06:58,745 <-- PackageDBStorage.Load
+2026-02-20 14:07:15,051 --> PackageInstallUtilities.UpdateWorkspaceSolution
+2026-02-20 14:07:15,051 --> PackageDBStorage.Load
+2026-02-20 14:07:55,847 <-- PackageDBStorage.Load
+2026-02-20 14:08:27,113 <-- PackageInstallUtilities.UpdateWorkspaceSolution
+2026-02-20 14:08:27,113 <-- PackageInstallUtilities.UpdatePackagesAutogeneratedContent
+2026-02-20 14:08:27,113 <-- PackageInstallUtilities.LoadPackagesToFileSystem
+2026-02-20 14:28:01,617 --> PackageInstallUtilities.LoadPackagesToDB
+2026-02-20 14:28:01,617 --> PackageFileDesignModeStorage.Load
+2026-02-20 14:28:03,275 <-- PackageFileDesignModeStorage.Load
+2026-02-20 14:28:03,275 --> PackageFileDesignModeDBStorage.Load
+2026-02-20 14:28:44,942 <-- PackageFileDesignModeDBStorage.Load
+2026-02-20 14:28:44,952 --> PackageStorageComposer.Compose
+2026-02-20 14:28:44,952 --> PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-20 14:28:44,952 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2026-02-20 14:28:44,952 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-20 14:28:44,964 --> PackageFileDesignModeDBStorage.ActualizePackageResourcesState
+2026-02-20 14:28:44,972 <-- PackageFileDesignModeDBStorage.ActualizePackageResourcesState
+2026-02-20 14:28:44,972 <-- PackageStorageComposer.Compose
+2026-02-20 14:28:44,972 --> PackageFileDesignModeDBStorage.Save: Packages [1] Schemas [13] ReferenceAssemblies [0] SqlScripts [2] PackageData [20] SchemaResources [204] CoreResources [0]
+2026-02-20 14:28:45,011 --> PackageFileDesignModeDBStorage.SavePackage - UsrYacht
+2026-02-20 14:28:45,027 --> PackageDBStorage.Load
+2026-02-20 14:29:24,532 <-- PackageDBStorage.Load
+2026-02-20 14:29:25,989 <-- PackageFileDesignModeDBStorage.SavePackage - UsrYacht
+2026-02-20 14:29:26,110 Added - 2 de-DE resource values for schema 'UsrTrafficLight'
+2026-02-20 14:29:26,115 Added - 2 hr-HR resource values for schema 'UsrTrafficLight'
+2026-02-20 14:29:26,115 Added - 2 he-IL resource values for schema 'UsrTrafficLight'
+2026-02-20 14:29:26,115 Added - 2 cs-CZ resource values for schema 'UsrTrafficLight'
+2026-02-20 14:29:26,115 Added - 1 pt-PT resource values for schema 'UsrTestProcess'
+2026-02-20 14:29:26,115 Added - 1 es-ES resource values for schema 'UsrTestProcess'
+2026-02-20 14:29:26,115 Added - 2 hu-HU resource values for schema 'UsrTrafficLight'
+2026-02-20 14:29:26,115 Added - 1 pt-BR resource values for schema 'UsrTestProcess'
+2026-02-20 14:29:26,115 Added - 1 lv-LV resource values for schema 'UsrTestProcess'
+2026-02-20 14:29:26,115 Added - 1 ja-JP resource values for schema 'UsrTestProcess'
+2026-02-20 14:29:26,135 Added - 1 de-DE resource values for schema 'UsrTestProcess'
+2026-02-20 14:29:26,135 Added - 1 uk-UA resource values for schema 'UsrTestProcess'
+2026-02-20 14:29:26,146 Added - 1 he-IL resource values for schema 'UsrTestProcess'
+2026-02-20 14:29:26,146 Added - 1 th-TH resource values for schema 'UsrTestProcess'
+2026-02-20 14:29:26,146 Added - 3 en-US resource values for schema 'UsrTrafficLight'
+2026-02-20 14:29:26,146 Added - 2 ko-KR resource values for schema 'UsrTrafficLight'
+2026-02-20 14:29:26,146 Added - 1 es-ES resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 14:29:26,146 Added - 1 hr-HR resource values for schema 'UsrTestProcess'
+2026-02-20 14:29:26,146 Added - 1 ar-SA resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 14:29:26,156 Added - 1 nl-NL resource values for schema 'UsrTestProcess'
+2026-02-20 14:29:26,156 Added - 1 ja-JP resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 14:29:26,156 Added - 1 fr-FR resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 14:29:26,156 Added - 1 cs-CZ resource values for schema 'UsrTestProcess'
+2026-02-20 14:29:26,156 Added - 2 bg-BG resource values for schema 'UsrTrafficLight'
+2026-02-20 14:29:26,156 Added - 1 it-IT resource values for schema 'UsrTestProcess'
+2026-02-20 14:29:26,156 Added - 1 bg-BG resource values for schema 'UsrTestProcess'
+2026-02-20 14:29:26,156 Added - 1 fr-FR resource values for schema 'UsrTestProcess'
+2026-02-20 14:29:26,156 Added - 1 zh-TW resource values for schema 'UsrTestProcess'
+2026-02-20 14:29:26,156 Added - 1 ro-RO resource values for schema 'UsrTestProcess'
+2026-02-20 14:29:26,156 Added - 1 hr-HR resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 14:29:26,156 Added - 1 id-ID resource values for schema 'UsrTestProcess'
+2026-02-20 14:29:26,156 Added - 1 vi-VN resource values for schema 'UsrTestProcess'
+2026-02-20 14:29:26,156 Added - 1 hu-HU resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 14:29:26,156 Added - 1 pl-PL resource values for schema 'UsrTestProcess'
+2026-02-20 14:29:26,156 Added - 1 ko-KR resource values for schema 'UsrTestProcess'
+2026-02-20 14:29:26,156 Added - 1 sq-AL resource values for schema 'UsrTestProcess'
+2026-02-20 14:29:26,156 Added - 1 tr-TR resource values for schema 'UsrTestProcess'
+2026-02-20 14:29:26,156 Added - 1 sv-SE resource values for schema 'UsrTestProcess'
+2026-02-20 14:29:26,156 Added - 2 id-ID resource values for schema 'UsrTrafficLight'
+2026-02-20 14:29:26,161 Added - 1 hu-HU resource values for schema 'UsrTestProcess'
+2026-02-20 14:29:26,161 Added - 2 zh-TW resource values for schema 'UsrTrafficLight'
+2026-02-20 14:29:26,161 Added - 1 ru-RU resource values for schema 'UsrTestProcess'
+2026-02-20 14:29:26,161 Added - 2 fr-FR resource values for schema 'UsrTrafficLight'
+2026-02-20 14:29:26,161 Added - 1 uk-UA resource values for schema 'UsrYacht'
+2026-02-20 14:29:26,176 Added - 2 es-ES resource values for schema 'UsrTrafficLight'
+2026-02-20 14:29:26,176 Added - 2 pt-BR resource values for schema 'UsrTrafficLight'
+2026-02-20 14:29:26,186 Added - 1 ko-KR resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 14:29:26,186 Added - 1 th-TH resource values for schema 'UsrYachtDriveType'
+2026-02-20 14:29:26,186 Added - 2 ja-JP resource values for schema 'UsrTrafficLight'
+2026-02-20 14:29:26,186 Added - 1 ko-KR resource values for schema 'UsrYachtStatus'
+2026-02-20 14:29:26,186 Added - 2 it-IT resource values for schema 'UsrTrafficLight'
+2026-02-20 14:29:26,186 Added - 1 lv-LV resource values for schema 'UsrYachtStatus'
+2026-02-20 14:29:26,186 Added - 2 pl-PL resource values for schema 'UsrTrafficLight'
+2026-02-20 14:29:26,186 Added - 1 en-US resource values for schema 'UsrYacht_ListPage'
+2026-02-20 14:29:26,186 Added - 2 pt-PT resource values for schema 'UsrTrafficLight'
+2026-02-20 14:29:26,186 Added - 1 cs-CZ resource values for schema 'UsrYachtStatus'
+2026-02-20 14:29:26,186 Added - 1 pt-PT resource values for schema 'UsrYachtStatus'
+2026-02-20 14:29:26,186 Added - 1 ar-SA resource values for schema 'UsrTestProcess'
+2026-02-20 14:29:26,186 Added - 1 ru-RU resource values for schema 'UsrYachtDriveType'
+2026-02-20 14:29:26,186 Added - 2 th-TH resource values for schema 'UsrTrafficLight'
+2026-02-20 14:29:26,186 Added - 2 sq-AL resource values for schema 'UsrTrafficLight'
+2026-02-20 14:29:26,186 Added - 1 es-ES resource values for schema 'UsrYacht_ListPage'
+2026-02-20 14:29:26,186 Added - 1 de-DE resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 14:29:26,186 Added - 1 nl-NL resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 14:29:26,186 Added - 1 pl-PL resource values for schema 'UsrYachtStatus'
+2026-02-20 14:29:26,186 Added - 1 pt-BR resource values for schema 'UsrYachtDriveType'
+2026-02-20 14:29:26,186 Added - 1 es-ES resource values for schema 'UsrYachtDriveType'
+2026-02-20 14:29:26,186 Added - 2 lv-LV resource values for schema 'UsrTrafficLight'
+2026-02-20 14:29:26,186 Added - 1 tr-TR resource values for schema 'UsrYachtStatus'
+2026-02-20 14:29:26,186 Added - 2 ro-RO resource values for schema 'UsrTrafficLight'
+2026-02-20 14:29:26,190 Added - 1 th-TH resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 14:29:26,190 Added - 1 ko-KR resource values for schema 'UsrYachtDriveType'
+2026-02-20 14:29:26,190 Added - 1 zh-TW resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 14:29:26,190 Added - 1 pl-PL resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 14:29:26,190 Added - 1 id-ID resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 14:29:26,190 Added - 1 de-DE resource values for schema 'UsrYacht_ListPage'
+2026-02-20 14:29:26,190 Added - 1 nl-NL resource values for schema 'UsrYachtStatus'
+2026-02-20 14:29:26,190 Added - 1 lv-LV resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 14:29:26,190 Added - 2 ar-SA resource values for schema 'UsrTrafficLight'
+2026-02-20 14:29:26,190 Added - 1 pl-PL resource values for schema 'UsrYacht_ListPage'
+2026-02-20 14:29:26,190 Added - 1 id-ID resource values for schema 'UsrYachtDriveType'
+2026-02-20 14:29:26,190 Added - 1 pt-PT resource values for schema 'UsrYacht_FormPage'
+2026-02-20 14:29:26,190 Added - 1 lv-LV resource values for schema 'UsrYachtDriveType'
+2026-02-20 14:29:26,190 Added - 2 uk-UA resource values for schema 'UsrTrafficLight'
+2026-02-20 14:29:26,190 Added - 1 ru-RU resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 14:29:26,190 Added - 1 sq-AL resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 14:29:26,190 Added - 1 uk-UA resource values for schema 'UsrYacht_ListPage'
+2026-02-20 14:29:26,190 Added - 1 pt-BR resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 14:29:26,190 Added - 2 vi-VN resource values for schema 'UsrTrafficLight'
+2026-02-20 14:29:26,190 Added - 1 es-ES resource values for schema 'UsrYacht'
+2026-02-20 14:29:26,190 Added - 1 it-IT resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 14:29:26,190 Added - 1 ro-RO resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 14:29:26,190 Added - 1 cs-CZ resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 14:29:26,190 Added - 1 he-IL resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 14:29:26,190 Added - 2 sv-SE resource values for schema 'UsrTrafficLight'
+2026-02-20 14:29:26,190 Added - 1 tr-TR resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 14:29:26,190 Added - 2 nl-NL resource values for schema 'UsrTrafficLight'
+2026-02-20 14:29:26,190 Added - 1 vi-VN resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 14:29:26,203 Added - 1 pt-PT resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 14:29:26,203 Added - 1 bg-BG resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 14:29:26,203 Added - 1 pt-BR resource values for schema 'UsrYacht'
+2026-02-20 14:29:26,215 Added - 1 sv-SE resource values for schema 'UsrYacht'
+2026-02-20 14:29:26,215 Added - 1 cs-CZ resource values for schema 'UsrYachtDriveType'
+2026-02-20 14:29:26,215 Added - 1 sv-SE resource values for schema 'UsrYachtDriveType'
+2026-02-20 14:29:26,215 Added - 1 nl-NL resource values for schema 'UsrYachtDriveType'
+2026-02-20 14:29:26,215 Added - 1 pt-PT resource values for schema 'UsrYacht'
+2026-02-20 14:29:26,215 Added - 1 sv-SE resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 14:29:26,215 Added - 1 th-TH resource values for schema 'UsrYacht'
+2026-02-20 14:29:26,215 Added - 1 de-DE resource values for schema 'UsrYacht'
+2026-02-20 14:29:26,215 Added - 1 fr-FR resource values for schema 'UsrYacht'
+2026-02-20 14:29:26,215 Added - 1 ru-RU resource values for schema 'UsrYacht'
+2026-02-20 14:29:26,215 Added - 1 nl-NL resource values for schema 'UsrYacht'
+2026-02-20 14:29:26,215 Added - 1 he-IL resource values for schema 'UsrYachtDriveType'
+2026-02-20 14:29:26,215 Added - 1 he-IL resource values for schema 'UsrYacht'
+2026-02-20 14:29:26,215 Added - 2 ru-RU resource values for schema 'UsrYacht_MobileListPage'
+2026-02-20 14:29:26,221 Added - 1 uk-UA resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 14:29:26,221 Added - 1 it-IT resource values for schema 'UsrYachtDriveType'
+2026-02-20 14:29:26,221 Added - 1 ja-JP resource values for schema 'UsrYachtDriveType'
+2026-02-20 14:29:26,233 Added - 1 pl-PL resource values for schema 'UsrYacht_FormPage'
+2026-02-20 14:29:26,233 Added - 1 sv-SE resource values for schema 'UsrYachtStatus'
+2026-02-20 14:29:26,233 Added - 1 ro-RO resource values for schema 'UsrYacht'
+2026-02-20 14:29:26,233 Added - 1 fr-FR resource values for schema 'UsrYachtStatus'
+2026-02-20 14:29:26,249 Added - 1 ar-SA resource values for schema 'UsrYachtStatus'
+2026-02-20 14:29:26,249 Added - 1 de-DE resource values for schema 'UsrYachtDriveType'
+2026-02-20 14:29:26,251 Added - 1 ru-RU resource values for schema 'UsrYachtMobileRelatedPage'
+2026-02-20 14:29:26,251 Added - 1 ru-RU resource values for schema 'UsrYachtRelatedPage'
+2026-02-20 14:29:26,251 Added - 1 de-DE resource values for schema 'UsrYachtStatus'
+2026-02-20 14:29:26,251 Added - 1 ro-RO resource values for schema 'UsrYachtDriveType'
+2026-02-20 14:29:26,251 Added - 1 it-IT resource values for schema 'UsrYacht_FormPage'
+2026-02-20 14:29:26,251 Added - 1 fr-FR resource values for schema 'UsrYacht_FormPage'
+2026-02-20 14:29:26,251 Added - 1 cs-CZ resource values for schema 'UsrYacht'
+2026-02-20 14:29:26,251 Added - 1 pt-BR resource values for schema 'UsrYachtStatus'
+2026-02-20 14:29:26,251 Added - 1 tr-TR resource values for schema 'UsrYachtDriveType'
+2026-02-20 14:29:26,251 Added - 1 sq-AL resource values for schema 'UsrYachtDriveType'
+2026-02-20 14:29:26,251 Added - 1 hu-HU resource values for schema 'UsrYachtDriveType'
+2026-02-20 14:29:26,251 Added - 1 he-IL resource values for schema 'UsrYachtStatus'
+2026-02-20 14:29:26,251 Added - 1 pl-PL resource values for schema 'UsrYacht'
+2026-02-20 14:29:26,251 Added - 1 it-IT resource values for schema 'UsrYacht'
+2026-02-20 14:29:26,251 Added - 1 ar-SA resource values for schema 'UsrYachtDriveType'
+2026-02-20 14:29:26,251 Added - 1 nl-NL resource values for schema 'UsrYacht_FormPage'
+2026-02-20 14:29:26,251 Added - 2 tr-TR resource values for schema 'UsrTrafficLight'
+2026-02-20 14:29:26,251 Added - 1 vi-VN resource values for schema 'UsrYacht'
+2026-02-20 14:29:26,251 Added - 1 vi-VN resource values for schema 'UsrYacht_FormPage'
+2026-02-20 14:29:26,251 Added - 1 ar-SA resource values for schema 'UsrYacht_FormPage'
+2026-02-20 14:29:26,251 Added - 1 sv-SE resource values for schema 'UsrYacht_FormPage'
+2026-02-20 14:29:26,251 Added - 1 hu-HU resource values for schema 'UsrYachtStatus'
+2026-02-20 14:29:26,251 Added - 1 pt-PT resource values for schema 'UsrYachtDriveType'
+2026-02-20 14:29:26,251 Added - 1 th-TH resource values for schema 'UsrYachtStatus'
+2026-02-20 14:29:26,251 Added - 1 bg-BG resource values for schema 'UsrYachtDriveType'
+2026-02-20 14:29:26,251 Added - 1 th-TH resource values for schema 'UsrYacht_ListPage'
+2026-02-20 14:29:26,251 Added - 4 en-US resource values for schema 'UsrYacht_FormPage'
+2026-02-20 14:29:26,251 Added - 1 pl-PL resource values for schema 'UsrYachtDriveType'
+2026-02-20 14:29:26,251 Added - 1 hr-HR resource values for schema 'UsrYachtDriveType'
+2026-02-20 14:29:26,251 Added - 1 sv-SE resource values for schema 'UsrYacht_ListPage'
+2026-02-20 14:29:26,251 Added - 1 uk-UA resource values for schema 'UsrYachtStatus'
+2026-02-20 14:29:26,251 Added - 1 it-IT resource values for schema 'UsrYacht_ListPage'
+2026-02-20 14:29:26,251 Added - 1 uk-UA resource values for schema 'UsrYacht_FormPage'
+2026-02-20 14:29:26,251 Added - 2 en-US resource values for schema 'UsrYachtDriveType'
+2026-02-20 14:29:26,251 Added - 1 ar-SA resource values for schema 'UsrYacht'
+2026-02-20 14:29:26,251 Added - 1 vi-VN resource values for schema 'UsrYacht_ListPage'
+2026-02-20 14:29:26,261 Added - 2 ru-RU resource values for schema 'UsrTrafficLight'
+2026-02-20 14:29:26,261 Added - 1 ja-JP resource values for schema 'UsrYachtStatus'
+2026-02-20 14:29:26,261 Added - 1 vi-VN resource values for schema 'UsrYachtStatus'
+2026-02-20 14:29:26,261 Added - 1 uk-UA resource values for schema 'UsrYachtDriveType'
+2026-02-20 14:29:26,261 Added - 2 en-US resource values for schema 'UsrYacht_MobileListPage'
+2026-02-20 14:29:26,261 Added - 1 en-US resource values for schema 'UsrYachtRelatedPage'
+2026-02-20 14:29:26,261 Added - 1 cs-CZ resource values for schema 'UsrYacht_FormPage'
+2026-02-20 14:29:26,261 Added - 1 cs-CZ resource values for schema 'UsrYacht_ListPage'
+2026-02-20 14:29:26,261 Added - 1 fr-FR resource values for schema 'UsrYacht_ListPage'
+2026-02-20 14:29:26,261 Added - 1 es-ES resource values for schema 'UsrYacht_FormPage'
+2026-02-20 14:29:26,261 Added - 1 he-IL resource values for schema 'UsrYacht_ListPage'
+2026-02-20 14:29:26,261 Added - 1 pt-BR resource values for schema 'UsrYacht_FormPage'
+2026-02-20 14:29:26,261 Added - 1 hr-HR resource values for schema 'UsrYachtStatus'
+2026-02-20 14:29:26,261 Added - 2 en-US resource values for schema 'UsrYacht_Detail'
+2026-02-20 14:29:26,261 Added - 1 sq-AL resource values for schema 'UsrYachtStatus'
+2026-02-20 14:29:26,261 Added - 1 zh-TW resource values for schema 'UsrYachtDriveType'
+2026-02-20 14:29:26,261 Added - 1 fr-FR resource values for schema 'UsrYachtDriveType'
+2026-02-20 14:29:26,261 Added - 1 ru-RU resource values for schema 'UsrYacht_ListPage'
+2026-02-20 14:29:26,273 Added - 7 en-US resource values for schema 'UsrVwContactAgeDays'
+2026-02-20 14:29:26,273 Added - 1 ru-RU resource values for schema 'UsrYacht_FormPage'
+2026-02-20 14:29:26,273 Added - 1 ru-RU resource values for schema 'UsrYachtStatus'
+2026-02-20 14:29:26,273 Added - 1 bg-BG resource values for schema 'UsrYachtStatus'
+2026-02-20 14:29:26,273 Added - 1 pt-PT resource values for schema 'UsrYacht_ListPage'
+2026-02-20 14:29:26,273 Added - 1 ro-RO resource values for schema 'UsrYacht_FormPage'
+2026-02-20 14:29:26,273 Added - 1 en-US resource values for schema 'UsrYachtMobileRelatedPage'
+2026-02-20 14:29:26,273 Added - 1 it-IT resource values for schema 'UsrYachtStatus'
+2026-02-20 14:29:26,273 Added - 1 pt-BR resource values for schema 'UsrYacht_ListPage'
+2026-02-20 14:29:26,273 Added - 1 vi-VN resource values for schema 'UsrYachtDriveType'
+2026-02-20 14:29:26,273 Added - 1 he-IL resource values for schema 'UsrYacht_FormPage'
+2026-02-20 14:29:26,273 Added - 1 ru-RU resource values for schema 'UsrYacht_MobileFormPage'
+2026-02-20 14:29:26,273 Added - 1 nl-NL resource values for schema 'UsrYacht_ListPage'
+2026-02-20 14:29:26,273 Added - 1 id-ID resource values for schema 'UsrYachtStatus'
+2026-02-20 14:29:26,273 Added - 1 th-TH resource values for schema 'UsrYacht_FormPage'
+2026-02-20 14:29:26,273 Added - 1 es-ES resource values for schema 'UsrYachtStatus'
+2026-02-20 14:29:26,273 Added - 1 ro-RO resource values for schema 'UsrYacht_ListPage'
+2026-02-20 14:29:26,273 Added - 1 ar-SA resource values for schema 'UsrYacht_ListPage'
+2026-02-20 14:29:26,273 Added - 1 de-DE resource values for schema 'UsrYacht_FormPage'
+2026-02-20 14:29:26,273 Added - 1 ro-RO resource values for schema 'UsrYachtStatus'
+2026-02-20 14:29:26,273 Added - 1 en-US resource values for schema 'UsrYacht_MobileFormPage'
+2026-02-20 14:29:26,273 Added - 1 zh-TW resource values for schema 'UsrYachtStatus'
+2026-02-20 14:29:26,273 Added - 2 ru-RU resource values for schema 'UsrYacht_Detail'
+2026-02-20 14:29:26,273 Added - 2 en-US resource values for schema 'UsrYachtStatus'
+2026-02-20 14:29:26,286 Added - 7 en-US resource values for schema 'UsrTestProcess'
+2026-02-20 14:29:26,293 Added - 9 en-US resource values for schema 'UsrYacht'
+2026-02-20 14:29:31,453 InstallColumnLookupValues. Count (total): 1
+2026-02-20 14:29:31,453 Count (by package [cd548646-0af3-42dd-b037-549a354225db]): 6
+2026-02-20 14:29:31,453 Count (by schema [SysWorkplace]): 4
+2026-02-20 14:29:31,493 Count (by schema [SysSettingsValue]): 1
+2026-02-20 14:29:31,503 Count (by schema [SysAdminUnitInWorkplace]): 2
+2026-02-20 14:29:31,523 Count (by schema [SysModuleInWorkplace]): 3
+2026-02-20 14:29:31,551 Count (by schema [Lookup]): 56
+2026-02-20 14:29:31,963 Count (by schema [SysModule]): 28
+2026-02-20 14:29:32,662 <-- PackageFileDesignModeDBStorage.Save
+2026-02-20 14:29:32,662 <-- PackageInstallUtilities.LoadPackagesToDB
+2026-02-20 14:29:49,357 --> PackageDBStorage.Load
+2026-02-20 14:29:49,394 <-- PackageDBStorage.Load
+2026-02-20 14:30:19,846 --> PackageDBStorage.Load
+2026-02-20 14:30:19,880 <-- PackageDBStorage.Load
+2026-02-20 14:30:25,212 --> PackageDBStorage.Load
+2026-02-20 14:30:25,246 <-- PackageDBStorage.Load
+2026-02-20 14:30:31,653 --> PackageDBStorage.Load
+2026-02-20 14:30:31,688 <-- PackageDBStorage.Load
+2026-02-20 14:31:08,446 --> PackageDBStorage.Load
+2026-02-20 14:31:08,526 <-- PackageDBStorage.Load
+2026-02-20 14:31:18,976 --> PackageDBStorage.Load
+2026-02-20 14:32:23,695 <-- PackageDBStorage.Load
+2026-02-20 14:32:39,025 --> PackageDBStorage.Load
+2026-02-20 14:33:30,351 <-- PackageDBStorage.Load
+2026-02-20 15:19:10,443 --> PackageInstallUtilities.LoadPackagesToFileSystem
+2026-02-20 15:19:10,443 --> PackageStorageComposer.Compose
+2026-02-20 15:19:10,443 --> PackageFileDesignModeDBStorage.Load
+2026-02-20 15:19:55,468 <-- PackageFileDesignModeDBStorage.Load
+2026-02-20 15:19:55,468 --> PackageFileDesignModeStorage.Load
+2026-02-20 15:19:57,272 <-- PackageFileDesignModeStorage.Load
+2026-02-20 15:19:57,272 --> PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-20 15:19:57,280 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2026-02-20 15:19:57,280 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2026-02-20 15:19:57,280 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-20 15:19:57,291 --> PackageFileDesignModeStorage.ActualizePackageResourcesState
+2026-02-20 15:19:57,291 <-- PackageFileDesignModeStorage.ActualizePackageResourcesState
+2026-02-20 15:19:57,291 <-- PackageStorageComposer.Compose
+2026-02-20 15:19:57,305 --> PackageFileDesignModeStorage.Save: Packages [166] Schemas [6113] ReferenceAssemblies [31] SqlScripts [977] PackageData [3380] SchemaResources [158975] CoreResources [0]
+2026-02-20 15:19:57,305 --> PackageFileDesignModeStorage.MarkNotEditablePackagesAsNotChanged
+2026-02-20 15:19:57,305 <-- PackageFileDesignModeStorage.MarkNotEditablePackagesAsNotChanged
+2026-02-20 15:19:57,305 --> PackageFileDesignModeStorage.DeletePackageItems - UsrYacht
+2026-02-20 15:19:57,305 <-- PackageFileDesignModeStorage.DeletePackageItems - UsrYacht
+2026-02-20 15:19:57,305 --> PackageFileDesignModeStorage.UpdatePackage - UsrYacht
+2026-02-20 15:19:57,305 --> PackageFileDesignModeStorage.SavePackage - UsrYacht
+2026-02-20 15:19:57,305 --> PackageFileDesignModeStorage.SavePackageDescriptor - UsrYacht
+2026-02-20 15:19:57,313 <-- PackageFileDesignModeStorage.SavePackageDescriptor - UsrYacht
+2026-02-20 15:19:57,313 --> PackageFileDesignModeStorage.SaveStandalonePackageSpecificFiles - UsrYacht
+2026-02-20 15:19:57,352 <-- PackageFileDesignModeStorage.SaveStandalonePackageSpecificFiles - UsrYacht
+2026-02-20 15:19:57,352 --> PackageFileDesignModeStorage.SavePackageSchemas - UsrYacht
+2026-02-20 15:19:57,352 <-- PackageFileDesignModeStorage.SavePackageSchemas - UsrYacht
+2026-02-20 15:19:59,596 --> PackageFileDesignModeStorage.SavePackageReferenceAssemblies - UsrYacht
+2026-02-20 15:19:59,599 <-- PackageFileDesignModeStorage.SavePackageReferenceAssemblies - UsrYacht
+2026-02-20 15:19:59,599 --> PackageFileDesignModeStorage.SavePackageSqlScripts - UsrYacht
+2026-02-20 15:19:59,662 <-- PackageFileDesignModeStorage.SavePackageSqlScripts - UsrYacht
+2026-02-20 15:19:59,662 --> PackageFileDesignModeStorage.SavePackageData - UsrYacht
+2026-02-20 15:19:59,662 <-- PackageFileDesignModeStorage.SavePackageData - UsrYacht
+2026-02-20 15:19:59,662 <-- PackageFileDesignModeStorage.SavePackage - UsrYacht
+2026-02-20 15:19:59,662 <-- PackageFileDesignModeStorage.UpdatePackage - UsrYacht
+2026-02-20 15:20:02,046 <-- PackageFileDesignModeStorage.Save
+2026-02-20 15:20:02,046 --> PackageInstallUtilities.UpdatePackagesAutogeneratedContent
+2026-02-20 15:20:02,046 --> PackageDBStorage.Load
+2026-02-20 15:20:43,577 <-- PackageDBStorage.Load
+2026-02-20 15:21:02,036 --> PackageInstallUtilities.UpdateWorkspaceSolution
+2026-02-20 15:21:02,036 --> PackageDBStorage.Load
+2026-02-20 15:21:43,962 <-- PackageDBStorage.Load
+2026-02-20 15:22:21,124 <-- PackageInstallUtilities.UpdateWorkspaceSolution
+2026-02-20 15:22:21,124 <-- PackageInstallUtilities.UpdatePackagesAutogeneratedContent
+2026-02-20 15:22:21,124 <-- PackageInstallUtilities.LoadPackagesToFileSystem
+2026-02-20 15:26:04,289 --> PackageDBStorage.Load
+2026-02-20 15:26:45,519 <-- PackageDBStorage.Load
+2026-02-20 15:26:55,357 --> PackageDBStorage.Load
+2026-02-20 15:27:37,035 <-- PackageDBStorage.Load
+2026-02-20 15:33:48,712 --> PackageInstallUtilities.LoadPackagesToFileSystem
+2026-02-20 15:33:48,712 --> PackageStorageComposer.Compose
+2026-02-20 15:33:48,712 --> PackageFileDesignModeDBStorage.Load
+2026-02-20 15:34:36,202 <-- PackageFileDesignModeDBStorage.Load
+2026-02-20 15:34:36,202 --> PackageFileDesignModeStorage.Load
+2026-02-20 15:34:38,117 <-- PackageFileDesignModeStorage.Load
+2026-02-20 15:34:38,117 --> PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-20 15:34:38,127 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2026-02-20 15:34:38,130 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2026-02-20 15:34:38,130 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-20 15:34:38,143 --> PackageFileDesignModeStorage.ActualizePackageResourcesState
+2026-02-20 15:34:38,143 <-- PackageFileDesignModeStorage.ActualizePackageResourcesState
+2026-02-20 15:34:38,143 <-- PackageStorageComposer.Compose
+2026-02-20 15:34:38,155 --> PackageFileDesignModeStorage.Save: Packages [165] Schemas [6113] ReferenceAssemblies [31] SqlScripts [975] PackageData [3380] SchemaResources [158975] CoreResources [0]
+2026-02-20 15:34:38,155 --> PackageFileDesignModeStorage.MarkNotEditablePackagesAsNotChanged
+2026-02-20 15:34:38,155 <-- PackageFileDesignModeStorage.MarkNotEditablePackagesAsNotChanged
+2026-02-20 15:34:38,155 <-- PackageFileDesignModeStorage.Save
+2026-02-20 15:34:38,160 <-- PackageInstallUtilities.LoadPackagesToFileSystem

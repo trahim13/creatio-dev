@@ -1,0 +1,10 @@
+/app/Terrasoft.Configuration/Pkg/UsrYacht/Files/Bin/netstandard/UsrYacht.deps.json
+/app/Terrasoft.Configuration/Pkg/UsrYacht/Files/Bin/netstandard/UsrYacht.dll
+/app/Terrasoft.Configuration/Pkg/UsrYacht/Files/Bin/netstandard/UsrYacht.pdb
+/app/Terrasoft.Configuration/Pkg/UsrYacht/Files/obj/Release/UsrYacht.csproj.AssemblyReference.cache
+/app/Terrasoft.Configuration/Pkg/UsrYacht/Files/obj/Release/UsrYacht.GeneratedMSBuildEditorConfig.editorconfig
+/app/Terrasoft.Configuration/Pkg/UsrYacht/Files/obj/Release/UsrYacht.AssemblyInfoInputs.cache
+/app/Terrasoft.Configuration/Pkg/UsrYacht/Files/obj/Release/UsrYacht.AssemblyInfo.cs
+/app/Terrasoft.Configuration/Pkg/UsrYacht/Files/obj/Release/UsrYacht.csproj.CoreCompileInputs.cache
+/app/Terrasoft.Configuration/Pkg/UsrYacht/Files/obj/Release/UsrYacht.dll
+/app/Terrasoft.Configuration/Pkg/UsrYacht/Files/obj/Release/UsrYacht.pdb

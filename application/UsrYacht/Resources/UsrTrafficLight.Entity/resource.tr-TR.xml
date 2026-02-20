@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="tr-TR">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Nesne" />
+			<Item Name="EventsProcessSchema.Caption" Value="Temel nesne" />
+		</Items>
+	</Group>
+</Resources>

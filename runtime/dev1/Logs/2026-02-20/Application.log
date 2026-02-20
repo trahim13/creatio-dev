@@ -2,3 +2,27 @@
 2026-02-20 08:27:35,364 [1] WARN  Terrasoft.Core.LicManager Initialize - [ExtendedLicenseLogging] LicManager.Initialize finished
 2026-02-20 08:31:53,063 [.NET TP Worker] WARN Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - [ExtendedLicenseLogging] RedistributeUserLicenses called for user: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
 2026-02-20 08:31:53,071 [.NET TP Worker] INFO Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - Redistribution: package count = 0, userId=7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-20 08:40:28,763 [.NET TP Worker] WARN Supervisor Terrasoft.Core.LicManager RefreshPackagesLicOperationsCache - [ExtendedLicenseLogging] RefreshPackagesLicOperationsCache called
+2026-02-20 09:02:56,532 [.NET TP Worker] WARN Supervisor Terrasoft.Core.LicManager RefreshPackagesLicOperationsCache - [ExtendedLicenseLogging] RefreshPackagesLicOperationsCache called
+2026-02-20 09:25:21,161 [.NET TP Worker] WARN Supervisor Terrasoft.Core.LicManager OnPackageLicOperationManagerChanged - [ExtendedLicenseLogging] RefreshPackagesLicOperationsCache called
+2026-02-20 09:26:51,860 [.NET TP Worker] WARN Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - [ExtendedLicenseLogging] RedistributeUserLicenses called for user: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-20 09:26:51,868 [.NET TP Worker] INFO Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - Redistribution: package count = 0, userId=7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-20 09:33:33,899 [.NET TP Worker] WARN Supervisor Terrasoft.Core.LicManager OnPackageLicOperationManagerChanged - [ExtendedLicenseLogging] RefreshPackagesLicOperationsCache called
+2026-02-20 09:37:35,835 [.NET TP Worker] WARN Supervisor Terrasoft.Core.LicManager OnPackageLicOperationManagerChanged - [ExtendedLicenseLogging] RefreshPackagesLicOperationsCache called
+2026-02-20 10:05:30,500 [1] WARN  Terrasoft.Core.LicManager Initialize - [ExtendedLicenseLogging] LicManager.Initialize started
+2026-02-20 10:05:30,500 [1] WARN  Terrasoft.Core.LicManager Initialize - [ExtendedLicenseLogging] LicManager.Initialize finished
+2026-02-20 10:09:59,665 [1] WARN  Terrasoft.Core.LicManager Initialize - [ExtendedLicenseLogging] LicManager.Initialize started
+2026-02-20 10:09:59,665 [1] WARN  Terrasoft.Core.LicManager Initialize - [ExtendedLicenseLogging] LicManager.Initialize finished
+2026-02-20 13:49:37,999 [1] WARN  Terrasoft.Core.LicManager Initialize - [ExtendedLicenseLogging] LicManager.Initialize started
+2026-02-20 13:49:37,999 [1] WARN  Terrasoft.Core.LicManager Initialize - [ExtendedLicenseLogging] LicManager.Initialize finished
+2026-02-20 13:50:30,470 [.NET TP Worker] WARN Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - [ExtendedLicenseLogging] RedistributeUserLicenses called for user: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-20 13:50:30,474 [.NET TP Worker] INFO Supervisor Terrasoft.Core.LicManager GetUserLicensesRedistributions - Redistribution: package count = 0, userId=7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-20 13:52:46,479 [.NET TP Worker] WARN Supervisor Terrasoft.Core.LicManager RefreshPackagesLicOperationsCache - [ExtendedLicenseLogging] RefreshPackagesLicOperationsCache called
+2026-02-20 13:53:14,917 [1] WARN  Terrasoft.Core.LicManager Initialize - [ExtendedLicenseLogging] LicManager.Initialize started
+2026-02-20 13:53:14,917 [1] WARN  Terrasoft.Core.LicManager Initialize - [ExtendedLicenseLogging] LicManager.Initialize finished
+2026-02-20 13:54:10,036 [.NET TP Worker] WARN Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - [ExtendedLicenseLogging] RedistributeUserLicenses called for user: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-20 13:54:10,044 [.NET TP Worker] INFO Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - Redistribution: package count = 0, userId=7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-20 13:57:15,286 [.NET TP Worker] WARN Supervisor Terrasoft.Core.LicManager RefreshPackagesLicOperationsCache - [ExtendedLicenseLogging] RefreshPackagesLicOperationsCache called
+2026-02-20 14:04:18,558 [1] WARN  Terrasoft.Core.LicManager Initialize - [ExtendedLicenseLogging] LicManager.Initialize started
+2026-02-20 14:04:18,558 [1] WARN  Terrasoft.Core.LicManager Initialize - [ExtendedLicenseLogging] LicManager.Initialize finished
+2026-02-20 14:29:26,916 [.NET TP Worker] WARN Supervisor Terrasoft.Core.LicManager RefreshPackagesLicOperationsCache - [ExtendedLicenseLogging] RefreshPackagesLicOperationsCache called

@@ -39,3 +39,1265 @@
 2026-02-20 08:35:00,025 INFO  Process StartWithinLock - Successfully acquired lock for key: 90e7b9ba-1080-421e-b918-867037dd54eb
 2026-02-20 08:36:00,021 INFO  Process StartWithinLock - Attempting to acquire lock for key: 11e8fda2-6b95-408d-a444-dae8fd95d5a9 with timeout: 00:00:00
 2026-02-20 08:36:00,023 INFO  Process StartWithinLock - Successfully acquired lock for key: 11e8fda2-6b95-408d-a444-dae8fd95d5a9
+2026-02-20 08:37:00,027 INFO  Process StartWithinLock - Attempting to acquire lock for key: b40ffbb2-cb26-4dcc-befa-61adf7080667 with timeout: 00:00:00
+2026-02-20 08:37:00,027 INFO  Process StartWithinLock - Successfully acquired lock for key: b40ffbb2-cb26-4dcc-befa-61adf7080667
+2026-02-20 08:38:00,025 INFO  Process StartWithinLock - Attempting to acquire lock for key: 59692436-d532-42fd-a4ed-202082d618a7 with timeout: 00:00:00
+2026-02-20 08:38:00,025 INFO  Process StartWithinLock - Successfully acquired lock for key: 59692436-d532-42fd-a4ed-202082d618a7
+2026-02-20 08:38:22,578 INFO  Process Register - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 8:43:22 AM +00:00
+2026-02-20 08:39:00,018 INFO  Process StartWithinLock - Attempting to acquire lock for key: 7e0519e3-6d18-4145-a7c8-67a3c58ea41a with timeout: 00:00:00
+2026-02-20 08:39:00,018 INFO  Process StartWithinLock - Successfully acquired lock for key: 7e0519e3-6d18-4145-a7c8-67a3c58ea41a
+2026-02-20 08:40:00,032 INFO  Process StartWithinLock - Attempting to acquire lock for key: 423887eb-57db-4a88-acf5-493645edfe6e with timeout: 00:00:00
+2026-02-20 08:40:00,033 INFO  Process StartWithinLock - Successfully acquired lock for key: 423887eb-57db-4a88-acf5-493645edfe6e
+2026-02-20 08:40:00,045 INFO  Process StartWithinLock - Attempting to acquire lock for key: 0d5f33c0-fb95-4099-94ca-56a8cd8d7c48 with timeout: 00:00:00
+2026-02-20 08:40:00,045 INFO  Process StartWithinLock - Successfully acquired lock for key: 0d5f33c0-fb95-4099-94ca-56a8cd8d7c48
+2026-02-20 08:41:00,134 INFO  Process StartWithinLock - Attempting to acquire lock for key: d3a03d0d-022d-42a1-ae92-e64d8f62b11a with timeout: 00:00:00
+2026-02-20 08:41:00,134 INFO  Process StartWithinLock - Successfully acquired lock for key: d3a03d0d-022d-42a1-ae92-e64d8f62b11a
+2026-02-20 08:42:00,017 INFO  Process StartWithinLock - Attempting to acquire lock for key: b67c3742-1f04-4d12-93de-94b8bee2e719 with timeout: 00:00:00
+2026-02-20 08:42:00,017 INFO  Process StartWithinLock - Successfully acquired lock for key: b67c3742-1f04-4d12-93de-94b8bee2e719
+2026-02-20 08:43:00,029 INFO  Process StartWithinLock - Attempting to acquire lock for key: a1295832-49d6-4e59-98c3-cd2282ae7d5f with timeout: 00:00:00
+2026-02-20 08:43:00,029 INFO  Process StartWithinLock - Successfully acquired lock for key: a1295832-49d6-4e59-98c3-cd2282ae7d5f
+2026-02-20 08:43:22,626 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 8:48:22 AM +00:00
+2026-02-20 08:44:00,035 INFO  Process StartWithinLock - Attempting to acquire lock for key: 799d6089-0c0b-4dda-a848-5119be79e2a0 with timeout: 00:00:00
+2026-02-20 08:44:00,035 INFO  Process StartWithinLock - Successfully acquired lock for key: 799d6089-0c0b-4dda-a848-5119be79e2a0
+2026-02-20 08:45:00,029 INFO  Process StartWithinLock - Attempting to acquire lock for key: 0a60ffdd-a45b-4e35-81f8-dbd642247441 with timeout: 00:00:00
+2026-02-20 08:45:00,029 INFO  Process StartWithinLock - Successfully acquired lock for key: 0a60ffdd-a45b-4e35-81f8-dbd642247441
+2026-02-20 08:46:00,018 INFO  Process StartWithinLock - Attempting to acquire lock for key: 88333cb6-71e5-4d6b-84f9-ee49892b99ba with timeout: 00:00:00
+2026-02-20 08:46:00,018 INFO  Process StartWithinLock - Successfully acquired lock for key: 88333cb6-71e5-4d6b-84f9-ee49892b99ba
+2026-02-20 08:47:00,025 INFO  Process StartWithinLock - Attempting to acquire lock for key: e5e6375b-3003-477e-bce8-b7fec73819b2 with timeout: 00:00:00
+2026-02-20 08:47:00,025 INFO  Process StartWithinLock - Successfully acquired lock for key: e5e6375b-3003-477e-bce8-b7fec73819b2
+2026-02-20 08:48:00,024 INFO  Process StartWithinLock - Attempting to acquire lock for key: 60528543-97b3-44e1-b6b1-e3b3236bd3cb with timeout: 00:00:00
+2026-02-20 08:48:00,024 INFO  Process StartWithinLock - Successfully acquired lock for key: 60528543-97b3-44e1-b6b1-e3b3236bd3cb
+2026-02-20 08:48:22,682 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 8:53:22 AM +00:00
+2026-02-20 08:49:00,018 INFO  Process StartWithinLock - Attempting to acquire lock for key: ce6150ac-ddf5-422d-9b47-efe6429f8e0d with timeout: 00:00:00
+2026-02-20 08:49:00,018 INFO  Process StartWithinLock - Successfully acquired lock for key: ce6150ac-ddf5-422d-9b47-efe6429f8e0d
+2026-02-20 08:50:00,029 INFO  Process StartWithinLock - Attempting to acquire lock for key: ba761d5c-c168-4a36-b64b-32aa487968b8 with timeout: 00:00:00
+2026-02-20 08:50:00,029 INFO  Process StartWithinLock - Successfully acquired lock for key: ba761d5c-c168-4a36-b64b-32aa487968b8
+2026-02-20 08:50:00,052 INFO  Process StartWithinLock - Attempting to acquire lock for key: 699f7f98-50a0-4a1f-bac8-e5cc9d13de4a with timeout: 00:00:00
+2026-02-20 08:50:00,052 INFO  Process StartWithinLock - Successfully acquired lock for key: 699f7f98-50a0-4a1f-bac8-e5cc9d13de4a
+2026-02-20 08:51:00,017 INFO  Process StartWithinLock - Attempting to acquire lock for key: e11fb99b-69fb-46c6-9479-7f16a15c73fc with timeout: 00:00:00
+2026-02-20 08:51:00,017 INFO  Process StartWithinLock - Successfully acquired lock for key: e11fb99b-69fb-46c6-9479-7f16a15c73fc
+2026-02-20 08:52:00,017 INFO  Process StartWithinLock - Attempting to acquire lock for key: fb2d15fd-8271-4aca-9cfb-32ef2607c2d6 with timeout: 00:00:00
+2026-02-20 08:52:00,017 INFO  Process StartWithinLock - Successfully acquired lock for key: fb2d15fd-8271-4aca-9cfb-32ef2607c2d6
+2026-02-20 08:53:00,031 INFO  Process StartWithinLock - Attempting to acquire lock for key: 760c2109-e764-41c5-8631-8446e9b64a5b with timeout: 00:00:00
+2026-02-20 08:53:00,031 INFO  Process StartWithinLock - Successfully acquired lock for key: 760c2109-e764-41c5-8631-8446e9b64a5b
+2026-02-20 08:53:22,689 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 8:58:22 AM +00:00
+2026-02-20 08:54:00,018 INFO  Process StartWithinLock - Attempting to acquire lock for key: ba6ad2c6-0801-4d11-ad07-e89ba5ccb87e with timeout: 00:00:00
+2026-02-20 08:54:00,018 INFO  Process StartWithinLock - Successfully acquired lock for key: ba6ad2c6-0801-4d11-ad07-e89ba5ccb87e
+2026-02-20 08:55:00,028 INFO  Process StartWithinLock - Attempting to acquire lock for key: c0d42d17-fc8b-4599-a07f-167cb4db23f2 with timeout: 00:00:00
+2026-02-20 08:55:00,028 INFO  Process StartWithinLock - Successfully acquired lock for key: c0d42d17-fc8b-4599-a07f-167cb4db23f2
+2026-02-20 08:56:00,025 INFO  Process StartWithinLock - Attempting to acquire lock for key: 3b66e2a1-b93b-4e58-8607-118c7b0929b7 with timeout: 00:00:00
+2026-02-20 08:56:00,026 INFO  Process StartWithinLock - Successfully acquired lock for key: 3b66e2a1-b93b-4e58-8607-118c7b0929b7
+2026-02-20 08:57:00,018 INFO  Process StartWithinLock - Attempting to acquire lock for key: 7fdfb489-bbdb-4bad-b2d5-3380c427f14f with timeout: 00:00:00
+2026-02-20 08:57:00,018 INFO  Process StartWithinLock - Successfully acquired lock for key: 7fdfb489-bbdb-4bad-b2d5-3380c427f14f
+2026-02-20 08:58:00,036 INFO  Process StartWithinLock - Attempting to acquire lock for key: 24e2c944-ab37-4260-b365-12b613649835 with timeout: 00:00:00
+2026-02-20 08:58:00,036 INFO  Process StartWithinLock - Successfully acquired lock for key: 24e2c944-ab37-4260-b365-12b613649835
+2026-02-20 08:58:22,697 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 9:03:22 AM +00:00
+2026-02-20 08:59:00,009 INFO  Process StartWithinLock - Attempting to acquire lock for key: 458358c5-8aa1-41fb-bad4-b946b51ec562 with timeout: 00:00:00
+2026-02-20 08:59:00,012 INFO  Process StartWithinLock - Successfully acquired lock for key: 458358c5-8aa1-41fb-bad4-b946b51ec562
+2026-02-20 09:00:00,053 INFO  Process StartWithinLock - Attempting to acquire lock for key: 69aa0a74-5919-4b9b-8ccb-df1b6a1509f0 with timeout: 00:00:00
+2026-02-20 09:00:00,053 INFO  Process StartWithinLock - Successfully acquired lock for key: 69aa0a74-5919-4b9b-8ccb-df1b6a1509f0
+2026-02-20 09:00:00,066 INFO  Process StartWithinLock - Attempting to acquire lock for key: ef7ebf7e-8445-41a3-be79-0affc97950d6 with timeout: 00:00:00
+2026-02-20 09:00:00,066 INFO  Process StartWithinLock - Successfully acquired lock for key: ef7ebf7e-8445-41a3-be79-0affc97950d6
+2026-02-20 09:00:00,068 INFO  Process StartWithinLock - Attempting to acquire lock for key: 43251971-7800-41c4-a70e-a2a2bb865f26 with timeout: 00:00:00
+2026-02-20 09:00:00,068 INFO  Process StartWithinLock - Successfully acquired lock for key: 43251971-7800-41c4-a70e-a2a2bb865f26
+2026-02-20 09:00:00,120 INFO  Process StartWithinLock - Attempting to acquire lock for key: 9ad8d049-4c71-4c50-b16d-36fb8736a370 with timeout: 00:00:00
+2026-02-20 09:00:00,120 INFO  Process StartWithinLock - Successfully acquired lock for key: 9ad8d049-4c71-4c50-b16d-36fb8736a370
+2026-02-20 09:01:00,012 INFO  Process StartWithinLock - Attempting to acquire lock for key: 7d83d279-9b80-4a7e-aa6a-0f1b42815909 with timeout: 00:00:00
+2026-02-20 09:01:00,012 INFO  Process StartWithinLock - Successfully acquired lock for key: 7d83d279-9b80-4a7e-aa6a-0f1b42815909
+2026-02-20 09:01:58,523 ERROR  Process HandleFailure - System.Net.WebException: An error occurred while sending the request.
+ ---> System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.Net.Http.HttpIOException: The response ended prematurely. (ResponseEnded)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Terrasoft.Services.Runtime.HttpWebExtensions.GetResponseAsync(HttpWebRequest source, CancellationToken cancellationToken)
+2026-02-20 09:02:00,013 INFO  Process StartWithinLock - Attempting to acquire lock for key: 28a25425-3ddc-4687-9197-1c6cf2dec66b with timeout: 00:00:00
+2026-02-20 09:02:00,013 INFO  Process StartWithinLock - Successfully acquired lock for key: 28a25425-3ddc-4687-9197-1c6cf2dec66b
+2026-02-20 09:02:00,836 ERROR  Process HandleFailure - System.Net.WebException: An error occurred while sending the request.
+ ---> System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.Net.Http.HttpIOException: The response ended prematurely. (ResponseEnded)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Terrasoft.Services.Runtime.HttpWebExtensions.GetResponseAsync(HttpWebRequest source, CancellationToken cancellationToken)
+2026-02-20 09:02:04,995 ERROR  Process HandleFailure - System.Net.WebException: An error occurred while sending the request.
+ ---> System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.Net.Http.HttpIOException: The response ended prematurely. (ResponseEnded)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Terrasoft.Services.Runtime.HttpWebExtensions.GetResponseAsync(HttpWebRequest source, CancellationToken cancellationToken)
+2026-02-20 09:02:13,146 ERROR  Process HandleFailure - System.Net.WebException: An error occurred while sending the request.
+ ---> System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.Net.Http.HttpIOException: The response ended prematurely. (ResponseEnded)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Terrasoft.Services.Runtime.HttpWebExtensions.GetResponseAsync(HttpWebRequest source, CancellationToken cancellationToken)
+2026-02-20 09:03:00,035 INFO  Process StartWithinLock - Attempting to acquire lock for key: 32aef2fa-926c-4b75-9ca0-964af850395e with timeout: 00:00:00
+2026-02-20 09:03:00,035 INFO  Process StartWithinLock - Successfully acquired lock for key: 32aef2fa-926c-4b75-9ca0-964af850395e
+2026-02-20 09:03:22,707 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 9:08:22 AM +00:00
+2026-02-20 09:04:00,037 INFO  Process StartWithinLock - Attempting to acquire lock for key: 6c12d3fe-4dcd-48cc-b846-af5932bb1df5 with timeout: 00:00:00
+2026-02-20 09:04:00,037 INFO  Process StartWithinLock - Successfully acquired lock for key: 6c12d3fe-4dcd-48cc-b846-af5932bb1df5
+2026-02-20 09:05:00,008 INFO  Process StartWithinLock - Attempting to acquire lock for key: 7a5fc854-de08-45b6-bb7b-421766f84a63 with timeout: 00:00:00
+2026-02-20 09:05:00,008 INFO  Process StartWithinLock - Successfully acquired lock for key: 7a5fc854-de08-45b6-bb7b-421766f84a63
+2026-02-20 09:06:00,009 INFO  Process StartWithinLock - Attempting to acquire lock for key: 8f9192b7-cdc2-462f-a9c9-d241d81e8a84 with timeout: 00:00:00
+2026-02-20 09:06:00,009 INFO  Process StartWithinLock - Successfully acquired lock for key: 8f9192b7-cdc2-462f-a9c9-d241d81e8a84
+2026-02-20 09:07:00,018 INFO  Process StartWithinLock - Attempting to acquire lock for key: 8d6c0f24-3e58-4a1a-8b8f-2ab575eff8d6 with timeout: 00:00:00
+2026-02-20 09:07:00,018 INFO  Process StartWithinLock - Successfully acquired lock for key: 8d6c0f24-3e58-4a1a-8b8f-2ab575eff8d6
+2026-02-20 09:08:00,009 INFO  Process StartWithinLock - Attempting to acquire lock for key: e85d2d1b-0b71-47cd-aa9b-4a6a30695b30 with timeout: 00:00:00
+2026-02-20 09:08:00,009 INFO  Process StartWithinLock - Successfully acquired lock for key: e85d2d1b-0b71-47cd-aa9b-4a6a30695b30
+2026-02-20 09:08:22,715 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 9:13:22 AM +00:00
+2026-02-20 09:09:00,010 INFO  Process StartWithinLock - Attempting to acquire lock for key: a12cd736-e4ff-44a7-a467-fdd32a9a076d with timeout: 00:00:00
+2026-02-20 09:09:00,010 INFO  Process StartWithinLock - Successfully acquired lock for key: a12cd736-e4ff-44a7-a467-fdd32a9a076d
+2026-02-20 09:10:00,011 INFO  Process StartWithinLock - Attempting to acquire lock for key: 297849ff-278c-4ddd-b85f-90b9ad135c1b with timeout: 00:00:00
+2026-02-20 09:10:00,011 INFO  Process StartWithinLock - Successfully acquired lock for key: 297849ff-278c-4ddd-b85f-90b9ad135c1b
+2026-02-20 09:10:00,022 INFO  Process StartWithinLock - Attempting to acquire lock for key: 46bcbacb-bcde-4ef1-b0bf-d3fdd00e6bba with timeout: 00:00:00
+2026-02-20 09:10:00,022 INFO  Process StartWithinLock - Successfully acquired lock for key: 46bcbacb-bcde-4ef1-b0bf-d3fdd00e6bba
+2026-02-20 09:10:27,095 INFO Supervisor Process StartWithinLock - Attempting to acquire lock for key: b9ef4992-55f9-4a0f-b5cb-0407dd9b8254 with timeout: 00:00:00
+2026-02-20 09:10:27,095 INFO Supervisor Process StartWithinLock - Successfully acquired lock for key: b9ef4992-55f9-4a0f-b5cb-0407dd9b8254
+2026-02-20 09:11:00,020 INFO  Process StartWithinLock - Attempting to acquire lock for key: a22bb335-8a8d-4c7b-a2dc-20194985e7be with timeout: 00:00:00
+2026-02-20 09:11:00,020 INFO  Process StartWithinLock - Successfully acquired lock for key: a22bb335-8a8d-4c7b-a2dc-20194985e7be
+2026-02-20 09:12:00,044 INFO  Process StartWithinLock - Attempting to acquire lock for key: de9d5f3d-7079-4bfa-80d5-ec41bdf162a5 with timeout: 00:00:00
+2026-02-20 09:12:00,044 INFO  Process StartWithinLock - Successfully acquired lock for key: de9d5f3d-7079-4bfa-80d5-ec41bdf162a5
+2026-02-20 09:13:00,089 INFO  Process StartWithinLock - Attempting to acquire lock for key: 5596d698-c9de-46d7-9185-687c4a55ffca with timeout: 00:00:00
+2026-02-20 09:13:00,089 INFO  Process StartWithinLock - Successfully acquired lock for key: 5596d698-c9de-46d7-9185-687c4a55ffca
+2026-02-20 09:13:22,720 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 9:18:22 AM +00:00
+2026-02-20 09:14:00,048 INFO  Process StartWithinLock - Attempting to acquire lock for key: c1da843d-a3ed-4283-aaa4-019f7a8834a8 with timeout: 00:00:00
+2026-02-20 09:14:00,048 INFO  Process StartWithinLock - Successfully acquired lock for key: c1da843d-a3ed-4283-aaa4-019f7a8834a8
+2026-02-20 09:15:00,032 INFO  Process StartWithinLock - Attempting to acquire lock for key: 09f8d396-2269-4252-a109-68bb923b925d with timeout: 00:00:00
+2026-02-20 09:15:00,032 INFO  Process StartWithinLock - Successfully acquired lock for key: 09f8d396-2269-4252-a109-68bb923b925d
+2026-02-20 09:16:00,038 INFO  Process StartWithinLock - Attempting to acquire lock for key: 382235fe-a55d-41be-babc-8459fb99a58c with timeout: 00:00:00
+2026-02-20 09:16:00,039 INFO  Process StartWithinLock - Successfully acquired lock for key: 382235fe-a55d-41be-babc-8459fb99a58c
+2026-02-20 09:17:00,039 INFO  Process StartWithinLock - Attempting to acquire lock for key: 02da985b-aa63-478e-bff5-91113aaff8cb with timeout: 00:00:00
+2026-02-20 09:17:00,039 INFO  Process StartWithinLock - Successfully acquired lock for key: 02da985b-aa63-478e-bff5-91113aaff8cb
+2026-02-20 09:18:00,024 INFO  Process StartWithinLock - Attempting to acquire lock for key: 5ea20657-aa0e-4392-baec-df8ff5bbbe5a with timeout: 00:00:00
+2026-02-20 09:18:00,029 INFO  Process StartWithinLock - Successfully acquired lock for key: 5ea20657-aa0e-4392-baec-df8ff5bbbe5a
+2026-02-20 09:18:22,745 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 9:23:22 AM +00:00
+2026-02-20 09:19:00,010 INFO  Process StartWithinLock - Attempting to acquire lock for key: f8145ac3-65dd-4ce4-8787-907854a08bb2 with timeout: 00:00:00
+2026-02-20 09:19:00,010 INFO  Process StartWithinLock - Successfully acquired lock for key: f8145ac3-65dd-4ce4-8787-907854a08bb2
+2026-02-20 09:20:00,039 INFO  Process StartWithinLock - Attempting to acquire lock for key: 489aacc6-c02a-4f75-961e-89079dd57980 with timeout: 00:00:00
+2026-02-20 09:20:00,039 INFO  Process StartWithinLock - Successfully acquired lock for key: 489aacc6-c02a-4f75-961e-89079dd57980
+2026-02-20 09:20:00,049 INFO  Process StartWithinLock - Attempting to acquire lock for key: 7387f4de-b7d7-460c-942f-ed4eb2ee9350 with timeout: 00:00:00
+2026-02-20 09:20:00,049 INFO  Process StartWithinLock - Successfully acquired lock for key: 7387f4de-b7d7-460c-942f-ed4eb2ee9350
+2026-02-20 09:21:00,035 INFO  Process StartWithinLock - Attempting to acquire lock for key: ce408c2b-59e1-4141-b4a5-578d73ae0f07 with timeout: 00:00:00
+2026-02-20 09:21:00,035 INFO  Process StartWithinLock - Successfully acquired lock for key: ce408c2b-59e1-4141-b4a5-578d73ae0f07
+2026-02-20 09:22:00,032 INFO  Process StartWithinLock - Attempting to acquire lock for key: 4f3cb805-6a4b-4725-b92a-2933b974838f with timeout: 00:00:00
+2026-02-20 09:22:00,032 INFO  Process StartWithinLock - Successfully acquired lock for key: 4f3cb805-6a4b-4725-b92a-2933b974838f
+2026-02-20 09:23:00,034 INFO  Process StartWithinLock - Attempting to acquire lock for key: 77139813-e161-4c61-b080-1070031b6aa2 with timeout: 00:00:00
+2026-02-20 09:23:00,037 INFO  Process StartWithinLock - Successfully acquired lock for key: 77139813-e161-4c61-b080-1070031b6aa2
+2026-02-20 09:23:22,798 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 9:28:22 AM +00:00
+2026-02-20 09:24:00,037 INFO  Process StartWithinLock - Attempting to acquire lock for key: 6f8ae338-7b0d-443c-a3b7-745db24c9380 with timeout: 00:00:00
+2026-02-20 09:24:00,037 INFO  Process StartWithinLock - Successfully acquired lock for key: 6f8ae338-7b0d-443c-a3b7-745db24c9380
+2026-02-20 09:25:00,011 INFO  Process StartWithinLock - Attempting to acquire lock for key: babb69c0-ab36-4c0d-8ffb-68454db8bdbe with timeout: 00:00:00
+2026-02-20 09:25:00,011 INFO  Process StartWithinLock - Successfully acquired lock for key: babb69c0-ab36-4c0d-8ffb-68454db8bdbe
+2026-02-20 09:26:00,204 INFO  Process StartWithinLock - Attempting to acquire lock for key: 20df2625-1b1b-4d84-9f97-9ef3d19505ac with timeout: 00:00:00
+2026-02-20 09:26:00,204 INFO  Process StartWithinLock - Successfully acquired lock for key: 20df2625-1b1b-4d84-9f97-9ef3d19505ac
+2026-02-20 09:27:00,044 INFO  Process StartWithinLock - Attempting to acquire lock for key: 745fc83c-221a-4745-998f-dbcd1d2e1f9c with timeout: 00:00:00
+2026-02-20 09:27:00,044 INFO  Process StartWithinLock - Successfully acquired lock for key: 745fc83c-221a-4745-998f-dbcd1d2e1f9c
+2026-02-20 09:28:00,054 INFO  Process StartWithinLock - Attempting to acquire lock for key: 4b4ae63e-486e-44ac-8c57-712ab75750f4 with timeout: 00:00:00
+2026-02-20 09:28:00,054 INFO  Process StartWithinLock - Successfully acquired lock for key: 4b4ae63e-486e-44ac-8c57-712ab75750f4
+2026-02-20 09:28:22,771 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 9:33:22 AM +00:00
+2026-02-20 09:29:00,029 INFO  Process StartWithinLock - Attempting to acquire lock for key: f66e8d15-f71f-4ac7-a161-f2f799be4895 with timeout: 00:00:00
+2026-02-20 09:29:00,029 INFO  Process StartWithinLock - Successfully acquired lock for key: f66e8d15-f71f-4ac7-a161-f2f799be4895
+2026-02-20 09:30:00,047 INFO  Process StartWithinLock - Attempting to acquire lock for key: 8456e250-19a9-47ef-8cce-38e26c416ef8 with timeout: 00:00:00
+2026-02-20 09:30:00,047 INFO  Process StartWithinLock - Successfully acquired lock for key: 8456e250-19a9-47ef-8cce-38e26c416ef8
+2026-02-20 09:30:00,079 INFO  Process StartWithinLock - Attempting to acquire lock for key: 76f299a1-b9b8-4032-ac1a-e2f1be661e20 with timeout: 00:00:00
+2026-02-20 09:30:00,080 INFO  Process StartWithinLock - Successfully acquired lock for key: 76f299a1-b9b8-4032-ac1a-e2f1be661e20
+2026-02-20 09:31:00,032 INFO  Process StartWithinLock - Attempting to acquire lock for key: 09947614-f4ab-4aa2-aafb-1c1567abe67d with timeout: 00:00:00
+2026-02-20 09:31:00,032 INFO  Process StartWithinLock - Successfully acquired lock for key: 09947614-f4ab-4aa2-aafb-1c1567abe67d
+2026-02-20 09:32:00,008 INFO  Process StartWithinLock - Attempting to acquire lock for key: a40ce066-2b67-49ca-be43-89ac408581ae with timeout: 00:00:00
+2026-02-20 09:32:00,008 INFO  Process StartWithinLock - Successfully acquired lock for key: a40ce066-2b67-49ca-be43-89ac408581ae
+2026-02-20 09:33:00,030 INFO  Process StartWithinLock - Attempting to acquire lock for key: 2229a60f-8fa8-43d0-bd9f-e62c6df442b3 with timeout: 00:00:00
+2026-02-20 09:33:00,031 INFO  Process StartWithinLock - Successfully acquired lock for key: 2229a60f-8fa8-43d0-bd9f-e62c6df442b3
+2026-02-20 09:33:22,773 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 9:38:22 AM +00:00
+2026-02-20 09:33:31,759 INFO Supervisor Process StartWithinLock - Attempting to acquire lock for key: 36257064-1491-4e2e-9ef9-c91e93dc7432 with timeout: 00:00:00
+2026-02-20 09:33:31,759 INFO Supervisor Process StartWithinLock - Successfully acquired lock for key: 36257064-1491-4e2e-9ef9-c91e93dc7432
+2026-02-20 09:33:31,808 INFO Supervisor Process StartWithinLock - Attempting to acquire lock for key: 9d43caab-f35b-4333-8a1a-f7eeaef6e267 with timeout: 00:00:00
+2026-02-20 09:33:31,809 INFO Supervisor Process StartWithinLock - Successfully acquired lock for key: 9d43caab-f35b-4333-8a1a-f7eeaef6e267
+2026-02-20 09:33:31,859 INFO Supervisor Process StartWithinLock - Attempting to acquire lock for key: 538f16d7-73a4-47de-9cfc-114901f3f7f1 with timeout: 00:00:00
+2026-02-20 09:33:31,859 INFO Supervisor Process StartWithinLock - Successfully acquired lock for key: 538f16d7-73a4-47de-9cfc-114901f3f7f1
+2026-02-20 09:33:31,889 INFO Supervisor Process StartWithinLock - Attempting to acquire lock for key: db4dc66c-30e0-4b16-9f74-6f177352c822 with timeout: 00:00:00
+2026-02-20 09:33:31,890 INFO Supervisor Process StartWithinLock - Successfully acquired lock for key: db4dc66c-30e0-4b16-9f74-6f177352c822
+2026-02-20 09:33:31,969 INFO Supervisor Process StartWithinLock - Attempting to acquire lock for key: 4b831f62-59f4-436f-a87c-e85f3f2bcfb1 with timeout: 00:00:00
+2026-02-20 09:33:31,969 INFO Supervisor Process StartWithinLock - Successfully acquired lock for key: 4b831f62-59f4-436f-a87c-e85f3f2bcfb1
+2026-02-20 09:33:32,031 INFO Supervisor Process StartWithinLock - Attempting to acquire lock for key: d0bff455-e6f6-408a-a6e0-8b939105a893 with timeout: 00:00:00
+2026-02-20 09:33:32,031 INFO Supervisor Process StartWithinLock - Successfully acquired lock for key: d0bff455-e6f6-408a-a6e0-8b939105a893
+2026-02-20 09:33:32,142 INFO Supervisor Process StartWithinLock - Attempting to acquire lock for key: a68ac3a3-8ae7-445a-87e7-25687b6fbe98 with timeout: 00:00:00
+2026-02-20 09:33:32,142 INFO Supervisor Process StartWithinLock - Successfully acquired lock for key: a68ac3a3-8ae7-445a-87e7-25687b6fbe98
+2026-02-20 09:33:32,181 INFO Supervisor Process StartWithinLock - Attempting to acquire lock for key: f3ff453b-c1ba-4f41-b92f-4d7a68ed8d59 with timeout: 00:00:00
+2026-02-20 09:33:32,181 INFO Supervisor Process StartWithinLock - Successfully acquired lock for key: f3ff453b-c1ba-4f41-b92f-4d7a68ed8d59
+2026-02-20 09:34:00,230 INFO  Process StartWithinLock - Attempting to acquire lock for key: 1f372480-7a0e-4219-883a-d6f7c9f03717 with timeout: 00:00:00
+2026-02-20 09:34:00,230 INFO  Process StartWithinLock - Successfully acquired lock for key: 1f372480-7a0e-4219-883a-d6f7c9f03717
+2026-02-20 09:35:00,040 INFO  Process StartWithinLock - Attempting to acquire lock for key: f35481ac-37cf-4302-a501-28b7c8ff3742 with timeout: 00:00:00
+2026-02-20 09:35:00,040 INFO  Process StartWithinLock - Successfully acquired lock for key: f35481ac-37cf-4302-a501-28b7c8ff3742
+2026-02-20 09:36:00,039 INFO  Process StartWithinLock - Attempting to acquire lock for key: 98068998-0a88-41e3-8e3e-85f888172f46 with timeout: 00:00:00
+2026-02-20 09:36:00,039 INFO  Process StartWithinLock - Successfully acquired lock for key: 98068998-0a88-41e3-8e3e-85f888172f46
+2026-02-20 09:37:00,028 INFO  Process StartWithinLock - Attempting to acquire lock for key: e08dfc01-6b71-4897-b14e-b34f99c605e1 with timeout: 00:00:00
+2026-02-20 09:37:00,028 INFO  Process StartWithinLock - Successfully acquired lock for key: e08dfc01-6b71-4897-b14e-b34f99c605e1
+2026-02-20 09:38:00,020 INFO  Process StartWithinLock - Attempting to acquire lock for key: 9eb4e0cc-f908-47c6-909f-35c8bbb5d04f with timeout: 00:00:00
+2026-02-20 09:38:00,020 INFO  Process StartWithinLock - Successfully acquired lock for key: 9eb4e0cc-f908-47c6-909f-35c8bbb5d04f
+2026-02-20 09:38:22,783 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 9:43:22 AM +00:00
+2026-02-20 09:39:00,037 INFO  Process StartWithinLock - Attempting to acquire lock for key: d454161f-7b80-4a1a-9189-8b23e7029716 with timeout: 00:00:00
+2026-02-20 09:39:00,037 INFO  Process StartWithinLock - Successfully acquired lock for key: d454161f-7b80-4a1a-9189-8b23e7029716
+2026-02-20 09:40:00,034 INFO  Process StartWithinLock - Attempting to acquire lock for key: 075a4316-b69f-4d8e-8553-0984b62e6ebd with timeout: 00:00:00
+2026-02-20 09:40:00,034 INFO  Process StartWithinLock - Successfully acquired lock for key: 075a4316-b69f-4d8e-8553-0984b62e6ebd
+2026-02-20 09:40:00,071 INFO  Process StartWithinLock - Attempting to acquire lock for key: 6b286185-915f-417f-b770-7298c89a204e with timeout: 00:00:00
+2026-02-20 09:40:00,071 INFO  Process StartWithinLock - Successfully acquired lock for key: 6b286185-915f-417f-b770-7298c89a204e
+2026-02-20 09:41:00,187 INFO  Process StartWithinLock - Attempting to acquire lock for key: 62666850-74ba-44b4-a5f7-6fab1e2c0e11 with timeout: 00:00:00
+2026-02-20 09:41:00,187 INFO  Process StartWithinLock - Successfully acquired lock for key: 62666850-74ba-44b4-a5f7-6fab1e2c0e11
+2026-02-20 09:42:00,018 INFO  Process StartWithinLock - Attempting to acquire lock for key: fdb1c703-0234-47c5-8891-8b824f96b8c4 with timeout: 00:00:00
+2026-02-20 09:42:00,018 INFO  Process StartWithinLock - Successfully acquired lock for key: fdb1c703-0234-47c5-8891-8b824f96b8c4
+2026-02-20 09:43:00,018 INFO  Process StartWithinLock - Attempting to acquire lock for key: e59479fa-5fb8-41ab-b830-6929d8312237 with timeout: 00:00:00
+2026-02-20 09:43:00,018 INFO  Process StartWithinLock - Successfully acquired lock for key: e59479fa-5fb8-41ab-b830-6929d8312237
+2026-02-20 09:43:22,789 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 9:48:22 AM +00:00
+2026-02-20 09:44:00,009 INFO  Process StartWithinLock - Attempting to acquire lock for key: 5d8ac71d-c78e-4290-bb70-1e895daf0e07 with timeout: 00:00:00
+2026-02-20 09:44:00,009 INFO  Process StartWithinLock - Successfully acquired lock for key: 5d8ac71d-c78e-4290-bb70-1e895daf0e07
+2026-02-20 09:45:00,038 INFO  Process StartWithinLock - Attempting to acquire lock for key: 5dec3f1a-cdaf-42c0-ab98-64faf8937574 with timeout: 00:00:00
+2026-02-20 09:45:00,038 INFO  Process StartWithinLock - Successfully acquired lock for key: 5dec3f1a-cdaf-42c0-ab98-64faf8937574
+2026-02-20 09:46:00,047 INFO  Process StartWithinLock - Attempting to acquire lock for key: c673711d-ef53-486b-bafc-e26895c584d4 with timeout: 00:00:00
+2026-02-20 09:46:00,047 INFO  Process StartWithinLock - Successfully acquired lock for key: c673711d-ef53-486b-bafc-e26895c584d4
+2026-02-20 09:47:00,043 INFO  Process StartWithinLock - Attempting to acquire lock for key: 544390c4-6212-4eee-8579-9c21c8b42a81 with timeout: 00:00:00
+2026-02-20 09:47:00,043 INFO  Process StartWithinLock - Successfully acquired lock for key: 544390c4-6212-4eee-8579-9c21c8b42a81
+2026-02-20 09:48:00,017 INFO  Process StartWithinLock - Attempting to acquire lock for key: 1f01b4fd-9f1f-4034-831d-00c82e639b9f with timeout: 00:00:00
+2026-02-20 09:48:00,018 INFO  Process StartWithinLock - Successfully acquired lock for key: 1f01b4fd-9f1f-4034-831d-00c82e639b9f
+2026-02-20 09:48:22,800 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 9:53:22 AM +00:00
+2026-02-20 09:49:00,061 INFO  Process StartWithinLock - Attempting to acquire lock for key: 1878ba37-abac-44a6-a6a2-cb4d73cdb7ad with timeout: 00:00:00
+2026-02-20 09:49:00,061 INFO  Process StartWithinLock - Successfully acquired lock for key: 1878ba37-abac-44a6-a6a2-cb4d73cdb7ad
+2026-02-20 09:50:00,017 INFO  Process StartWithinLock - Attempting to acquire lock for key: e2945224-bafa-4a07-aa62-de374179d771 with timeout: 00:00:00
+2026-02-20 09:50:00,017 INFO  Process StartWithinLock - Successfully acquired lock for key: e2945224-bafa-4a07-aa62-de374179d771
+2026-02-20 09:50:00,032 INFO  Process StartWithinLock - Attempting to acquire lock for key: 8ef286cd-5248-4acd-8ece-7ee246001114 with timeout: 00:00:00
+2026-02-20 09:50:00,032 INFO  Process StartWithinLock - Successfully acquired lock for key: 8ef286cd-5248-4acd-8ece-7ee246001114
+2026-02-20 09:51:00,017 INFO  Process StartWithinLock - Attempting to acquire lock for key: 6e3446b8-9109-42d4-bb12-2f67369108b1 with timeout: 00:00:00
+2026-02-20 09:51:00,017 INFO  Process StartWithinLock - Successfully acquired lock for key: 6e3446b8-9109-42d4-bb12-2f67369108b1
+2026-02-20 09:52:00,041 INFO  Process StartWithinLock - Attempting to acquire lock for key: ca68cb7d-9c9a-4262-9918-381e3710c6aa with timeout: 00:00:00
+2026-02-20 09:52:00,041 INFO  Process StartWithinLock - Successfully acquired lock for key: ca68cb7d-9c9a-4262-9918-381e3710c6aa
+2026-02-20 09:53:00,041 INFO  Process StartWithinLock - Attempting to acquire lock for key: 34d9bbac-c0d5-40d5-82f4-3741ab1f163d with timeout: 00:00:00
+2026-02-20 09:53:00,041 INFO  Process StartWithinLock - Successfully acquired lock for key: 34d9bbac-c0d5-40d5-82f4-3741ab1f163d
+2026-02-20 09:53:22,808 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 9:58:22 AM +00:00
+2026-02-20 09:54:00,014 INFO  Process StartWithinLock - Attempting to acquire lock for key: 438e44f8-542b-480e-a224-c9be9966d5e8 with timeout: 00:00:00
+2026-02-20 09:54:00,014 INFO  Process StartWithinLock - Successfully acquired lock for key: 438e44f8-542b-480e-a224-c9be9966d5e8
+2026-02-20 09:55:00,033 INFO  Process StartWithinLock - Attempting to acquire lock for key: e0ea3076-23a8-46ee-abd4-42471de63c80 with timeout: 00:00:00
+2026-02-20 09:55:00,033 INFO  Process StartWithinLock - Successfully acquired lock for key: e0ea3076-23a8-46ee-abd4-42471de63c80
+2026-02-20 09:56:00,039 INFO  Process StartWithinLock - Attempting to acquire lock for key: 97ce1285-944a-4849-b83e-8be06fc624d4 with timeout: 00:00:00
+2026-02-20 09:56:00,039 INFO  Process StartWithinLock - Successfully acquired lock for key: 97ce1285-944a-4849-b83e-8be06fc624d4
+2026-02-20 09:57:00,045 INFO  Process StartWithinLock - Attempting to acquire lock for key: 6271f08a-1d93-4e7a-b826-0718770a2dc2 with timeout: 00:00:00
+2026-02-20 09:57:00,045 INFO  Process StartWithinLock - Successfully acquired lock for key: 6271f08a-1d93-4e7a-b826-0718770a2dc2
+2026-02-20 09:58:00,043 INFO  Process StartWithinLock - Attempting to acquire lock for key: 658b9c96-0970-492c-97d4-c88d9892248a with timeout: 00:00:00
+2026-02-20 09:58:00,043 INFO  Process StartWithinLock - Successfully acquired lock for key: 658b9c96-0970-492c-97d4-c88d9892248a
+2026-02-20 09:58:22,817 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 10:03:22 AM +00:00
+2026-02-20 09:59:00,039 INFO  Process StartWithinLock - Attempting to acquire lock for key: e531a1d4-939a-413d-b8fb-984a423f102b with timeout: 00:00:00
+2026-02-20 09:59:00,039 INFO  Process StartWithinLock - Successfully acquired lock for key: e531a1d4-939a-413d-b8fb-984a423f102b
+2026-02-20 10:00:00,020 INFO  Process StartWithinLock - Attempting to acquire lock for key: 172b33ae-48a9-4395-8216-60f26c63d1ae with timeout: 00:00:00
+2026-02-20 10:00:00,020 INFO  Process StartWithinLock - Successfully acquired lock for key: 172b33ae-48a9-4395-8216-60f26c63d1ae
+2026-02-20 10:00:00,020 INFO  Process StartWithinLock - Attempting to acquire lock for key: 0597a9e0-b275-4b7f-b9b9-4a9d75ac908e with timeout: 00:00:00
+2026-02-20 10:00:00,020 INFO  Process StartWithinLock - Successfully acquired lock for key: 0597a9e0-b275-4b7f-b9b9-4a9d75ac908e
+2026-02-20 10:00:00,049 INFO  Process StartWithinLock - Attempting to acquire lock for key: cbbe60b4-0236-4540-99c2-a5481118c1b3 with timeout: 00:00:00
+2026-02-20 10:00:00,050 INFO  Process StartWithinLock - Successfully acquired lock for key: cbbe60b4-0236-4540-99c2-a5481118c1b3
+2026-02-20 10:00:00,068 INFO  Process StartWithinLock - Attempting to acquire lock for key: 1646ee43-fe4b-4dcb-91a1-abc4962422ed with timeout: 00:00:00
+2026-02-20 10:00:00,068 INFO  Process StartWithinLock - Successfully acquired lock for key: 1646ee43-fe4b-4dcb-91a1-abc4962422ed
+2026-02-20 10:01:00,046 INFO  Process StartWithinLock - Attempting to acquire lock for key: 31f2ac90-745d-4b5b-af50-8330f2323fd8 with timeout: 00:00:00
+2026-02-20 10:01:00,047 INFO  Process StartWithinLock - Successfully acquired lock for key: 31f2ac90-745d-4b5b-af50-8330f2323fd8
+2026-02-20 10:02:00,009 INFO  Process StartWithinLock - Attempting to acquire lock for key: dc858d75-da91-43ca-bb5c-e070edae1001 with timeout: 00:00:00
+2026-02-20 10:02:00,010 INFO  Process StartWithinLock - Successfully acquired lock for key: dc858d75-da91-43ca-bb5c-e070edae1001
+2026-02-20 10:03:00,038 INFO  Process StartWithinLock - Attempting to acquire lock for key: c00270f4-92f2-4bda-8bac-b97b1215456c with timeout: 00:00:00
+2026-02-20 10:03:00,038 INFO  Process StartWithinLock - Successfully acquired lock for key: c00270f4-92f2-4bda-8bac-b97b1215456c
+2026-02-20 10:03:22,823 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 10:08:22 AM +00:00
+2026-02-20 10:04:00,043 INFO  Process StartWithinLock - Attempting to acquire lock for key: 70b9b392-d9c7-4c2b-9ae7-2e0494f74e0c with timeout: 00:00:00
+2026-02-20 10:04:00,043 INFO  Process StartWithinLock - Successfully acquired lock for key: 70b9b392-d9c7-4c2b-9ae7-2e0494f74e0c
+2026-02-20 10:05:00,046 INFO  Process StartWithinLock - Attempting to acquire lock for key: b2582886-211e-43a9-ba7a-3ad1bc6e177a with timeout: 00:00:00
+2026-02-20 10:05:00,046 INFO  Process StartWithinLock - Successfully acquired lock for key: b2582886-211e-43a9-ba7a-3ad1bc6e177a
+2026-02-20 10:06:15,192 INFO  Process Register - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 10:11:15 AM +00:00
+2026-02-20 10:08:15,573 INFO  Process StartWithinLock - Attempting to acquire lock for key: 42d1f34d-bc87-4857-add9-1cf28c08424d with timeout: 00:00:00
+2026-02-20 10:08:15,573 INFO  Process StartWithinLock - Successfully acquired lock for key: 42d1f34d-bc87-4857-add9-1cf28c08424d
+2026-02-20 10:08:16,019 INFO  Process StartWithinLock - Attempting to acquire lock for key: acff8de7-bb14-4e45-9bfc-0b05d7b23172 with timeout: 00:00:00
+2026-02-20 10:08:16,019 INFO  Process StartWithinLock - Successfully acquired lock for key: acff8de7-bb14-4e45-9bfc-0b05d7b23172
+2026-02-20 10:08:16,095 INFO  Process StartWithinLock - Attempting to acquire lock for key: dc543e9d-78ce-4a09-b5d0-1dbd3cb77b2a with timeout: 00:00:00
+2026-02-20 10:08:16,095 INFO  Process StartWithinLock - Successfully acquired lock for key: dc543e9d-78ce-4a09-b5d0-1dbd3cb77b2a
+2026-02-20 10:09:00,036 INFO  Process StartWithinLock - Attempting to acquire lock for key: 8db71770-73a5-4c84-8faa-1ff452415a62 with timeout: 00:00:00
+2026-02-20 10:09:00,036 INFO  Process StartWithinLock - Successfully acquired lock for key: 8db71770-73a5-4c84-8faa-1ff452415a62
+2026-02-20 10:10:44,876 INFO  Process Register - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 10:15:44 AM +00:00
+2026-02-20 10:12:45,153 INFO  Process StartWithinLock - Attempting to acquire lock for key: cc4dfc7d-8ecb-4729-8295-64260790b779 with timeout: 00:00:00
+2026-02-20 10:12:45,153 INFO  Process StartWithinLock - Successfully acquired lock for key: cc4dfc7d-8ecb-4729-8295-64260790b779
+2026-02-20 10:12:45,284 INFO  Process StartWithinLock - Attempting to acquire lock for key: f78b42a9-5c72-421d-a9f9-2fa72177f32e with timeout: 00:00:00
+2026-02-20 10:12:45,284 INFO  Process StartWithinLock - Successfully acquired lock for key: f78b42a9-5c72-421d-a9f9-2fa72177f32e
+2026-02-20 10:12:45,631 INFO  Process StartWithinLock - Attempting to acquire lock for key: de745098-cace-4e29-ae88-f31a4b63fe7e with timeout: 00:00:00
+2026-02-20 10:12:45,631 INFO  Process StartWithinLock - Successfully acquired lock for key: de745098-cace-4e29-ae88-f31a4b63fe7e
+2026-02-20 10:12:45,699 INFO  Process StartWithinLock - Attempting to acquire lock for key: 420d05de-45dd-46b3-be4d-a283361cfcdb with timeout: 00:00:00
+2026-02-20 10:12:45,699 INFO  Process StartWithinLock - Successfully acquired lock for key: 420d05de-45dd-46b3-be4d-a283361cfcdb
+2026-02-20 10:13:00,048 INFO  Process StartWithinLock - Attempting to acquire lock for key: 6ea6aa01-818f-4c94-b978-8e10a56266a4 with timeout: 00:00:00
+2026-02-20 10:13:00,048 INFO  Process StartWithinLock - Successfully acquired lock for key: 6ea6aa01-818f-4c94-b978-8e10a56266a4
+2026-02-20 10:14:00,038 INFO  Process StartWithinLock - Attempting to acquire lock for key: 97bb9823-f3d3-46d5-93e4-01ada282e0e0 with timeout: 00:00:00
+2026-02-20 10:14:00,039 INFO  Process StartWithinLock - Successfully acquired lock for key: 97bb9823-f3d3-46d5-93e4-01ada282e0e0
+2026-02-20 10:15:00,055 INFO  Process StartWithinLock - Attempting to acquire lock for key: 63bbe423-e77d-4277-a29e-642837ec59b4 with timeout: 00:00:00
+2026-02-20 10:15:00,055 INFO  Process StartWithinLock - Successfully acquired lock for key: 63bbe423-e77d-4277-a29e-642837ec59b4
+2026-02-20 10:15:44,900 INFO  Process Register - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 10:20:44 AM +00:00
+2026-02-20 10:16:00,041 INFO  Process StartWithinLock - Attempting to acquire lock for key: 7f488764-de63-41e6-82e5-025e36d6c62c with timeout: 00:00:00
+2026-02-20 10:16:00,041 INFO  Process StartWithinLock - Successfully acquired lock for key: 7f488764-de63-41e6-82e5-025e36d6c62c
+2026-02-20 10:17:00,044 INFO  Process StartWithinLock - Attempting to acquire lock for key: 20ebb6db-8d66-4945-8b07-804a288b712c with timeout: 00:00:00
+2026-02-20 10:17:00,044 INFO  Process StartWithinLock - Successfully acquired lock for key: 20ebb6db-8d66-4945-8b07-804a288b712c
+2026-02-20 10:18:00,050 INFO  Process StartWithinLock - Attempting to acquire lock for key: 8d4b5730-f51b-4533-99c3-639ecd8f6f66 with timeout: 00:00:00
+2026-02-20 10:18:00,050 INFO  Process StartWithinLock - Successfully acquired lock for key: 8d4b5730-f51b-4533-99c3-639ecd8f6f66
+2026-02-20 10:19:00,044 INFO  Process StartWithinLock - Attempting to acquire lock for key: 7c6654d5-ee19-45b4-b0c4-34dc81ee5e92 with timeout: 00:00:00
+2026-02-20 10:19:00,044 INFO  Process StartWithinLock - Successfully acquired lock for key: 7c6654d5-ee19-45b4-b0c4-34dc81ee5e92
+2026-02-20 10:20:00,050 INFO  Process StartWithinLock - Attempting to acquire lock for key: 55e799e7-b0e8-4cb6-a482-60714924c157 with timeout: 00:00:00
+2026-02-20 10:20:00,050 INFO  Process StartWithinLock - Successfully acquired lock for key: 55e799e7-b0e8-4cb6-a482-60714924c157
+2026-02-20 10:20:00,064 INFO  Process StartWithinLock - Attempting to acquire lock for key: 24044abf-0c05-47fd-8399-cc70d9fdfb30 with timeout: 00:00:00
+2026-02-20 10:20:00,064 INFO  Process StartWithinLock - Successfully acquired lock for key: 24044abf-0c05-47fd-8399-cc70d9fdfb30
+2026-02-20 10:20:44,944 INFO  Process Register - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 10:25:44 AM +00:00
+2026-02-20 10:21:00,047 INFO  Process StartWithinLock - Attempting to acquire lock for key: 8e1aa1e6-68ed-46dd-ac2d-3657fed233ec with timeout: 00:00:00
+2026-02-20 10:21:00,047 INFO  Process StartWithinLock - Successfully acquired lock for key: 8e1aa1e6-68ed-46dd-ac2d-3657fed233ec
+2026-02-20 10:22:00,044 INFO  Process StartWithinLock - Attempting to acquire lock for key: e6201593-bd53-48dd-a90d-7d8889dfe954 with timeout: 00:00:00
+2026-02-20 10:22:00,044 INFO  Process StartWithinLock - Successfully acquired lock for key: e6201593-bd53-48dd-a90d-7d8889dfe954
+2026-02-20 10:23:00,043 INFO  Process StartWithinLock - Attempting to acquire lock for key: 1a3e5c4c-712e-4b37-b049-b8c59819c065 with timeout: 00:00:00
+2026-02-20 10:23:00,045 INFO  Process StartWithinLock - Successfully acquired lock for key: 1a3e5c4c-712e-4b37-b049-b8c59819c065
+2026-02-20 10:24:00,051 INFO  Process StartWithinLock - Attempting to acquire lock for key: f4f2f69c-ae84-463b-94e7-1728c717e8b6 with timeout: 00:00:00
+2026-02-20 10:24:00,051 INFO  Process StartWithinLock - Successfully acquired lock for key: f4f2f69c-ae84-463b-94e7-1728c717e8b6
+2026-02-20 10:25:00,048 INFO  Process StartWithinLock - Attempting to acquire lock for key: 53eca66d-5746-4cef-a6a8-fcfb9e04f068 with timeout: 00:00:00
+2026-02-20 10:25:00,048 INFO  Process StartWithinLock - Successfully acquired lock for key: 53eca66d-5746-4cef-a6a8-fcfb9e04f068
+2026-02-20 10:25:44,964 INFO  Process Register - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 10:30:44 AM +00:00
+2026-02-20 10:26:00,051 INFO  Process StartWithinLock - Attempting to acquire lock for key: 740496b0-5359-4af8-aa51-fcf08bed0af2 with timeout: 00:00:00
+2026-02-20 10:26:00,051 INFO  Process StartWithinLock - Successfully acquired lock for key: 740496b0-5359-4af8-aa51-fcf08bed0af2
+2026-02-20 10:27:00,058 INFO  Process StartWithinLock - Attempting to acquire lock for key: 068a1048-1264-4906-a091-d14189b9f491 with timeout: 00:00:00
+2026-02-20 10:27:00,058 INFO  Process StartWithinLock - Successfully acquired lock for key: 068a1048-1264-4906-a091-d14189b9f491
+2026-02-20 10:28:00,052 INFO  Process StartWithinLock - Attempting to acquire lock for key: 200ff002-08b6-4a70-9ddd-eb8031a8a34f with timeout: 00:00:00
+2026-02-20 10:28:00,052 INFO  Process StartWithinLock - Successfully acquired lock for key: 200ff002-08b6-4a70-9ddd-eb8031a8a34f
+2026-02-20 10:29:00,052 INFO  Process StartWithinLock - Attempting to acquire lock for key: 6aaada0f-417a-439b-94fa-4c783abbf81a with timeout: 00:00:00
+2026-02-20 10:29:00,052 INFO  Process StartWithinLock - Successfully acquired lock for key: 6aaada0f-417a-439b-94fa-4c783abbf81a
+2026-02-20 10:30:00,047 INFO  Process StartWithinLock - Attempting to acquire lock for key: b3616627-5b33-434a-b7fe-7a7e09d2ddd3 with timeout: 00:00:00
+2026-02-20 10:30:00,047 INFO  Process StartWithinLock - Successfully acquired lock for key: b3616627-5b33-434a-b7fe-7a7e09d2ddd3
+2026-02-20 10:30:00,058 INFO  Process StartWithinLock - Attempting to acquire lock for key: 234e22c3-7fd7-4916-b127-55f512627514 with timeout: 00:00:00
+2026-02-20 10:30:00,058 INFO  Process StartWithinLock - Successfully acquired lock for key: 234e22c3-7fd7-4916-b127-55f512627514
+2026-02-20 10:30:45,010 INFO  Process Register - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 10:35:44 AM +00:00
+2026-02-20 10:31:00,046 INFO  Process StartWithinLock - Attempting to acquire lock for key: 66b0127c-9c6a-46de-8745-bf5cd2e20e9e with timeout: 00:00:00
+2026-02-20 10:31:00,046 INFO  Process StartWithinLock - Successfully acquired lock for key: 66b0127c-9c6a-46de-8745-bf5cd2e20e9e
+2026-02-20 10:32:00,057 INFO  Process StartWithinLock - Attempting to acquire lock for key: 35169e42-5011-400a-b2b5-977f2fe889be with timeout: 00:00:00
+2026-02-20 10:32:00,057 INFO  Process StartWithinLock - Successfully acquired lock for key: 35169e42-5011-400a-b2b5-977f2fe889be
+2026-02-20 10:33:00,051 INFO  Process StartWithinLock - Attempting to acquire lock for key: 59baca96-2971-4819-b1fe-179090a84f90 with timeout: 00:00:00
+2026-02-20 10:33:00,052 INFO  Process StartWithinLock - Successfully acquired lock for key: 59baca96-2971-4819-b1fe-179090a84f90
+2026-02-20 10:34:00,048 INFO  Process StartWithinLock - Attempting to acquire lock for key: 1aae4d11-b040-414f-9156-3e6a03ddad00 with timeout: 00:00:00
+2026-02-20 10:34:00,048 INFO  Process StartWithinLock - Successfully acquired lock for key: 1aae4d11-b040-414f-9156-3e6a03ddad00
+2026-02-20 10:35:00,056 INFO  Process StartWithinLock - Attempting to acquire lock for key: 07fe1b9e-2057-482a-be3a-fec80a0fe398 with timeout: 00:00:00
+2026-02-20 10:35:00,057 INFO  Process StartWithinLock - Successfully acquired lock for key: 07fe1b9e-2057-482a-be3a-fec80a0fe398
+2026-02-20 10:35:45,063 INFO  Process Register - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 10:40:45 AM +00:00
+2026-02-20 10:36:00,040 INFO  Process StartWithinLock - Attempting to acquire lock for key: d0daaed7-bf60-4348-8694-fff75017d961 with timeout: 00:00:00
+2026-02-20 10:36:00,040 INFO  Process StartWithinLock - Successfully acquired lock for key: d0daaed7-bf60-4348-8694-fff75017d961
+2026-02-20 10:37:00,051 INFO  Process StartWithinLock - Attempting to acquire lock for key: 219720a9-3b04-4d02-9e51-6e8bb095d1af with timeout: 00:00:00
+2026-02-20 10:37:00,051 INFO  Process StartWithinLock - Successfully acquired lock for key: 219720a9-3b04-4d02-9e51-6e8bb095d1af
+2026-02-20 10:38:00,051 INFO  Process StartWithinLock - Attempting to acquire lock for key: 50e8e9dc-66ed-4ae1-be5b-b0baaf3d15ff with timeout: 00:00:00
+2026-02-20 10:38:00,051 INFO  Process StartWithinLock - Successfully acquired lock for key: 50e8e9dc-66ed-4ae1-be5b-b0baaf3d15ff
+2026-02-20 10:39:00,054 INFO  Process StartWithinLock - Attempting to acquire lock for key: 794bbd2e-f65b-4525-8104-42b8441a3249 with timeout: 00:00:00
+2026-02-20 10:39:00,054 INFO  Process StartWithinLock - Successfully acquired lock for key: 794bbd2e-f65b-4525-8104-42b8441a3249
+2026-02-20 10:40:00,052 INFO  Process StartWithinLock - Attempting to acquire lock for key: 0be4753e-7aa9-4f39-958b-cc950c9b17cf with timeout: 00:00:00
+2026-02-20 10:40:00,052 INFO  Process StartWithinLock - Successfully acquired lock for key: 0be4753e-7aa9-4f39-958b-cc950c9b17cf
+2026-02-20 10:40:00,067 INFO  Process StartWithinLock - Attempting to acquire lock for key: 94b8c59a-3e9c-472d-9379-a49465f8a583 with timeout: 00:00:00
+2026-02-20 10:40:00,067 INFO  Process StartWithinLock - Successfully acquired lock for key: 94b8c59a-3e9c-472d-9379-a49465f8a583
+2026-02-20 10:40:45,133 INFO  Process Register - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 10:45:45 AM +00:00
+2026-02-20 10:41:00,061 INFO  Process StartWithinLock - Attempting to acquire lock for key: e062dde7-493d-4a15-91a3-e3b9c6601646 with timeout: 00:00:00
+2026-02-20 10:41:00,061 INFO  Process StartWithinLock - Successfully acquired lock for key: e062dde7-493d-4a15-91a3-e3b9c6601646
+2026-02-20 10:42:00,056 INFO  Process StartWithinLock - Attempting to acquire lock for key: 9cd55d27-5249-4f1b-b566-e288e91f5c8a with timeout: 00:00:00
+2026-02-20 10:42:00,056 INFO  Process StartWithinLock - Successfully acquired lock for key: 9cd55d27-5249-4f1b-b566-e288e91f5c8a
+2026-02-20 10:43:00,055 INFO  Process StartWithinLock - Attempting to acquire lock for key: b20fc044-e8f7-40de-8a27-a4772b5a9837 with timeout: 00:00:00
+2026-02-20 10:43:00,055 INFO  Process StartWithinLock - Successfully acquired lock for key: b20fc044-e8f7-40de-8a27-a4772b5a9837
+2026-02-20 10:44:00,055 INFO  Process StartWithinLock - Attempting to acquire lock for key: 9e1fa6da-87e2-45bf-adec-88e5f7920878 with timeout: 00:00:00
+2026-02-20 10:44:00,055 INFO  Process StartWithinLock - Successfully acquired lock for key: 9e1fa6da-87e2-45bf-adec-88e5f7920878
+2026-02-20 10:45:00,049 INFO  Process StartWithinLock - Attempting to acquire lock for key: b8b672b9-6aad-4b82-add7-d4b787b645b2 with timeout: 00:00:00
+2026-02-20 10:45:00,049 INFO  Process StartWithinLock - Successfully acquired lock for key: b8b672b9-6aad-4b82-add7-d4b787b645b2
+2026-02-20 10:45:45,187 INFO  Process Register - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 10:50:45 AM +00:00
+2026-02-20 10:46:00,046 INFO  Process StartWithinLock - Attempting to acquire lock for key: 033835f7-a279-4357-9183-d756e5f05084 with timeout: 00:00:00
+2026-02-20 10:46:00,046 INFO  Process StartWithinLock - Successfully acquired lock for key: 033835f7-a279-4357-9183-d756e5f05084
+2026-02-20 10:47:00,056 INFO  Process StartWithinLock - Attempting to acquire lock for key: 333aa8c7-24bc-4f8d-b0b8-a3b27261919a with timeout: 00:00:00
+2026-02-20 10:47:00,056 INFO  Process StartWithinLock - Successfully acquired lock for key: 333aa8c7-24bc-4f8d-b0b8-a3b27261919a
+2026-02-20 10:48:00,056 INFO  Process StartWithinLock - Attempting to acquire lock for key: 3e8fb3b9-ddaf-41b8-a1d4-9cb3a39976d9 with timeout: 00:00:00
+2026-02-20 10:48:00,056 INFO  Process StartWithinLock - Successfully acquired lock for key: 3e8fb3b9-ddaf-41b8-a1d4-9cb3a39976d9
+2026-02-20 10:49:00,061 INFO  Process StartWithinLock - Attempting to acquire lock for key: f3191ad4-1527-49fe-bd76-19070bb6bd46 with timeout: 00:00:00
+2026-02-20 10:49:00,061 INFO  Process StartWithinLock - Successfully acquired lock for key: f3191ad4-1527-49fe-bd76-19070bb6bd46
+2026-02-20 10:50:00,046 INFO  Process StartWithinLock - Attempting to acquire lock for key: ce1d8b20-c7de-4e16-91c0-48fc0e234889 with timeout: 00:00:00
+2026-02-20 10:50:00,046 INFO  Process StartWithinLock - Successfully acquired lock for key: ce1d8b20-c7de-4e16-91c0-48fc0e234889
+2026-02-20 10:50:00,059 INFO  Process StartWithinLock - Attempting to acquire lock for key: 5c0c9d09-db11-4b56-9da3-255cb3f889d0 with timeout: 00:00:00
+2026-02-20 10:50:00,059 INFO  Process StartWithinLock - Successfully acquired lock for key: 5c0c9d09-db11-4b56-9da3-255cb3f889d0
+2026-02-20 10:50:45,239 INFO  Process Register - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 10:55:45 AM +00:00
+2026-02-20 10:51:00,064 INFO  Process StartWithinLock - Attempting to acquire lock for key: 4be5711a-7ebe-49a0-aa67-e00351aaf8ba with timeout: 00:00:00
+2026-02-20 10:51:00,064 INFO  Process StartWithinLock - Successfully acquired lock for key: 4be5711a-7ebe-49a0-aa67-e00351aaf8ba
+2026-02-20 10:52:00,046 INFO  Process StartWithinLock - Attempting to acquire lock for key: cb43b5bf-a4cc-44cc-9c54-95780cbfa9a7 with timeout: 00:00:00
+2026-02-20 10:52:00,046 INFO  Process StartWithinLock - Successfully acquired lock for key: cb43b5bf-a4cc-44cc-9c54-95780cbfa9a7
+2026-02-20 10:53:00,054 INFO  Process StartWithinLock - Attempting to acquire lock for key: ee21372e-e131-48c8-99b3-ecf7fc454a2c with timeout: 00:00:00
+2026-02-20 10:53:00,054 INFO  Process StartWithinLock - Successfully acquired lock for key: ee21372e-e131-48c8-99b3-ecf7fc454a2c
+2026-02-20 10:54:00,045 INFO  Process StartWithinLock - Attempting to acquire lock for key: 7e8991e8-44f2-4b46-9dec-bcbc8073c199 with timeout: 00:00:00
+2026-02-20 10:54:00,045 INFO  Process StartWithinLock - Successfully acquired lock for key: 7e8991e8-44f2-4b46-9dec-bcbc8073c199
+2026-02-20 10:55:00,048 INFO  Process StartWithinLock - Attempting to acquire lock for key: b51c31e7-22fb-48ff-be76-dea16bf423b6 with timeout: 00:00:00
+2026-02-20 10:55:00,048 INFO  Process StartWithinLock - Successfully acquired lock for key: b51c31e7-22fb-48ff-be76-dea16bf423b6
+2026-02-20 10:55:45,289 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 11:00:45 AM +00:00
+2026-02-20 10:56:00,062 INFO  Process StartWithinLock - Attempting to acquire lock for key: 5277cae6-0171-4505-a9bd-22cbbc9e5313 with timeout: 00:00:00
+2026-02-20 10:56:00,062 INFO  Process StartWithinLock - Successfully acquired lock for key: 5277cae6-0171-4505-a9bd-22cbbc9e5313
+2026-02-20 10:57:00,046 INFO  Process StartWithinLock - Attempting to acquire lock for key: 42a237c2-0652-4ac0-8941-4aba15f16d50 with timeout: 00:00:00
+2026-02-20 10:57:00,046 INFO  Process StartWithinLock - Successfully acquired lock for key: 42a237c2-0652-4ac0-8941-4aba15f16d50
+2026-02-20 10:58:00,055 INFO  Process StartWithinLock - Attempting to acquire lock for key: 6da5a7d4-fd58-46c7-9e39-cd9d02e2b1f6 with timeout: 00:00:00
+2026-02-20 10:58:00,057 INFO  Process StartWithinLock - Successfully acquired lock for key: 6da5a7d4-fd58-46c7-9e39-cd9d02e2b1f6
+2026-02-20 10:59:00,056 INFO  Process StartWithinLock - Attempting to acquire lock for key: ae0ff8aa-f6e7-489f-98f8-66551d9f76a9 with timeout: 00:00:00
+2026-02-20 10:59:00,056 INFO  Process StartWithinLock - Successfully acquired lock for key: ae0ff8aa-f6e7-489f-98f8-66551d9f76a9
+2026-02-20 11:00:00,058 INFO  Process StartWithinLock - Attempting to acquire lock for key: 1a8301fc-c6d9-4881-bfd1-3c206f81a6f5 with timeout: 00:00:00
+2026-02-20 11:00:00,058 INFO  Process StartWithinLock - Successfully acquired lock for key: 1a8301fc-c6d9-4881-bfd1-3c206f81a6f5
+2026-02-20 11:00:00,088 INFO  Process StartWithinLock - Attempting to acquire lock for key: d04442c6-9fb5-4b03-899c-afd35c7e2deb with timeout: 00:00:00
+2026-02-20 11:00:00,088 INFO  Process StartWithinLock - Successfully acquired lock for key: d04442c6-9fb5-4b03-899c-afd35c7e2deb
+2026-02-20 11:00:00,108 INFO  Process StartWithinLock - Attempting to acquire lock for key: 8d540b2b-7390-4f06-a0b7-59909f7ea7ca with timeout: 00:00:00
+2026-02-20 11:00:00,108 INFO  Process StartWithinLock - Successfully acquired lock for key: 8d540b2b-7390-4f06-a0b7-59909f7ea7ca
+2026-02-20 11:00:00,240 INFO  Process StartWithinLock - Attempting to acquire lock for key: 035f94d4-417b-4832-97b7-968ebadd2091 with timeout: 00:00:00
+2026-02-20 11:00:00,240 INFO  Process StartWithinLock - Successfully acquired lock for key: 035f94d4-417b-4832-97b7-968ebadd2091
+2026-02-20 11:00:45,350 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 11:05:45 AM +00:00
+2026-02-20 11:01:00,070 INFO  Process StartWithinLock - Attempting to acquire lock for key: 73a19f63-3ba4-440a-bf53-b1855b2ea5de with timeout: 00:00:00
+2026-02-20 11:01:00,070 INFO  Process StartWithinLock - Successfully acquired lock for key: 73a19f63-3ba4-440a-bf53-b1855b2ea5de
+2026-02-20 11:02:00,057 INFO  Process StartWithinLock - Attempting to acquire lock for key: fdf052fb-0591-4b32-ade9-bbe29845a874 with timeout: 00:00:00
+2026-02-20 11:02:00,057 INFO  Process StartWithinLock - Successfully acquired lock for key: fdf052fb-0591-4b32-ade9-bbe29845a874
+2026-02-20 11:03:00,051 INFO  Process StartWithinLock - Attempting to acquire lock for key: 4f0405c4-ca42-43c5-b50c-ce965d3cd5f6 with timeout: 00:00:00
+2026-02-20 11:03:00,051 INFO  Process StartWithinLock - Successfully acquired lock for key: 4f0405c4-ca42-43c5-b50c-ce965d3cd5f6
+2026-02-20 11:04:00,055 INFO  Process StartWithinLock - Attempting to acquire lock for key: 270d1dc0-8ec4-4a00-98ef-a1925aa0256c with timeout: 00:00:00
+2026-02-20 11:04:00,057 INFO  Process StartWithinLock - Successfully acquired lock for key: 270d1dc0-8ec4-4a00-98ef-a1925aa0256c
+2026-02-20 11:05:00,056 INFO  Process StartWithinLock - Attempting to acquire lock for key: a59f8981-0201-487b-a05a-c09b8d88b7f5 with timeout: 00:00:00
+2026-02-20 11:05:00,056 INFO  Process StartWithinLock - Successfully acquired lock for key: a59f8981-0201-487b-a05a-c09b8d88b7f5
+2026-02-20 11:05:45,412 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 11:10:45 AM +00:00
+2026-02-20 11:06:00,061 INFO  Process StartWithinLock - Attempting to acquire lock for key: d5ebf841-4b66-49ed-b1b2-2eb73c9011ec with timeout: 00:00:00
+2026-02-20 11:06:00,061 INFO  Process StartWithinLock - Successfully acquired lock for key: d5ebf841-4b66-49ed-b1b2-2eb73c9011ec
+2026-02-20 11:07:00,059 INFO  Process StartWithinLock - Attempting to acquire lock for key: 61979ed9-fe68-4d7f-b891-f20119e9acbb with timeout: 00:00:00
+2026-02-20 11:07:00,059 INFO  Process StartWithinLock - Successfully acquired lock for key: 61979ed9-fe68-4d7f-b891-f20119e9acbb
+2026-02-20 11:08:00,068 INFO  Process StartWithinLock - Attempting to acquire lock for key: 4fc3367a-cd9e-4b9e-8d12-b19ed189d544 with timeout: 00:00:00
+2026-02-20 11:08:00,071 INFO  Process StartWithinLock - Successfully acquired lock for key: 4fc3367a-cd9e-4b9e-8d12-b19ed189d544
+2026-02-20 11:09:00,062 INFO  Process StartWithinLock - Attempting to acquire lock for key: eab90e48-7ec4-44a6-bdb6-83730292d38a with timeout: 00:00:00
+2026-02-20 11:09:00,062 INFO  Process StartWithinLock - Successfully acquired lock for key: eab90e48-7ec4-44a6-bdb6-83730292d38a
+2026-02-20 11:10:00,080 INFO  Process StartWithinLock - Attempting to acquire lock for key: 4a28df9a-5b9d-4e30-8f8b-a00982f03423 with timeout: 00:00:00
+2026-02-20 11:10:00,080 INFO  Process StartWithinLock - Successfully acquired lock for key: 4a28df9a-5b9d-4e30-8f8b-a00982f03423
+2026-02-20 11:10:00,094 INFO  Process StartWithinLock - Attempting to acquire lock for key: ef3d3cec-9023-4396-8ef3-3180cfdefd43 with timeout: 00:00:00
+2026-02-20 11:10:00,094 INFO  Process StartWithinLock - Successfully acquired lock for key: ef3d3cec-9023-4396-8ef3-3180cfdefd43
+2026-02-20 11:10:45,465 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 11:15:45 AM +00:00
+2026-02-20 11:11:00,068 INFO  Process StartWithinLock - Attempting to acquire lock for key: e6edcd2c-e006-4040-bc24-f281fc1295c9 with timeout: 00:00:00
+2026-02-20 11:11:00,068 INFO  Process StartWithinLock - Successfully acquired lock for key: e6edcd2c-e006-4040-bc24-f281fc1295c9
+2026-02-20 11:12:00,054 INFO  Process StartWithinLock - Attempting to acquire lock for key: 9be4c3f5-d3db-437a-94be-1067b3f4391f with timeout: 00:00:00
+2026-02-20 11:12:00,054 INFO  Process StartWithinLock - Successfully acquired lock for key: 9be4c3f5-d3db-437a-94be-1067b3f4391f
+2026-02-20 11:13:00,062 INFO  Process StartWithinLock - Attempting to acquire lock for key: ccd2e03c-3b68-4b76-b823-91ec5151c375 with timeout: 00:00:00
+2026-02-20 11:13:00,062 INFO  Process StartWithinLock - Successfully acquired lock for key: ccd2e03c-3b68-4b76-b823-91ec5151c375
+2026-02-20 11:14:00,058 INFO  Process StartWithinLock - Attempting to acquire lock for key: 47ebfcf4-3b53-448c-9e34-49fd8a1327c0 with timeout: 00:00:00
+2026-02-20 11:14:00,058 INFO  Process StartWithinLock - Successfully acquired lock for key: 47ebfcf4-3b53-448c-9e34-49fd8a1327c0
+2026-02-20 11:15:00,067 INFO  Process StartWithinLock - Attempting to acquire lock for key: eb490935-7c09-4d65-bd8c-7b7118ed9be5 with timeout: 00:00:00
+2026-02-20 11:15:00,067 INFO  Process StartWithinLock - Successfully acquired lock for key: eb490935-7c09-4d65-bd8c-7b7118ed9be5
+2026-02-20 11:15:45,542 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 11:20:45 AM +00:00
+2026-02-20 11:16:00,055 INFO  Process StartWithinLock - Attempting to acquire lock for key: 507b47a5-bbfb-49ff-9b82-1c40b61391e4 with timeout: 00:00:00
+2026-02-20 11:16:00,055 INFO  Process StartWithinLock - Successfully acquired lock for key: 507b47a5-bbfb-49ff-9b82-1c40b61391e4
+2026-02-20 11:17:00,082 INFO  Process StartWithinLock - Attempting to acquire lock for key: fd40a45e-6265-49eb-9f49-21bf647781fb with timeout: 00:00:00
+2026-02-20 11:17:00,085 INFO  Process StartWithinLock - Successfully acquired lock for key: fd40a45e-6265-49eb-9f49-21bf647781fb
+2026-02-20 11:18:00,058 INFO  Process StartWithinLock - Attempting to acquire lock for key: b45a8d49-fd41-4b50-9c4e-a5d9322a5816 with timeout: 00:00:00
+2026-02-20 11:18:00,058 INFO  Process StartWithinLock - Successfully acquired lock for key: b45a8d49-fd41-4b50-9c4e-a5d9322a5816
+2026-02-20 11:19:00,061 INFO  Process StartWithinLock - Attempting to acquire lock for key: 98600ab1-1091-420c-a2a4-fdc6fde2dbdc with timeout: 00:00:00
+2026-02-20 11:19:00,061 INFO  Process StartWithinLock - Successfully acquired lock for key: 98600ab1-1091-420c-a2a4-fdc6fde2dbdc
+2026-02-20 11:20:00,069 INFO  Process StartWithinLock - Attempting to acquire lock for key: 390f70c9-73af-4045-904f-7fde8371bc1a with timeout: 00:00:00
+2026-02-20 11:20:00,069 INFO  Process StartWithinLock - Successfully acquired lock for key: 390f70c9-73af-4045-904f-7fde8371bc1a
+2026-02-20 11:20:00,085 INFO  Process StartWithinLock - Attempting to acquire lock for key: 6c535159-0635-4413-9f28-54bd08d27920 with timeout: 00:00:00
+2026-02-20 11:20:00,085 INFO  Process StartWithinLock - Successfully acquired lock for key: 6c535159-0635-4413-9f28-54bd08d27920
+2026-02-20 11:20:45,592 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 11:25:45 AM +00:00
+2026-02-20 11:21:00,054 INFO  Process StartWithinLock - Attempting to acquire lock for key: 5432a46c-9362-4a6c-978f-25ba06924098 with timeout: 00:00:00
+2026-02-20 11:21:00,054 INFO  Process StartWithinLock - Successfully acquired lock for key: 5432a46c-9362-4a6c-978f-25ba06924098
+2026-02-20 11:22:00,059 INFO  Process StartWithinLock - Attempting to acquire lock for key: 9e711a8f-799e-47dc-8ea5-0e8fb9cc2bc0 with timeout: 00:00:00
+2026-02-20 11:22:00,059 INFO  Process StartWithinLock - Successfully acquired lock for key: 9e711a8f-799e-47dc-8ea5-0e8fb9cc2bc0
+2026-02-20 11:23:00,074 INFO  Process StartWithinLock - Attempting to acquire lock for key: 9bb14c5c-b520-4a3c-9262-062905d6315d with timeout: 00:00:00
+2026-02-20 11:23:00,074 INFO  Process StartWithinLock - Successfully acquired lock for key: 9bb14c5c-b520-4a3c-9262-062905d6315d
+2026-02-20 11:24:00,077 INFO  Process StartWithinLock - Attempting to acquire lock for key: 77363943-5c6b-4a59-9998-9c4ea3e30c42 with timeout: 00:00:00
+2026-02-20 11:24:00,077 INFO  Process StartWithinLock - Successfully acquired lock for key: 77363943-5c6b-4a59-9998-9c4ea3e30c42
+2026-02-20 11:25:00,062 INFO  Process StartWithinLock - Attempting to acquire lock for key: 8c09638a-2567-4d42-8e80-e1d2488ef114 with timeout: 00:00:00
+2026-02-20 11:25:00,062 INFO  Process StartWithinLock - Successfully acquired lock for key: 8c09638a-2567-4d42-8e80-e1d2488ef114
+2026-02-20 11:25:45,606 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 11:30:45 AM +00:00
+2026-02-20 11:26:00,071 INFO  Process StartWithinLock - Attempting to acquire lock for key: e8b13a74-3351-4199-a448-9359e66e861f with timeout: 00:00:00
+2026-02-20 11:26:00,071 INFO  Process StartWithinLock - Successfully acquired lock for key: e8b13a74-3351-4199-a448-9359e66e861f
+2026-02-20 11:27:00,057 INFO  Process StartWithinLock - Attempting to acquire lock for key: ed33d683-fb34-4eb9-a3fd-1b58f9d3c4ff with timeout: 00:00:00
+2026-02-20 11:27:00,059 INFO  Process StartWithinLock - Successfully acquired lock for key: ed33d683-fb34-4eb9-a3fd-1b58f9d3c4ff
+2026-02-20 11:28:00,010 INFO  Process StartWithinLock - Attempting to acquire lock for key: c6cfa3fd-c009-4504-aa16-0682dc622643 with timeout: 00:00:00
+2026-02-20 11:28:00,010 INFO  Process StartWithinLock - Successfully acquired lock for key: c6cfa3fd-c009-4504-aa16-0682dc622643
+2026-02-20 11:29:00,018 INFO  Process StartWithinLock - Attempting to acquire lock for key: 022dc5cc-9796-43f6-a2ef-5624f0924bbe with timeout: 00:00:00
+2026-02-20 11:29:00,018 INFO  Process StartWithinLock - Successfully acquired lock for key: 022dc5cc-9796-43f6-a2ef-5624f0924bbe
+2026-02-20 11:30:00,010 INFO  Process StartWithinLock - Attempting to acquire lock for key: e318f9ce-39ef-45b5-942c-f32445492772 with timeout: 00:00:00
+2026-02-20 11:30:00,010 INFO  Process StartWithinLock - Successfully acquired lock for key: e318f9ce-39ef-45b5-942c-f32445492772
+2026-02-20 11:30:00,022 INFO  Process StartWithinLock - Attempting to acquire lock for key: 0b0ebed4-8efb-4bf8-8abd-0c51536edaec with timeout: 00:00:00
+2026-02-20 11:30:00,022 INFO  Process StartWithinLock - Successfully acquired lock for key: 0b0ebed4-8efb-4bf8-8abd-0c51536edaec
+2026-02-20 11:30:45,616 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 11:35:45 AM +00:00
+2026-02-20 11:31:00,008 INFO  Process StartWithinLock - Attempting to acquire lock for key: 51393a57-ba32-48fa-a86b-250ef6c15a81 with timeout: 00:00:00
+2026-02-20 11:31:00,008 INFO  Process StartWithinLock - Successfully acquired lock for key: 51393a57-ba32-48fa-a86b-250ef6c15a81
+2026-02-20 11:32:00,019 INFO  Process StartWithinLock - Attempting to acquire lock for key: 7ddfc923-bd28-4dd1-b32f-37e23d56bc14 with timeout: 00:00:00
+2026-02-20 11:32:00,019 INFO  Process StartWithinLock - Successfully acquired lock for key: 7ddfc923-bd28-4dd1-b32f-37e23d56bc14
+2026-02-20 11:33:00,019 INFO  Process StartWithinLock - Attempting to acquire lock for key: 1d64a16a-229b-4708-b37d-62fb6b41b53e with timeout: 00:00:00
+2026-02-20 11:33:00,019 INFO  Process StartWithinLock - Successfully acquired lock for key: 1d64a16a-229b-4708-b37d-62fb6b41b53e
+2026-02-20 11:34:00,018 INFO  Process StartWithinLock - Attempting to acquire lock for key: e27a9a4e-56ac-4e88-b7e6-8aa8ff403476 with timeout: 00:00:00
+2026-02-20 11:34:00,018 INFO  Process StartWithinLock - Successfully acquired lock for key: e27a9a4e-56ac-4e88-b7e6-8aa8ff403476
+2026-02-20 11:35:00,008 INFO  Process StartWithinLock - Attempting to acquire lock for key: b6cda2ab-5e8a-4bc1-a307-8086d1699bff with timeout: 00:00:00
+2026-02-20 11:35:00,008 INFO  Process StartWithinLock - Successfully acquired lock for key: b6cda2ab-5e8a-4bc1-a307-8086d1699bff
+2026-02-20 11:35:45,622 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 11:40:45 AM +00:00
+2026-02-20 11:36:00,019 INFO  Process StartWithinLock - Attempting to acquire lock for key: 016e7e42-cdb9-4709-95c9-4903439eb591 with timeout: 00:00:00
+2026-02-20 11:36:00,019 INFO  Process StartWithinLock - Successfully acquired lock for key: 016e7e42-cdb9-4709-95c9-4903439eb591
+2026-02-20 11:37:00,009 INFO  Process StartWithinLock - Attempting to acquire lock for key: 98122c9c-95a9-4640-9d1b-0df1e77aeec2 with timeout: 00:00:00
+2026-02-20 11:37:00,009 INFO  Process StartWithinLock - Successfully acquired lock for key: 98122c9c-95a9-4640-9d1b-0df1e77aeec2
+2026-02-20 11:38:00,008 INFO  Process StartWithinLock - Attempting to acquire lock for key: d0bc4bde-b757-47d0-bb89-6f559c52abb3 with timeout: 00:00:00
+2026-02-20 11:38:00,008 INFO  Process StartWithinLock - Successfully acquired lock for key: d0bc4bde-b757-47d0-bb89-6f559c52abb3
+2026-02-20 11:39:00,013 INFO  Process StartWithinLock - Attempting to acquire lock for key: 9f4cc40e-84dc-4f61-8fd3-79045e1b6eca with timeout: 00:00:00
+2026-02-20 11:39:00,013 INFO  Process StartWithinLock - Successfully acquired lock for key: 9f4cc40e-84dc-4f61-8fd3-79045e1b6eca
+2026-02-20 11:40:00,018 INFO  Process StartWithinLock - Attempting to acquire lock for key: 836cfa8b-c634-41ae-8701-7862d0e2eded with timeout: 00:00:00
+2026-02-20 11:40:00,018 INFO  Process StartWithinLock - Successfully acquired lock for key: 836cfa8b-c634-41ae-8701-7862d0e2eded
+2026-02-20 11:40:00,030 INFO  Process StartWithinLock - Attempting to acquire lock for key: 480e8a57-7c6c-4e24-8ba5-c180bf77292d with timeout: 00:00:00
+2026-02-20 11:40:00,030 INFO  Process StartWithinLock - Successfully acquired lock for key: 480e8a57-7c6c-4e24-8ba5-c180bf77292d
+2026-02-20 11:40:45,633 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 11:45:45 AM +00:00
+2026-02-20 11:41:00,017 INFO  Process StartWithinLock - Attempting to acquire lock for key: f323bd88-b7d0-4281-b036-5c0ec14fea9e with timeout: 00:00:00
+2026-02-20 11:41:00,017 INFO  Process StartWithinLock - Successfully acquired lock for key: f323bd88-b7d0-4281-b036-5c0ec14fea9e
+2026-02-20 11:42:00,015 INFO  Process StartWithinLock - Attempting to acquire lock for key: 230d0586-acd4-46c8-9f0d-4cbbac7ce727 with timeout: 00:00:00
+2026-02-20 11:42:00,015 INFO  Process StartWithinLock - Successfully acquired lock for key: 230d0586-acd4-46c8-9f0d-4cbbac7ce727
+2026-02-20 11:43:00,018 INFO  Process StartWithinLock - Attempting to acquire lock for key: 2a452682-8f78-40e4-9ebf-a3c5a19262dd with timeout: 00:00:00
+2026-02-20 11:43:00,018 INFO  Process StartWithinLock - Successfully acquired lock for key: 2a452682-8f78-40e4-9ebf-a3c5a19262dd
+2026-02-20 11:44:00,008 INFO  Process StartWithinLock - Attempting to acquire lock for key: af5ffa2f-e487-4080-b82f-ae3ac64817f3 with timeout: 00:00:00
+2026-02-20 11:44:00,008 INFO  Process StartWithinLock - Successfully acquired lock for key: af5ffa2f-e487-4080-b82f-ae3ac64817f3
+2026-02-20 11:45:00,011 INFO  Process StartWithinLock - Attempting to acquire lock for key: 0ae78d80-e1e9-4d99-b8e7-2dc91fc7366a with timeout: 00:00:00
+2026-02-20 11:45:00,011 INFO  Process StartWithinLock - Successfully acquired lock for key: 0ae78d80-e1e9-4d99-b8e7-2dc91fc7366a
+2026-02-20 11:45:45,641 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 11:50:45 AM +00:00
+2026-02-20 11:46:00,008 INFO  Process StartWithinLock - Attempting to acquire lock for key: 2fff498a-5899-49d3-bd50-30f6337aefc7 with timeout: 00:00:00
+2026-02-20 11:46:00,008 INFO  Process StartWithinLock - Successfully acquired lock for key: 2fff498a-5899-49d3-bd50-30f6337aefc7
+2026-02-20 11:47:00,016 INFO  Process StartWithinLock - Attempting to acquire lock for key: 9c8780b8-ecbd-47b8-adfc-8a14fe8284c3 with timeout: 00:00:00
+2026-02-20 11:47:00,016 INFO  Process StartWithinLock - Successfully acquired lock for key: 9c8780b8-ecbd-47b8-adfc-8a14fe8284c3
+2026-02-20 11:48:00,009 INFO  Process StartWithinLock - Attempting to acquire lock for key: 4a47ee0a-f489-45a7-84df-451df1b575b9 with timeout: 00:00:00
+2026-02-20 11:48:00,009 INFO  Process StartWithinLock - Successfully acquired lock for key: 4a47ee0a-f489-45a7-84df-451df1b575b9
+2026-02-20 11:49:00,008 INFO  Process StartWithinLock - Attempting to acquire lock for key: 8a8c0299-94a7-4e53-9a98-5b83be89487c with timeout: 00:00:00
+2026-02-20 11:49:00,009 INFO  Process StartWithinLock - Successfully acquired lock for key: 8a8c0299-94a7-4e53-9a98-5b83be89487c
+2026-02-20 11:50:00,010 INFO  Process StartWithinLock - Attempting to acquire lock for key: c2086382-00d7-41b0-9b92-27f408edf1df with timeout: 00:00:00
+2026-02-20 11:50:00,010 INFO  Process StartWithinLock - Successfully acquired lock for key: c2086382-00d7-41b0-9b92-27f408edf1df
+2026-02-20 11:50:00,029 INFO  Process StartWithinLock - Attempting to acquire lock for key: c2926843-9d41-482f-9957-639364bc3672 with timeout: 00:00:00
+2026-02-20 11:50:00,029 INFO  Process StartWithinLock - Successfully acquired lock for key: c2926843-9d41-482f-9957-639364bc3672
+2026-02-20 11:50:45,644 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 11:55:45 AM +00:00
+2026-02-20 11:51:00,007 INFO  Process StartWithinLock - Attempting to acquire lock for key: 79614960-de38-4471-9cae-4f67caaa292b with timeout: 00:00:00
+2026-02-20 11:51:00,007 INFO  Process StartWithinLock - Successfully acquired lock for key: 79614960-de38-4471-9cae-4f67caaa292b
+2026-02-20 11:52:00,019 INFO  Process StartWithinLock - Attempting to acquire lock for key: 61981ec7-964c-4457-943c-dbb3218d73ad with timeout: 00:00:00
+2026-02-20 11:52:00,019 INFO  Process StartWithinLock - Successfully acquired lock for key: 61981ec7-964c-4457-943c-dbb3218d73ad
+2026-02-20 11:53:00,018 INFO  Process StartWithinLock - Attempting to acquire lock for key: 54677522-4a19-414e-912b-d8ac85e6a3e7 with timeout: 00:00:00
+2026-02-20 11:53:00,018 INFO  Process StartWithinLock - Successfully acquired lock for key: 54677522-4a19-414e-912b-d8ac85e6a3e7
+2026-02-20 11:54:00,008 INFO  Process StartWithinLock - Attempting to acquire lock for key: 51244336-9d55-4666-9020-b53709679088 with timeout: 00:00:00
+2026-02-20 11:54:00,010 INFO  Process StartWithinLock - Successfully acquired lock for key: 51244336-9d55-4666-9020-b53709679088
+2026-02-20 11:55:00,008 INFO  Process StartWithinLock - Attempting to acquire lock for key: 09090ea9-33e8-4050-8cbf-bd79c08c2565 with timeout: 00:00:00
+2026-02-20 11:55:00,008 INFO  Process StartWithinLock - Successfully acquired lock for key: 09090ea9-33e8-4050-8cbf-bd79c08c2565
+2026-02-20 11:55:45,652 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 12:00:45 PM +00:00
+2026-02-20 11:56:00,008 INFO  Process StartWithinLock - Attempting to acquire lock for key: 0fda1993-3504-4a6f-8ad8-45eae7f809f9 with timeout: 00:00:00
+2026-02-20 11:56:00,008 INFO  Process StartWithinLock - Successfully acquired lock for key: 0fda1993-3504-4a6f-8ad8-45eae7f809f9
+2026-02-20 11:57:00,008 INFO  Process StartWithinLock - Attempting to acquire lock for key: 5d6b39b7-3eed-481b-80c0-55c6c022ab95 with timeout: 00:00:00
+2026-02-20 11:57:00,008 INFO  Process StartWithinLock - Successfully acquired lock for key: 5d6b39b7-3eed-481b-80c0-55c6c022ab95
+2026-02-20 11:58:00,008 INFO  Process StartWithinLock - Attempting to acquire lock for key: b77ff557-c058-4f59-84d5-49bf6968f5bb with timeout: 00:00:00
+2026-02-20 11:58:00,008 INFO  Process StartWithinLock - Successfully acquired lock for key: b77ff557-c058-4f59-84d5-49bf6968f5bb
+2026-02-20 11:59:00,007 INFO  Process StartWithinLock - Attempting to acquire lock for key: 79e3ba72-2750-49c4-ae7e-055e80c303a1 with timeout: 00:00:00
+2026-02-20 11:59:00,007 INFO  Process StartWithinLock - Successfully acquired lock for key: 79e3ba72-2750-49c4-ae7e-055e80c303a1
+2026-02-20 12:00:00,008 INFO  Process StartWithinLock - Attempting to acquire lock for key: cc8cd5b4-e45f-4d80-b556-f7f62bb52121 with timeout: 00:00:00
+2026-02-20 12:00:00,008 INFO  Process StartWithinLock - Successfully acquired lock for key: cc8cd5b4-e45f-4d80-b556-f7f62bb52121
+2026-02-20 12:00:00,019 INFO  Process StartWithinLock - Attempting to acquire lock for key: ea3186a3-57a1-406e-b646-d8842261dde6 with timeout: 00:00:00
+2026-02-20 12:00:00,019 INFO  Process StartWithinLock - Successfully acquired lock for key: ea3186a3-57a1-406e-b646-d8842261dde6
+2026-02-20 12:00:00,031 INFO  Process StartWithinLock - Attempting to acquire lock for key: 9e443888-139c-44f8-91d3-b73895b4f52f with timeout: 00:00:00
+2026-02-20 12:00:00,031 INFO  Process StartWithinLock - Successfully acquired lock for key: 9e443888-139c-44f8-91d3-b73895b4f52f
+2026-02-20 12:00:00,045 INFO  Process StartWithinLock - Attempting to acquire lock for key: ab09c3ca-09a0-4fdc-bcb4-eb346c2a2f8d with timeout: 00:00:00
+2026-02-20 12:00:00,045 INFO  Process StartWithinLock - Successfully acquired lock for key: ab09c3ca-09a0-4fdc-bcb4-eb346c2a2f8d
+2026-02-20 12:00:45,665 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 12:05:45 PM +00:00
+2026-02-20 12:01:00,009 INFO  Process StartWithinLock - Attempting to acquire lock for key: cba34925-6af6-43d3-9f28-f482d7d64ad2 with timeout: 00:00:00
+2026-02-20 12:01:00,009 INFO  Process StartWithinLock - Successfully acquired lock for key: cba34925-6af6-43d3-9f28-f482d7d64ad2
+2026-02-20 12:02:00,013 INFO  Process StartWithinLock - Attempting to acquire lock for key: b9d21088-5e7a-40b7-8124-da178e6bc314 with timeout: 00:00:00
+2026-02-20 12:02:00,014 INFO  Process StartWithinLock - Successfully acquired lock for key: b9d21088-5e7a-40b7-8124-da178e6bc314
+2026-02-20 12:03:00,010 INFO  Process StartWithinLock - Attempting to acquire lock for key: 546aa239-63e5-416f-bda2-16bb76deba75 with timeout: 00:00:00
+2026-02-20 12:03:00,010 INFO  Process StartWithinLock - Successfully acquired lock for key: 546aa239-63e5-416f-bda2-16bb76deba75
+2026-02-20 12:04:00,012 INFO  Process StartWithinLock - Attempting to acquire lock for key: 375f94ed-cab4-47fc-8a9b-1be084ec4048 with timeout: 00:00:00
+2026-02-20 12:04:00,013 INFO  Process StartWithinLock - Successfully acquired lock for key: 375f94ed-cab4-47fc-8a9b-1be084ec4048
+2026-02-20 12:05:00,014 INFO  Process StartWithinLock - Attempting to acquire lock for key: 2d335fa9-a43e-4c90-888b-349eea82d555 with timeout: 00:00:00
+2026-02-20 12:05:00,014 INFO  Process StartWithinLock - Successfully acquired lock for key: 2d335fa9-a43e-4c90-888b-349eea82d555
+2026-02-20 12:05:45,673 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 12:10:45 PM +00:00
+2026-02-20 12:06:00,009 INFO  Process StartWithinLock - Attempting to acquire lock for key: 254c8668-c64d-4005-99bf-ef137bda6317 with timeout: 00:00:00
+2026-02-20 12:06:00,009 INFO  Process StartWithinLock - Successfully acquired lock for key: 254c8668-c64d-4005-99bf-ef137bda6317
+2026-02-20 12:07:00,017 INFO  Process StartWithinLock - Attempting to acquire lock for key: eaf108b3-4902-40b2-9427-1f1822d34204 with timeout: 00:00:00
+2026-02-20 12:07:00,017 INFO  Process StartWithinLock - Successfully acquired lock for key: eaf108b3-4902-40b2-9427-1f1822d34204
+2026-02-20 12:08:00,018 INFO  Process StartWithinLock - Attempting to acquire lock for key: 0be78095-3df4-4ddd-b3eb-0bd2ba218602 with timeout: 00:00:00
+2026-02-20 12:08:00,018 INFO  Process StartWithinLock - Successfully acquired lock for key: 0be78095-3df4-4ddd-b3eb-0bd2ba218602
+2026-02-20 12:09:00,008 INFO  Process StartWithinLock - Attempting to acquire lock for key: 563d6782-4911-4c40-9a0b-b2f3a742212b with timeout: 00:00:00
+2026-02-20 12:09:00,008 INFO  Process StartWithinLock - Successfully acquired lock for key: 563d6782-4911-4c40-9a0b-b2f3a742212b
+2026-02-20 12:10:00,139 INFO  Process StartWithinLock - Attempting to acquire lock for key: ba4f321c-6071-481a-918a-413706ad2729 with timeout: 00:00:00
+2026-02-20 12:10:00,139 INFO  Process StartWithinLock - Successfully acquired lock for key: ba4f321c-6071-481a-918a-413706ad2729
+2026-02-20 12:10:00,155 INFO  Process StartWithinLock - Attempting to acquire lock for key: 19c9f7ca-86b1-4194-a6fd-fbab26cb5f04 with timeout: 00:00:00
+2026-02-20 12:10:00,155 INFO  Process StartWithinLock - Successfully acquired lock for key: 19c9f7ca-86b1-4194-a6fd-fbab26cb5f04
+2026-02-20 12:10:45,681 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 12:15:45 PM +00:00
+2026-02-20 12:11:00,018 INFO  Process StartWithinLock - Attempting to acquire lock for key: 999ef0c2-0bc9-4963-b163-f79a866e8058 with timeout: 00:00:00
+2026-02-20 12:11:00,018 INFO  Process StartWithinLock - Successfully acquired lock for key: 999ef0c2-0bc9-4963-b163-f79a866e8058
+2026-02-20 12:12:00,017 INFO  Process StartWithinLock - Attempting to acquire lock for key: 770ecc15-2849-4886-bc32-93ccea9038f0 with timeout: 00:00:00
+2026-02-20 12:12:00,017 INFO  Process StartWithinLock - Successfully acquired lock for key: 770ecc15-2849-4886-bc32-93ccea9038f0
+2026-02-20 12:13:00,010 INFO  Process StartWithinLock - Attempting to acquire lock for key: 7005b958-ecfe-4c70-b8db-5ce6f032b545 with timeout: 00:00:00
+2026-02-20 12:13:00,010 INFO  Process StartWithinLock - Successfully acquired lock for key: 7005b958-ecfe-4c70-b8db-5ce6f032b545
+2026-02-20 12:14:00,017 INFO  Process StartWithinLock - Attempting to acquire lock for key: 7a898a49-c426-46bf-b2c9-ff3ed2981289 with timeout: 00:00:00
+2026-02-20 12:14:00,017 INFO  Process StartWithinLock - Successfully acquired lock for key: 7a898a49-c426-46bf-b2c9-ff3ed2981289
+2026-02-20 12:15:00,017 INFO  Process StartWithinLock - Attempting to acquire lock for key: d03b64a6-9647-45d5-9fc7-d3fa1a06e6d5 with timeout: 00:00:00
+2026-02-20 12:15:00,017 INFO  Process StartWithinLock - Successfully acquired lock for key: d03b64a6-9647-45d5-9fc7-d3fa1a06e6d5
+2026-02-20 12:15:45,690 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 12:20:45 PM +00:00
+2026-02-20 12:16:00,009 INFO  Process StartWithinLock - Attempting to acquire lock for key: 4abd36fc-e9eb-4f18-ac97-c98cf687428c with timeout: 00:00:00
+2026-02-20 12:16:00,009 INFO  Process StartWithinLock - Successfully acquired lock for key: 4abd36fc-e9eb-4f18-ac97-c98cf687428c
+2026-02-20 12:17:00,018 INFO  Process StartWithinLock - Attempting to acquire lock for key: cf653920-1d50-47f3-a863-63706b025dda with timeout: 00:00:00
+2026-02-20 12:17:00,018 INFO  Process StartWithinLock - Successfully acquired lock for key: cf653920-1d50-47f3-a863-63706b025dda
+2026-02-20 12:18:00,020 INFO  Process StartWithinLock - Attempting to acquire lock for key: f1b81677-705f-4fda-9e0d-0da77e0fdec7 with timeout: 00:00:00
+2026-02-20 12:18:00,020 INFO  Process StartWithinLock - Successfully acquired lock for key: f1b81677-705f-4fda-9e0d-0da77e0fdec7
+2026-02-20 12:19:00,017 INFO  Process StartWithinLock - Attempting to acquire lock for key: 113179e3-ea58-4956-b4dc-24ea44054f2e with timeout: 00:00:00
+2026-02-20 12:19:00,017 INFO  Process StartWithinLock - Successfully acquired lock for key: 113179e3-ea58-4956-b4dc-24ea44054f2e
+2026-02-20 12:20:00,018 INFO  Process StartWithinLock - Attempting to acquire lock for key: 906e21f2-a245-44a0-a1f9-e52f9622d6d6 with timeout: 00:00:00
+2026-02-20 12:20:00,018 INFO  Process StartWithinLock - Successfully acquired lock for key: 906e21f2-a245-44a0-a1f9-e52f9622d6d6
+2026-02-20 12:20:00,030 INFO  Process StartWithinLock - Attempting to acquire lock for key: 1d1e9604-1043-4ffa-a0aa-0aeee3e06f3f with timeout: 00:00:00
+2026-02-20 12:20:00,030 INFO  Process StartWithinLock - Successfully acquired lock for key: 1d1e9604-1043-4ffa-a0aa-0aeee3e06f3f
+2026-02-20 12:20:45,701 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 12:25:45 PM +00:00
+2026-02-20 12:21:00,018 INFO  Process StartWithinLock - Attempting to acquire lock for key: 92afe4d7-dcd5-4e10-a0ee-4a38d94a6e78 with timeout: 00:00:00
+2026-02-20 12:21:00,020 INFO  Process StartWithinLock - Successfully acquired lock for key: 92afe4d7-dcd5-4e10-a0ee-4a38d94a6e78
+2026-02-20 12:22:00,010 INFO  Process StartWithinLock - Attempting to acquire lock for key: 7b5dc42c-184b-4187-9a76-cbf6427e483a with timeout: 00:00:00
+2026-02-20 12:22:00,010 INFO  Process StartWithinLock - Successfully acquired lock for key: 7b5dc42c-184b-4187-9a76-cbf6427e483a
+2026-02-20 12:23:00,010 INFO  Process StartWithinLock - Attempting to acquire lock for key: e29c3509-1ac6-4a31-9637-86d491f72379 with timeout: 00:00:00
+2026-02-20 12:23:00,010 INFO  Process StartWithinLock - Successfully acquired lock for key: e29c3509-1ac6-4a31-9637-86d491f72379
+2026-02-20 12:24:00,018 INFO  Process StartWithinLock - Attempting to acquire lock for key: 5fbde4af-eefd-459e-9da5-07d58b64524e with timeout: 00:00:00
+2026-02-20 12:24:00,018 INFO  Process StartWithinLock - Successfully acquired lock for key: 5fbde4af-eefd-459e-9da5-07d58b64524e
+2026-02-20 12:25:00,018 INFO  Process StartWithinLock - Attempting to acquire lock for key: 78d95ba7-bbaa-4dc9-9a1e-6d8e935e2032 with timeout: 00:00:00
+2026-02-20 12:25:00,018 INFO  Process StartWithinLock - Successfully acquired lock for key: 78d95ba7-bbaa-4dc9-9a1e-6d8e935e2032
+2026-02-20 12:25:45,709 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 12:30:45 PM +00:00
+2026-02-20 12:26:00,008 INFO  Process StartWithinLock - Attempting to acquire lock for key: dad91884-8608-4bec-ad10-088a8c2d7322 with timeout: 00:00:00
+2026-02-20 12:26:00,008 INFO  Process StartWithinLock - Successfully acquired lock for key: dad91884-8608-4bec-ad10-088a8c2d7322
+2026-02-20 12:27:00,010 INFO  Process StartWithinLock - Attempting to acquire lock for key: 3cdfbb9e-8054-4ebf-a47a-4997643289ee with timeout: 00:00:00
+2026-02-20 12:27:00,010 INFO  Process StartWithinLock - Successfully acquired lock for key: 3cdfbb9e-8054-4ebf-a47a-4997643289ee
+2026-02-20 12:28:00,014 INFO  Process StartWithinLock - Attempting to acquire lock for key: f16ffbba-540c-42e1-a882-006e2b4c237b with timeout: 00:00:00
+2026-02-20 12:28:00,014 INFO  Process StartWithinLock - Successfully acquired lock for key: f16ffbba-540c-42e1-a882-006e2b4c237b
+2026-02-20 12:29:00,009 INFO  Process StartWithinLock - Attempting to acquire lock for key: e01c1df9-0bee-48a1-8f6c-7b88650e3e2e with timeout: 00:00:00
+2026-02-20 12:29:00,009 INFO  Process StartWithinLock - Successfully acquired lock for key: e01c1df9-0bee-48a1-8f6c-7b88650e3e2e
+2026-02-20 12:30:00,019 INFO  Process StartWithinLock - Attempting to acquire lock for key: d4e52267-de34-487a-9838-2d561b8998c4 with timeout: 00:00:00
+2026-02-20 12:30:00,020 INFO  Process StartWithinLock - Successfully acquired lock for key: d4e52267-de34-487a-9838-2d561b8998c4
+2026-02-20 12:30:00,032 INFO  Process StartWithinLock - Attempting to acquire lock for key: b9d9d04f-a5d2-4404-821e-c6846ddf9702 with timeout: 00:00:00
+2026-02-20 12:30:00,032 INFO  Process StartWithinLock - Successfully acquired lock for key: b9d9d04f-a5d2-4404-821e-c6846ddf9702
+2026-02-20 12:30:45,718 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 12:35:45 PM +00:00
+2026-02-20 12:31:00,011 INFO  Process StartWithinLock - Attempting to acquire lock for key: 8f77a39f-fdd5-48ee-9ef3-8705fb3934d3 with timeout: 00:00:00
+2026-02-20 12:31:00,011 INFO  Process StartWithinLock - Successfully acquired lock for key: 8f77a39f-fdd5-48ee-9ef3-8705fb3934d3
+2026-02-20 12:32:00,018 INFO  Process StartWithinLock - Attempting to acquire lock for key: b8a3eeb4-c25e-4d66-af47-28f66665cbad with timeout: 00:00:00
+2026-02-20 12:32:00,018 INFO  Process StartWithinLock - Successfully acquired lock for key: b8a3eeb4-c25e-4d66-af47-28f66665cbad
+2026-02-20 12:33:00,009 INFO  Process StartWithinLock - Attempting to acquire lock for key: 9f1e06ec-996d-435f-8fc3-7f581a8b7877 with timeout: 00:00:00
+2026-02-20 12:33:00,009 INFO  Process StartWithinLock - Successfully acquired lock for key: 9f1e06ec-996d-435f-8fc3-7f581a8b7877
+2026-02-20 12:34:00,009 INFO  Process StartWithinLock - Attempting to acquire lock for key: 0e67b1d1-e76d-4303-8c34-e70329192d23 with timeout: 00:00:00
+2026-02-20 12:34:00,009 INFO  Process StartWithinLock - Successfully acquired lock for key: 0e67b1d1-e76d-4303-8c34-e70329192d23
+2026-02-20 12:35:00,010 INFO  Process StartWithinLock - Attempting to acquire lock for key: ca68462b-fe66-4326-98f6-7e4117477397 with timeout: 00:00:00
+2026-02-20 12:35:00,010 INFO  Process StartWithinLock - Successfully acquired lock for key: ca68462b-fe66-4326-98f6-7e4117477397
+2026-02-20 12:35:45,727 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 12:40:45 PM +00:00
+2026-02-20 12:36:00,009 INFO  Process StartWithinLock - Attempting to acquire lock for key: ed73d8bd-09dc-4bf4-98d4-cdac3b0643ab with timeout: 00:00:00
+2026-02-20 12:36:00,009 INFO  Process StartWithinLock - Successfully acquired lock for key: ed73d8bd-09dc-4bf4-98d4-cdac3b0643ab
+2026-02-20 12:37:00,018 INFO  Process StartWithinLock - Attempting to acquire lock for key: 6319ed5f-6c3e-4119-9a47-2f4aaa5910c4 with timeout: 00:00:00
+2026-02-20 12:37:00,018 INFO  Process StartWithinLock - Successfully acquired lock for key: 6319ed5f-6c3e-4119-9a47-2f4aaa5910c4
+2026-02-20 12:38:00,028 INFO  Process StartWithinLock - Attempting to acquire lock for key: 75f1875b-717a-4a4f-bb9c-c7d480c3dfb9 with timeout: 00:00:00
+2026-02-20 12:38:00,028 INFO  Process StartWithinLock - Successfully acquired lock for key: 75f1875b-717a-4a4f-bb9c-c7d480c3dfb9
+2026-02-20 12:39:00,009 INFO  Process StartWithinLock - Attempting to acquire lock for key: 6bfcc5e4-e978-48be-a760-702fea22a5c6 with timeout: 00:00:00
+2026-02-20 12:39:00,009 INFO  Process StartWithinLock - Successfully acquired lock for key: 6bfcc5e4-e978-48be-a760-702fea22a5c6
+2026-02-20 12:40:00,009 INFO  Process StartWithinLock - Attempting to acquire lock for key: 05f38598-b081-4bf5-b38f-e15b9dcc9b3e with timeout: 00:00:00
+2026-02-20 12:40:00,009 INFO  Process StartWithinLock - Successfully acquired lock for key: 05f38598-b081-4bf5-b38f-e15b9dcc9b3e
+2026-02-20 12:40:00,025 INFO  Process StartWithinLock - Attempting to acquire lock for key: 89790d7d-2448-40cd-b788-ac3bfb90cdef with timeout: 00:00:00
+2026-02-20 12:40:00,025 INFO  Process StartWithinLock - Successfully acquired lock for key: 89790d7d-2448-40cd-b788-ac3bfb90cdef
+2026-02-20 12:40:45,739 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 12:45:45 PM +00:00
+2026-02-20 12:41:00,018 INFO  Process StartWithinLock - Attempting to acquire lock for key: 49cdf353-ba0d-4938-9fd8-a4c58919d1e3 with timeout: 00:00:00
+2026-02-20 12:41:00,018 INFO  Process StartWithinLock - Successfully acquired lock for key: 49cdf353-ba0d-4938-9fd8-a4c58919d1e3
+2026-02-20 12:42:00,018 INFO  Process StartWithinLock - Attempting to acquire lock for key: 34a54b95-90ae-4f16-a00e-7b5fb459f39f with timeout: 00:00:00
+2026-02-20 12:42:00,018 INFO  Process StartWithinLock - Successfully acquired lock for key: 34a54b95-90ae-4f16-a00e-7b5fb459f39f
+2026-02-20 12:43:00,021 INFO  Process StartWithinLock - Attempting to acquire lock for key: 3b8d49c3-b5c1-472a-90d4-71e655f24f08 with timeout: 00:00:00
+2026-02-20 12:43:00,021 INFO  Process StartWithinLock - Successfully acquired lock for key: 3b8d49c3-b5c1-472a-90d4-71e655f24f08
+2026-02-20 12:44:00,010 INFO  Process StartWithinLock - Attempting to acquire lock for key: d0dd09d7-2a7c-42db-a63e-2386019a8715 with timeout: 00:00:00
+2026-02-20 12:44:00,010 INFO  Process StartWithinLock - Successfully acquired lock for key: d0dd09d7-2a7c-42db-a63e-2386019a8715
+2026-02-20 12:45:00,010 INFO  Process StartWithinLock - Attempting to acquire lock for key: bac51365-4aaf-47bb-96fa-db932c140d92 with timeout: 00:00:00
+2026-02-20 12:45:00,010 INFO  Process StartWithinLock - Successfully acquired lock for key: bac51365-4aaf-47bb-96fa-db932c140d92
+2026-02-20 12:45:45,752 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 12:50:45 PM +00:00
+2026-02-20 12:46:00,020 INFO  Process StartWithinLock - Attempting to acquire lock for key: 12b79502-1673-43ba-85a6-184b750831ac with timeout: 00:00:00
+2026-02-20 12:46:00,020 INFO  Process StartWithinLock - Successfully acquired lock for key: 12b79502-1673-43ba-85a6-184b750831ac
+2026-02-20 12:47:00,021 INFO  Process StartWithinLock - Attempting to acquire lock for key: 606d9baf-ee71-4be9-b3ce-87432083be26 with timeout: 00:00:00
+2026-02-20 12:47:00,021 INFO  Process StartWithinLock - Successfully acquired lock for key: 606d9baf-ee71-4be9-b3ce-87432083be26
+2026-02-20 12:48:00,020 INFO  Process StartWithinLock - Attempting to acquire lock for key: 3d3c1594-e345-4d14-92a0-5793fa916c47 with timeout: 00:00:00
+2026-02-20 12:48:00,020 INFO  Process StartWithinLock - Successfully acquired lock for key: 3d3c1594-e345-4d14-92a0-5793fa916c47
+2026-02-20 12:49:00,009 INFO  Process StartWithinLock - Attempting to acquire lock for key: 0e3f1cf8-c7a6-429e-870e-e5985e267585 with timeout: 00:00:00
+2026-02-20 12:49:00,011 INFO  Process StartWithinLock - Successfully acquired lock for key: 0e3f1cf8-c7a6-429e-870e-e5985e267585
+2026-02-20 12:50:00,009 INFO  Process StartWithinLock - Attempting to acquire lock for key: 3ecdf3b0-a689-40ab-8959-a33844c07702 with timeout: 00:00:00
+2026-02-20 12:50:00,009 INFO  Process StartWithinLock - Successfully acquired lock for key: 3ecdf3b0-a689-40ab-8959-a33844c07702
+2026-02-20 12:50:00,023 INFO  Process StartWithinLock - Attempting to acquire lock for key: 2a3ce6dd-a7dd-45ed-9343-8e0e3b5dc1ff with timeout: 00:00:00
+2026-02-20 12:50:00,023 INFO  Process StartWithinLock - Successfully acquired lock for key: 2a3ce6dd-a7dd-45ed-9343-8e0e3b5dc1ff
+2026-02-20 12:50:45,759 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 12:55:45 PM +00:00
+2026-02-20 12:51:00,019 INFO  Process StartWithinLock - Attempting to acquire lock for key: 12a34aa4-c02f-48a2-ac5b-b7c4e7de4414 with timeout: 00:00:00
+2026-02-20 12:51:00,019 INFO  Process StartWithinLock - Successfully acquired lock for key: 12a34aa4-c02f-48a2-ac5b-b7c4e7de4414
+2026-02-20 12:52:00,019 INFO  Process StartWithinLock - Attempting to acquire lock for key: a1abf370-5272-4d88-a89d-bf4c77e64918 with timeout: 00:00:00
+2026-02-20 12:52:00,019 INFO  Process StartWithinLock - Successfully acquired lock for key: a1abf370-5272-4d88-a89d-bf4c77e64918
+2026-02-20 12:53:00,019 INFO  Process StartWithinLock - Attempting to acquire lock for key: fc824f98-a735-4fa5-ae73-8cecf7153a51 with timeout: 00:00:00
+2026-02-20 12:53:00,019 INFO  Process StartWithinLock - Successfully acquired lock for key: fc824f98-a735-4fa5-ae73-8cecf7153a51
+2026-02-20 12:54:00,019 INFO  Process StartWithinLock - Attempting to acquire lock for key: e109272e-f2be-4f33-bd0a-c1ae53efe653 with timeout: 00:00:00
+2026-02-20 12:54:00,019 INFO  Process StartWithinLock - Successfully acquired lock for key: e109272e-f2be-4f33-bd0a-c1ae53efe653
+2026-02-20 12:55:00,019 INFO  Process StartWithinLock - Attempting to acquire lock for key: 1a41d7c1-9177-4280-b29e-5ab1ddf99abb with timeout: 00:00:00
+2026-02-20 12:55:00,019 INFO  Process StartWithinLock - Successfully acquired lock for key: 1a41d7c1-9177-4280-b29e-5ab1ddf99abb
+2026-02-20 12:55:45,772 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 1:00:45 PM +00:00
+2026-02-20 12:56:00,019 INFO  Process StartWithinLock - Attempting to acquire lock for key: 7e6d1933-43bb-4160-986b-fe78367c7a7a with timeout: 00:00:00
+2026-02-20 12:56:00,019 INFO  Process StartWithinLock - Successfully acquired lock for key: 7e6d1933-43bb-4160-986b-fe78367c7a7a
+2026-02-20 12:57:00,009 INFO  Process StartWithinLock - Attempting to acquire lock for key: dfe59b9b-2110-47a1-8423-70904b0b31ec with timeout: 00:00:00
+2026-02-20 12:57:00,009 INFO  Process StartWithinLock - Successfully acquired lock for key: dfe59b9b-2110-47a1-8423-70904b0b31ec
+2026-02-20 12:58:00,019 INFO  Process StartWithinLock - Attempting to acquire lock for key: 05d09786-b782-45e1-8ef7-1c9bb3c6e879 with timeout: 00:00:00
+2026-02-20 12:58:00,019 INFO  Process StartWithinLock - Successfully acquired lock for key: 05d09786-b782-45e1-8ef7-1c9bb3c6e879
+2026-02-20 12:59:00,010 INFO  Process StartWithinLock - Attempting to acquire lock for key: bd07b715-7595-470c-a663-c9d2a30a0f3d with timeout: 00:00:00
+2026-02-20 12:59:00,010 INFO  Process StartWithinLock - Successfully acquired lock for key: bd07b715-7595-470c-a663-c9d2a30a0f3d
+2026-02-20 13:00:00,010 INFO  Process StartWithinLock - Attempting to acquire lock for key: 53b694c7-4bdb-4f9d-9730-31fa5b416061 with timeout: 00:00:00
+2026-02-20 13:00:00,010 INFO  Process StartWithinLock - Successfully acquired lock for key: 53b694c7-4bdb-4f9d-9730-31fa5b416061
+2026-02-20 13:00:00,026 INFO  Process StartWithinLock - Attempting to acquire lock for key: dc0fdcee-9e88-4631-9cb3-69ddd215cccb with timeout: 00:00:00
+2026-02-20 13:00:00,026 INFO  Process StartWithinLock - Successfully acquired lock for key: dc0fdcee-9e88-4631-9cb3-69ddd215cccb
+2026-02-20 13:00:00,039 INFO  Process StartWithinLock - Attempting to acquire lock for key: e2d87a3f-b832-4f69-894c-6c082c09a706 with timeout: 00:00:00
+2026-02-20 13:00:00,039 INFO  Process StartWithinLock - Successfully acquired lock for key: e2d87a3f-b832-4f69-894c-6c082c09a706
+2026-02-20 13:00:00,056 INFO  Process StartWithinLock - Attempting to acquire lock for key: 652377d7-b3cb-4861-8402-c78f95ee111c with timeout: 00:00:00
+2026-02-20 13:00:00,056 INFO  Process StartWithinLock - Successfully acquired lock for key: 652377d7-b3cb-4861-8402-c78f95ee111c
+2026-02-20 13:00:45,778 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 1:05:45 PM +00:00
+2026-02-20 13:01:00,009 INFO  Process StartWithinLock - Attempting to acquire lock for key: eaf1a271-b3c5-4565-bac7-c4f8a2adf57d with timeout: 00:00:00
+2026-02-20 13:01:00,009 INFO  Process StartWithinLock - Successfully acquired lock for key: eaf1a271-b3c5-4565-bac7-c4f8a2adf57d
+2026-02-20 13:02:00,010 INFO  Process StartWithinLock - Attempting to acquire lock for key: 99479c8b-dce0-4f40-8984-f404581caf06 with timeout: 00:00:00
+2026-02-20 13:02:00,010 INFO  Process StartWithinLock - Successfully acquired lock for key: 99479c8b-dce0-4f40-8984-f404581caf06
+2026-02-20 13:03:00,020 INFO  Process StartWithinLock - Attempting to acquire lock for key: 98adf9d9-8c39-437d-82b4-49dc31c0d5a8 with timeout: 00:00:00
+2026-02-20 13:03:00,020 INFO  Process StartWithinLock - Successfully acquired lock for key: 98adf9d9-8c39-437d-82b4-49dc31c0d5a8
+2026-02-20 13:04:00,009 INFO  Process StartWithinLock - Attempting to acquire lock for key: f913e32b-ee17-441a-9b86-5d9511c21c64 with timeout: 00:00:00
+2026-02-20 13:04:00,009 INFO  Process StartWithinLock - Successfully acquired lock for key: f913e32b-ee17-441a-9b86-5d9511c21c64
+2026-02-20 13:05:00,010 INFO  Process StartWithinLock - Attempting to acquire lock for key: d59ea7eb-00d8-42d3-a472-ebb2b2871506 with timeout: 00:00:00
+2026-02-20 13:05:00,011 INFO  Process StartWithinLock - Successfully acquired lock for key: d59ea7eb-00d8-42d3-a472-ebb2b2871506
+2026-02-20 13:05:45,790 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 1:10:45 PM +00:00
+2026-02-20 13:06:00,009 INFO  Process StartWithinLock - Attempting to acquire lock for key: dd6dbf75-5bc3-4d2b-aefe-9bb76e646044 with timeout: 00:00:00
+2026-02-20 13:06:00,009 INFO  Process StartWithinLock - Successfully acquired lock for key: dd6dbf75-5bc3-4d2b-aefe-9bb76e646044
+2026-02-20 13:07:00,010 INFO  Process StartWithinLock - Attempting to acquire lock for key: 62cc22e0-55bd-4664-ad0d-676c8e4a4ffd with timeout: 00:00:00
+2026-02-20 13:07:00,010 INFO  Process StartWithinLock - Successfully acquired lock for key: 62cc22e0-55bd-4664-ad0d-676c8e4a4ffd
+2026-02-20 13:08:00,008 INFO  Process StartWithinLock - Attempting to acquire lock for key: a5246058-4397-4a74-a68e-f7b84147e0df with timeout: 00:00:00
+2026-02-20 13:08:00,008 INFO  Process StartWithinLock - Successfully acquired lock for key: a5246058-4397-4a74-a68e-f7b84147e0df
+2026-02-20 13:09:00,008 INFO  Process StartWithinLock - Attempting to acquire lock for key: 44db6c77-ae41-4f93-bdeb-e95eb68cad0f with timeout: 00:00:00
+2026-02-20 13:09:00,008 INFO  Process StartWithinLock - Successfully acquired lock for key: 44db6c77-ae41-4f93-bdeb-e95eb68cad0f
+2026-02-20 13:10:00,008 INFO  Process StartWithinLock - Attempting to acquire lock for key: 537c00d5-7630-42d0-99c3-2b2afed5a572 with timeout: 00:00:00
+2026-02-20 13:10:00,008 INFO  Process StartWithinLock - Successfully acquired lock for key: 537c00d5-7630-42d0-99c3-2b2afed5a572
+2026-02-20 13:10:00,021 INFO  Process StartWithinLock - Attempting to acquire lock for key: b0aef9db-d649-45ec-bb66-dd5b6f53fe4a with timeout: 00:00:00
+2026-02-20 13:10:00,021 INFO  Process StartWithinLock - Successfully acquired lock for key: b0aef9db-d649-45ec-bb66-dd5b6f53fe4a
+2026-02-20 13:10:45,798 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 1:15:45 PM +00:00
+2026-02-20 13:11:00,009 INFO  Process StartWithinLock - Attempting to acquire lock for key: 2b78ddcb-000e-4295-97cd-459b7fdcc91c with timeout: 00:00:00
+2026-02-20 13:11:00,009 INFO  Process StartWithinLock - Successfully acquired lock for key: 2b78ddcb-000e-4295-97cd-459b7fdcc91c
+2026-02-20 13:12:00,011 INFO  Process StartWithinLock - Attempting to acquire lock for key: 3ebd6fda-a069-4278-bf66-8e0fb0575711 with timeout: 00:00:00
+2026-02-20 13:12:00,011 INFO  Process StartWithinLock - Successfully acquired lock for key: 3ebd6fda-a069-4278-bf66-8e0fb0575711
+2026-02-20 13:13:00,009 INFO  Process StartWithinLock - Attempting to acquire lock for key: aae00e5d-09f6-486a-a52d-178a1822b734 with timeout: 00:00:00
+2026-02-20 13:13:00,009 INFO  Process StartWithinLock - Successfully acquired lock for key: aae00e5d-09f6-486a-a52d-178a1822b734
+2026-02-20 13:14:00,009 INFO  Process StartWithinLock - Attempting to acquire lock for key: ec33bde2-53ef-4d56-929d-c079bbbf64ad with timeout: 00:00:00
+2026-02-20 13:14:00,009 INFO  Process StartWithinLock - Successfully acquired lock for key: ec33bde2-53ef-4d56-929d-c079bbbf64ad
+2026-02-20 13:15:00,010 INFO  Process StartWithinLock - Attempting to acquire lock for key: 537505cd-cf2c-4779-8549-b256ce168ef1 with timeout: 00:00:00
+2026-02-20 13:15:00,010 INFO  Process StartWithinLock - Successfully acquired lock for key: 537505cd-cf2c-4779-8549-b256ce168ef1
+2026-02-20 13:15:45,809 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 1:20:45 PM +00:00
+2026-02-20 13:16:00,009 INFO  Process StartWithinLock - Attempting to acquire lock for key: a062d6fd-b88a-4655-8c0e-1700aad03482 with timeout: 00:00:00
+2026-02-20 13:16:00,009 INFO  Process StartWithinLock - Successfully acquired lock for key: a062d6fd-b88a-4655-8c0e-1700aad03482
+2026-02-20 13:17:00,009 INFO  Process StartWithinLock - Attempting to acquire lock for key: 28fd6031-08fb-453d-ad3c-cf3e8af9e837 with timeout: 00:00:00
+2026-02-20 13:17:00,009 INFO  Process StartWithinLock - Successfully acquired lock for key: 28fd6031-08fb-453d-ad3c-cf3e8af9e837
+2026-02-20 13:18:00,018 INFO  Process StartWithinLock - Attempting to acquire lock for key: aa1e2f6c-6f3f-496c-9aad-bc7a21537d4a with timeout: 00:00:00
+2026-02-20 13:18:00,018 INFO  Process StartWithinLock - Successfully acquired lock for key: aa1e2f6c-6f3f-496c-9aad-bc7a21537d4a
+2026-02-20 13:19:00,019 INFO  Process StartWithinLock - Attempting to acquire lock for key: 056039f3-9204-4fd4-ba11-0ba3017a06e0 with timeout: 00:00:00
+2026-02-20 13:19:00,019 INFO  Process StartWithinLock - Successfully acquired lock for key: 056039f3-9204-4fd4-ba11-0ba3017a06e0
+2026-02-20 13:20:00,019 INFO  Process StartWithinLock - Attempting to acquire lock for key: 44f3fafb-c8b2-4dca-a267-7e399e59e085 with timeout: 00:00:00
+2026-02-20 13:20:00,019 INFO  Process StartWithinLock - Successfully acquired lock for key: 44f3fafb-c8b2-4dca-a267-7e399e59e085
+2026-02-20 13:20:00,033 INFO  Process StartWithinLock - Attempting to acquire lock for key: 2a4fb4d8-764c-48c2-b5ae-f13efb8bf809 with timeout: 00:00:00
+2026-02-20 13:20:00,034 INFO  Process StartWithinLock - Successfully acquired lock for key: 2a4fb4d8-764c-48c2-b5ae-f13efb8bf809
+2026-02-20 13:50:24,994 INFO  Process Register - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 1:55:24 PM +00:00
+2026-02-20 13:50:25,038 INFO  Process Register - Registered ProcessTracingDisablerJob in scheduler to fire at 00:00:00 daily
+2026-02-20 13:51:46,878 ERROR  Process HandleFailure - System.Net.WebException: An error occurred while sending the request.
+ ---> System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.Net.Http.HttpIOException: The response ended prematurely. (ResponseEnded)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Terrasoft.Services.Runtime.HttpWebExtensions.GetResponseAsync(HttpWebRequest source, CancellationToken cancellationToken)
+2026-02-20 13:51:49,093 ERROR  Process HandleFailure - System.Net.WebException: An error occurred while sending the request.
+ ---> System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.Net.Http.HttpIOException: The response ended prematurely. (ResponseEnded)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Terrasoft.Services.Runtime.HttpWebExtensions.GetResponseAsync(HttpWebRequest source, CancellationToken cancellationToken)
+2026-02-20 13:51:53,251 ERROR  Process HandleFailure - System.Net.WebException: An error occurred while sending the request.
+ ---> System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.Net.Http.HttpIOException: The response ended prematurely. (ResponseEnded)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Terrasoft.Services.Runtime.HttpWebExtensions.GetResponseAsync(HttpWebRequest source, CancellationToken cancellationToken)
+2026-02-20 13:52:01,401 ERROR  Process HandleFailure - System.Net.WebException: An error occurred while sending the request.
+ ---> System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.Net.Http.HttpIOException: The response ended prematurely. (ResponseEnded)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Terrasoft.Services.Runtime.HttpWebExtensions.GetResponseAsync(HttpWebRequest source, CancellationToken cancellationToken)
+2026-02-20 13:52:25,937 INFO  Process StartWithinLock - Attempting to acquire lock for key: e3373ae1-f704-42d2-8d82-d627ce3159e8 with timeout: 00:00:00
+2026-02-20 13:52:25,937 INFO  Process StartWithinLock - Attempting to acquire lock for key: 94c001e0-1d43-437a-a55a-fa1518f30981 with timeout: 00:00:00
+2026-02-20 13:52:25,937 INFO  Process StartWithinLock - Attempting to acquire lock for key: 36740fcf-3911-47fe-b5d8-f3b6c549f78a with timeout: 00:00:00
+2026-02-20 13:52:25,937 INFO  Process StartWithinLock - Attempting to acquire lock for key: dab048b4-8a16-493d-86b0-dd271dbba08e with timeout: 00:00:00
+2026-02-20 13:52:25,940 INFO  Process StartWithinLock - Successfully acquired lock for key: 36740fcf-3911-47fe-b5d8-f3b6c549f78a
+2026-02-20 13:52:25,940 INFO  Process StartWithinLock - Successfully acquired lock for key: 94c001e0-1d43-437a-a55a-fa1518f30981
+2026-02-20 13:52:25,940 INFO  Process StartWithinLock - Successfully acquired lock for key: dab048b4-8a16-493d-86b0-dd271dbba08e
+2026-02-20 13:52:25,940 INFO  Process StartWithinLock - Successfully acquired lock for key: e3373ae1-f704-42d2-8d82-d627ce3159e8
+2026-02-20 13:52:26,089 ERROR  ProcessEngine RunProcessByStartTimerEvent - Could not run process by start timer event. The schema "SysCspAutoAddTrustedSourceProcess" is not enabled.
+2026-02-20 13:52:26,103 ERROR  ProcessEngine RunProcessByStartTimerEvent - Could not run process by start timer event. The schema "SysCspNotificationsProcess" is not enabled.
+2026-02-20 13:52:26,139 INFO  Process StartWithinLock - Attempting to acquire lock for key: 9f067fcd-012a-461a-bafa-2a1304d0ac6a with timeout: 00:00:00
+2026-02-20 13:52:26,139 INFO  Process StartWithinLock - Successfully acquired lock for key: 9f067fcd-012a-461a-bafa-2a1304d0ac6a
+2026-02-20 13:52:26,168 INFO  Process StartWithinLock - Attempting to acquire lock for key: 94181038-748b-4602-9c19-12324f917824 with timeout: 00:00:00
+2026-02-20 13:52:26,168 INFO  Process StartWithinLock - Successfully acquired lock for key: 94181038-748b-4602-9c19-12324f917824
+2026-02-20 13:52:26,198 INFO  Process StartWithinLock - Attempting to acquire lock for key: f70993ee-d384-48bb-9113-22f31f85c09c with timeout: 00:00:00
+2026-02-20 13:52:26,198 INFO  Process StartWithinLock - Successfully acquired lock for key: f70993ee-d384-48bb-9113-22f31f85c09c
+2026-02-20 13:52:26,274 INFO  Process StartWithinLock - Attempting to acquire lock for key: 7cb59259-ceca-4792-a61d-f3f42f903c6f with timeout: 00:00:00
+2026-02-20 13:52:26,274 INFO  Process StartWithinLock - Successfully acquired lock for key: 7cb59259-ceca-4792-a61d-f3f42f903c6f
+2026-02-20 13:52:26,307 INFO  Process StartWithinLock - Attempting to acquire lock for key: c96674e7-48b3-4c2b-975d-5eb8a2f75f98 with timeout: 00:00:00
+2026-02-20 13:52:26,307 INFO  Process StartWithinLock - Successfully acquired lock for key: c96674e7-48b3-4c2b-975d-5eb8a2f75f98
+2026-02-20 13:52:26,493 INFO  Process StartWithinLock - Attempting to acquire lock for key: 1abb9eb4-7f16-4a23-869d-16937f5d1dd7 with timeout: 00:00:00
+2026-02-20 13:52:26,493 INFO  Process StartWithinLock - Successfully acquired lock for key: 1abb9eb4-7f16-4a23-869d-16937f5d1dd7
+2026-02-20 13:53:00,067 INFO  Process StartWithinLock - Attempting to acquire lock for key: ca9c141f-a9c8-419a-be8c-5fae4b9ca48f with timeout: 00:00:00
+2026-02-20 13:53:00,067 INFO  Process StartWithinLock - Successfully acquired lock for key: ca9c141f-a9c8-419a-be8c-5fae4b9ca48f
+2026-02-20 13:53:00,080 INFO  Process StartWithinLock - Attempting to acquire lock for key: ec8b749b-8c5f-487f-b982-460ff66ce1a6 with timeout: 00:00:00
+2026-02-20 13:53:00,080 INFO  Process StartWithinLock - Successfully acquired lock for key: ec8b749b-8c5f-487f-b982-460ff66ce1a6
+2026-02-20 13:53:00,140 ERROR  Process UpdateStatusInLog - Error in process "Name = AgeActualizationC360 UId = ca9c141f-a9c8-419a-be8c-5fae4b9ca48f": System.NullReferenceException: Object reference not set to an instance of an object.
+   at Terrasoft.Core.Process.ProcessComponentSet.CreateProcessModel()
+   at Terrasoft.Core.Process.ProcessComponentSet.get_ProcessModel()
+   at Terrasoft.Core.Process.ProcessComponentSet.InitializeFlowElementInstance(BaseProcessSchemaElement schemaFlowElement, ProcessFlowElement processFlowElement, Boolean isReExecution, Boolean skipPropertiesInitialization)
+   at Terrasoft.Core.Process.ProcessComponentSet.CreateFlowElementInstance(String schemaElementName, Boolean isReExecution)
+   at Terrasoft.Core.Process.ProcessComponentSet.ForceGetFlowElementInstance(String schemaFlowElementName)
+   at Terrasoft.Core.Process.ProcessComponentSet.Execute(String elementName, FlowContext flowContext)
+   at Terrasoft.Core.Process.ProcessComponentSet.RunFlowElement(String elementName, FlowContext flowContext)
+   at Terrasoft.Core.Process.ProcessComponentSet.HandleQueueItem(Object queueItem)
+   at Terrasoft.Core.Process.ProcessComponentSet.TryProcessQueue()
+   at Terrasoft.Core.Process.ProcessComponentSet.ContinueFlow(ProcessActivityAfterEventArgs args)
+   at Terrasoft.Core.Process.ProcessComponentSet.OnProcessFlowElementExecuted(Object sender, ProcessActivityAfterEventArgs e)
+   at Terrasoft.Core.Process.ProcessFlowElement.OnExecuted(ProcessActivityAfterEventArgs e)
+   at Terrasoft.Core.Process.ProcessFlowElement.RaiseOnExecuted(ProcessActivityAfterEventArgs executedEventArgs)
+   at Terrasoft.Core.Process.ProcessFlowElement.Execute(ProcessExecutingContext context)
+   at Terrasoft.Core.Process.ProcessComponentSet.ExecuteFlowElement(ProcessFlowElement flowElement, Object[] parameters)
+   at Terrasoft.Core.Process.ProcessComponentSet.InternalRun(StartProcessOptions options)
+   at Terrasoft.Core.Process.Process.<>c__DisplayClass334_0.<Run>b__3()
+   at Terrasoft.Core.Process.Process.RunWithUsageContext(Action action, UsageContextKey key)
+   at Terrasoft.Core.Process.Process.<>c__DisplayClass334_0.<Run>b__2()
+   at Terrasoft.Core.Process.Process.RunWithEventBuffer(Action action)
+   at Terrasoft.Core.Process.Process.<>c__DisplayClass334_0.<Run>b__1()
+   at Terrasoft.Core.Process.Process.RunWithExceptionHandling(Func`1 func)
+2026-02-20 13:54:00,797 INFO  Process Register - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 1:59:00 PM +00:00
+2026-02-20 13:56:01,686 INFO  Process StartWithinLock - Attempting to acquire lock for key: 8719d7a2-ab42-4821-9173-bdeef419961f with timeout: 00:00:00
+2026-02-20 13:56:01,690 INFO  Process StartWithinLock - Successfully acquired lock for key: 8719d7a2-ab42-4821-9173-bdeef419961f
+2026-02-20 13:56:01,985 INFO  Process StartWithinLock - Attempting to acquire lock for key: 2553a871-e9ce-4fe0-ad88-c2607593cd56 with timeout: 00:00:00
+2026-02-20 13:56:01,985 INFO  Process StartWithinLock - Successfully acquired lock for key: 2553a871-e9ce-4fe0-ad88-c2607593cd56
+2026-02-20 13:56:02,426 INFO  Process StartWithinLock - Attempting to acquire lock for key: e67b4c0f-b8e3-42ad-8e4f-cb987836dcf3 with timeout: 00:00:00
+2026-02-20 13:56:02,426 INFO  Process StartWithinLock - Successfully acquired lock for key: e67b4c0f-b8e3-42ad-8e4f-cb987836dcf3
+2026-02-20 13:56:02,511 INFO  Process StartWithinLock - Attempting to acquire lock for key: 74975ba4-c5e6-4640-926b-a62b4719e243 with timeout: 00:00:00
+2026-02-20 13:56:02,511 INFO  Process StartWithinLock - Successfully acquired lock for key: 74975ba4-c5e6-4640-926b-a62b4719e243
+2026-02-20 13:56:16,669 ERROR  Process HandleFailure - System.Net.WebException: An error occurred while sending the request.
+ ---> System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.Net.Http.HttpIOException: The response ended prematurely. (ResponseEnded)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Terrasoft.Services.Runtime.HttpWebExtensions.GetResponseAsync(HttpWebRequest source, CancellationToken cancellationToken)
+2026-02-20 13:56:18,888 ERROR  Process HandleFailure - System.Net.WebException: An error occurred while sending the request.
+ ---> System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.Net.Http.HttpIOException: The response ended prematurely. (ResponseEnded)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Terrasoft.Services.Runtime.HttpWebExtensions.GetResponseAsync(HttpWebRequest source, CancellationToken cancellationToken)
+2026-02-20 13:56:23,045 ERROR  Process HandleFailure - System.Net.WebException: An error occurred while sending the request.
+ ---> System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.Net.Http.HttpIOException: The response ended prematurely. (ResponseEnded)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Terrasoft.Services.Runtime.HttpWebExtensions.GetResponseAsync(HttpWebRequest source, CancellationToken cancellationToken)
+2026-02-20 13:56:31,212 ERROR  Process HandleFailure - System.Net.WebException: An error occurred while sending the request.
+ ---> System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.Net.Http.HttpIOException: The response ended prematurely. (ResponseEnded)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Terrasoft.Services.Runtime.HttpWebExtensions.GetResponseAsync(HttpWebRequest source, CancellationToken cancellationToken)
+2026-02-20 13:57:00,011 INFO  Process StartWithinLock - Attempting to acquire lock for key: b386afce-c936-4c2d-a7a7-d51e3fa687d0 with timeout: 00:00:00
+2026-02-20 13:57:00,011 INFO  Process StartWithinLock - Successfully acquired lock for key: b386afce-c936-4c2d-a7a7-d51e3fa687d0
+2026-02-20 13:58:00,009 INFO  Process StartWithinLock - Attempting to acquire lock for key: 3967eb69-90a0-49db-94db-6224d08e9818 with timeout: 00:00:00
+2026-02-20 13:58:00,009 INFO  Process StartWithinLock - Successfully acquired lock for key: 3967eb69-90a0-49db-94db-6224d08e9818
+2026-02-20 13:59:00,010 INFO  Process StartWithinLock - Attempting to acquire lock for key: 316d5acf-2b0e-4c00-9471-244cb3e65e8f with timeout: 00:00:00
+2026-02-20 13:59:00,010 INFO  Process StartWithinLock - Successfully acquired lock for key: 316d5acf-2b0e-4c00-9471-244cb3e65e8f
+2026-02-20 13:59:00,775 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 2:04:00 PM +00:00
+2026-02-20 14:00:00,033 INFO  Process StartWithinLock - Attempting to acquire lock for key: 164163bf-a0f1-47db-ab53-86ebcb407ff8 with timeout: 00:00:00
+2026-02-20 14:00:00,033 INFO  Process StartWithinLock - Successfully acquired lock for key: 164163bf-a0f1-47db-ab53-86ebcb407ff8
+2026-02-20 14:00:00,045 INFO  Process StartWithinLock - Attempting to acquire lock for key: bdff5343-c821-4a12-913f-e41b26bdfdbf with timeout: 00:00:00
+2026-02-20 14:00:00,045 INFO  Process StartWithinLock - Successfully acquired lock for key: bdff5343-c821-4a12-913f-e41b26bdfdbf
+2026-02-20 14:00:00,067 INFO  Process StartWithinLock - Attempting to acquire lock for key: b0242688-c9a5-4405-830e-67b0c7bba430 with timeout: 00:00:00
+2026-02-20 14:00:00,067 INFO  Process StartWithinLock - Successfully acquired lock for key: b0242688-c9a5-4405-830e-67b0c7bba430
+2026-02-20 14:00:00,091 INFO  Process StartWithinLock - Attempting to acquire lock for key: 809e83f2-3d69-4f33-b581-77692634f9b3 with timeout: 00:00:00
+2026-02-20 14:00:00,091 INFO  Process StartWithinLock - Successfully acquired lock for key: 809e83f2-3d69-4f33-b581-77692634f9b3
+2026-02-20 14:01:00,009 INFO  Process StartWithinLock - Attempting to acquire lock for key: c31f6be0-133e-46bb-a513-8f41d0f95f1a with timeout: 00:00:00
+2026-02-20 14:01:00,009 INFO  Process StartWithinLock - Successfully acquired lock for key: c31f6be0-133e-46bb-a513-8f41d0f95f1a
+2026-02-20 14:02:00,011 INFO  Process StartWithinLock - Attempting to acquire lock for key: 7798a921-ed3a-4928-8558-56c0d30275c7 with timeout: 00:00:00
+2026-02-20 14:02:00,011 INFO  Process StartWithinLock - Successfully acquired lock for key: 7798a921-ed3a-4928-8558-56c0d30275c7
+2026-02-20 14:03:00,008 INFO  Process StartWithinLock - Attempting to acquire lock for key: 61f23225-c6ff-42a7-a83d-3be270475575 with timeout: 00:00:00
+2026-02-20 14:03:00,008 INFO  Process StartWithinLock - Successfully acquired lock for key: 61f23225-c6ff-42a7-a83d-3be270475575
+2026-02-20 14:04:00,055 INFO  Process StartWithinLock - Attempting to acquire lock for key: 89a56cf9-17e7-4b50-89d0-10b8b098387a with timeout: 00:00:00
+2026-02-20 14:04:00,055 INFO  Process StartWithinLock - Successfully acquired lock for key: 89a56cf9-17e7-4b50-89d0-10b8b098387a
+2026-02-20 14:04:00,788 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 2:09:00 PM +00:00
+2026-02-20 14:05:04,772 INFO  Process Register - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 2:10:04 PM +00:00
+2026-02-20 14:07:05,535 INFO  Process StartWithinLock - Attempting to acquire lock for key: 92ec4b68-992f-40de-93be-fd8428311f79 with timeout: 00:00:00
+2026-02-20 14:07:05,535 INFO  Process StartWithinLock - Successfully acquired lock for key: 92ec4b68-992f-40de-93be-fd8428311f79
+2026-02-20 14:07:06,044 INFO  Process StartWithinLock - Attempting to acquire lock for key: faa7026f-6526-45a1-a84c-b6401e7507e1 with timeout: 00:00:00
+2026-02-20 14:07:06,044 INFO  Process StartWithinLock - Successfully acquired lock for key: faa7026f-6526-45a1-a84c-b6401e7507e1
+2026-02-20 14:07:06,125 INFO  Process StartWithinLock - Attempting to acquire lock for key: 8e8f61e9-a085-4585-a4ee-fcffe56646ed with timeout: 00:00:00
+2026-02-20 14:07:06,125 INFO  Process StartWithinLock - Successfully acquired lock for key: 8e8f61e9-a085-4585-a4ee-fcffe56646ed
+2026-02-20 14:08:00,018 INFO  Process StartWithinLock - Attempting to acquire lock for key: d546f8a3-ab3b-47de-b1c6-5af6754d43ee with timeout: 00:00:00
+2026-02-20 14:08:00,018 INFO  Process StartWithinLock - Successfully acquired lock for key: d546f8a3-ab3b-47de-b1c6-5af6754d43ee
+2026-02-20 14:09:00,078 INFO  Process StartWithinLock - Attempting to acquire lock for key: 8017bda2-ba45-4413-97ea-d62dffdd72bf with timeout: 00:00:00
+2026-02-20 14:09:00,078 INFO  Process StartWithinLock - Successfully acquired lock for key: 8017bda2-ba45-4413-97ea-d62dffdd72bf
+2026-02-20 14:10:00,067 INFO  Process StartWithinLock - Attempting to acquire lock for key: e7840c0d-aba3-4d0f-9925-5df00e8de6c3 with timeout: 00:00:00
+2026-02-20 14:10:00,067 INFO  Process StartWithinLock - Successfully acquired lock for key: e7840c0d-aba3-4d0f-9925-5df00e8de6c3
+2026-02-20 14:10:00,089 INFO  Process StartWithinLock - Attempting to acquire lock for key: ba7acd3c-670a-4a00-9de9-7b80a0902c86 with timeout: 00:00:00
+2026-02-20 14:10:00,089 INFO  Process StartWithinLock - Successfully acquired lock for key: ba7acd3c-670a-4a00-9de9-7b80a0902c86
+2026-02-20 14:10:04,749 INFO  Process Register - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 2:15:04 PM +00:00
+2026-02-20 14:11:00,009 INFO  Process StartWithinLock - Attempting to acquire lock for key: 630e4d63-b4a6-4e74-a965-3d78527f0d71 with timeout: 00:00:00
+2026-02-20 14:11:00,009 INFO  Process StartWithinLock - Successfully acquired lock for key: 630e4d63-b4a6-4e74-a965-3d78527f0d71
+2026-02-20 14:12:00,009 INFO  Process StartWithinLock - Attempting to acquire lock for key: 73caf725-06a1-4db3-a0e9-cd960a0c824d with timeout: 00:00:00
+2026-02-20 14:12:00,010 INFO  Process StartWithinLock - Successfully acquired lock for key: 73caf725-06a1-4db3-a0e9-cd960a0c824d
+2026-02-20 14:13:00,009 INFO  Process StartWithinLock - Attempting to acquire lock for key: b23b2e96-6b95-442a-bae8-5c33e8c2d800 with timeout: 00:00:00
+2026-02-20 14:13:00,009 INFO  Process StartWithinLock - Successfully acquired lock for key: b23b2e96-6b95-442a-bae8-5c33e8c2d800
+2026-02-20 14:14:00,008 INFO  Process StartWithinLock - Attempting to acquire lock for key: 5cd6ecf0-5bf0-4237-a3be-05f8a6df3aac with timeout: 00:00:00
+2026-02-20 14:14:00,008 INFO  Process StartWithinLock - Successfully acquired lock for key: 5cd6ecf0-5bf0-4237-a3be-05f8a6df3aac
+2026-02-20 14:15:00,010 INFO  Process StartWithinLock - Attempting to acquire lock for key: 77cb5c69-8a26-46bd-b30a-60fddc432770 with timeout: 00:00:00
+2026-02-20 14:15:00,010 INFO  Process StartWithinLock - Successfully acquired lock for key: 77cb5c69-8a26-46bd-b30a-60fddc432770
+2026-02-20 14:15:04,773 INFO  Process Register - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 2:20:04 PM +00:00
+2026-02-20 14:16:00,008 INFO  Process StartWithinLock - Attempting to acquire lock for key: 860bc60b-b389-4195-9885-0a52370f616c with timeout: 00:00:00
+2026-02-20 14:16:00,008 INFO  Process StartWithinLock - Successfully acquired lock for key: 860bc60b-b389-4195-9885-0a52370f616c
+2026-02-20 14:17:00,008 INFO  Process StartWithinLock - Attempting to acquire lock for key: af3e1d5e-0a77-4a4b-ad21-34de4c2fba5a with timeout: 00:00:00
+2026-02-20 14:17:00,008 INFO  Process StartWithinLock - Successfully acquired lock for key: af3e1d5e-0a77-4a4b-ad21-34de4c2fba5a
+2026-02-20 14:18:00,008 INFO  Process StartWithinLock - Attempting to acquire lock for key: 341b7b84-af72-4e91-b459-a8c41fdfa060 with timeout: 00:00:00
+2026-02-20 14:18:00,008 INFO  Process StartWithinLock - Successfully acquired lock for key: 341b7b84-af72-4e91-b459-a8c41fdfa060
+2026-02-20 14:19:00,009 INFO  Process StartWithinLock - Attempting to acquire lock for key: bb70acbc-fe5f-42d5-a688-fc05acaa8c7e with timeout: 00:00:00
+2026-02-20 14:19:00,009 INFO  Process StartWithinLock - Successfully acquired lock for key: bb70acbc-fe5f-42d5-a688-fc05acaa8c7e
+2026-02-20 14:20:00,017 INFO  Process StartWithinLock - Attempting to acquire lock for key: fab60c44-9d72-4411-b686-8b6fd10f70ce with timeout: 00:00:00
+2026-02-20 14:20:00,017 INFO  Process StartWithinLock - Successfully acquired lock for key: fab60c44-9d72-4411-b686-8b6fd10f70ce
+2026-02-20 14:20:00,017 INFO  Process StartWithinLock - Attempting to acquire lock for key: 13925fac-b2c8-4ccc-826a-c34390bb8eee with timeout: 00:00:00
+2026-02-20 14:20:00,017 INFO  Process StartWithinLock - Successfully acquired lock for key: 13925fac-b2c8-4ccc-826a-c34390bb8eee
+2026-02-20 14:20:04,790 INFO  Process Register - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 2:25:04 PM +00:00
+2026-02-20 14:21:00,009 INFO  Process StartWithinLock - Attempting to acquire lock for key: 6e33fd4e-9528-4ce9-b254-c80351022f36 with timeout: 00:00:00
+2026-02-20 14:21:00,009 INFO  Process StartWithinLock - Successfully acquired lock for key: 6e33fd4e-9528-4ce9-b254-c80351022f36
+2026-02-20 14:22:00,011 INFO  Process StartWithinLock - Attempting to acquire lock for key: ffb103c3-2a6f-4cef-85b0-5f8d2d4d2f8f with timeout: 00:00:00
+2026-02-20 14:22:00,011 INFO  Process StartWithinLock - Successfully acquired lock for key: ffb103c3-2a6f-4cef-85b0-5f8d2d4d2f8f
+2026-02-20 14:23:00,019 INFO  Process StartWithinLock - Attempting to acquire lock for key: f0a75e07-a2e8-4977-9435-5ae015ae8e26 with timeout: 00:00:00
+2026-02-20 14:23:00,019 INFO  Process StartWithinLock - Successfully acquired lock for key: f0a75e07-a2e8-4977-9435-5ae015ae8e26
+2026-02-20 14:24:00,008 INFO  Process StartWithinLock - Attempting to acquire lock for key: dd6d92dc-78df-4003-b4e1-4330ef5901da with timeout: 00:00:00
+2026-02-20 14:24:00,008 INFO  Process StartWithinLock - Successfully acquired lock for key: dd6d92dc-78df-4003-b4e1-4330ef5901da
+2026-02-20 14:25:00,018 INFO  Process StartWithinLock - Attempting to acquire lock for key: 7893e832-4e8c-419f-ad99-ff0b2e58c1f3 with timeout: 00:00:00
+2026-02-20 14:25:00,018 INFO  Process StartWithinLock - Successfully acquired lock for key: 7893e832-4e8c-419f-ad99-ff0b2e58c1f3
+2026-02-20 14:25:04,806 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 2:30:04 PM +00:00
+2026-02-20 14:26:00,051 INFO  Process StartWithinLock - Attempting to acquire lock for key: 80c1034b-6c22-479f-af72-6bd587e093f5 with timeout: 00:00:00
+2026-02-20 14:26:00,051 INFO  Process StartWithinLock - Successfully acquired lock for key: 80c1034b-6c22-479f-af72-6bd587e093f5
+2026-02-20 14:27:00,068 INFO  Process StartWithinLock - Attempting to acquire lock for key: 7b49a4bb-cb4d-4521-bdfc-5cea3be4057b with timeout: 00:00:00
+2026-02-20 14:27:00,069 INFO  Process StartWithinLock - Successfully acquired lock for key: 7b49a4bb-cb4d-4521-bdfc-5cea3be4057b
+2026-02-20 14:28:00,009 INFO  Process StartWithinLock - Attempting to acquire lock for key: 90188f36-e976-4fc4-bcd9-87983ade4dff with timeout: 00:00:00
+2026-02-20 14:28:00,009 INFO  Process StartWithinLock - Successfully acquired lock for key: 90188f36-e976-4fc4-bcd9-87983ade4dff
+2026-02-20 14:29:00,017 INFO  Process StartWithinLock - Attempting to acquire lock for key: 54673473-0ede-470b-9be2-9051cf2636f3 with timeout: 00:00:00
+2026-02-20 14:29:00,017 INFO  Process StartWithinLock - Successfully acquired lock for key: 54673473-0ede-470b-9be2-9051cf2636f3
+2026-02-20 14:30:00,010 INFO  Process StartWithinLock - Attempting to acquire lock for key: c7a686a1-e249-463f-9d88-2226a0b62c8e with timeout: 00:00:00
+2026-02-20 14:30:00,010 INFO  Process StartWithinLock - Successfully acquired lock for key: c7a686a1-e249-463f-9d88-2226a0b62c8e
+2026-02-20 14:30:00,024 INFO  Process StartWithinLock - Attempting to acquire lock for key: 40fbe04d-24ce-4405-9636-e59edcc479f5 with timeout: 00:00:00
+2026-02-20 14:30:00,024 INFO  Process StartWithinLock - Successfully acquired lock for key: 40fbe04d-24ce-4405-9636-e59edcc479f5
+2026-02-20 14:30:04,822 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 2:35:04 PM +00:00
+2026-02-20 14:31:00,055 INFO  Process StartWithinLock - Attempting to acquire lock for key: 4ab79dc7-2533-4805-a460-1bb9b62902e2 with timeout: 00:00:00
+2026-02-20 14:31:00,055 INFO  Process StartWithinLock - Successfully acquired lock for key: 4ab79dc7-2533-4805-a460-1bb9b62902e2
+2026-02-20 14:32:00,068 INFO  Process StartWithinLock - Attempting to acquire lock for key: 4f2d8d1e-e964-4dcb-8161-16a917182289 with timeout: 00:00:00
+2026-02-20 14:32:00,068 INFO  Process StartWithinLock - Successfully acquired lock for key: 4f2d8d1e-e964-4dcb-8161-16a917182289
+2026-02-20 14:33:00,020 INFO  Process StartWithinLock - Attempting to acquire lock for key: 5706f294-e575-479e-9c95-f5b37c68d96d with timeout: 00:00:00
+2026-02-20 14:33:00,020 INFO  Process StartWithinLock - Successfully acquired lock for key: 5706f294-e575-479e-9c95-f5b37c68d96d
+2026-02-20 14:34:00,033 INFO  Process StartWithinLock - Attempting to acquire lock for key: 9bcafe96-ca2e-4e84-9cd1-a416fa281124 with timeout: 00:00:00
+2026-02-20 14:34:00,037 INFO  Process StartWithinLock - Successfully acquired lock for key: 9bcafe96-ca2e-4e84-9cd1-a416fa281124
+2026-02-20 14:35:00,072 INFO  Process StartWithinLock - Attempting to acquire lock for key: d99116e1-efbe-4c00-9c17-17518c53965d with timeout: 00:00:00
+2026-02-20 14:35:00,072 INFO  Process StartWithinLock - Successfully acquired lock for key: d99116e1-efbe-4c00-9c17-17518c53965d
+2026-02-20 14:35:04,843 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 2:40:04 PM +00:00
+2026-02-20 14:36:00,009 INFO  Process StartWithinLock - Attempting to acquire lock for key: cde2e2e6-4be9-44bb-8ae4-95b31b0c12c5 with timeout: 00:00:00
+2026-02-20 14:36:00,009 INFO  Process StartWithinLock - Successfully acquired lock for key: cde2e2e6-4be9-44bb-8ae4-95b31b0c12c5
+2026-02-20 14:37:00,050 INFO  Process StartWithinLock - Attempting to acquire lock for key: e814e15c-1f93-4b07-8b49-b2a64f944aaf with timeout: 00:00:00
+2026-02-20 14:37:00,050 INFO  Process StartWithinLock - Successfully acquired lock for key: e814e15c-1f93-4b07-8b49-b2a64f944aaf
+2026-02-20 14:38:00,006 INFO  Process StartWithinLock - Attempting to acquire lock for key: 2cd4f5f1-610d-4083-a314-298aee92403f with timeout: 00:00:00
+2026-02-20 14:38:00,006 INFO  Process StartWithinLock - Successfully acquired lock for key: 2cd4f5f1-610d-4083-a314-298aee92403f
+2026-02-20 14:39:00,026 INFO  Process StartWithinLock - Attempting to acquire lock for key: d7bccf93-df28-4e4d-b0d0-a167bd51059e with timeout: 00:00:00
+2026-02-20 14:39:00,026 INFO  Process StartWithinLock - Successfully acquired lock for key: d7bccf93-df28-4e4d-b0d0-a167bd51059e
+2026-02-20 14:40:00,059 INFO  Process StartWithinLock - Attempting to acquire lock for key: 5999f176-c17b-48f3-80b5-d002ba21f258 with timeout: 00:00:00
+2026-02-20 14:40:00,059 INFO  Process StartWithinLock - Attempting to acquire lock for key: 2c7780b0-4b5b-4b21-ba65-307873a8dcf2 with timeout: 00:00:00
+2026-02-20 14:40:00,059 INFO  Process StartWithinLock - Successfully acquired lock for key: 5999f176-c17b-48f3-80b5-d002ba21f258
+2026-02-20 14:40:00,059 INFO  Process StartWithinLock - Successfully acquired lock for key: 2c7780b0-4b5b-4b21-ba65-307873a8dcf2
+2026-02-20 14:40:04,858 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 2:45:04 PM +00:00
+2026-02-20 14:41:00,075 INFO  Process StartWithinLock - Attempting to acquire lock for key: 00838a11-c5ad-4316-b427-1d0e9da52757 with timeout: 00:00:00
+2026-02-20 14:41:00,075 INFO  Process StartWithinLock - Successfully acquired lock for key: 00838a11-c5ad-4316-b427-1d0e9da52757
+2026-02-20 14:42:00,010 INFO  Process StartWithinLock - Attempting to acquire lock for key: 43635293-9655-4295-889d-96d11fd98527 with timeout: 00:00:00
+2026-02-20 14:42:00,010 INFO  Process StartWithinLock - Successfully acquired lock for key: 43635293-9655-4295-889d-96d11fd98527
+2026-02-20 14:43:00,012 INFO  Process StartWithinLock - Attempting to acquire lock for key: e071a1c2-b534-4e22-942f-9d82720b7c2f with timeout: 00:00:00
+2026-02-20 14:43:00,012 INFO  Process StartWithinLock - Successfully acquired lock for key: e071a1c2-b534-4e22-942f-9d82720b7c2f
+2026-02-20 14:44:00,061 INFO  Process StartWithinLock - Attempting to acquire lock for key: 4407e8fe-bab0-4f27-8e60-792001960bdf with timeout: 00:00:00
+2026-02-20 14:44:00,061 INFO  Process StartWithinLock - Successfully acquired lock for key: 4407e8fe-bab0-4f27-8e60-792001960bdf
+2026-02-20 14:45:00,064 INFO  Process StartWithinLock - Attempting to acquire lock for key: 4f16f652-27e5-499c-b016-05f1881298db with timeout: 00:00:00
+2026-02-20 14:45:00,064 INFO  Process StartWithinLock - Successfully acquired lock for key: 4f16f652-27e5-499c-b016-05f1881298db
+2026-02-20 14:45:04,881 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 2:50:04 PM +00:00
+2026-02-20 14:46:00,022 INFO  Process StartWithinLock - Attempting to acquire lock for key: ddcbceed-9a26-403d-b620-ba09f32302fd with timeout: 00:00:00
+2026-02-20 14:46:00,022 INFO  Process StartWithinLock - Successfully acquired lock for key: ddcbceed-9a26-403d-b620-ba09f32302fd
+2026-02-20 14:47:00,052 INFO  Process StartWithinLock - Attempting to acquire lock for key: 90d7fc72-06c0-4ac0-accf-852411db286f with timeout: 00:00:00
+2026-02-20 14:47:00,052 INFO  Process StartWithinLock - Successfully acquired lock for key: 90d7fc72-06c0-4ac0-accf-852411db286f
+2026-02-20 14:48:00,055 INFO  Process StartWithinLock - Attempting to acquire lock for key: 42a788d6-ff07-4242-9e6d-d704fc1b6e02 with timeout: 00:00:00
+2026-02-20 14:48:00,055 INFO  Process StartWithinLock - Successfully acquired lock for key: 42a788d6-ff07-4242-9e6d-d704fc1b6e02
+2026-02-20 14:49:00,056 INFO  Process StartWithinLock - Attempting to acquire lock for key: 5b104e9e-61a5-4eb6-8a2e-4271dece23e0 with timeout: 00:00:00
+2026-02-20 14:49:00,056 INFO  Process StartWithinLock - Successfully acquired lock for key: 5b104e9e-61a5-4eb6-8a2e-4271dece23e0
+2026-02-20 14:50:00,029 INFO  Process StartWithinLock - Attempting to acquire lock for key: b82ba8c8-410e-46fd-bd5b-276db2c504e4 with timeout: 00:00:00
+2026-02-20 14:50:00,029 INFO  Process StartWithinLock - Successfully acquired lock for key: b82ba8c8-410e-46fd-bd5b-276db2c504e4
+2026-02-20 14:50:00,043 INFO  Process StartWithinLock - Attempting to acquire lock for key: 0e5f4b18-ff23-41e2-9545-7f23d8f8841c with timeout: 00:00:00
+2026-02-20 14:50:00,043 INFO  Process StartWithinLock - Successfully acquired lock for key: 0e5f4b18-ff23-41e2-9545-7f23d8f8841c
+2026-02-20 14:50:04,901 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 2:55:04 PM +00:00
+2026-02-20 14:51:00,024 INFO  Process StartWithinLock - Attempting to acquire lock for key: 0d52cbe9-7f83-4a5f-9a8e-917dd6313c33 with timeout: 00:00:00
+2026-02-20 14:51:00,027 INFO  Process StartWithinLock - Successfully acquired lock for key: 0d52cbe9-7f83-4a5f-9a8e-917dd6313c33
+2026-02-20 14:52:00,070 INFO  Process StartWithinLock - Attempting to acquire lock for key: 618bc55b-9327-46d6-9ffd-94354b77930a with timeout: 00:00:00
+2026-02-20 14:52:00,070 INFO  Process StartWithinLock - Successfully acquired lock for key: 618bc55b-9327-46d6-9ffd-94354b77930a
+2026-02-20 14:53:00,065 INFO  Process StartWithinLock - Attempting to acquire lock for key: ced6dad6-cc82-48d0-8ccb-23d248b25d90 with timeout: 00:00:00
+2026-02-20 14:53:00,068 INFO  Process StartWithinLock - Successfully acquired lock for key: ced6dad6-cc82-48d0-8ccb-23d248b25d90
+2026-02-20 14:54:00,059 INFO  Process StartWithinLock - Attempting to acquire lock for key: e4821e2a-94df-4e10-95b7-457262667767 with timeout: 00:00:00
+2026-02-20 14:54:00,059 INFO  Process StartWithinLock - Successfully acquired lock for key: e4821e2a-94df-4e10-95b7-457262667767
+2026-02-20 14:55:00,071 INFO  Process StartWithinLock - Attempting to acquire lock for key: 6e8af45a-f8aa-4cb6-8be5-3baa73fb81e4 with timeout: 00:00:00
+2026-02-20 14:55:00,074 INFO  Process StartWithinLock - Successfully acquired lock for key: 6e8af45a-f8aa-4cb6-8be5-3baa73fb81e4
+2026-02-20 14:55:04,920 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 3:00:04 PM +00:00
+2026-02-20 14:56:00,057 INFO  Process StartWithinLock - Attempting to acquire lock for key: 6b76c743-e47c-4b08-8a0a-e52239d803d8 with timeout: 00:00:00
+2026-02-20 14:56:00,057 INFO  Process StartWithinLock - Successfully acquired lock for key: 6b76c743-e47c-4b08-8a0a-e52239d803d8
+2026-02-20 14:57:00,070 INFO  Process StartWithinLock - Attempting to acquire lock for key: 69544089-7eb3-4137-abe5-1a1feee486ff with timeout: 00:00:00
+2026-02-20 14:57:00,070 INFO  Process StartWithinLock - Successfully acquired lock for key: 69544089-7eb3-4137-abe5-1a1feee486ff
+2026-02-20 14:58:00,057 INFO  Process StartWithinLock - Attempting to acquire lock for key: 0ee93555-3b9d-4db7-8da1-294bae7a2539 with timeout: 00:00:00
+2026-02-20 14:58:00,057 INFO  Process StartWithinLock - Successfully acquired lock for key: 0ee93555-3b9d-4db7-8da1-294bae7a2539
+2026-02-20 14:59:00,014 INFO  Process StartWithinLock - Attempting to acquire lock for key: 475580e6-1102-4b67-b4df-a653a591a728 with timeout: 00:00:00
+2026-02-20 14:59:00,014 INFO  Process StartWithinLock - Successfully acquired lock for key: 475580e6-1102-4b67-b4df-a653a591a728
+2026-02-20 15:00:00,022 INFO  Process StartWithinLock - Attempting to acquire lock for key: 8cb60a55-2915-4c07-983f-e2faeebd1b0d with timeout: 00:00:00
+2026-02-20 15:00:00,026 INFO  Process StartWithinLock - Successfully acquired lock for key: 8cb60a55-2915-4c07-983f-e2faeebd1b0d
+2026-02-20 15:00:00,056 INFO  Process StartWithinLock - Attempting to acquire lock for key: fc964d2c-2fdd-453e-a8f7-b46dd5659718 with timeout: 00:00:00
+2026-02-20 15:00:00,056 INFO  Process StartWithinLock - Successfully acquired lock for key: fc964d2c-2fdd-453e-a8f7-b46dd5659718
+2026-02-20 15:00:00,285 INFO  Process StartWithinLock - Attempting to acquire lock for key: 5f833389-1168-4c76-afef-89ad8bf43aaa with timeout: 00:00:00
+2026-02-20 15:00:00,285 INFO  Process StartWithinLock - Successfully acquired lock for key: 5f833389-1168-4c76-afef-89ad8bf43aaa
+2026-02-20 15:00:00,543 INFO  Process StartWithinLock - Attempting to acquire lock for key: 82b91b96-c6a3-48ba-93d9-82473ea0d3f5 with timeout: 00:00:00
+2026-02-20 15:00:00,544 INFO  Process StartWithinLock - Successfully acquired lock for key: 82b91b96-c6a3-48ba-93d9-82473ea0d3f5
+2026-02-20 15:00:04,941 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 3:05:04 PM +00:00
+2026-02-20 15:01:00,052 INFO  Process StartWithinLock - Attempting to acquire lock for key: a9ce4564-e4a4-42ba-8936-91ceb5c20608 with timeout: 00:00:00
+2026-02-20 15:01:00,052 INFO  Process StartWithinLock - Successfully acquired lock for key: a9ce4564-e4a4-42ba-8936-91ceb5c20608
+2026-02-20 15:02:00,021 INFO  Process StartWithinLock - Attempting to acquire lock for key: 6fe4c164-edb2-4260-b5b1-889511630c73 with timeout: 00:00:00
+2026-02-20 15:02:00,021 INFO  Process StartWithinLock - Successfully acquired lock for key: 6fe4c164-edb2-4260-b5b1-889511630c73
+2026-02-20 15:03:00,052 INFO  Process StartWithinLock - Attempting to acquire lock for key: e29ade64-4e91-41be-b4e8-3a5c39a03983 with timeout: 00:00:00
+2026-02-20 15:03:00,052 INFO  Process StartWithinLock - Successfully acquired lock for key: e29ade64-4e91-41be-b4e8-3a5c39a03983
+2026-02-20 15:04:00,054 INFO  Process StartWithinLock - Attempting to acquire lock for key: 4056fde0-e5b9-411a-88e1-0928df021a39 with timeout: 00:00:00
+2026-02-20 15:04:00,054 INFO  Process StartWithinLock - Successfully acquired lock for key: 4056fde0-e5b9-411a-88e1-0928df021a39
+2026-02-20 15:05:00,048 INFO  Process StartWithinLock - Attempting to acquire lock for key: 844d80df-39d4-436e-baa0-6c8e38c0b7a6 with timeout: 00:00:00
+2026-02-20 15:05:00,050 INFO  Process StartWithinLock - Successfully acquired lock for key: 844d80df-39d4-436e-baa0-6c8e38c0b7a6
+2026-02-20 15:05:04,973 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 3:10:04 PM +00:00
+2026-02-20 15:06:00,084 INFO  Process StartWithinLock - Attempting to acquire lock for key: 3c72d2df-51e1-40ba-a33e-00296a24cb44 with timeout: 00:00:00
+2026-02-20 15:06:00,085 INFO  Process StartWithinLock - Successfully acquired lock for key: 3c72d2df-51e1-40ba-a33e-00296a24cb44
+2026-02-20 15:07:00,044 INFO  Process StartWithinLock - Attempting to acquire lock for key: 16f3612a-f39d-4d6f-8f52-a330ccd88a87 with timeout: 00:00:00
+2026-02-20 15:07:00,044 INFO  Process StartWithinLock - Successfully acquired lock for key: 16f3612a-f39d-4d6f-8f52-a330ccd88a87
+2026-02-20 15:08:00,051 INFO  Process StartWithinLock - Attempting to acquire lock for key: 3ee48b0c-21d3-4856-9627-ccf78ef31784 with timeout: 00:00:00
+2026-02-20 15:08:00,051 INFO  Process StartWithinLock - Successfully acquired lock for key: 3ee48b0c-21d3-4856-9627-ccf78ef31784
+2026-02-20 15:09:00,046 INFO  Process StartWithinLock - Attempting to acquire lock for key: 6b0fb02f-4079-4a0b-bd4e-f17a4744ef17 with timeout: 00:00:00
+2026-02-20 15:09:00,046 INFO  Process StartWithinLock - Successfully acquired lock for key: 6b0fb02f-4079-4a0b-bd4e-f17a4744ef17
+2026-02-20 15:10:00,054 INFO  Process StartWithinLock - Attempting to acquire lock for key: dff5c4b7-13c6-4abe-8da8-c53ce65e34ff with timeout: 00:00:00
+2026-02-20 15:10:00,054 INFO  Process StartWithinLock - Successfully acquired lock for key: dff5c4b7-13c6-4abe-8da8-c53ce65e34ff
+2026-02-20 15:10:00,069 INFO  Process StartWithinLock - Attempting to acquire lock for key: 43cda7f6-90cd-44ab-99be-50071c979a2d with timeout: 00:00:00
+2026-02-20 15:10:00,069 INFO  Process StartWithinLock - Successfully acquired lock for key: 43cda7f6-90cd-44ab-99be-50071c979a2d
+2026-02-20 15:10:04,991 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 3:15:04 PM +00:00
+2026-02-20 15:11:00,046 INFO  Process StartWithinLock - Attempting to acquire lock for key: af3191b3-8ceb-4434-82da-4cae5cc14d16 with timeout: 00:00:00
+2026-02-20 15:11:00,046 INFO  Process StartWithinLock - Successfully acquired lock for key: af3191b3-8ceb-4434-82da-4cae5cc14d16
+2026-02-20 15:12:00,010 INFO  Process StartWithinLock - Attempting to acquire lock for key: 3bb75e20-61be-4879-867a-f2e54da792d9 with timeout: 00:00:00
+2026-02-20 15:12:00,010 INFO  Process StartWithinLock - Successfully acquired lock for key: 3bb75e20-61be-4879-867a-f2e54da792d9
+2026-02-20 15:13:00,011 INFO  Process StartWithinLock - Attempting to acquire lock for key: 8a722b81-8b21-4830-9f79-e3aa3b846611 with timeout: 00:00:00
+2026-02-20 15:13:00,011 INFO  Process StartWithinLock - Successfully acquired lock for key: 8a722b81-8b21-4830-9f79-e3aa3b846611
+2026-02-20 15:14:00,049 INFO  Process StartWithinLock - Attempting to acquire lock for key: 854b1c0c-2088-449f-91a2-a23d9f5a6d0c with timeout: 00:00:00
+2026-02-20 15:14:00,049 INFO  Process StartWithinLock - Successfully acquired lock for key: 854b1c0c-2088-449f-91a2-a23d9f5a6d0c
+2026-02-20 15:15:00,050 INFO  Process StartWithinLock - Attempting to acquire lock for key: 6fee2755-3c39-4f8a-a5ea-adaa0f79bec3 with timeout: 00:00:00
+2026-02-20 15:15:00,050 INFO  Process StartWithinLock - Successfully acquired lock for key: 6fee2755-3c39-4f8a-a5ea-adaa0f79bec3
+2026-02-20 15:15:05,012 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 3:20:04 PM +00:00
+2026-02-20 15:16:00,056 INFO  Process StartWithinLock - Attempting to acquire lock for key: ad50d42a-6afc-4345-bf93-ea3ccd8cb6f7 with timeout: 00:00:00
+2026-02-20 15:16:00,056 INFO  Process StartWithinLock - Successfully acquired lock for key: ad50d42a-6afc-4345-bf93-ea3ccd8cb6f7
+2026-02-20 15:17:00,064 INFO  Process StartWithinLock - Attempting to acquire lock for key: 5a164d4b-f48c-40ab-8b10-768468539154 with timeout: 00:00:00
+2026-02-20 15:17:00,064 INFO  Process StartWithinLock - Successfully acquired lock for key: 5a164d4b-f48c-40ab-8b10-768468539154
+2026-02-20 15:18:00,057 INFO  Process StartWithinLock - Attempting to acquire lock for key: bae93ad4-1a6a-475a-9cc8-68827c0b0b6d with timeout: 00:00:00
+2026-02-20 15:18:00,057 INFO  Process StartWithinLock - Successfully acquired lock for key: bae93ad4-1a6a-475a-9cc8-68827c0b0b6d
+2026-02-20 15:19:00,054 INFO  Process StartWithinLock - Attempting to acquire lock for key: 3e91cefd-eec7-4d2d-b397-8c39b7e21ec0 with timeout: 00:00:00
+2026-02-20 15:19:00,054 INFO  Process StartWithinLock - Successfully acquired lock for key: 3e91cefd-eec7-4d2d-b397-8c39b7e21ec0
+2026-02-20 15:20:00,051 INFO  Process StartWithinLock - Attempting to acquire lock for key: b055878e-d94c-420e-a32d-3b51158362f5 with timeout: 00:00:00
+2026-02-20 15:20:00,051 INFO  Process StartWithinLock - Successfully acquired lock for key: b055878e-d94c-420e-a32d-3b51158362f5
+2026-02-20 15:20:00,072 INFO  Process StartWithinLock - Attempting to acquire lock for key: f2c5e5c9-bbf5-4fcb-ae02-961c95ac16f0 with timeout: 00:00:00
+2026-02-20 15:20:00,072 INFO  Process StartWithinLock - Successfully acquired lock for key: f2c5e5c9-bbf5-4fcb-ae02-961c95ac16f0
+2026-02-20 15:20:05,028 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 3:25:05 PM +00:00
+2026-02-20 15:21:00,063 INFO  Process StartWithinLock - Attempting to acquire lock for key: af7caa42-3917-46cf-896f-cd5e6e8b43d7 with timeout: 00:00:00
+2026-02-20 15:21:00,063 INFO  Process StartWithinLock - Successfully acquired lock for key: af7caa42-3917-46cf-896f-cd5e6e8b43d7
+2026-02-20 15:22:00,050 INFO  Process StartWithinLock - Attempting to acquire lock for key: 2ae17b69-ed9f-42f1-963c-45ace907bd25 with timeout: 00:00:00
+2026-02-20 15:22:00,050 INFO  Process StartWithinLock - Successfully acquired lock for key: 2ae17b69-ed9f-42f1-963c-45ace907bd25
+2026-02-20 15:23:00,054 INFO  Process StartWithinLock - Attempting to acquire lock for key: 71c855ce-ec6f-453d-a597-5f8a6a6caf05 with timeout: 00:00:00
+2026-02-20 15:23:00,054 INFO  Process StartWithinLock - Successfully acquired lock for key: 71c855ce-ec6f-453d-a597-5f8a6a6caf05
+2026-02-20 15:24:00,161 INFO  Process StartWithinLock - Attempting to acquire lock for key: 8d3869d6-6c12-4df2-b3d2-fff1be808720 with timeout: 00:00:00
+2026-02-20 15:24:00,161 INFO  Process StartWithinLock - Successfully acquired lock for key: 8d3869d6-6c12-4df2-b3d2-fff1be808720
+2026-02-20 15:25:00,055 INFO  Process StartWithinLock - Attempting to acquire lock for key: d9afda75-760d-4eae-b33f-f3beb3deaaff with timeout: 00:00:00
+2026-02-20 15:25:00,055 INFO  Process StartWithinLock - Successfully acquired lock for key: d9afda75-760d-4eae-b33f-f3beb3deaaff
+2026-02-20 15:25:05,046 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 3:30:05 PM +00:00
+2026-02-20 15:26:00,062 INFO  Process StartWithinLock - Attempting to acquire lock for key: 21da5f17-f861-482d-9022-c9a3cea54d6b with timeout: 00:00:00
+2026-02-20 15:26:00,062 INFO  Process StartWithinLock - Successfully acquired lock for key: 21da5f17-f861-482d-9022-c9a3cea54d6b
+2026-02-20 15:27:00,063 INFO  Process StartWithinLock - Attempting to acquire lock for key: 608c22b6-7530-4e08-b037-55b0d35c469f with timeout: 00:00:00
+2026-02-20 15:27:00,063 INFO  Process StartWithinLock - Successfully acquired lock for key: 608c22b6-7530-4e08-b037-55b0d35c469f
+2026-02-20 15:28:00,059 INFO  Process StartWithinLock - Attempting to acquire lock for key: 8bf3c64c-7b48-4a01-9f32-39a6c73a9021 with timeout: 00:00:00
+2026-02-20 15:28:00,059 INFO  Process StartWithinLock - Successfully acquired lock for key: 8bf3c64c-7b48-4a01-9f32-39a6c73a9021
+2026-02-20 15:29:00,056 INFO  Process StartWithinLock - Attempting to acquire lock for key: e3510108-145a-4b9c-aa51-6c7ad5ba57df with timeout: 00:00:00
+2026-02-20 15:29:00,056 INFO  Process StartWithinLock - Successfully acquired lock for key: e3510108-145a-4b9c-aa51-6c7ad5ba57df
+2026-02-20 15:30:00,050 INFO  Process StartWithinLock - Attempting to acquire lock for key: c1869284-3b35-47ba-8b5c-b0ef83fa61c1 with timeout: 00:00:00
+2026-02-20 15:30:00,050 INFO  Process StartWithinLock - Successfully acquired lock for key: c1869284-3b35-47ba-8b5c-b0ef83fa61c1
+2026-02-20 15:30:00,078 INFO  Process StartWithinLock - Attempting to acquire lock for key: b6d934ca-786f-470a-ab4c-95d42c69631f with timeout: 00:00:00
+2026-02-20 15:30:00,078 INFO  Process StartWithinLock - Successfully acquired lock for key: b6d934ca-786f-470a-ab4c-95d42c69631f
+2026-02-20 15:30:05,055 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 3:35:05 PM +00:00
+2026-02-20 15:31:00,052 INFO  Process StartWithinLock - Attempting to acquire lock for key: 37fc3068-6a77-4ce0-bc61-7cc294547633 with timeout: 00:00:00
+2026-02-20 15:31:00,052 INFO  Process StartWithinLock - Successfully acquired lock for key: 37fc3068-6a77-4ce0-bc61-7cc294547633
+2026-02-20 15:32:00,073 INFO  Process StartWithinLock - Attempting to acquire lock for key: 30cf81eb-cc32-43be-9feb-12d83ca657e9 with timeout: 00:00:00
+2026-02-20 15:32:00,073 INFO  Process StartWithinLock - Successfully acquired lock for key: 30cf81eb-cc32-43be-9feb-12d83ca657e9
+2026-02-20 15:33:00,065 INFO  Process StartWithinLock - Attempting to acquire lock for key: 60c836f9-4925-43bf-b20d-ade00244a28a with timeout: 00:00:00
+2026-02-20 15:33:00,065 INFO  Process StartWithinLock - Successfully acquired lock for key: 60c836f9-4925-43bf-b20d-ade00244a28a
+2026-02-20 15:34:00,053 INFO  Process StartWithinLock - Attempting to acquire lock for key: befa9f2b-60bb-4a13-8aea-cb8ace0d4760 with timeout: 00:00:00
+2026-02-20 15:34:00,053 INFO  Process StartWithinLock - Successfully acquired lock for key: befa9f2b-60bb-4a13-8aea-cb8ace0d4760
+2026-02-20 15:35:00,062 INFO  Process StartWithinLock - Attempting to acquire lock for key: 381ab9b0-bd79-46ef-b5d1-2a411427074e with timeout: 00:00:00
+2026-02-20 15:35:00,062 INFO  Process StartWithinLock - Successfully acquired lock for key: 381ab9b0-bd79-46ef-b5d1-2a411427074e
+2026-02-20 15:35:05,141 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 3:40:05 PM +00:00
+2026-02-20 15:36:00,010 INFO  Process StartWithinLock - Attempting to acquire lock for key: bb458898-ccd0-4dd8-8fa6-3d2e0408a887 with timeout: 00:00:00
+2026-02-20 15:36:00,010 INFO  Process StartWithinLock - Successfully acquired lock for key: bb458898-ccd0-4dd8-8fa6-3d2e0408a887
+2026-02-20 15:37:00,053 INFO  Process StartWithinLock - Attempting to acquire lock for key: eb155f5c-62f3-40e5-a139-39ca8af0fa54 with timeout: 00:00:00
+2026-02-20 15:37:00,053 INFO  Process StartWithinLock - Successfully acquired lock for key: eb155f5c-62f3-40e5-a139-39ca8af0fa54
+2026-02-20 15:38:00,056 INFO  Process StartWithinLock - Attempting to acquire lock for key: 2e110cb8-bc15-4a38-80bd-a18103290a43 with timeout: 00:00:00
+2026-02-20 15:38:00,056 INFO  Process StartWithinLock - Successfully acquired lock for key: 2e110cb8-bc15-4a38-80bd-a18103290a43
+2026-02-20 15:39:00,057 INFO  Process StartWithinLock - Attempting to acquire lock for key: bf0dce51-2327-48e5-ae7c-4eaf371e7dcd with timeout: 00:00:00
+2026-02-20 15:39:00,058 INFO  Process StartWithinLock - Successfully acquired lock for key: bf0dce51-2327-48e5-ae7c-4eaf371e7dcd
+2026-02-20 15:40:00,058 INFO  Process StartWithinLock - Attempting to acquire lock for key: ece83074-1e73-40fc-bf33-df00f7765c4d with timeout: 00:00:00
+2026-02-20 15:40:00,058 INFO  Process StartWithinLock - Successfully acquired lock for key: ece83074-1e73-40fc-bf33-df00f7765c4d
+2026-02-20 15:40:00,073 INFO  Process StartWithinLock - Attempting to acquire lock for key: a62f4db4-51d0-47f0-a84e-b320554f7058 with timeout: 00:00:00
+2026-02-20 15:40:00,078 INFO  Process StartWithinLock - Successfully acquired lock for key: a62f4db4-51d0-47f0-a84e-b320554f7058
+2026-02-20 15:40:05,115 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 3:45:05 PM +00:00
+2026-02-20 15:41:00,069 INFO  Process StartWithinLock - Attempting to acquire lock for key: bdc7f0b8-6179-4d22-9657-e72d18742d69 with timeout: 00:00:00
+2026-02-20 15:41:00,069 INFO  Process StartWithinLock - Successfully acquired lock for key: bdc7f0b8-6179-4d22-9657-e72d18742d69
+2026-02-20 15:42:00,064 INFO  Process StartWithinLock - Attempting to acquire lock for key: 31c39308-2b78-4d9f-9542-1588b0885d4b with timeout: 00:00:00
+2026-02-20 15:42:00,064 INFO  Process StartWithinLock - Successfully acquired lock for key: 31c39308-2b78-4d9f-9542-1588b0885d4b
+2026-02-20 15:43:00,071 INFO  Process StartWithinLock - Attempting to acquire lock for key: bb3b83df-6158-4961-8ef1-11e0eaa37bba with timeout: 00:00:00
+2026-02-20 15:43:00,071 INFO  Process StartWithinLock - Successfully acquired lock for key: bb3b83df-6158-4961-8ef1-11e0eaa37bba
+2026-02-20 15:44:00,052 INFO  Process StartWithinLock - Attempting to acquire lock for key: 8dbbeed5-6206-4e79-adb2-385d78d659b5 with timeout: 00:00:00
+2026-02-20 15:44:00,052 INFO  Process StartWithinLock - Successfully acquired lock for key: 8dbbeed5-6206-4e79-adb2-385d78d659b5
+2026-02-20 15:45:00,108 INFO  Process StartWithinLock - Attempting to acquire lock for key: fc9b3660-7d57-4363-8ba2-95abcb8a400d with timeout: 00:00:00
+2026-02-20 15:45:00,108 INFO  Process StartWithinLock - Successfully acquired lock for key: fc9b3660-7d57-4363-8ba2-95abcb8a400d
+2026-02-20 15:45:05,142 INFO  Process Execute - Registered ProcessFailoverExecutorJob in scheduler. First fire will occur at 2/20/2026 3:50:05 PM +00:00
+2026-02-20 15:46:00,071 INFO  Process StartWithinLock - Attempting to acquire lock for key: c710b203-7851-4686-841f-8ec0d92cf646 with timeout: 00:00:00
+2026-02-20 15:46:00,071 INFO  Process StartWithinLock - Successfully acquired lock for key: c710b203-7851-4686-841f-8ec0d92cf646
+2026-02-20 15:47:00,069 INFO  Process StartWithinLock - Attempting to acquire lock for key: 4fd675d9-64d1-421b-b881-3c6831d44ac3 with timeout: 00:00:00
+2026-02-20 15:47:00,069 INFO  Process StartWithinLock - Successfully acquired lock for key: 4fd675d9-64d1-421b-b881-3c6831d44ac3
+2026-02-20 15:48:00,072 INFO  Process StartWithinLock - Attempting to acquire lock for key: c66c197b-018c-4199-bd64-b9fd2d69e385 with timeout: 00:00:00
+2026-02-20 15:48:00,072 INFO  Process StartWithinLock - Successfully acquired lock for key: c66c197b-018c-4199-bd64-b9fd2d69e385

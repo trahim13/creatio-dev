@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="bg-BG">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Обект" />
+			<Item Name="EventsProcessSchema.Caption" Value="Базов обект" />
+		</Items>
+	</Group>
+</Resources>

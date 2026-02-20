@@ -1,3 +1,25 @@
 2026-02-20 08:27:34,780 [1] WARN  Initialize - workerThreads = 256 completionPortThreads = 1
 workerThreads => 100 result = False
 
+2026-02-20 09:00:34,958 [.NET TP Worker] WARN  MoveNext - IOCP:(Busy=0,Min=1,Max=1000),WORKER:(Busy=12,Min=256,Max=32767)
+2026-02-20 09:33:36,721 [.NET TP Worker] WARN  RunInternal - IOCP:(Busy=0,Min=1,Max=1000),WORKER:(Busy=31,Min=256,Max=32767)
+2026-02-20 10:05:30,096 [1] WARN  Initialize - workerThreads = 256 completionPortThreads = 1
+workerThreads => 100 result = False
+
+2026-02-20 10:07:29,360 [.NET TP Worker] WARN  MoveNext - IOCP:(Busy=0,Min=1,Max=1000),WORKER:(Busy=11,Min=256,Max=32767)
+2026-02-20 10:09:59,379 [1] WARN  Initialize - workerThreads = 256 completionPortThreads = 1
+workerThreads => 100 result = False
+
+2026-02-20 13:49:37,559 [1] WARN  Initialize - workerThreads = 256 completionPortThreads = 1
+workerThreads => 100 result = False
+
+2026-02-20 13:51:36,881 [.NET TP Worker] WARN  MoveNext - IOCP:(Busy=0,Min=1,Max=1000),WORKER:(Busy=11,Min=256,Max=32767)
+2026-02-20 13:53:14,600 [1] WARN  Initialize - workerThreads = 256 completionPortThreads = 1
+workerThreads => 100 result = False
+
+2026-02-20 13:54:13,808 [.NET TP Worker] WARN  MoveNext - IOCP:(Busy=0,Min=1,Max=1000),WORKER:(Busy=11,Min=256,Max=32767)
+2026-02-20 13:55:13,903 [.NET TP Worker] WARN  MoveNext - IOCP:(Busy=0,Min=1,Max=1000),WORKER:(Busy=13,Min=256,Max=32767)
+2026-02-20 14:04:18,161 [1] WARN  Initialize - workerThreads = 256 completionPortThreads = 1
+workerThreads => 100 result = False
+
+2026-02-20 14:06:17,523 [.NET TP Worker] WARN  MoveNext - IOCP:(Busy=0,Min=1,Max=1000),WORKER:(Busy=12,Min=256,Max=32767)

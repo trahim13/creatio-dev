@@ -4,3 +4,68 @@
 2026-02-20 08:28:23,366 [1] INFO  SetupOmnichannelMessagingJobs - OmnichannelMessagingAppEventListener: OmnichannelMessaging Jobs were ran
 2026-02-20 08:28:23,366 [1] INFO  CreateNotifiers - OmnichannelMessagingAppEventListener: Notifiers were created
 2026-02-20 08:28:23,366 [1] INFO  BindInterfaces - OmnichannelMessagingAppEventListener: Interfaces were bound
+2026-02-20 09:33:46,462 [.NET TP Worker] INFO Supervisor InitializeOmnichannels - OmnichannelMessagingAppEventListener: TelegramClientFactory was initialized
+2026-02-20 09:33:46,462 [.NET TP Worker] INFO Supervisor InitializeOmnichannels - OmnichannelMessagingAppEventListener: TelegramChannelsJob was ran
+2026-02-20 09:33:46,489 [.NET TP Worker] INFO Supervisor InitializeOmnichannels - OmnichannelMessagingAppEventListener: OmnichannelMessaging Jobs were ran
+2026-02-20 09:33:46,489 [.NET TP Worker] INFO Supervisor InitializeOmnichannels - OmnichannelMessagingAppEventListener: Notifiers were created
+2026-02-20 09:33:46,489 [.NET TP Worker] INFO Supervisor InitializeOmnichannels - OmnichannelMessagingAppEventListener: Interfaces were bound
+2026-02-20 10:05:12,180 [.NET TP Worker] INFO Supervisor InitializeOmnichannels - OmnichannelMessagingAppEventListener: TelegramClientFactory was initialized
+2026-02-20 10:05:12,180 [.NET TP Worker] INFO Supervisor InitializeOmnichannels - OmnichannelMessagingAppEventListener: TelegramChannelsJob was ran
+2026-02-20 10:05:12,224 [.NET TP Worker] INFO Supervisor InitializeOmnichannels - OmnichannelMessagingAppEventListener: OmnichannelMessaging Jobs were ran
+2026-02-20 10:05:12,224 [.NET TP Worker] INFO Supervisor InitializeOmnichannels - OmnichannelMessagingAppEventListener: Notifiers were created
+2026-02-20 10:05:12,224 [.NET TP Worker] INFO Supervisor InitializeOmnichannels - OmnichannelMessagingAppEventListener: Interfaces were bound
+2026-02-20 10:06:15,906 [1] INFO  OnAppStart - OmnichannelMessagingAppEventListener: OnAppStart executed
+2026-02-20 10:06:15,929 [1] INFO  StartTelegramChannel - OmnichannelMessagingAppEventListener: TelegramClientFactory was initialized
+2026-02-20 10:06:15,933 [1] INFO  StartTelegramChannel - OmnichannelMessagingAppEventListener: TelegramChannelsJob was ran
+2026-02-20 10:06:15,955 [1] INFO  SetupOmnichannelMessagingJobs - OmnichannelMessagingAppEventListener: OmnichannelMessaging Jobs were ran
+2026-02-20 10:06:15,955 [1] INFO  CreateNotifiers - OmnichannelMessagingAppEventListener: Notifiers were created
+2026-02-20 10:06:15,955 [1] INFO  BindInterfaces - OmnichannelMessagingAppEventListener: Interfaces were bound
+2026-02-20 10:09:41,547 [.NET TP Worker] INFO Supervisor InitializeOmnichannels - OmnichannelMessagingAppEventListener: TelegramClientFactory was initialized
+2026-02-20 10:09:41,553 [.NET TP Worker] INFO Supervisor InitializeOmnichannels - OmnichannelMessagingAppEventListener: TelegramChannelsJob was ran
+2026-02-20 10:09:41,584 [.NET TP Worker] INFO Supervisor InitializeOmnichannels - OmnichannelMessagingAppEventListener: OmnichannelMessaging Jobs were ran
+2026-02-20 10:09:41,584 [.NET TP Worker] INFO Supervisor InitializeOmnichannels - OmnichannelMessagingAppEventListener: Notifiers were created
+2026-02-20 10:09:41,584 [.NET TP Worker] INFO Supervisor InitializeOmnichannels - OmnichannelMessagingAppEventListener: Interfaces were bound
+2026-02-20 10:10:45,588 [1] INFO  OnAppStart - OmnichannelMessagingAppEventListener: OnAppStart executed
+2026-02-20 10:10:45,588 [1] INFO  StartTelegramChannel - OmnichannelMessagingAppEventListener: TelegramClientFactory was initialized
+2026-02-20 10:10:45,588 [1] INFO  StartTelegramChannel - OmnichannelMessagingAppEventListener: TelegramChannelsJob was ran
+2026-02-20 10:10:45,617 [1] INFO  SetupOmnichannelMessagingJobs - OmnichannelMessagingAppEventListener: OmnichannelMessaging Jobs were ran
+2026-02-20 10:10:45,617 [1] INFO  CreateNotifiers - OmnichannelMessagingAppEventListener: Notifiers were created
+2026-02-20 10:10:45,617 [1] INFO  BindInterfaces - OmnichannelMessagingAppEventListener: Interfaces were bound
+2026-02-20 13:50:26,018 [1] INFO  OnAppStart - OmnichannelMessagingAppEventListener: OnAppStart executed
+2026-02-20 13:50:26,018 [1] INFO  StartTelegramChannel - OmnichannelMessagingAppEventListener: TelegramClientFactory was initialized
+2026-02-20 13:50:26,026 [1] INFO  StartTelegramChannel - OmnichannelMessagingAppEventListener: TelegramChannelsJob was ran
+2026-02-20 13:50:26,052 [1] INFO  SetupOmnichannelMessagingJobs - OmnichannelMessagingAppEventListener: OmnichannelMessaging Jobs were ran
+2026-02-20 13:50:26,052 [1] INFO  CreateNotifiers - OmnichannelMessagingAppEventListener: Notifiers were created
+2026-02-20 13:50:26,054 [1] INFO  BindInterfaces - OmnichannelMessagingAppEventListener: Interfaces were bound
+2026-02-20 13:53:05,951 [.NET TP Worker] INFO Supervisor InitializeOmnichannels - OmnichannelMessagingAppEventListener: TelegramClientFactory was initialized
+2026-02-20 13:53:05,957 [.NET TP Worker] INFO Supervisor InitializeOmnichannels - OmnichannelMessagingAppEventListener: TelegramChannelsJob was ran
+2026-02-20 13:53:05,985 [.NET TP Worker] INFO Supervisor InitializeOmnichannels - OmnichannelMessagingAppEventListener: OmnichannelMessaging Jobs were ran
+2026-02-20 13:53:05,985 [.NET TP Worker] INFO Supervisor InitializeOmnichannels - OmnichannelMessagingAppEventListener: Notifiers were created
+2026-02-20 13:53:05,985 [.NET TP Worker] INFO Supervisor InitializeOmnichannels - OmnichannelMessagingAppEventListener: Interfaces were bound
+2026-02-20 13:54:01,690 [1] INFO  OnAppStart - OmnichannelMessagingAppEventListener: OnAppStart executed
+2026-02-20 13:54:01,690 [1] INFO  StartTelegramChannel - OmnichannelMessagingAppEventListener: TelegramClientFactory was initialized
+2026-02-20 13:54:01,690 [1] INFO  StartTelegramChannel - OmnichannelMessagingAppEventListener: TelegramChannelsJob was ran
+2026-02-20 13:54:01,726 [1] INFO  SetupOmnichannelMessagingJobs - OmnichannelMessagingAppEventListener: OmnichannelMessaging Jobs were ran
+2026-02-20 13:54:01,726 [1] INFO  CreateNotifiers - OmnichannelMessagingAppEventListener: Notifiers were created
+2026-02-20 13:54:01,726 [1] INFO  BindInterfaces - OmnichannelMessagingAppEventListener: Interfaces were bound
+2026-02-20 14:03:42,557 [.NET TP Worker] INFO Supervisor InitializeOmnichannels - OmnichannelMessagingAppEventListener: TelegramClientFactory was initialized
+2026-02-20 14:03:42,557 [.NET TP Worker] INFO Supervisor InitializeOmnichannels - OmnichannelMessagingAppEventListener: TelegramChannelsJob was ran
+2026-02-20 14:03:42,589 [.NET TP Worker] INFO Supervisor InitializeOmnichannels - OmnichannelMessagingAppEventListener: OmnichannelMessaging Jobs were ran
+2026-02-20 14:03:42,589 [.NET TP Worker] INFO Supervisor InitializeOmnichannels - OmnichannelMessagingAppEventListener: Notifiers were created
+2026-02-20 14:03:42,589 [.NET TP Worker] INFO Supervisor InitializeOmnichannels - OmnichannelMessagingAppEventListener: Interfaces were bound
+2026-02-20 14:05:05,520 [1] INFO  OnAppStart - OmnichannelMessagingAppEventListener: OnAppStart executed
+2026-02-20 14:05:05,523 [1] INFO  StartTelegramChannel - OmnichannelMessagingAppEventListener: TelegramClientFactory was initialized
+2026-02-20 14:05:05,523 [1] INFO  StartTelegramChannel - OmnichannelMessagingAppEventListener: TelegramChannelsJob was ran
+2026-02-20 14:05:05,547 [1] INFO  SetupOmnichannelMessagingJobs - OmnichannelMessagingAppEventListener: OmnichannelMessaging Jobs were ran
+2026-02-20 14:05:05,547 [1] INFO  CreateNotifiers - OmnichannelMessagingAppEventListener: Notifiers were created
+2026-02-20 14:05:05,547 [1] INFO  BindInterfaces - OmnichannelMessagingAppEventListener: Interfaces were bound
+2026-02-20 14:35:08,927 [.NET TP Worker] INFO Supervisor InitializeOmnichannels - OmnichannelMessagingAppEventListener: TelegramClientFactory was initialized
+2026-02-20 14:35:08,934 [.NET TP Worker] INFO Supervisor InitializeOmnichannels - OmnichannelMessagingAppEventListener: TelegramChannelsJob was ran
+2026-02-20 14:35:08,962 [.NET TP Worker] INFO Supervisor InitializeOmnichannels - OmnichannelMessagingAppEventListener: OmnichannelMessaging Jobs were ran
+2026-02-20 14:35:08,962 [.NET TP Worker] INFO Supervisor InitializeOmnichannels - OmnichannelMessagingAppEventListener: Notifiers were created
+2026-02-20 14:35:08,969 [.NET TP Worker] INFO Supervisor InitializeOmnichannels - OmnichannelMessagingAppEventListener: Interfaces were bound
+2026-02-20 15:28:54,765 [.NET TP Worker] INFO Supervisor InitializeOmnichannels - OmnichannelMessagingAppEventListener: TelegramClientFactory was initialized
+2026-02-20 15:28:54,765 [.NET TP Worker] INFO Supervisor InitializeOmnichannels - OmnichannelMessagingAppEventListener: TelegramChannelsJob was ran
+2026-02-20 15:28:54,792 [.NET TP Worker] INFO Supervisor InitializeOmnichannels - OmnichannelMessagingAppEventListener: OmnichannelMessaging Jobs were ran
+2026-02-20 15:28:54,792 [.NET TP Worker] INFO Supervisor InitializeOmnichannels - OmnichannelMessagingAppEventListener: Notifiers were created
+2026-02-20 15:28:54,794 [.NET TP Worker] INFO Supervisor InitializeOmnichannels - OmnichannelMessagingAppEventListener: Interfaces were bound

@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = UsrYacht
+build_property.ProjectDir = /app/Terrasoft.Configuration/Pkg/UsrYacht/Files/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -26,31 +26,31 @@ creatio-instruction
 2. Проверить: контейнер жив и Postgres доступен:
 
 ```text
-docker exec -it postgres17-creatio psql -U app -d postgres -c "select version();"
+docker exec -it postgres17-creatio-dev1 psql -U app -d postgres -c "select version();"
 ``` 
 
 3. backup-файл внутрь контейнера:
 
 ```text
-docker cp .\BPMonline832StudioNet8.backup postgres17-creatio:/tmp/BPMonline832StudioNet8.backup
+docker cp .\BPMonline832StudioNet8.backup postgres17-creatio-dev1:/tmp/BPMonline832StudioNet8.backup
 ```
 
 или WSL
 
 ```text
-docker cp c/ai-demo/creatio-instruction/BPMonline832StudioNet8.backup postgres17-creatio:/tmp/BPMonline832StudioNet8.backup
+docker cp c/ai-demo/creatio-instruction/BPMonline832StudioNet8.backup postgres17-creatio-dev1:/tmp/BPMonline832StudioNet8.backup
 ```
 
 4. Проверим, что все ОК:
-   linux: docker exec -it postgres17-creatio pg_restore --list /tmp/BPMonline832StudioNet8.backup | head -n 20
-   cmd: docker exec -it postgres17-creatio pg_restore --list /tmp/BPMonline832StudioNet8.backup | more
+   linux: docker exec -it postgres17-creatio-dev1 pg_restore --list /tmp/BPMonline832StudioNet8.backup | head -n 20
+   cmd: docker exec -it postgres17-creatio-dev1 pg_restore --list /tmp/BPMonline832StudioNet8.backup | more
 
 5. БД уже создана при docker-compose: app
 
 6. Восстановить дамп в базу через pg_restore
 
 ```text
-docker exec -it postgres17-creatio pg_restore \
+docker exec -it postgres17-creatio-dev1 pg_restore \
   -U app \
   -d app \
   --no-owner \
@@ -62,23 +62,23 @@ docker exec -it postgres17-creatio pg_restore \
 7. Проверить, что восстановилось
 
 ```text
-docker exec -it postgres17-creatio psql -U app -d app -c "\dt" | head
-docker exec -it postgres17-creatio psql -U app -d app -c "select count(*) from pg_class where relkind='r';"
+docker exec -it postgres17-creatio-dev1 psql -U app -d app -c "\dt" | head
+docker exec -it postgres17-creatio-dev1 psql -U app -d app -c "select count(*) from pg_class where relkind='r';"
 
 ```
 
 8. Выполняем скрипт (в инструкции так написано)
 
 ```text
-docker cp .\casts.sql postgres17-creatio:/tmp/casts.sql
+docker cp .\casts.sql postgres17-creatio-dev1:/tmp/casts.sql
 ```
 
-docker cp .\casts.sql postgres17-creatio:/tmp/casts.sql
+docker cp .\casts.sql postgres17-creatio-dev1:/tmp/casts.sql
 
-docker exec -it postgres17-creatio psql -U app -d app -v ON_ERROR_STOP=1 -f /tmp/casts.sql
+docker exec -it postgres17-creatio-dev1 psql -U app -d app -v ON_ERROR_STOP=1 -f /tmp/casts.sql
 
 Проверка:
-docker exec -it postgres17-creatio psql -U app -d app -c "
+docker exec -it postgres17-creatio-dev1 psql -U app -d app -c "
 SELECT c.oid
 FROM pg_cast c
 JOIN pg_type s ON s.oid = c.castsource
@@ -122,10 +122,10 @@ ENTRYPOINT ["dotnet", "Terrasoft.WebHost.dll"]
 <?xml version="1.0" encoding="utf-8"?>
 <connectionStrings>
   <add name="db"
-       connectionString="Server=postgres17-creatio;Port=5432;Database=app;User ID=app;Password=app;Timeout=500;CommandTimeout=400;MaxPoolSize=1024;" />
+       connectionString="Server=postgres17-creatio-dev1;Port=5432;Database=app;User ID=app;Password=app;Timeout=500;CommandTimeout=400;MaxPoolSize=1024;" />
 
   <add name="dbPostgreSql"
-       connectionString="Pooling=true;Database=app;Host=postgres17-creatio;Port=5432;Username=app;Password=app;Timeout=500;CommandTimeout=400" />
+       connectionString="Pooling=true;Database=app;Host=postgres17-creatio-dev1;Port=5432;Username=app;Password=app;Timeout=500;CommandTimeout=400" />
 
   <add name="redis"
          connectionString="host=redis7-creatio;db=1;port=6379" />

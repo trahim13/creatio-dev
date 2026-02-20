@@ -1,2 +1,438 @@
 2026-02-20 08:27:33,754 [1] WARN  Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository GetFallbackKeyRepositoryEncryptorPair - Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. For more information go to https://aka.ms/aspnet/dataprotectionwarning
 2026-02-20 08:28:23,033 [1] WARN  Microsoft.AspNetCore.Server.Kestrel MoveNext - Overriding address(es) 'http://*:8080'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2026-02-20 08:39:01,573 [.NET TP Worker] ERROR  Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware MoveNext - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.FirstWriteAsyncInternal(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WritePipeAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Terrasoft.WebHost.Middleware.BaseHrefMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.CustomHeadersMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.HostHeaderFilterMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.FileUploadSecurityMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-02-20 08:39:01,573 [.NET TP Worker] WARN  Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware Start - The response has already started, the error page middleware will not be executed.
+2026-02-20 09:06:05,551 [.NET TP Worker] ERROR Supervisor Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware MoveNext - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.FirstWriteAsyncInternal(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WritePipeAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Terrasoft.WebHost.Middleware.BaseHrefMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.CustomHeadersMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.HostHeaderFilterMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.FileUploadSecurityMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-02-20 09:06:05,551 [.NET TP Worker] WARN Supervisor Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware RunInternal - The response has already started, the error page middleware will not be executed.
+2026-02-20 09:30:25,852 [.NET TP Worker] ERROR Supervisor Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware MoveNext - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.FirstWriteAsyncInternal(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WritePipeAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Terrasoft.WebHost.Middleware.BaseHrefMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.CustomHeadersMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.HostHeaderFilterMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.FileUploadSecurityMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-02-20 09:30:25,863 [.NET TP Worker] WARN Supervisor Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware RunInternal - The response has already started, the error page middleware will not be executed.
+2026-02-20 09:31:02,897 [.NET TP Worker] ERROR Supervisor Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware MoveNext - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.FirstWriteAsyncInternal(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WritePipeAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Terrasoft.WebHost.Middleware.BaseHrefMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.CustomHeadersMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.HostHeaderFilterMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.FileUploadSecurityMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-02-20 09:31:02,897 [.NET TP Worker] WARN Supervisor Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware RunInternal - The response has already started, the error page middleware will not be executed.
+2026-02-20 09:31:56,067 [.NET TP Worker] ERROR Supervisor Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware MoveNext - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.FirstWriteAsyncInternal(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WritePipeAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Terrasoft.WebHost.Middleware.BaseHrefMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.CustomHeadersMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.HostHeaderFilterMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.FileUploadSecurityMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-02-20 09:31:56,067 [.NET TP Worker] WARN Supervisor Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware RunInternal - The response has already started, the error page middleware will not be executed.
+2026-02-20 09:38:21,202 [.NET TP Worker] ERROR  Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware MoveNext - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.FirstWriteAsyncInternal(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WritePipeAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Terrasoft.WebHost.Middleware.BaseHrefMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.CustomHeadersMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.HostHeaderFilterMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.FileUploadSecurityMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-02-20 09:38:21,202 [.NET TP Worker] WARN  Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware Start - The response has already started, the error page middleware will not be executed.
+2026-02-20 09:38:50,427 [.NET TP Worker] ERROR Supervisor Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware MoveNext - An unhandled exception has occurred while executing the request.
+Terrasoft.Common.NullOrEmptyException: Instance of workspace item with type "Terrasoft.Configuration.UsrYachtSchema" cannot be obtained from server metadata
+   at Terrasoft.Core.Entities.EntitySchemaManager.InitializeSchema(ISchemaManagerItem schemaManagerItem, Assembly assembly)
+   at Terrasoft.Core.SchemaManagerItem`1.get_Instance()
+   at Terrasoft.Core.Manager`2.GetInstanceByName(String name)
+   at Terrasoft.WebHost.Middleware.ConfigurationClientResourceMiddleware.TryGetResource(String path, String& resource)
+   at Terrasoft.WebHost.Middleware.ConfigurationClientResourceMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.AcquireRequestStateMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Terrasoft.Authentication.Middleware.OAuthSessionMiddleware.Invoke(HttpContext httpContext)
+   at Terrasoft.Authentication.Middleware.OpenIdMiddleware.Invoke(HttpContext httpContext, IOpenIdAuthorizeInitiator openIdAuthorizeInitiator)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.BaseHrefMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.CustomHeadersMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.HostHeaderFilterMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.FileUploadSecurityMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-02-20 09:47:03,785 [.NET TP Worker] ERROR  Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware MoveNext - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.FirstWriteAsyncInternal(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WritePipeAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Terrasoft.WebHost.Middleware.BaseHrefMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.CustomHeadersMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.HostHeaderFilterMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.FileUploadSecurityMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-02-20 09:47:03,785 [.NET TP Worker] WARN  Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware Start - The response has already started, the error page middleware will not be executed.
+2026-02-20 09:49:13,434 [.NET TP Worker] ERROR Supervisor Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware MoveNext - An unhandled exception has occurred while executing the request.
+Terrasoft.Common.NullOrEmptyException: Instance of workspace item with type "Terrasoft.Configuration.UsrTrafficLightSchema" cannot be obtained from server metadata
+   at Terrasoft.Core.Entities.EntitySchemaManager.InitializeSchema(ISchemaManagerItem schemaManagerItem, Assembly assembly)
+   at Terrasoft.Core.SchemaManagerItem`1.get_Instance()
+   at Terrasoft.Core.Manager`2.GetInstanceByName(String name)
+   at Terrasoft.WebHost.Middleware.ConfigurationClientResourceMiddleware.TryGetResource(String path, String& resource)
+   at Terrasoft.WebHost.Middleware.ConfigurationClientResourceMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.AcquireRequestStateMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Terrasoft.Authentication.Middleware.OAuthSessionMiddleware.Invoke(HttpContext httpContext)
+   at Terrasoft.Authentication.Middleware.OpenIdMiddleware.Invoke(HttpContext httpContext, IOpenIdAuthorizeInitiator openIdAuthorizeInitiator)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.BaseHrefMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.CustomHeadersMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.HostHeaderFilterMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.FileUploadSecurityMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-02-20 09:49:44,268 [.NET TP Worker] ERROR Supervisor Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware MoveNext - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.FirstWriteAsyncInternal(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WritePipeAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Terrasoft.WebHost.Middleware.BaseHrefMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.CustomHeadersMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.HostHeaderFilterMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.FileUploadSecurityMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-02-20 09:49:44,268 [.NET TP Worker] WARN Supervisor Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware RunInternal - The response has already started, the error page middleware will not be executed.
+2026-02-20 09:49:46,039 [.NET TP Worker] ERROR Supervisor Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware MoveNext - An unhandled exception has occurred while executing the request.
+Terrasoft.Common.NullOrEmptyException: Instance of workspace item with type "Terrasoft.Configuration.UsrTrafficLightSchema" cannot be obtained from server metadata
+   at Terrasoft.Core.Entities.EntitySchemaManager.InitializeSchema(ISchemaManagerItem schemaManagerItem, Assembly assembly)
+   at Terrasoft.Core.SchemaManagerItem`1.get_Instance()
+   at Terrasoft.Core.Manager`2.GetInstanceByName(String name)
+   at Terrasoft.WebHost.Middleware.ConfigurationClientResourceMiddleware.TryGetResource(String path, String& resource)
+   at Terrasoft.WebHost.Middleware.ConfigurationClientResourceMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.AcquireRequestStateMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Terrasoft.Authentication.Middleware.OAuthSessionMiddleware.Invoke(HttpContext httpContext)
+   at Terrasoft.Authentication.Middleware.OpenIdMiddleware.Invoke(HttpContext httpContext, IOpenIdAuthorizeInitiator openIdAuthorizeInitiator)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.BaseHrefMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.CustomHeadersMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.HostHeaderFilterMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.FileUploadSecurityMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-02-20 09:50:14,116 [.NET TP Worker] ERROR Supervisor Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware MoveNext - An unhandled exception has occurred while executing the request.
+Terrasoft.Common.NullOrEmptyException: Instance of workspace item with type "Terrasoft.Configuration.UsrYachtDriveTypeSchema" cannot be obtained from server metadata
+   at Terrasoft.Core.Entities.EntitySchemaManager.InitializeSchema(ISchemaManagerItem schemaManagerItem, Assembly assembly)
+   at Terrasoft.Core.SchemaManagerItem`1.get_Instance()
+   at Terrasoft.Core.Manager`2.GetInstanceByName(String name)
+   at Terrasoft.WebHost.Middleware.ConfigurationClientResourceMiddleware.TryGetResource(String path, String& resource)
+   at Terrasoft.WebHost.Middleware.ConfigurationClientResourceMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.AcquireRequestStateMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Terrasoft.Authentication.Middleware.OAuthSessionMiddleware.Invoke(HttpContext httpContext)
+   at Terrasoft.Authentication.Middleware.OpenIdMiddleware.Invoke(HttpContext httpContext, IOpenIdAuthorizeInitiator openIdAuthorizeInitiator)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.BaseHrefMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.CustomHeadersMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.HostHeaderFilterMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.FileUploadSecurityMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-02-20 09:50:14,116 [.NET TP Worker] ERROR Supervisor Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware MoveNext - An unhandled exception has occurred while executing the request.
+Terrasoft.Common.NullOrEmptyException: Instance of workspace item with type "Terrasoft.Configuration.UsrYachtStatusSchema" cannot be obtained from server metadata
+   at Terrasoft.Core.Entities.EntitySchemaManager.InitializeSchema(ISchemaManagerItem schemaManagerItem, Assembly assembly)
+   at Terrasoft.Core.SchemaManagerItem`1.get_Instance()
+   at Terrasoft.Core.Manager`2.GetInstanceByName(String name)
+   at Terrasoft.WebHost.Middleware.ConfigurationClientResourceMiddleware.TryGetResource(String path, String& resource)
+   at Terrasoft.WebHost.Middleware.ConfigurationClientResourceMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.AcquireRequestStateMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Terrasoft.Authentication.Middleware.OAuthSessionMiddleware.Invoke(HttpContext httpContext)
+   at Terrasoft.Authentication.Middleware.OpenIdMiddleware.Invoke(HttpContext httpContext, IOpenIdAuthorizeInitiator openIdAuthorizeInitiator)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.BaseHrefMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.CustomHeadersMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.HostHeaderFilterMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.FileUploadSecurityMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-02-20 09:55:23,740 [.NET TP Worker] ERROR Supervisor Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware MoveNext - An unhandled exception has occurred while executing the request.
+Terrasoft.Common.NullOrEmptyException: Instance of workspace item with type "Terrasoft.Configuration.UsrTrafficLightSchema" cannot be obtained from server metadata
+   at Terrasoft.Core.Entities.EntitySchemaManager.InitializeSchema(ISchemaManagerItem schemaManagerItem, Assembly assembly)
+   at Terrasoft.Core.SchemaManagerItem`1.get_Instance()
+   at Terrasoft.Core.Manager`2.GetInstanceByName(String name)
+   at Terrasoft.WebHost.Middleware.ConfigurationClientResourceMiddleware.TryGetResource(String path, String& resource)
+   at Terrasoft.WebHost.Middleware.ConfigurationClientResourceMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.AcquireRequestStateMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Terrasoft.Authentication.Middleware.OAuthSessionMiddleware.Invoke(HttpContext httpContext)
+   at Terrasoft.Authentication.Middleware.OpenIdMiddleware.Invoke(HttpContext httpContext, IOpenIdAuthorizeInitiator openIdAuthorizeInitiator)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.BaseHrefMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.CustomHeadersMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.HostHeaderFilterMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.FileUploadSecurityMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-02-20 09:55:31,858 [.NET TP Worker] ERROR Supervisor Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware MoveNext - An unhandled exception has occurred while executing the request.
+Terrasoft.Common.NullOrEmptyException: Instance of workspace item with type "Terrasoft.Configuration.UsrTrafficLightSchema" cannot be obtained from server metadata
+   at Terrasoft.Core.Entities.EntitySchemaManager.InitializeSchema(ISchemaManagerItem schemaManagerItem, Assembly assembly)
+   at Terrasoft.Core.SchemaManagerItem`1.get_Instance()
+   at Terrasoft.Core.Manager`2.GetInstanceByName(String name)
+   at Terrasoft.WebHost.Middleware.ConfigurationClientResourceMiddleware.TryGetResource(String path, String& resource)
+   at Terrasoft.WebHost.Middleware.ConfigurationClientResourceMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.AcquireRequestStateMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Terrasoft.Authentication.Middleware.OAuthSessionMiddleware.Invoke(HttpContext httpContext)
+   at Terrasoft.Authentication.Middleware.OpenIdMiddleware.Invoke(HttpContext httpContext, IOpenIdAuthorizeInitiator openIdAuthorizeInitiator)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.BaseHrefMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.CustomHeadersMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.HostHeaderFilterMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.FileUploadSecurityMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-02-20 09:55:50,140 [.NET TP Worker] ERROR Supervisor Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware MoveNext - An unhandled exception has occurred while executing the request.
+Terrasoft.Common.NullOrEmptyException: Instance of workspace item with type "Terrasoft.Configuration.UsrTrafficLightSchema" cannot be obtained from server metadata
+   at Terrasoft.Core.Entities.EntitySchemaManager.InitializeSchema(ISchemaManagerItem schemaManagerItem, Assembly assembly)
+   at Terrasoft.Core.SchemaManagerItem`1.get_Instance()
+   at Terrasoft.Core.Manager`2.GetInstanceByName(String name)
+   at Terrasoft.WebHost.Middleware.ConfigurationClientResourceMiddleware.TryGetResource(String path, String& resource)
+   at Terrasoft.WebHost.Middleware.ConfigurationClientResourceMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.AcquireRequestStateMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Terrasoft.Authentication.Middleware.OAuthSessionMiddleware.Invoke(HttpContext httpContext)
+   at Terrasoft.Authentication.Middleware.OpenIdMiddleware.Invoke(HttpContext httpContext, IOpenIdAuthorizeInitiator openIdAuthorizeInitiator)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.BaseHrefMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.CustomHeadersMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.HostHeaderFilterMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.FileUploadSecurityMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-02-20 09:56:00,143 [.NET TP Worker] ERROR Supervisor Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware MoveNext - An unhandled exception has occurred while executing the request.
+Terrasoft.Common.NullOrEmptyException: Instance of workspace item with type "Terrasoft.Configuration.UsrTrafficLightSchema" cannot be obtained from server metadata
+   at Terrasoft.Core.Entities.EntitySchemaManager.InitializeSchema(ISchemaManagerItem schemaManagerItem, Assembly assembly)
+   at Terrasoft.Core.SchemaManagerItem`1.get_Instance()
+   at Terrasoft.Core.Manager`2.GetInstanceByName(String name)
+   at Terrasoft.WebHost.Middleware.ConfigurationClientResourceMiddleware.TryGetResource(String path, String& resource)
+   at Terrasoft.WebHost.Middleware.ConfigurationClientResourceMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.AcquireRequestStateMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Terrasoft.Authentication.Middleware.OAuthSessionMiddleware.Invoke(HttpContext httpContext)
+   at Terrasoft.Authentication.Middleware.OpenIdMiddleware.Invoke(HttpContext httpContext, IOpenIdAuthorizeInitiator openIdAuthorizeInitiator)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.BaseHrefMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.CustomHeadersMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.HostHeaderFilterMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.FileUploadSecurityMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-02-20 09:56:46,104 [.NET TP Worker] ERROR Supervisor Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware MoveNext - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.FirstWriteAsyncInternal(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WritePipeAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Terrasoft.WebHost.Middleware.BaseHrefMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.CustomHeadersMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.HostHeaderFilterMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.FileUploadSecurityMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-02-20 09:56:46,104 [.NET TP Worker] WARN Supervisor Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware RunInternal - The response has already started, the error page middleware will not be executed.
+2026-02-20 09:56:47,535 [.NET TP Worker] ERROR Supervisor Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware MoveNext - An unhandled exception has occurred while executing the request.
+Terrasoft.Common.NullOrEmptyException: Instance of workspace item with type "Terrasoft.Configuration.UsrYachtStatusSchema" cannot be obtained from server metadata
+   at Terrasoft.Core.Entities.EntitySchemaManager.InitializeSchema(ISchemaManagerItem schemaManagerItem, Assembly assembly)
+   at Terrasoft.Core.SchemaManagerItem`1.get_Instance()
+   at Terrasoft.Core.Manager`2.GetInstanceByName(String name)
+   at Terrasoft.WebHost.Middleware.ConfigurationClientResourceMiddleware.TryGetResource(String path, String& resource)
+   at Terrasoft.WebHost.Middleware.ConfigurationClientResourceMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.AcquireRequestStateMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Terrasoft.Authentication.Middleware.OAuthSessionMiddleware.Invoke(HttpContext httpContext)
+   at Terrasoft.Authentication.Middleware.OpenIdMiddleware.Invoke(HttpContext httpContext, IOpenIdAuthorizeInitiator openIdAuthorizeInitiator)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.BaseHrefMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.CustomHeadersMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.HostHeaderFilterMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.FileUploadSecurityMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-02-20 09:56:47,535 [.NET TP Worker] ERROR Supervisor Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware MoveNext - An unhandled exception has occurred while executing the request.
+Terrasoft.Common.NullOrEmptyException: Instance of workspace item with type "Terrasoft.Configuration.UsrYachtDriveTypeSchema" cannot be obtained from server metadata
+   at Terrasoft.Core.Entities.EntitySchemaManager.InitializeSchema(ISchemaManagerItem schemaManagerItem, Assembly assembly)
+   at Terrasoft.Core.SchemaManagerItem`1.get_Instance()
+   at Terrasoft.Core.Manager`2.GetInstanceByName(String name)
+   at Terrasoft.WebHost.Middleware.ConfigurationClientResourceMiddleware.TryGetResource(String path, String& resource)
+   at Terrasoft.WebHost.Middleware.ConfigurationClientResourceMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.AcquireRequestStateMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Terrasoft.Authentication.Middleware.OAuthSessionMiddleware.Invoke(HttpContext httpContext)
+   at Terrasoft.Authentication.Middleware.OpenIdMiddleware.Invoke(HttpContext httpContext, IOpenIdAuthorizeInitiator openIdAuthorizeInitiator)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.BaseHrefMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.CustomHeadersMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.HostHeaderFilterMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.FileUploadSecurityMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-02-20 09:59:52,266 [.NET TP Worker] ERROR Supervisor Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware MoveNext - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.FirstWriteAsyncInternal(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WritePipeAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Terrasoft.WebHost.Middleware.BaseHrefMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.CustomHeadersMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.HostHeaderFilterMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.FileUploadSecurityMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-02-20 09:59:52,267 [.NET TP Worker] WARN Supervisor Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware RunInternal - The response has already started, the error page middleware will not be executed.
+2026-02-20 09:59:56,092 [.NET TP Worker] ERROR Supervisor Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware MoveNext - An unhandled exception has occurred while executing the request.
+Terrasoft.Common.NullOrEmptyException: Instance of workspace item with type "Terrasoft.Configuration.UsrYachtStatusSchema" cannot be obtained from server metadata
+   at Terrasoft.Core.Entities.EntitySchemaManager.InitializeSchema(ISchemaManagerItem schemaManagerItem, Assembly assembly)
+   at Terrasoft.Core.SchemaManagerItem`1.get_Instance()
+   at Terrasoft.Core.Manager`2.GetInstanceByName(String name)
+   at Terrasoft.WebHost.Middleware.ConfigurationClientResourceMiddleware.TryGetResource(String path, String& resource)
+   at Terrasoft.WebHost.Middleware.ConfigurationClientResourceMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.AcquireRequestStateMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Terrasoft.Authentication.Middleware.OAuthSessionMiddleware.Invoke(HttpContext httpContext)
+   at Terrasoft.Authentication.Middleware.OpenIdMiddleware.Invoke(HttpContext httpContext, IOpenIdAuthorizeInitiator openIdAuthorizeInitiator)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.BaseHrefMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.CustomHeadersMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.HostHeaderFilterMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.FileUploadSecurityMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-02-20 09:59:58,591 [.NET TP Worker] ERROR Supervisor Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware MoveNext - An unhandled exception has occurred while executing the request.
+Terrasoft.Common.NullOrEmptyException: Instance of workspace item with type "Terrasoft.Configuration.UsrYachtDriveTypeSchema" cannot be obtained from server metadata
+   at Terrasoft.Core.Entities.EntitySchemaManager.InitializeSchema(ISchemaManagerItem schemaManagerItem, Assembly assembly)
+   at Terrasoft.Core.SchemaManagerItem`1.get_Instance()
+   at Terrasoft.Core.Manager`2.GetInstanceByName(String name)
+   at Terrasoft.WebHost.Middleware.ConfigurationClientResourceMiddleware.TryGetResource(String path, String& resource)
+   at Terrasoft.WebHost.Middleware.ConfigurationClientResourceMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.AcquireRequestStateMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Terrasoft.Authentication.Middleware.OAuthSessionMiddleware.Invoke(HttpContext httpContext)
+   at Terrasoft.Authentication.Middleware.OpenIdMiddleware.Invoke(HttpContext httpContext, IOpenIdAuthorizeInitiator openIdAuthorizeInitiator)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.BaseHrefMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.CustomHeadersMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.HostHeaderFilterMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.FileUploadSecurityMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-02-20 10:05:29,106 [1] WARN  Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository GetFallbackKeyRepositoryEncryptorPair - Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+2026-02-20 10:06:15,667 [1] WARN  Microsoft.AspNetCore.Server.Kestrel MoveNext - Overriding address(es) 'http://*:8080'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2026-02-20 10:06:36,147 [.NET TP Worker] ERROR  Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware MoveNext - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.FirstWriteAsyncInternal(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WritePipeAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at System.IO.Stream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count)
+   at Terrasoft.WebHost.Middleware.BaseHrefMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.CustomHeadersMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.HostHeaderFilterMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.FileUploadSecurityMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-02-20 10:06:36,148 [.NET TP Worker] WARN  Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware Start - The response has already started, the error page middleware will not be executed.
+2026-02-20 10:09:58,461 [1] WARN  Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository GetFallbackKeyRepositoryEncryptorPair - Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+2026-02-20 10:10:45,354 [1] WARN  Microsoft.AspNetCore.Server.Kestrel MoveNext - Overriding address(es) 'http://*:8080'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2026-02-20 10:11:38,239 [.NET TP Worker] ERROR  Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware MoveNext - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.FirstWriteAsyncInternal(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WritePipeAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at System.IO.Stream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count)
+   at Terrasoft.WebHost.Middleware.BaseHrefMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.CustomHeadersMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.HostHeaderFilterMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.FileUploadSecurityMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-02-20 10:11:38,239 [.NET TP Worker] WARN  Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware Start - The response has already started, the error page middleware will not be executed.
+2026-02-20 10:11:42,979 [.NET TP Worker] ERROR Supervisor Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware MoveNext - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.FirstWriteAsyncInternal(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WritePipeAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Terrasoft.WebHost.Middleware.BaseHrefMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.CustomHeadersMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.HostHeaderFilterMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.FileUploadSecurityMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-02-20 10:11:42,979 [.NET TP Worker] WARN Supervisor Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware ExecutionContextCallback - The response has already started, the error page middleware will not be executed.
+2026-02-20 13:49:36,491 [1] WARN  Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository GetFallbackKeyRepositoryEncryptorPair - Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+2026-02-20 13:50:25,512 [1] WARN  Microsoft.AspNetCore.Server.Kestrel MoveNext - Overriding address(es) 'http://*:8080'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2026-02-20 13:53:13,579 [1] WARN  Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository GetFallbackKeyRepositoryEncryptorPair - Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+2026-02-20 13:54:01,399 [1] WARN  Microsoft.AspNetCore.Server.Kestrel MoveNext - Overriding address(es) 'http://*:8080'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2026-02-20 13:57:36,888 [.NET TP Worker] ERROR  Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware MoveNext - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.FirstWriteAsyncInternal(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WritePipeAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Terrasoft.WebHost.Middleware.BaseHrefMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.CustomHeadersMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.HostHeaderFilterMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.FileUploadSecurityMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-02-20 13:57:36,888 [.NET TP Worker] WARN  Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware Start - The response has already started, the error page middleware will not be executed.
+2026-02-20 14:03:45,213 [.NET TP Worker] ERROR Supervisor Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware MoveNext - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.FirstWriteAsyncInternal(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WritePipeAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Terrasoft.WebHost.Middleware.BaseHrefMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.CustomHeadersMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.HostHeaderFilterMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.FileUploadSecurityMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-02-20 14:03:45,215 [.NET TP Worker] WARN Supervisor Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware RunInternal - The response has already started, the error page middleware will not be executed.
+2026-02-20 14:04:17,203 [1] WARN  Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository GetFallbackKeyRepositoryEncryptorPair - Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+2026-02-20 14:05:05,291 [1] WARN  Microsoft.AspNetCore.Server.Kestrel MoveNext - Overriding address(es) 'http://*:8080'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2026-02-20 14:05:27,472 [.NET TP Worker] ERROR  Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware MoveNext - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Writing to the response body is invalid for responses with status code 304.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.FirstWriteAsyncInternal(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.WritePipeAsync(ReadOnlyMemory`1 data, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at System.IO.Stream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count)
+   at Terrasoft.WebHost.Middleware.BaseHrefMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.CustomHeadersMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.HostHeaderFilterMiddleware.Invoke(HttpContext context)
+   at Terrasoft.WebHost.Middleware.FileUploadSecurityMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-02-20 14:05:27,472 [.NET TP Worker] WARN  Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware Start - The response has already started, the error page middleware will not be executed.

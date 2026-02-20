@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="zh-TW">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="物件" />
+			<Item Name="EventsProcessSchema.Caption" Value="基本物件" />
+		</Items>
+	</Group>
+</Resources>
