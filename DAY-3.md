@@ -76,7 +76,7 @@ docker compose -p creatio-dev2 -f docker-compose.dev2.yml up -d postgres
 
 ---
 
-## 5) Инициализация PostgreSQL (как в начале, см. [README.md](README.md))
+## 5) Инициализация PostgreSQL (как в начале, см. [README.md](DAY-1))
 
 
 ## 6) Поднять всё окружение (Creatio + Redis + PostgreSQL)

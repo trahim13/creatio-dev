@@ -5326,3 +5326,29 @@
 2026-02-20 15:47:25,676 [.NET TP Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
 2026-02-20 15:47:25,693 [.NET TP Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
 2026-02-20 15:47:25,693 [.NET TP Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2026-02-20 15:48:25,675 [.NET TP Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2026-02-20 15:48:25,675 [.NET TP Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2026-02-20 15:48:25,675 [.NET TP Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2026-02-20 15:48:25,693 [.NET TP Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2026-02-20 15:48:25,693 [.NET TP Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2026-02-20 15:48:25,693 [.NET TP Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2026-02-20 15:48:25,693 [.NET TP Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2026-02-20 15:48:25,693 [.NET TP Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2026-02-20 15:48:25,693 [.NET TP Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2026-02-20 15:48:25,693 [.NET TP Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2026-02-20 15:48:25,693 [.NET TP Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2026-02-20 15:48:25,704 [.NET TP Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2026-02-20 15:48:25,704 [.NET TP Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
+2026-02-20 15:49:25,677 [.NET TP Worker] INFO  LogInfo - [ListenerServiceFailJob] started.
+2026-02-20 15:49:25,677 [.NET TP Worker] DEBUG  LogDebug - [ListenerServiceFailJob] dependencies initiated.
+2026-02-20 15:49:25,677 [.NET TP Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method started
+2026-02-20 15:49:25,693 [.NET TP Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2026-02-20 15:49:25,693 [.NET TP Worker] INFO  LogInfo - GetMailboxesWithoutSubscriptions: selected 0 mailboxes
+2026-02-20 15:49:25,693 [.NET TP Worker] DEBUG  LogDebug - GetMailboxesWithoutSubscriptions method ended
+2026-02-20 15:49:25,693 [.NET TP Worker] INFO  LogInfo - [ListenerServiceFailJob] 0 accounts received for enabling synchronization.
+2026-02-20 15:49:25,693 [.NET TP Worker] DEBUG  LogDebug - StartFailoverHandlers started
+2026-02-20 15:49:25,693 [.NET TP Worker] DEBUG  LogDebug - All jobs from ExchangeListenerHandler job group deleted.
+2026-02-20 15:49:25,693 [.NET TP Worker] DEBUG  LogDebug - StartFailoverHandlers ended
+2026-02-20 15:49:25,693 [.NET TP Worker] INFO  LogInfo - [ListenerServiceFailJob] Synchronization of 0 accounts is enabled.
+2026-02-20 15:49:25,706 [.NET TP Worker] DEBUG  LogDebug - GetAllSynchronizableMailboxes ended
+2026-02-20 15:49:25,706 [.NET TP Worker] INFO  LogInfo - [ListenerServiceFailJob] ended.
