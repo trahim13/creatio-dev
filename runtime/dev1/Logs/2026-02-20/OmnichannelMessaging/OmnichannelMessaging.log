@@ -1,0 +1,6 @@
+2026-02-20 08:28:23,334 [1] INFO  OnAppStart - OmnichannelMessagingAppEventListener: OnAppStart executed
+2026-02-20 08:28:23,334 [1] INFO  StartTelegramChannel - OmnichannelMessagingAppEventListener: TelegramClientFactory was initialized
+2026-02-20 08:28:23,344 [1] INFO  StartTelegramChannel - OmnichannelMessagingAppEventListener: TelegramChannelsJob was ran
+2026-02-20 08:28:23,366 [1] INFO  SetupOmnichannelMessagingJobs - OmnichannelMessagingAppEventListener: OmnichannelMessaging Jobs were ran
+2026-02-20 08:28:23,366 [1] INFO  CreateNotifiers - OmnichannelMessagingAppEventListener: Notifiers were created
+2026-02-20 08:28:23,366 [1] INFO  BindInterfaces - OmnichannelMessagingAppEventListener: Interfaces were bound

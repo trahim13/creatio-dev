@@ -1,0 +1,391 @@
+2026-02-18 16:46:30,460 [.NET TP Worker] ERROR Supervisor Client.Client LogMessage - user: Supervisor/7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+ file: http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js
+ line: 292
+ column: 16838
+ message: Uncaught Error: Script error for "UsrTrafficLight"
+https://requirejs.org/docs/errors.html#scripterror 
+ date: Wed Feb 18 2026 16:46:30 GMT+0000 (Всемирное координированное время)
+ stack: Error: Script error for "UsrTrafficLight"
+https://requirejs.org/docs/errors.html#scripterror
+    at makeError (http://localhost:5000/core/hash/requirejs/require.js?v=-1950382980:169:17)
+    at HTMLScriptElement.onScriptError (http://localhost:5000/core/hash/requirejs/require.js?v=-1950382980:1743:36)
+    at $t.invokeTask (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:7581)
+    at nn.runTask (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:2541)
+    at vn.invokeTask [as invoke] (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:8729)
+    at _e (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16324)
+    at Ve (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16670)
+    at HTMLScriptElement.$e (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16972)
+2026-02-18 16:46:42,025 [.NET TP Worker] ERROR Supervisor Client.Client LogMessage - user: Supervisor/7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+ file: http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js
+ line: 292
+ column: 16838
+ message: Uncaught Error: Script error for "UsrTrafficLight"
+https://requirejs.org/docs/errors.html#scripterror 
+ date: Wed Feb 18 2026 16:46:41 GMT+0000 (Всемирное координированное время)
+ stack: Error: Script error for "UsrTrafficLight"
+https://requirejs.org/docs/errors.html#scripterror
+    at makeError (http://localhost:5000/core/hash/requirejs/require.js?v=-1950382980:169:17)
+    at HTMLScriptElement.onScriptError (http://localhost:5000/core/hash/requirejs/require.js?v=-1950382980:1743:36)
+    at $t.invokeTask (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:7581)
+    at nn.runTask (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:2541)
+    at vn.invokeTask [as invoke] (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:8729)
+    at _e (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16324)
+    at Ve (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16670)
+    at HTMLScriptElement.$e (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16972)
+2026-02-18 16:46:50,105 [.NET TP Worker] ERROR Supervisor Client.Client LogMessage - user: Supervisor/7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+ file: http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js
+ line: 292
+ column: 16838
+ message: Uncaught Error: Script error for "UsrTrafficLight"
+https://requirejs.org/docs/errors.html#scripterror 
+ date: Wed Feb 18 2026 16:46:50 GMT+0000 (Всемирное координированное время)
+ stack: Error: Script error for "UsrTrafficLight"
+https://requirejs.org/docs/errors.html#scripterror
+    at makeError (http://localhost:5000/core/hash/requirejs/require.js?v=-1950382980:169:17)
+    at HTMLScriptElement.onScriptError (http://localhost:5000/core/hash/requirejs/require.js?v=-1950382980:1743:36)
+    at $t.invokeTask (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:7581)
+    at nn.runTask (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:2541)
+    at vn.invokeTask [as invoke] (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:8729)
+    at _e (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16324)
+    at Ve (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16670)
+    at HTMLScriptElement.$e (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16972)
+2026-02-18 16:47:10,712 [.NET TP Worker] ERROR Supervisor Client.Client LogMessage - user: Supervisor/7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+ file: http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js
+ line: 292
+ column: 16838
+ message: Uncaught Error: Script error for "UsrTrafficLight"
+https://requirejs.org/docs/errors.html#scripterror 
+ date: Wed Feb 18 2026 16:47:10 GMT+0000 (Всемирное координированное время)
+ stack: Error: Script error for "UsrTrafficLight"
+https://requirejs.org/docs/errors.html#scripterror
+    at makeError (http://localhost:5000/core/hash/requirejs/require.js?v=-1950382980:169:17)
+    at HTMLScriptElement.onScriptError (http://localhost:5000/core/hash/requirejs/require.js?v=-1950382980:1743:36)
+    at $t.invokeTask (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:7581)
+    at nn.runTask (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:2541)
+    at vn.invokeTask [as invoke] (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:8729)
+    at _e (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16324)
+    at Ve (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16670)
+    at HTMLScriptElement.$e (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16972)
+2026-02-18 16:47:15,592 [.NET TP Worker] ERROR Supervisor Client.Client LogMessage - user: Supervisor/7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+ file: http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js
+ line: 292
+ column: 16838
+ message: Uncaught Error: Script error for "UsrTrafficLight"
+https://requirejs.org/docs/errors.html#scripterror 
+ date: Wed Feb 18 2026 16:47:15 GMT+0000 (Всемирное координированное время)
+ stack: Error: Script error for "UsrTrafficLight"
+https://requirejs.org/docs/errors.html#scripterror
+    at makeError (http://localhost:5000/core/hash/requirejs/require.js?v=-1950382980:169:17)
+    at HTMLScriptElement.onScriptError (http://localhost:5000/core/hash/requirejs/require.js?v=-1950382980:1743:36)
+    at $t.invokeTask (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:7581)
+    at nn.runTask (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:2541)
+    at vn.invokeTask [as invoke] (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:8729)
+    at _e (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16324)
+    at Ve (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16670)
+    at HTMLScriptElement.$e (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16972)
+2026-02-18 16:47:52,227 [.NET TP Worker] ERROR Supervisor Client.Client LogMessage - user: Supervisor/7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+ file: http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js
+ line: 292
+ column: 16838
+ message: Uncaught Error: Script error for "UsrTrafficLight"
+https://requirejs.org/docs/errors.html#scripterror 
+ date: Wed Feb 18 2026 16:47:52 GMT+0000 (Всемирное координированное время)
+ stack: Error: Script error for "UsrTrafficLight"
+https://requirejs.org/docs/errors.html#scripterror
+    at makeError (http://localhost:5000/core/hash/requirejs/require.js?v=-1950382980:169:17)
+    at HTMLScriptElement.onScriptError (http://localhost:5000/core/hash/requirejs/require.js?v=-1950382980:1743:36)
+    at $t.invokeTask (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:7581)
+    at nn.runTask (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:2541)
+    at vn.invokeTask [as invoke] (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:8729)
+    at _e (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16324)
+    at Ve (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16670)
+    at HTMLScriptElement.$e (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16972)
+2026-02-18 16:48:08,017 [.NET TP Worker] ERROR Supervisor Client.Client LogMessage - user: Supervisor/7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+ file: http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js
+ line: 292
+ column: 16838
+ message: Uncaught Error: Script error for "UsrTrafficLight"
+https://requirejs.org/docs/errors.html#scripterror 
+ date: Wed Feb 18 2026 16:48:08 GMT+0000 (Всемирное координированное время)
+ stack: Error: Script error for "UsrTrafficLight"
+https://requirejs.org/docs/errors.html#scripterror
+    at makeError (http://localhost:5000/core/hash/requirejs/require.js?v=-1950382980:169:17)
+    at HTMLScriptElement.onScriptError (http://localhost:5000/core/hash/requirejs/require.js?v=-1950382980:1743:36)
+    at $t.invokeTask (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:7581)
+    at nn.runTask (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:2541)
+    at vn.invokeTask [as invoke] (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:8729)
+    at _e (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16324)
+    at Ve (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16670)
+    at HTMLScriptElement.$e (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16972)
+2026-02-18 16:48:13,437 [.NET TP Worker] ERROR Supervisor Client.Client LogMessage - user: Supervisor/7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+ file: http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js
+ line: 292
+ column: 16838
+ message: Uncaught Error: Script error for "UsrTrafficLight"
+https://requirejs.org/docs/errors.html#scripterror 
+ date: Wed Feb 18 2026 16:48:13 GMT+0000 (Всемирное координированное время)
+ stack: Error: Script error for "UsrTrafficLight"
+https://requirejs.org/docs/errors.html#scripterror
+    at makeError (http://localhost:5000/core/hash/requirejs/require.js?v=-1950382980:169:17)
+    at HTMLScriptElement.onScriptError (http://localhost:5000/core/hash/requirejs/require.js?v=-1950382980:1743:36)
+    at $t.invokeTask (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:7581)
+    at nn.runTask (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:2541)
+    at vn.invokeTask [as invoke] (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:8729)
+    at _e (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16324)
+    at Ve (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16670)
+    at HTMLScriptElement.$e (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16972)
+2026-02-18 16:48:16,267 [.NET TP Worker] ERROR Supervisor Client.Client LogMessage - user: Supervisor/7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+ file: http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js
+ line: 292
+ column: 16838
+ message: Uncaught Error: Script error for "UsrTrafficLight"
+https://requirejs.org/docs/errors.html#scripterror 
+ date: Wed Feb 18 2026 16:48:16 GMT+0000 (Всемирное координированное время)
+ stack: Error: Script error for "UsrTrafficLight"
+https://requirejs.org/docs/errors.html#scripterror
+    at makeError (http://localhost:5000/core/hash/requirejs/require.js?v=-1950382980:169:17)
+    at HTMLScriptElement.onScriptError (http://localhost:5000/core/hash/requirejs/require.js?v=-1950382980:1743:36)
+    at $t.invokeTask (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:7581)
+    at nn.runTask (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:2541)
+    at vn.invokeTask [as invoke] (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:8729)
+    at _e (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16324)
+    at Ve (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16670)
+    at HTMLScriptElement.$e (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16972)
+2026-02-18 18:16:10,484 [.NET TP Worker] ERROR Supervisor Client.Client LogMessage - user: Supervisor/7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+ file: http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js
+ line: 292
+ column: 16838
+ message: Uncaught Error: Script error for "UsrTrafficLight"
+https://requirejs.org/docs/errors.html#scripterror 
+ date: Wed Feb 18 2026 18:16:10 GMT+0000 (Всемирное координированное время)
+ stack: Error: Script error for "UsrTrafficLight"
+https://requirejs.org/docs/errors.html#scripterror
+    at makeError (http://localhost:5000/core/hash/requirejs/require.js?v=-120902284:169:17)
+    at HTMLScriptElement.onScriptError (http://localhost:5000/core/hash/requirejs/require.js?v=-120902284:1743:36)
+    at $t.invokeTask (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:7581)
+    at nn.runTask (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:2541)
+    at vn.invokeTask [as invoke] (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:8729)
+    at _e (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16324)
+    at Ve (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16670)
+    at HTMLScriptElement.$e (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16972)
+2026-02-18 18:16:43,365 [.NET TP Worker] ERROR Supervisor Client.Client LogMessage - user: Supervisor/7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+ file: http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js
+ line: 292
+ column: 16838
+ message: Uncaught Error: Script error for "UsrTrafficLight"
+https://requirejs.org/docs/errors.html#scripterror 
+ date: Wed Feb 18 2026 18:16:43 GMT+0000 (Всемирное координированное время)
+ stack: Error: Script error for "UsrTrafficLight"
+https://requirejs.org/docs/errors.html#scripterror
+    at makeError (http://localhost:5000/core/hash/requirejs/require.js?v=-120902284:169:17)
+    at HTMLScriptElement.onScriptError (http://localhost:5000/core/hash/requirejs/require.js?v=-120902284:1743:36)
+    at $t.invokeTask (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:7581)
+    at nn.runTask (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:2541)
+    at vn.invokeTask [as invoke] (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:8729)
+    at _e (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16324)
+    at Ve (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16670)
+    at HTMLScriptElement.$e (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16972)
+2026-02-18 18:17:27,491 [.NET TP Worker] ERROR Supervisor Client.Client LogMessage - user: Supervisor/7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+ file: http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js
+ line: 292
+ column: 16838
+ message: Uncaught Error: Script error for "UsrTrafficLight"
+https://requirejs.org/docs/errors.html#scripterror 
+ date: Wed Feb 18 2026 18:17:27 GMT+0000 (Всемирное координированное время)
+ stack: Error: Script error for "UsrTrafficLight"
+https://requirejs.org/docs/errors.html#scripterror
+    at makeError (http://localhost:5000/core/hash/requirejs/require.js?v=-120902284:169:17)
+    at HTMLScriptElement.onScriptError (http://localhost:5000/core/hash/requirejs/require.js?v=-120902284:1743:36)
+    at $t.invokeTask (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:7581)
+    at nn.runTask (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:2541)
+    at vn.invokeTask [as invoke] (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:8729)
+    at _e (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16324)
+    at Ve (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16670)
+    at HTMLScriptElement.$e (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16972)
+2026-02-18 18:17:36,631 [.NET TP Worker] ERROR Supervisor Client.Client LogMessage - user: Supervisor/7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+ file: http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js
+ line: 292
+ column: 16838
+ message: Uncaught Error: Script error for "UsrTrafficLight"
+https://requirejs.org/docs/errors.html#scripterror 
+ date: Wed Feb 18 2026 18:17:36 GMT+0000 (Всемирное координированное время)
+ stack: Error: Script error for "UsrTrafficLight"
+https://requirejs.org/docs/errors.html#scripterror
+    at makeError (http://localhost:5000/core/hash/requirejs/require.js?v=-120902284:169:17)
+    at HTMLScriptElement.onScriptError (http://localhost:5000/core/hash/requirejs/require.js?v=-120902284:1743:36)
+    at $t.invokeTask (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:7581)
+    at nn.runTask (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:2541)
+    at vn.invokeTask [as invoke] (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:8729)
+    at _e (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16324)
+    at Ve (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16670)
+    at HTMLScriptElement.$e (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16972)
+2026-02-18 18:22:08,797 [.NET TP Worker] ERROR Supervisor Client.Client LogMessage - user: Supervisor/7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+ file: http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js
+ line: 292
+ column: 16838
+ message: Uncaught Error: Script error for "UsrTrafficLight"
+https://requirejs.org/docs/errors.html#scripterror 
+ date: Wed Feb 18 2026 18:22:08 GMT+0000 (Всемирное координированное время)
+ stack: Error: Script error for "UsrTrafficLight"
+https://requirejs.org/docs/errors.html#scripterror
+    at makeError (http://localhost:5000/core/hash/requirejs/require.js?v=-120902284:169:17)
+    at HTMLScriptElement.onScriptError (http://localhost:5000/core/hash/requirejs/require.js?v=-120902284:1743:36)
+    at $t.invokeTask (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:7581)
+    at nn.runTask (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:2541)
+    at vn.invokeTask [as invoke] (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:8729)
+    at _e (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16324)
+    at Ve (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16670)
+    at HTMLScriptElement.$e (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16972)
+2026-02-18 18:23:03,193 [.NET TP Worker] ERROR Supervisor Client.Client LogMessage - user: Supervisor/7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+ file: http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js
+ line: 292
+ column: 16838
+ message: Uncaught Error: Script error for "UsrTrafficLight"
+https://requirejs.org/docs/errors.html#scripterror 
+ date: Wed Feb 18 2026 18:23:03 GMT+0000 (Всемирное координированное время)
+ stack: Error: Script error for "UsrTrafficLight"
+https://requirejs.org/docs/errors.html#scripterror
+    at makeError (http://localhost:5000/core/hash/requirejs/require.js?v=-120902284:169:17)
+    at HTMLScriptElement.onScriptError (http://localhost:5000/core/hash/requirejs/require.js?v=-120902284:1743:36)
+    at $t.invokeTask (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:7581)
+    at nn.runTask (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:2541)
+    at vn.invokeTask [as invoke] (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:8729)
+    at _e (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16324)
+    at Ve (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16670)
+    at HTMLScriptElement.$e (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16972)
+2026-02-18 18:23:09,313 [.NET TP Worker] ERROR Supervisor Client.Client LogMessage - user: Supervisor/7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+ file: http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js
+ line: 292
+ column: 16838
+ message: Uncaught Error: Script error for "UsrTrafficLight"
+https://requirejs.org/docs/errors.html#scripterror 
+ date: Wed Feb 18 2026 18:23:09 GMT+0000 (Всемирное координированное время)
+ stack: Error: Script error for "UsrTrafficLight"
+https://requirejs.org/docs/errors.html#scripterror
+    at makeError (http://localhost:5000/core/hash/requirejs/require.js?v=-120902284:169:17)
+    at HTMLScriptElement.onScriptError (http://localhost:5000/core/hash/requirejs/require.js?v=-120902284:1743:36)
+    at $t.invokeTask (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:7581)
+    at nn.runTask (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:2541)
+    at vn.invokeTask [as invoke] (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:8729)
+    at _e (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16324)
+    at Ve (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16670)
+    at HTMLScriptElement.$e (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16972)
+2026-02-18 18:23:46,828 [.NET TP Worker] ERROR Supervisor Client.Client LogMessage - user: Supervisor/7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+ file: http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js
+ line: 292
+ column: 16838
+ message: Uncaught Error: Script error for "UsrTrafficLight"
+https://requirejs.org/docs/errors.html#scripterror 
+ date: Wed Feb 18 2026 18:23:46 GMT+0000 (Всемирное координированное время)
+ stack: Error: Script error for "UsrTrafficLight"
+https://requirejs.org/docs/errors.html#scripterror
+    at makeError (http://localhost:5000/core/hash/requirejs/require.js?v=-120902284:169:17)
+    at HTMLScriptElement.onScriptError (http://localhost:5000/core/hash/requirejs/require.js?v=-120902284:1743:36)
+    at $t.invokeTask (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:7581)
+    at nn.runTask (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:2541)
+    at vn.invokeTask [as invoke] (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:8729)
+    at _e (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16324)
+    at Ve (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16670)
+    at HTMLScriptElement.$e (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16972)
+2026-02-18 18:24:35,201 [.NET TP Worker] ERROR Supervisor Client.Client LogMessage - user: Supervisor/7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+ file: http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js
+ line: 292
+ column: 16838
+ message: Uncaught Error: Script error for "UsrTrafficLight"
+https://requirejs.org/docs/errors.html#scripterror 
+ date: Wed Feb 18 2026 18:24:35 GMT+0000 (Всемирное координированное время)
+ stack: Error: Script error for "UsrTrafficLight"
+https://requirejs.org/docs/errors.html#scripterror
+    at makeError (http://localhost:5000/core/hash/requirejs/require.js?v=-120902284:169:17)
+    at HTMLScriptElement.onScriptError (http://localhost:5000/core/hash/requirejs/require.js?v=-120902284:1743:36)
+    at $t.invokeTask (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:7581)
+    at nn.runTask (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:2541)
+    at vn.invokeTask [as invoke] (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:8729)
+    at _e (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16324)
+    at Ve (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16670)
+    at HTMLScriptElement.$e (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16972)
+2026-02-18 18:25:26,560 [.NET TP Worker] ERROR Supervisor Client.Client LogMessage - user: Supervisor/7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+ file: http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js
+ line: 292
+ column: 16838
+ message: Uncaught Error: Script error for "UsrTrafficLight"
+https://requirejs.org/docs/errors.html#scripterror 
+ date: Wed Feb 18 2026 18:25:26 GMT+0000 (Всемирное координированное время)
+ stack: Error: Script error for "UsrTrafficLight"
+https://requirejs.org/docs/errors.html#scripterror
+    at makeError (http://localhost:5000/core/hash/requirejs/require.js?v=-120902284:169:17)
+    at HTMLScriptElement.onScriptError (http://localhost:5000/core/hash/requirejs/require.js?v=-120902284:1743:36)
+    at $t.invokeTask (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:7581)
+    at nn.runTask (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:2541)
+    at vn.invokeTask [as invoke] (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:8729)
+    at _e (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16324)
+    at Ve (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16670)
+    at HTMLScriptElement.$e (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16972)
+2026-02-18 18:28:16,586 [.NET TP Worker] ERROR Supervisor Client.Client LogMessage - user: Supervisor/7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+ file: http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js
+ line: 292
+ column: 16838
+ message: Uncaught Error: Script error for "UsrTrafficLight"
+https://requirejs.org/docs/errors.html#scripterror 
+ date: Wed Feb 18 2026 18:28:16 GMT+0000 (Всемирное координированное время)
+ stack: Error: Script error for "UsrTrafficLight"
+https://requirejs.org/docs/errors.html#scripterror
+    at makeError (http://localhost:5000/core/hash/requirejs/require.js?v=-120902284:169:17)
+    at HTMLScriptElement.onScriptError (http://localhost:5000/core/hash/requirejs/require.js?v=-120902284:1743:36)
+    at $t.invokeTask (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:7581)
+    at nn.runTask (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:2541)
+    at vn.invokeTask [as invoke] (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:8729)
+    at _e (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16324)
+    at Ve (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16670)
+    at HTMLScriptElement.$e (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16972)
+2026-02-18 18:29:01,179 [.NET TP Worker] ERROR Supervisor Client.Client LogMessage - user: Supervisor/7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+ file: http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js
+ line: 292
+ column: 16838
+ message: Uncaught Error: Script error for "UsrTrafficLight"
+https://requirejs.org/docs/errors.html#scripterror 
+ date: Wed Feb 18 2026 18:29:01 GMT+0000 (Всемирное координированное время)
+ stack: Error: Script error for "UsrTrafficLight"
+https://requirejs.org/docs/errors.html#scripterror
+    at makeError (http://localhost:5000/core/hash/requirejs/require.js?v=-120902284:169:17)
+    at HTMLScriptElement.onScriptError (http://localhost:5000/core/hash/requirejs/require.js?v=-120902284:1743:36)
+    at $t.invokeTask (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:7581)
+    at nn.runTask (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:2541)
+    at vn.invokeTask [as invoke] (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:8729)
+    at _e (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16324)
+    at Ve (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16670)
+    at HTMLScriptElement.$e (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16972)
+2026-02-18 18:29:13,509 [.NET TP Worker] ERROR Supervisor Client.Client LogMessage - user: Supervisor/7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+ file: http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js
+ line: 292
+ column: 16838
+ message: Uncaught Error: Script error for "UsrTrafficLight"
+https://requirejs.org/docs/errors.html#scripterror 
+ date: Wed Feb 18 2026 18:29:13 GMT+0000 (Всемирное координированное время)
+ stack: Error: Script error for "UsrTrafficLight"
+https://requirejs.org/docs/errors.html#scripterror
+    at makeError (http://localhost:5000/core/hash/requirejs/require.js?v=-120902284:169:17)
+    at HTMLScriptElement.onScriptError (http://localhost:5000/core/hash/requirejs/require.js?v=-120902284:1743:36)
+    at $t.invokeTask (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:7581)
+    at nn.runTask (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:2541)
+    at vn.invokeTask [as invoke] (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:8729)
+    at _e (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16324)
+    at Ve (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16670)
+    at HTMLScriptElement.$e (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16972)
+2026-02-18 18:30:22,194 [.NET TP Worker] ERROR Supervisor Client.Client LogMessage - user: Supervisor/7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+ file: http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js
+ line: 292
+ column: 16838
+ message: Uncaught Error: Script error for "UsrTrafficLight"
+https://requirejs.org/docs/errors.html#scripterror 
+ date: Wed Feb 18 2026 18:30:22 GMT+0000 (Всемирное координированное время)
+ stack: Error: Script error for "UsrTrafficLight"
+https://requirejs.org/docs/errors.html#scripterror
+    at makeError (http://localhost:5000/core/hash/requirejs/require.js?v=-120902284:169:17)
+    at HTMLScriptElement.onScriptError (http://localhost:5000/core/hash/requirejs/require.js?v=-120902284:1743:36)
+    at $t.invokeTask (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:7581)
+    at nn.runTask (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:2541)
+    at vn.invokeTask [as invoke] (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:8729)
+    at _e (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16324)
+    at Ve (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16670)
+    at HTMLScriptElement.$e (http://localhost:5000/Shell/8096.hash=c784a2678e0e20eb.js:292:16972)

@@ -1,0 +1,468 @@
+2026-02-18 16:28:20,846 --> PackageDBStorage.Load
+2026-02-18 16:28:21,285 <-- PackageDBStorage.Load
+2026-02-18 16:30:12,137 --> PackageDBStorage.Load
+2026-02-18 16:30:13,277 <-- PackageDBStorage.Load
+2026-02-18 16:30:14,714 --> PackageDBStorage.Load
+2026-02-18 16:30:17,064 <-- PackageDBStorage.Load
+2026-02-18 17:34:11,945 --> PackageDBStorage.Load
+2026-02-18 17:34:54,929 <-- PackageDBStorage.Load
+2026-02-18 17:36:51,617 --> PackageZipFileStorage.Load
+2026-02-18 17:36:51,617 --> PackageZipFileStorage.UnZipPackages
+2026-02-18 17:36:51,637 <-- PackageZipFileStorage.UnZipPackages
+2026-02-18 17:36:51,637 <-- PackageZipFileStorage.Load
+2026-02-18 17:38:03,284 --> PackageStorageComposer.Compose
+2026-02-18 17:38:03,284 --> PackageZipFileStorage.Load
+2026-02-18 17:38:03,284 --> PackageZipFileStorage.UnZipPackages
+2026-02-18 17:38:03,284 <-- PackageZipFileStorage.UnZipPackages
+2026-02-18 17:38:03,284 --> PackageZipFileStorage.LoadSchemaProperties
+2026-02-18 17:38:03,284 <-- PackageZipFileStorage.LoadSchemaProperties
+2026-02-18 17:38:03,284 <-- PackageZipFileStorage.Load
+2026-02-18 17:38:03,284 --> PackageDBStorage.Load
+2026-02-18 17:38:46,659 <-- PackageDBStorage.Load
+2026-02-18 17:38:46,660 --> PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-18 17:38:46,660 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-18 17:38:46,673 --> PackageDBStorage.ActualizePackageResourcesState
+2026-02-18 17:38:46,673 <-- PackageDBStorage.ActualizePackageResourcesState
+2026-02-18 17:38:46,673 <-- PackageStorageComposer.Compose
+2026-02-18 17:38:46,715 --> PackageZipFileStorage.Load
+2026-02-18 17:38:46,715 --> PackageZipFileStorage.UnZipPackages
+2026-02-18 17:38:46,715 <-- PackageZipFileStorage.UnZipPackages
+2026-02-18 17:38:46,715 <-- PackageZipFileStorage.Load
+2026-02-18 17:38:46,724 --> PackageStorageComposer.Compose
+2026-02-18 17:38:46,724 --> PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-18 17:38:46,724 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-18 17:38:46,724 --> IntermediatePackageStorage.ActualizePackageResourcesState
+2026-02-18 17:38:46,724 <-- IntermediatePackageStorage.ActualizePackageResourcesState
+2026-02-18 17:38:46,724 <-- PackageStorageComposer.Compose
+2026-02-18 17:38:46,765 --> PackageZipFileStorage.Load
+2026-02-18 17:38:46,765 --> PackageZipFileStorage.UnZipPackages
+2026-02-18 17:38:46,765 <-- PackageZipFileStorage.UnZipPackages
+2026-02-18 17:38:46,765 <-- PackageZipFileStorage.Load
+2026-02-18 17:39:02,077 --> PackageZipFileStorage.Load
+2026-02-18 17:39:02,077 --> PackageZipFileStorage.UnZipPackages
+2026-02-18 17:39:02,077 <-- PackageZipFileStorage.UnZipPackages
+2026-02-18 17:39:02,077 <-- PackageZipFileStorage.Load
+2026-02-18 17:39:02,095 --> PackageZipFileStorage.Load
+2026-02-18 17:39:02,095 --> PackageZipFileStorage.UnZipPackages
+2026-02-18 17:39:02,095 <-- PackageZipFileStorage.UnZipPackages
+2026-02-18 17:39:02,095 <-- PackageZipFileStorage.Load
+2026-02-18 17:39:02,108 --> PackageStorageComposer.Compose
+2026-02-18 17:39:02,108 --> PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-18 17:39:02,108 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-18 17:39:02,108 --> IntermediatePackageStorage.ActualizePackageResourcesState
+2026-02-18 17:39:02,108 <-- IntermediatePackageStorage.ActualizePackageResourcesState
+2026-02-18 17:39:02,108 <-- PackageStorageComposer.Compose
+2026-02-18 17:39:02,145 --> PackageDBStorageInternal.SavePackage - UsrYachts
+2026-02-18 17:39:02,152 --> PackageDBStorage.Load
+2026-02-18 17:39:43,360 <-- PackageDBStorage.Load
+2026-02-18 17:39:43,422 <-- PackageDBStorageInternal.SavePackage - UsrYachts
+2026-02-18 17:39:43,743 Added - 1 ru-RU resource values for schema 'UsrTrafficLight'
+2026-02-18 17:39:43,743 Added - 1 lv-LV resource values for schema 'UsrTrafficLight'
+2026-02-18 17:39:43,757 Added - 1 es-ES resource values for schema 'UsrTestProcess'
+2026-02-18 17:39:43,757 Added - 1 uk-UA resource values for schema 'UsrTestProcess'
+2026-02-18 17:39:43,757 Added - 1 cs-CZ resource values for schema 'UsrTestProcess'
+2026-02-18 17:39:43,757 Added - 1 pt-PT resource values for schema 'UsrTrafficLight'
+2026-02-18 17:39:43,757 Added - 1 ro-RO resource values for schema 'UsrTrafficLight'
+2026-02-18 17:39:43,757 Added - 1 ja-JP resource values for schema 'UsrTrafficLight'
+2026-02-18 17:39:43,757 Added - 1 ja-JP resource values for schema 'UsrTestProcess'
+2026-02-18 17:39:43,757 Added - 1 tr-TR resource values for schema 'UsrTestProcess'
+2026-02-18 17:39:43,757 Added - 1 de-DE resource values for schema 'UsrTrafficLight'
+2026-02-18 17:39:43,757 Added - 1 id-ID resource values for schema 'UsrTestProcess'
+2026-02-18 17:39:43,757 Added - 1 uk-UA resource values for schema 'UsrTrafficLight'
+2026-02-18 17:39:43,769 Added - 1 bg-BG resource values for schema 'UsrTrafficLight'
+2026-02-18 17:39:43,769 Added - 1 hu-HU resource values for schema 'UsrTrafficLight'
+2026-02-18 17:39:43,769 Added - 1 ko-KR resource values for schema 'UsrTrafficLight'
+2026-02-18 17:39:43,769 Added - 1 lv-LV resource values for schema 'UsrTestProcess'
+2026-02-18 17:39:43,769 Added - 1 vi-VN resource values for schema 'UsrTestProcess'
+2026-02-18 17:39:43,769 Added - 1 it-IT resource values for schema 'UsrTrafficLight'
+2026-02-18 17:39:43,769 Added - 1 zh-TW resource values for schema 'UsrTestProcess'
+2026-02-18 17:39:43,769 Added - 1 pt-BR resource values for schema 'UsrTrafficLight'
+2026-02-18 17:39:43,769 Added - 1 zh-TW resource values for schema 'UsrTrafficLight'
+2026-02-18 17:39:43,769 Added - 1 sv-SE resource values for schema 'UsrTestProcess'
+2026-02-18 17:39:43,769 Added - 1 ru-RU resource values for schema 'UsrTestProcess'
+2026-02-18 17:39:43,769 Added - 1 tr-TR resource values for schema 'UsrTrafficLight'
+2026-02-18 17:39:43,769 Added - 1 pl-PL resource values for schema 'UsrTrafficLight'
+2026-02-18 17:39:43,769 Added - 1 vi-VN resource values for schema 'UsrTrafficLight'
+2026-02-18 17:39:43,769 Added - 1 nl-NL resource values for schema 'UsrTrafficLight'
+2026-02-18 17:39:43,769 Added - 1 pt-BR resource values for schema 'UsrTestProcess'
+2026-02-18 17:39:43,769 Added - 1 nl-NL resource values for schema 'UsrTestProcess'
+2026-02-18 17:39:43,769 Added - 1 hu-HU resource values for schema 'UsrTestProcess'
+2026-02-18 17:39:43,769 Added - 1 sv-SE resource values for schema 'UsrTrafficLight'
+2026-02-18 17:39:43,769 Added - 1 th-TH resource values for schema 'UsrTrafficLight'
+2026-02-18 17:39:43,769 Added - 2 en-US resource values for schema 'UsrTrafficLight'
+2026-02-18 17:39:43,769 Added - 1 id-ID resource values for schema 'UsrTrafficLight'
+2026-02-18 17:39:43,769 Added - 1 ar-SA resource values for schema 'UsrTestProcess'
+2026-02-18 17:39:43,777 Added - 1 fr-FR resource values for schema 'UsrTrafficLight'
+2026-02-18 17:39:43,777 Added - 1 ar-SA resource values for schema 'UsrTrafficLight'
+2026-02-18 17:39:43,777 Added - 1 ro-RO resource values for schema 'UsrTestProcess'
+2026-02-18 17:39:43,777 Added - 1 it-IT resource values for schema 'UsrTestProcess'
+2026-02-18 17:39:43,777 Added - 1 hr-HR resource values for schema 'UsrTestProcess'
+2026-02-18 17:39:43,777 Added - 1 cs-CZ resource values for schema 'UsrTrafficLight'
+2026-02-18 17:39:43,777 Added - 1 sq-AL resource values for schema 'UsrTrafficLight'
+2026-02-18 17:39:43,777 Added - 1 de-DE resource values for schema 'UsrTestProcess'
+2026-02-18 17:39:43,777 Added - 1 es-ES resource values for schema 'UsrTrafficLight'
+2026-02-18 17:39:43,777 Added - 1 th-TH resource values for schema 'UsrTestProcess'
+2026-02-18 17:39:43,777 Added - 1 pt-PT resource values for schema 'UsrTestProcess'
+2026-02-18 17:39:43,777 Added - 1 sq-AL resource values for schema 'UsrTestProcess'
+2026-02-18 17:39:43,777 Added - 1 he-IL resource values for schema 'UsrTrafficLight'
+2026-02-18 17:39:43,777 Added - 1 pl-PL resource values for schema 'UsrTestProcess'
+2026-02-18 17:39:43,777 Added - 1 bg-BG resource values for schema 'UsrTestProcess'
+2026-02-18 17:39:43,777 Added - 1 hr-HR resource values for schema 'UsrTrafficLight'
+2026-02-18 17:39:43,777 Added - 1 he-IL resource values for schema 'UsrTestProcess'
+2026-02-18 17:39:43,788 Added - 1 ko-KR resource values for schema 'UsrTestProcess'
+2026-02-18 17:39:43,788 Added - 1 fr-FR resource values for schema 'UsrTestProcess'
+2026-02-18 17:39:43,788 Added - 8 en-US resource values for schema 'UsrTestProcess'
+2026-02-18 17:39:44,962 InstallColumnLookupValues. Count (total): 0
+2026-02-18 17:39:45,322 --> PackageDBStorage.Load
+2026-02-18 17:40:25,961 <-- PackageDBStorage.Load
+2026-02-18 17:40:34,434 --> PackageDBStorage.Load
+2026-02-18 17:41:15,263 <-- PackageDBStorage.Load
+2026-02-18 17:43:06,698 --> PackageDBStorage.Load
+2026-02-18 17:43:47,397 <-- PackageDBStorage.Load
+2026-02-18 17:43:52,118 --> PackageDBStorage.Load
+2026-02-18 17:44:31,085 <-- PackageDBStorage.Load
+2026-02-18 19:11:57,449 --> PackageZipFileStorage.Load
+2026-02-18 19:11:57,449 --> PackageZipFileStorage.UnZipPackages
+2026-02-18 19:11:57,529 <-- PackageZipFileStorage.UnZipPackages
+2026-02-18 19:11:57,552 <-- PackageZipFileStorage.Load
+2026-02-18 19:12:01,553 --> PackageStorageComposer.Compose
+2026-02-18 19:12:01,553 --> PackageZipFileStorage.Load
+2026-02-18 19:12:01,553 --> PackageZipFileStorage.UnZipPackages
+2026-02-18 19:12:01,553 <-- PackageZipFileStorage.UnZipPackages
+2026-02-18 19:12:01,567 --> PackageZipFileStorage.LoadSchemaProperties
+2026-02-18 19:12:01,567 <-- PackageZipFileStorage.LoadSchemaProperties
+2026-02-18 19:12:01,567 <-- PackageZipFileStorage.Load
+2026-02-18 19:12:01,567 --> PackageDBStorage.Load
+2026-02-18 19:12:45,930 <-- PackageDBStorage.Load
+2026-02-18 19:12:45,930 --> PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-18 19:12:45,930 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2026-02-18 19:12:45,937 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-18 19:12:45,949 --> PackageDBStorage.ActualizePackageResourcesState
+2026-02-18 19:12:45,949 <-- PackageDBStorage.ActualizePackageResourcesState
+2026-02-18 19:12:45,949 <-- PackageStorageComposer.Compose
+2026-02-18 19:12:46,007 --> PackageZipFileStorage.Load
+2026-02-18 19:12:46,007 --> PackageZipFileStorage.UnZipPackages
+2026-02-18 19:12:46,007 <-- PackageZipFileStorage.UnZipPackages
+2026-02-18 19:12:46,007 <-- PackageZipFileStorage.Load
+2026-02-18 19:12:46,023 --> PackageDBStorageInternal.Load
+2026-02-18 19:13:26,415 <-- PackageDBStorageInternal.Load
+2026-02-18 19:13:26,415 --> PackageStorageComposer.Compose
+2026-02-18 19:13:26,415 --> PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-18 19:13:26,430 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2026-02-18 19:13:26,430 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-18 19:13:26,430 --> IntermediatePackageStorage.ActualizePackageResourcesState
+2026-02-18 19:13:26,430 <-- IntermediatePackageStorage.ActualizePackageResourcesState
+2026-02-18 19:13:26,430 <-- PackageStorageComposer.Compose
+2026-02-18 19:13:26,430 --> PackageDBStorageInternal.Load
+2026-02-18 19:14:07,158 <-- PackageDBStorageInternal.Load
+2026-02-18 19:14:07,158 --> PackageStorageComposer.Compose
+2026-02-18 19:14:07,158 --> PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-18 19:14:07,158 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-18 19:14:07,158 --> IntermediatePackageStorage.ActualizePackageResourcesState
+2026-02-18 19:14:07,158 <-- IntermediatePackageStorage.ActualizePackageResourcesState
+2026-02-18 19:14:07,158 <-- PackageStorageComposer.Compose
+2026-02-18 19:14:07,176 --> PackageZipFileStorage.SavePackage - UsrYachts
+2026-02-18 19:14:07,176 --> PackageZipFileStorage.SavePackageDescriptor - UsrYachts
+2026-02-18 19:14:07,176 <-- PackageZipFileStorage.SavePackageDescriptor - UsrYachts
+2026-02-18 19:14:07,176 --> PackageZipFileStorage.SaveStandalonePackageSpecificFiles - UsrYachts
+2026-02-18 19:14:07,220 <-- PackageZipFileStorage.SaveStandalonePackageSpecificFiles - UsrYachts
+2026-02-18 19:14:07,220 --> PackageZipFileStorage.SavePackageSchemas - UsrYachts
+2026-02-18 19:14:07,237 <-- PackageZipFileStorage.SavePackageSchemas - UsrYachts
+2026-02-18 19:14:07,504 --> PackageZipFileStorage.SavePackageReferenceAssemblies - UsrYachts
+2026-02-18 19:14:07,504 <-- PackageZipFileStorage.SavePackageReferenceAssemblies - UsrYachts
+2026-02-18 19:14:07,504 --> PackageZipFileStorage.SavePackageSqlScripts - UsrYachts
+2026-02-18 19:14:07,504 <-- PackageZipFileStorage.SavePackageSqlScripts - UsrYachts
+2026-02-18 19:14:07,504 --> PackageZipFileStorage.SavePackageData - UsrYachts
+2026-02-18 19:14:07,504 <-- PackageZipFileStorage.SavePackageData - UsrYachts
+2026-02-18 19:14:07,637 <-- PackageZipFileStorage.SavePackage - UsrYachts
+2026-02-18 19:14:07,711 --> PackageZipFileStorage.Load
+2026-02-18 19:14:07,711 --> PackageZipFileStorage.UnZipPackages
+2026-02-18 19:14:07,711 <-- PackageZipFileStorage.UnZipPackages
+2026-02-18 19:14:07,711 <-- PackageZipFileStorage.Load
+2026-02-18 19:14:23,343 --> PackageZipFileStorage.Load
+2026-02-18 19:14:23,343 --> PackageZipFileStorage.UnZipPackages
+2026-02-18 19:14:23,343 <-- PackageZipFileStorage.UnZipPackages
+2026-02-18 19:14:23,343 <-- PackageZipFileStorage.Load
+2026-02-18 19:14:23,369 --> PackageZipFileStorage.Load
+2026-02-18 19:14:23,369 --> PackageZipFileStorage.UnZipPackages
+2026-02-18 19:14:23,369 <-- PackageZipFileStorage.UnZipPackages
+2026-02-18 19:14:23,371 <-- PackageZipFileStorage.Load
+2026-02-18 19:14:23,386 --> PackageDBStorageInternal.Load
+2026-02-18 19:15:03,869 <-- PackageDBStorageInternal.Load
+2026-02-18 19:15:03,881 --> PackageStorageComposer.Compose
+2026-02-18 19:15:03,881 --> PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-18 19:15:03,881 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2026-02-18 19:15:03,881 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-18 19:15:03,881 --> IntermediatePackageStorage.ActualizePackageResourcesState
+2026-02-18 19:15:03,881 <-- IntermediatePackageStorage.ActualizePackageResourcesState
+2026-02-18 19:15:03,881 <-- PackageStorageComposer.Compose
+2026-02-18 19:15:03,986 --> PackageDBStorageInternal.SavePackage - UsrYachts
+2026-02-18 19:15:03,996 --> PackageDBStorage.Load
+2026-02-18 19:15:42,119 <-- PackageDBStorage.Load
+2026-02-18 19:15:42,712 <-- PackageDBStorageInternal.SavePackage - UsrYachts
+2026-02-18 19:15:45,870 InstallColumnLookupValues. Count (total): 0
+2026-02-18 19:16:04,693 --> PackageDBStorage.Load
+2026-02-18 19:16:44,918 <-- PackageDBStorage.Load
+2026-02-18 19:16:50,036 --> PackageDBStorage.Load
+2026-02-18 19:17:28,900 <-- PackageDBStorage.Load
+2026-02-18 20:33:42,173 --> PackageZipFileStorage.Load
+2026-02-18 20:33:42,173 --> PackageZipFileStorage.UnZipPackages
+2026-02-18 20:33:42,173 <-- PackageZipFileStorage.UnZipPackages
+2026-02-18 20:33:42,191 <-- PackageZipFileStorage.Load
+2026-02-18 20:33:57,327 --> PackageZipFileStorage.Load
+2026-02-18 20:33:57,327 --> PackageZipFileStorage.UnZipPackages
+2026-02-18 20:33:57,327 <-- PackageZipFileStorage.UnZipPackages
+2026-02-18 20:33:57,327 <-- PackageZipFileStorage.Load
+2026-02-18 20:33:57,407 --> PackageZipFileStorage.Load
+2026-02-18 20:33:57,407 --> PackageZipFileStorage.UnZipPackages
+2026-02-18 20:33:57,407 <-- PackageZipFileStorage.UnZipPackages
+2026-02-18 20:33:57,426 <-- PackageZipFileStorage.Load
+2026-02-18 20:33:57,445 --> PackageDBStorageInternal.Load
+2026-02-18 20:34:41,050 <-- PackageDBStorageInternal.Load
+2026-02-18 20:34:41,086 --> PackageStorageComposer.Compose
+2026-02-18 20:34:41,086 --> PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-18 20:34:41,086 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2026-02-18 20:34:41,086 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-18 20:34:41,086 --> IntermediatePackageStorage.ActualizePackageResourcesState
+2026-02-18 20:34:41,086 <-- IntermediatePackageStorage.ActualizePackageResourcesState
+2026-02-18 20:34:41,086 <-- PackageStorageComposer.Compose
+2026-02-18 20:34:44,732 --> PackageZipFileStorage.Load
+2026-02-18 20:34:44,732 --> PackageZipFileStorage.UnZipPackages
+2026-02-18 20:34:44,732 <-- PackageZipFileStorage.UnZipPackages
+2026-02-18 20:34:44,732 <-- PackageZipFileStorage.Load
+2026-02-18 20:34:59,420 --> PackageZipFileStorage.Load
+2026-02-18 20:34:59,420 --> PackageZipFileStorage.UnZipPackages
+2026-02-18 20:34:59,426 <-- PackageZipFileStorage.UnZipPackages
+2026-02-18 20:34:59,426 <-- PackageZipFileStorage.Load
+2026-02-18 20:34:59,441 --> PackageZipFileStorage.Load
+2026-02-18 20:34:59,441 --> PackageZipFileStorage.UnZipPackages
+2026-02-18 20:34:59,441 <-- PackageZipFileStorage.UnZipPackages
+2026-02-18 20:34:59,441 <-- PackageZipFileStorage.Load
+2026-02-18 20:34:59,449 --> PackageDBStorageInternal.Load
+2026-02-18 20:35:39,642 <-- PackageDBStorageInternal.Load
+2026-02-18 20:35:39,653 --> PackageStorageComposer.Compose
+2026-02-18 20:35:39,653 --> PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-18 20:35:39,653 <-- PackageStorageComposer.ApplySourcePackageSqlScriptsChanges
+2026-02-18 20:35:39,653 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-18 20:35:39,653 --> IntermediatePackageStorage.ActualizePackageResourcesState
+2026-02-18 20:35:39,653 <-- IntermediatePackageStorage.ActualizePackageResourcesState
+2026-02-18 20:35:39,653 <-- PackageStorageComposer.Compose
+2026-02-18 21:33:35,697 --> PackageDBStorage.Load
+2026-02-18 21:34:17,411 <-- PackageDBStorage.Load
+2026-02-18 21:38:02,740 --> PackageZipFileStorage.Load
+2026-02-18 21:38:02,740 --> PackageZipFileStorage.UnZipPackages
+2026-02-18 21:38:03,080 <-- PackageZipFileStorage.UnZipPackages
+2026-02-18 21:38:03,080 <-- PackageZipFileStorage.Load
+2026-02-18 21:38:05,495 --> PackageStorageComposer.Compose
+2026-02-18 21:38:05,495 --> PackageZipFileStorage.Load
+2026-02-18 21:38:05,495 --> PackageZipFileStorage.UnZipPackages
+2026-02-18 21:38:05,495 <-- PackageZipFileStorage.UnZipPackages
+2026-02-18 21:38:05,495 --> PackageZipFileStorage.LoadSchemaProperties
+2026-02-18 21:38:05,495 <-- PackageZipFileStorage.LoadSchemaProperties
+2026-02-18 21:38:05,495 <-- PackageZipFileStorage.Load
+2026-02-18 21:38:05,495 --> PackageDBStorage.Load
+2026-02-18 21:38:48,800 <-- PackageDBStorage.Load
+2026-02-18 21:38:48,800 --> PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-18 21:38:48,800 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-18 21:38:48,816 --> PackageDBStorage.ActualizePackageResourcesState
+2026-02-18 21:38:48,816 <-- PackageDBStorage.ActualizePackageResourcesState
+2026-02-18 21:38:48,816 <-- PackageStorageComposer.Compose
+2026-02-18 21:38:48,876 --> PackageZipFileStorage.Load
+2026-02-18 21:38:48,876 --> PackageZipFileStorage.UnZipPackages
+2026-02-18 21:38:48,876 <-- PackageZipFileStorage.UnZipPackages
+2026-02-18 21:38:48,887 <-- PackageZipFileStorage.Load
+2026-02-18 21:38:48,887 --> PackageStorageComposer.Compose
+2026-02-18 21:38:48,887 --> PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-18 21:38:48,887 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-18 21:38:48,887 --> IntermediatePackageStorage.ActualizePackageResourcesState
+2026-02-18 21:38:48,887 <-- IntermediatePackageStorage.ActualizePackageResourcesState
+2026-02-18 21:38:48,887 <-- PackageStorageComposer.Compose
+2026-02-18 21:38:48,939 --> PackageZipFileStorage.Load
+2026-02-18 21:38:48,939 --> PackageZipFileStorage.UnZipPackages
+2026-02-18 21:38:48,939 <-- PackageZipFileStorage.UnZipPackages
+2026-02-18 21:38:48,939 <-- PackageZipFileStorage.Load
+2026-02-18 21:39:03,680 --> PackageZipFileStorage.Load
+2026-02-18 21:39:03,680 --> PackageZipFileStorage.UnZipPackages
+2026-02-18 21:39:03,680 <-- PackageZipFileStorage.UnZipPackages
+2026-02-18 21:39:03,680 <-- PackageZipFileStorage.Load
+2026-02-18 21:39:03,698 --> PackageZipFileStorage.Load
+2026-02-18 21:39:03,698 --> PackageZipFileStorage.UnZipPackages
+2026-02-18 21:39:03,698 <-- PackageZipFileStorage.UnZipPackages
+2026-02-18 21:39:03,711 <-- PackageZipFileStorage.Load
+2026-02-18 21:39:03,720 --> PackageStorageComposer.Compose
+2026-02-18 21:39:03,720 --> PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-18 21:39:03,720 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-18 21:39:03,720 --> IntermediatePackageStorage.ActualizePackageResourcesState
+2026-02-18 21:39:03,720 <-- IntermediatePackageStorage.ActualizePackageResourcesState
+2026-02-18 21:39:03,720 <-- PackageStorageComposer.Compose
+2026-02-18 21:39:03,740 --> PackageZipFileStorage.SavePackage - CrtApolloInC360
+2026-02-18 21:39:03,740 --> PackageZipFileStorage.SavePackageDescriptor - CrtApolloInC360
+2026-02-18 21:39:03,740 <-- PackageZipFileStorage.SavePackageDescriptor - CrtApolloInC360
+2026-02-18 21:39:03,740 --> PackageZipFileStorage.SaveStandalonePackageSpecificFiles - CrtApolloInC360
+2026-02-18 21:39:03,844 <-- PackageZipFileStorage.SaveStandalonePackageSpecificFiles - CrtApolloInC360
+2026-02-18 21:39:03,844 --> PackageZipFileStorage.SavePackageSchemas - CrtApolloInC360
+2026-02-18 21:39:03,878 <-- PackageZipFileStorage.SavePackageSchemas - CrtApolloInC360
+2026-02-18 21:39:03,889 --> PackageZipFileStorage.SavePackageReferenceAssemblies - CrtApolloInC360
+2026-02-18 21:39:03,890 <-- PackageZipFileStorage.SavePackageReferenceAssemblies - CrtApolloInC360
+2026-02-18 21:39:03,890 --> PackageZipFileStorage.SavePackageSqlScripts - CrtApolloInC360
+2026-02-18 21:39:03,890 <-- PackageZipFileStorage.SavePackageSqlScripts - CrtApolloInC360
+2026-02-18 21:39:03,890 --> PackageZipFileStorage.SavePackageData - CrtApolloInC360
+2026-02-18 21:39:03,890 <-- PackageZipFileStorage.SavePackageData - CrtApolloInC360
+2026-02-18 21:39:03,890 <-- PackageZipFileStorage.SavePackage - CrtApolloInC360
+2026-02-18 21:39:03,961 --> PackageZipFileStorage.SavePackage - CrtApolloInC360
+2026-02-18 21:39:03,961 --> PackageZipFileStorage.SavePackageDescriptor - CrtApolloInC360
+2026-02-18 21:39:03,961 <-- PackageZipFileStorage.SavePackageDescriptor - CrtApolloInC360
+2026-02-18 21:39:03,961 --> PackageZipFileStorage.SaveStandalonePackageSpecificFiles - CrtApolloInC360
+2026-02-18 21:39:03,981 <-- PackageZipFileStorage.SaveStandalonePackageSpecificFiles - CrtApolloInC360
+2026-02-18 21:39:03,981 --> PackageZipFileStorage.SavePackageSchemas - CrtApolloInC360
+2026-02-18 21:39:03,996 <-- PackageZipFileStorage.SavePackageSchemas - CrtApolloInC360
+2026-02-18 21:39:04,006 --> PackageZipFileStorage.SavePackageReferenceAssemblies - CrtApolloInC360
+2026-02-18 21:39:04,006 <-- PackageZipFileStorage.SavePackageReferenceAssemblies - CrtApolloInC360
+2026-02-18 21:39:04,006 --> PackageZipFileStorage.SavePackageSqlScripts - CrtApolloInC360
+2026-02-18 21:39:04,006 <-- PackageZipFileStorage.SavePackageSqlScripts - CrtApolloInC360
+2026-02-18 21:39:04,006 --> PackageZipFileStorage.SavePackageData - CrtApolloInC360
+2026-02-18 21:39:04,006 <-- PackageZipFileStorage.SavePackageData - CrtApolloInC360
+2026-02-18 21:39:04,010 <-- PackageZipFileStorage.SavePackage - CrtApolloInC360
+2026-02-18 21:39:04,143 --> PackageDBStorageInternal.SavePackage - CrtCustomer360App
+2026-02-18 21:39:04,157 --> PackageDBStorage.Load
+2026-02-18 21:39:43,926 <-- PackageDBStorage.Load
+2026-02-18 21:39:44,716 <-- PackageDBStorageInternal.SavePackage - CrtCustomer360App
+2026-02-18 21:39:44,736 --> PackageDBStorageInternal.SavePackage - CrtC360InUiV2
+2026-02-18 21:39:44,785 <-- PackageDBStorageInternal.SavePackage - CrtC360InUiV2
+2026-02-18 21:39:44,785 --> PackageDBStorageInternal.SavePackage - CrtCustomer360Mobile
+2026-02-18 21:39:44,890 <-- PackageDBStorageInternal.SavePackage - CrtCustomer360Mobile
+2026-02-18 21:39:44,890 --> PackageDBStorageInternal.SavePackage - CrtCustomer360AI
+2026-02-18 21:39:45,137 <-- PackageDBStorageInternal.SavePackage - CrtCustomer360AI
+2026-02-18 21:39:45,587 Added - 1 uk-UA resource values for schema 'Accounts_FormPage'
+2026-02-18 21:39:45,587 Added - 1 en-US resource values for schema 'ContactRelatedPage'
+2026-02-18 21:39:45,587 Added - 1 ru-RU resource values for schema 'BaseAddress'
+2026-02-18 21:39:45,587 Added - 1 en-US resource values for schema 'AccountCategory'
+2026-02-18 21:39:45,587 Added - 1 en-US resource values for schema 'AccountType'
+2026-02-18 21:39:45,587 Added - 1 ru-RU resource values for schema 'AccountType'
+2026-02-18 21:39:45,587 Added - 1 ru-RU resource values for schema 'AddressType'
+2026-02-18 21:39:45,592 Added - 1 en-US resource values for schema 'AccountRelatedPage'
+2026-02-18 21:39:45,592 Added - 1 ru-RU resource values for schema 'ContactRelatedPage'
+2026-02-18 21:39:45,592 Added - 1 ru-RU resource values for schema 'AIInsightTimelineEntity'
+2026-02-18 21:39:45,592 Added - 1 ru-RU resource values for schema 'AccountRelatedPage'
+2026-02-18 21:39:45,592 Added - 1 ru-RU resource values for schema 'AccountCategory'
+2026-02-18 21:39:45,592 Added - 1 en-US resource values for schema 'AIInsightTimelineEntity'
+2026-02-18 21:39:45,592 Added - 1 en-US resource values for schema 'ContactAddressEventListener'
+2026-02-18 21:39:45,592 Added - 1 en-US resource values for schema 'AccountAddressBusinessRule'
+2026-02-18 21:39:45,592 Added - 2 en-US resource values for schema 'Contacts_FormPageBusinessRule'
+2026-02-18 21:39:45,592 Added - 1 en-US resource values for schema 'AddressType'
+2026-02-18 21:39:45,592 Added - 2 ru-RU resource values for schema 'Contacts_FormPageBusinessRule'
+2026-02-18 21:39:45,592 Added - 1 en-US resource values for schema 'AccountAddressEventListener'
+2026-02-18 21:39:45,592 Added - 1 en-US resource values for schema 'Contacts_MiniPageBusinessRule'
+2026-02-18 21:39:45,592 Added - 1 en-US resource values for schema 'AccountBillingInfo'
+2026-02-18 21:39:45,592 Added - 1 ru-RU resource values for schema 'Contacts_MiniPageBusinessRule'
+2026-02-18 21:39:45,592 Added - 1 en-US resource values for schema 'BaseAddressEventListener'
+2026-02-18 21:39:45,605 Added - 2 ru-RU resource values for schema 'AIInsight'
+2026-02-18 21:39:45,611 Added - 4 ru-RU resource values for schema 'Account'
+2026-02-18 21:39:45,611 Added - 3 en-US resource values for schema 'AIInsight'
+2026-02-18 21:39:45,611 Added - 3 en-US resource values for schema 'BaseAddress'
+2026-02-18 21:39:45,628 Added - 1 ru-RU resource values for schema 'ContactBusinessRule'
+2026-02-18 21:39:45,632 Added - 5 en-US resource values for schema 'Account'
+2026-02-18 21:39:45,632 Added - 1 en-US resource values for schema 'ContactAddressBusinessRule'
+2026-02-18 21:39:45,632 Added - 1 en-US resource values for schema 'ContactType'
+2026-02-18 21:39:45,632 Added - 1 ru-RU resource values for schema 'ContactType'
+2026-02-18 21:39:45,632 Added - 2 en-US resource values for schema 'ContactBusinessRule'
+2026-02-18 21:39:45,632 Added - 2 ru-RU resource values for schema 'AccountCompetitor'
+2026-02-18 21:39:45,632 Added - 2 en-US resource values for schema 'Accounts_FormPageBusinessRule'
+2026-02-18 21:39:45,642 Added - 2 ru-RU resource values for schema 'Accounts_FormPageBusinessRule'
+2026-02-18 21:39:45,642 Added - 7 ru-RU resource values for schema 'Accounts_MiniPage'
+2026-02-18 21:39:45,658 Added - 8 ru-RU resource values for schema 'Contacts_MiniPage'
+2026-02-18 21:39:45,658 Added - 9 en-US resource values for schema 'Contacts_MiniPage'
+2026-02-18 21:39:45,658 Added - 8 ru-RU resource values for schema 'Contact'
+2026-02-18 21:39:45,658 Added - 8 ru-RU resource values for schema 'Accounts_ListPage'
+2026-02-18 21:39:45,658 Added - 4 en-US resource values for schema 'AccountCompetitor'
+2026-02-18 21:39:45,667 Added - 9 en-US resource values for schema 'Accounts_ListPage'
+2026-02-18 21:39:45,676 Added - 10 en-US resource values for schema 'Accounts_MiniPage'
+2026-02-18 21:39:45,676 Added - 8 ru-RU resource values for schema 'AgeActualizationC360'
+2026-02-18 21:39:45,676 Added - 11 en-US resource values for schema 'Contacts_ListPage'
+2026-02-18 21:39:45,682 Added - 13 ru-RU resource values for schema 'AccountsAnalyticsDashboard'
+2026-02-18 21:39:45,682 Added - 8 en-US resource values for schema 'AgeActualizationC360'
+2026-02-18 21:39:45,695 Added - 9 ru-RU resource values for schema 'Contacts_ListPage'
+2026-02-18 21:39:45,695 Added - 16 en-US resource values for schema 'Contact'
+2026-02-18 21:39:45,714 Added - 15 ru-RU resource values for schema 'ContactsAnalyticsDashboard'
+2026-02-18 21:39:45,722 Added - 21 en-US resource values for schema 'AccountsAnalyticsDashboard'
+2026-02-18 21:39:45,743 Added - 21 en-US resource values for schema 'ContactsAnalyticsDashboard'
+2026-02-18 21:39:45,760 Added - 30 ru-RU resource values for schema 'Accounts_FormPage'
+2026-02-18 21:39:45,763 Added - 29 ru-RU resource values for schema 'Contacts_FormPage'
+2026-02-18 21:39:45,795 Added - 38 en-US resource values for schema 'Contacts_FormPage'
+2026-02-18 21:39:45,815 Added - 43 en-US resource values for schema 'Accounts_FormPage'
+2026-02-18 21:39:45,836 Added - 2 en-US resource values for schema 'Tasks_FormPage'
+2026-02-18 21:39:45,836 Added - 2 ru-RU resource values for schema 'Tasks_FormPage'
+2026-02-18 21:39:45,858 Added - 1 en-US resource values for schema 'MobileApplicationManifestDefaultWorkplace'
+2026-02-18 21:39:45,858 Added - 1 ru-RU resource values for schema 'MobileApplicationManifestDefaultWorkplace'
+2026-02-18 21:39:45,861 Added - 1 ru-RU resource values for schema 'MobileFUIAccountGridPageSettingsDefaultWorkplace'
+2026-02-18 21:39:45,861 Added - 1 en-US resource values for schema 'MobileFUIAccountGridPageSettingsDefaultWorkplace'
+2026-02-18 21:39:45,861 Added - 1 en-US resource values for schema 'MobileFUIContactGridPageSettingsDefaultWorkplace'
+2026-02-18 21:39:45,861 Added - 1 ru-RU resource values for schema 'MobileFUIContactGridPageSettingsDefaultWorkplace'
+2026-02-18 21:39:45,887 Added - 6 ru-RU resource values for schema 'MobileFUIAccountRecordPageSettingsDefaultWorkplace'
+2026-02-18 21:39:45,892 Added - 6 ru-RU resource values for schema 'MobileFUIContactRecordPageSettingsDefaultWorkplace'
+2026-02-18 21:39:45,906 Added - 10 en-US resource values for schema 'MobileFUIContactRecordPageSettingsDefaultWorkplace'
+2026-02-18 21:39:45,906 Added - 9 en-US resource values for schema 'MobileFUIAccountRecordPageSettingsDefaultWorkplace'
+2026-02-18 21:39:45,927 Added - 1 ru-RU resource values for schema 'CreateMessageFromAIChat'
+2026-02-18 21:39:45,932 Added - 1 ru-RU resource values for schema 'SkillIndustriesCollection'
+2026-02-18 21:39:45,932 Added - 1 ru-RU resource values for schema 'AddContactsToAccount'
+2026-02-18 21:39:45,932 Added - 1 en-US resource values for schema 'SalesAIAssistant'
+2026-02-18 21:39:45,932 Added - 1 ru-RU resource values for schema 'AddContact'
+2026-02-18 21:39:45,932 Added - 1 en-US resource values for schema 'AccountNewsAndInsights'
+2026-02-18 21:39:45,932 Added - 1 ru-RU resource values for schema 'FindContactDuplicates'
+2026-02-18 21:39:45,932 Added - 1 ru-RU resource values for schema 'CheckBingApiKey'
+2026-02-18 21:39:45,932 Added - 1 ru-RU resource values for schema 'CheckApolloZoominfoAvailableProcess'
+2026-02-18 21:39:45,932 Added - 1 ru-RU resource values for schema 'SkillAdressSplitter'
+2026-02-18 21:39:45,932 Added - 1 ru-RU resource values for schema 'ReadAccountEmployeesNumber'
+2026-02-18 21:39:45,932 Added - 1 ru-RU resource values for schema 'BingSearchProcess'
+2026-02-18 21:39:45,932 Added - 1 ru-RU resource values for schema 'SalesAIAssistant'
+2026-02-18 21:39:45,932 Added - 1 en-US resource values for schema 'EnrichAccountData'
+2026-02-18 21:39:45,932 Added - 1 ru-RU resource values for schema 'BingSearchApiCall'
+2026-02-18 21:39:45,932 Added - 1 ru-RU resource values for schema 'AccountNewsAndInsights'
+2026-02-18 21:39:45,932 Added - 1 ru-RU resource values for schema 'EnrichAccountData'
+2026-02-18 21:39:45,932 Added - 1 ru-RU resource values for schema 'ReadIndustries'
+2026-02-18 21:39:45,932 Added - 1 ru-RU resource values for schema 'SaveNewApiKey'
+2026-02-18 21:39:45,964 Added - 4 en-US resource values for schema 'SkillIndustriesCollection'
+2026-02-18 21:39:45,981 Added - 6 en-US resource values for schema 'SkillAdressSplitter'
+2026-02-18 21:39:45,981 Added - 8 ru-RU resource values for schema 'AddInsights'
+2026-02-18 21:39:45,995 Added - 8 ru-RU resource values for schema 'AddPrimaryContact'
+2026-02-18 21:39:45,995 Added - 8 en-US resource values for schema 'SaveNewApiKey'
+2026-02-18 21:39:46,050 Added - 16 en-US resource values for schema 'CreateMessageFromAIChat'
+2026-02-18 21:39:46,068 Added - 17 en-US resource values for schema 'FindContactDuplicates'
+2026-02-18 21:39:46,068 Added - 20 en-US resource values for schema 'AddPrimaryContact'
+2026-02-18 21:39:46,073 Added - 20 ru-RU resource values for schema 'Copilot_GetCurrentUserTimeZone'
+2026-02-18 21:39:46,084 Added - 20 ru-RU resource values for schema 'CheckIfOperatorHasAccountOwnershipRights'
+2026-02-18 21:39:46,084 Added - 20 ru-RU resource values for schema 'CheckAccountHasWebLink'
+2026-02-18 21:39:46,084 Added - 21 en-US resource values for schema 'AddInsights'
+2026-02-18 21:39:46,084 Added - 22 ru-RU resource values for schema 'UpdateAccountData'
+2026-02-18 21:39:46,098 Added - 23 ru-RU resource values for schema 'BusinessEntity'
+2026-02-18 21:39:46,114 Added - 29 en-US resource values for schema 'CheckAccountHasWebLink'
+2026-02-18 21:39:46,136 Added - 30 en-US resource values for schema 'CheckBingApiKey'
+2026-02-18 21:39:46,145 Added - 32 en-US resource values for schema 'Copilot_GetCurrentUserTimeZone'
+2026-02-18 21:39:46,156 Added - 35 en-US resource values for schema 'CheckIfOperatorHasAccountOwnershipRights'
+2026-02-18 21:39:46,187 Added - 38 en-US resource values for schema 'ReadIndustries'
+2026-02-18 21:39:46,197 Added - 37 en-US resource values for schema 'ReadAccountEmployeesNumber'
+2026-02-18 21:39:46,197 Added - 42 en-US resource values for schema 'BingSearchApiCall'
+2026-02-18 21:39:46,197 Added - 42 en-US resource values for schema 'BusinessEntity'
+2026-02-18 21:39:46,213 Added - 41 en-US resource values for schema 'AddContact'
+2026-02-18 21:39:46,311 Added - 65 en-US resource values for schema 'AddContactsToAccount'
+2026-02-18 21:39:46,414 Added - 88 en-US resource values for schema 'CheckApolloZoominfoAvailableProcess'
+2026-02-18 21:39:46,593 Added - 121 en-US resource values for schema 'BingSearchProcess'
+2026-02-18 21:39:47,269 Added - 317 en-US resource values for schema 'UpdateAccountData'
+2026-02-18 21:39:57,845 InstallColumnLookupValues. Count (total): 3
+2026-02-18 21:39:57,845 Count (by package [379003f3-74dc-4305-c4de-04f43be2bfb0]): 1
+2026-02-18 21:39:57,845 Count (by schema [AdminUnitFeatureState]): 1
+2026-02-18 21:39:57,852 Count (by package [2ecba2bd-b810-47a5-a1b1-08c888529d6c]): 7
+2026-02-18 21:39:57,852 Count (by schema [SysProfileData]): 2
+2026-02-18 21:39:57,906 Count (by schema [SysWorkplace]): 2
+2026-02-18 21:39:57,921 Count (by schema [QuickAddItem]): 2
+2026-02-18 21:39:57,930 Count (by schema [SysAdminUnitInWorkplace]): 1
+2026-02-18 21:39:57,940 Count (by schema [SysModuleInWorkplace]): 2
+2026-02-18 21:39:57,965 Count (by schema [SysSchemaAdminUnitRight]): 2
+2026-02-18 21:39:57,980 Count (by schema [SysModule]): 4
+2026-02-18 21:39:58,012 Count (by package [c1a044a2-cb8c-9387-837b-d9ae9183cd47]): 2
+2026-02-18 21:39:58,012 Count (by schema [SysSettings]): 1
+2026-02-18 21:39:58,012 Count (by schema [SysSchemaOperationRight]): 2
+2026-02-18 21:40:19,036 --> PackageDBStorage.Load
+2026-02-18 21:41:00,679 <-- PackageDBStorage.Load
+2026-02-18 21:41:05,656 --> PackageDBStorage.Load
+2026-02-18 21:41:45,569 <-- PackageDBStorage.Load

@@ -1,0 +1,131 @@
+2026-02-20 08:27:34,780 [1] WARN  Terrasoft.WebHost.Application OnAfterConfigure - Application starting
+2026-02-20 08:27:34,817 [1] INFO  Terrasoft.Core.Configuration.SysWorkspace .ctor - SysWorkspace instance uses ApplicationNodeId = _b6fa3adf-873a-4e7c-86e2-92c2d8d9dc96
+2026-02-20 08:27:34,933 [1] INFO  Terrasoft.Core.SchemaManagerProvider <GetSchemaManager>b__1 - Initializing schema manager 'SystemEntitySchemaManager'
+2026-02-20 08:27:34,983 [1] INFO  Terrasoft.Core.SchemaManagerProvider <GetSchemaManager>b__1 - Successfully initialized schema manager 'SystemEntitySchemaManager'
+2026-02-20 08:27:35,070 [1] WARN  Terrasoft.Core.SystemUserConnection FillCurrentSystemUser - System user initialized by default values. Id='7f3b869f-34f3-4f20-ab4d-7480a5fdf647', Name='Supervisor', ContactId='410006e1-ca4e-4502-a9ec-e54d922d2c00', AccountId='e308b781-3c5b-4ecb-89ef-5c1ed4da488e'
+2026-02-20 08:27:35,364 [1] INFO  Terrasoft.Core.Configuration.SysWorkspace .ctor - SysWorkspace instance uses ApplicationNodeId = _b6fa3adf-873a-4e7c-86e2-92c2d8d9dc96
+2026-02-20 08:28:18,428 [1] INFO  Terrasoft.Core.Configuration.SysWorkspace InitializePackageAssembliesInternal - AssemblyLocations loaded with 63 paths. WorkspacePackagesPath: /app/Terrasoft.Configuration/Pkg
+2026-02-20 08:28:19,672 [1] INFO  Terrasoft.Core.InMemoryPubSubServer .ctor - InMemoryPubSubServer started.
+2026-02-20 08:28:19,822 [1] WARN  CoreApiContainer Resolve - Failed to resolve type Terrasoft.Core.Applications.Abstractions.Startup.IAppStartupManager
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating Terrasoft.Core.Applications.Startup.AppStartupManager -> λ:Terrasoft.Core.UserConnection.
+ ---> Autofac.Core.DependencyResolutionException: A delegate registered to create instances of 'Terrasoft.Core.UserConnection' returned null.
+   at Autofac.Core.Activators.Delegate.DelegateActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Delegate.DelegateActivator.<ConfigurePipeline>b__2_0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DelegateMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Pipeline.ResolvePipeline.Invoke(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.RegistrationPipelineInvokeMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Pipeline.ResolvePipeline.Invoke(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.Execute(ResolveRequest request)
+   at Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.ResolveOptional(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.ResolveOptional(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at Terrasoft.Core.DI.CoreApiContainer.Resolve[T]()
+2026-02-20 08:28:19,833 [1] WARN  CoreApiContainer Resolve - Failed to resolve type Terrasoft.Core.UserConnection
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating λ:Terrasoft.Core.UserConnection.
+ ---> Autofac.Core.DependencyResolutionException: A delegate registered to create instances of 'Terrasoft.Core.UserConnection' returned null.
+   at Autofac.Core.Activators.Delegate.DelegateActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Delegate.DelegateActivator.<ConfigurePipeline>b__2_0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DelegateMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Pipeline.ResolvePipeline.Invoke(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.RegistrationPipelineInvokeMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Pipeline.ResolvePipeline.Invoke(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.Execute(ResolveRequest request)
+   at Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.ResolveOptional(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.ResolveOptional(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at Terrasoft.Core.DI.CoreApiContainer.Resolve[T]()
+2026-02-20 08:28:20,513 [1] INFO  Terrasoft.Core.SchemaManagerProvider <GetSchemaManager>b__1 - Initializing schema manager 'ClientUnitSchemaManager'
+2026-02-20 08:28:21,649 [1] INFO  Terrasoft.Core.SchemaManagerProvider <GetSchemaManager>b__1 - Successfully initialized schema manager 'ClientUnitSchemaManager'
+2026-02-20 08:28:21,655 [1] INFO  UserLevelSchemaManager .ctor - Synchronizing ULS - Subscribe to PubSub ChannelName: [SyncUserLevelManagerChannel_UserLevelClientUnitSchemaManager_]
+2026-02-20 08:28:21,655 [1] INFO  Terrasoft.Core.SchemaManagerProvider <GetSchemaManager>b__1 - Initializing schema manager 'EntitySchemaManager'
+2026-02-20 08:28:21,808 [1] INFO  Terrasoft.Core.SchemaManagerProvider <GetSchemaManager>b__1 - Successfully initialized schema manager 'EntitySchemaManager'
+2026-02-20 08:28:21,813 [1] INFO  UserLevelSchemaManager .ctor - Synchronizing ULS - Subscribe to PubSub ChannelName: [SyncUserLevelManagerChannel_UserLevelEntitySchemaManager_]
+2026-02-20 08:28:22,046 [.NET TP Worker] INFO  Creatio.Messaging.MessageBus.RabbitMQ.Actors.OperationModeDispatcherActor OnReceive - OperationModeDispatcher initialized
+2026-02-20 08:28:22,055 [1] INFO  Terrasoft.WebHost.Application StartApplicationScheduler - Starting scheduler...
+2026-02-20 08:28:22,489 [1] INFO  Terrasoft.WebHost.Application StartApplicationScheduler - Scheduler started
+2026-02-20 08:28:22,590 [1] INFO  Terrasoft.WebHost.Startup <MapODataServiceRoute>b__12_0 - OData service initialized successfully
+2026-02-20 08:28:23,366 [1] INFO  FileImportAppender WriteActionMessage - ImportEntitiesDataProvider: start cleaning Buffered import entities.
+2026-02-20 08:28:23,377 [1] INFO  FileImportAppender WriteActionMessage - ImportEntitiesDataProvider: end cleaning Buffered import entities.
+2026-02-20 08:28:23,439 [1] INFO  DataForge OnAppStart - Bulk schema sync is enabled
+2026-02-20 08:28:23,439 [1] INFO  DataForge Schedule - Scheduling DataForgeUploadPendingDataStructuresJob
+2026-02-20 08:28:23,439 [1] WARN  DataForge IsDataForgeEnabled - DataForge service is disabled: Error accessing DataForgeServiceUrl - Value of system setting with code "DataForgeServiceUrl" not found.
+2026-02-20 08:28:23,439 [1] INFO  DataForge Schedule - DataForge is disabled. Scheduling DataForgeUploadPendingDataStructuresJob is aborted.
+2026-02-20 08:28:23,439 [1] INFO  DataForge OnAppStart - Bulk lookup sync is enabled
+2026-02-20 08:28:23,439 [1] INFO  DataForge Schedule - Scheduling DataForgeUploadPendingLookupsJob
+2026-02-20 08:28:23,439 [1] WARN  DataForge IsDataForgeEnabled - DataForge service is disabled: Error accessing DataForgeServiceUrl - Value of system setting with code "DataForgeServiceUrl" not found.
+2026-02-20 08:28:23,439 [1] INFO  DataForge Schedule - DataForge is disabled. Scheduling DataForgeUploadPendingLookupsJob is aborted.
+2026-02-20 08:28:23,444 [1] INFO  Translation OnAppStart - Try to run restart uncompleted apply translation
+2026-02-20 08:28:23,444 [1] INFO  Translation OnAppStart - IsFeature UsePersistentApplyTranslation is: True
+2026-02-20 08:28:23,444 [1] INFO  Translation RestartUncompletedApplyTranslation - Try to scheduled to restart uncompleted apply translation ScheduledJob with job name RestartApplyTranslation
+2026-02-20 08:28:23,444 [1] INFO  Translation RestartUncompletedApplyTranslation - Scheduled to restart uncompleted apply translation ScheduledJob with job name RestartApplyTranslation at 2026-02-20T08:28:23Z UTC
+2026-02-20 08:28:23,466 [1] WARN  Terrasoft.WebHost.Application OnStart - Application started
+2026-02-20 08:30:22,811 [.NET TP Worker] INFO  Terrasoft.Core.SchemaManagerProvider <GetSchemaManager>b__1 - Initializing schema manager 'ProcessSchemaManager'
+2026-02-20 08:30:22,823 [.NET TP Worker] INFO  Terrasoft.Core.SchemaManagerProvider <GetSchemaManager>b__1 - Initializing schema manager 'ProcessSchemaManager'
+2026-02-20 08:30:22,930 [.NET TP Worker] INFO  Calendar LogInfo - [8DLeO8PuqEyJFXLxQnXsQ.job] [CalendarFailoverJob] started.
+2026-02-20 08:30:22,958 [.NET TP Worker] INFO  Calendar LogInfo - [8DLeO8PuqEyJFXLxQnXsQ.job] [CalendarFailoverJob] 0 accounts received for enabling synchronization.
+2026-02-20 08:30:22,958 [.NET TP Worker] INFO  Calendar LogInfo - [8DLeO8PuqEyJFXLxQnXsQ.job] [CalendarFailoverJob] Synchronization of 0 accounts is enabled.
+2026-02-20 08:30:22,958 [.NET TP Worker] INFO  Terrasoft.Core.SchemaManagerProvider <GetSchemaManager>b__1 - Initializing schema manager 'ProcessSchemaManager'
+2026-02-20 08:30:22,958 [.NET TP Worker] INFO  Calendar LogInfo - [8DLeO8PuqEyJFXLxQnXsQ.job] [CalendarFailoverJob] ended.
+2026-02-20 08:30:22,974 [.NET TP Worker] INFO  Terrasoft.Core.SchemaManagerProvider <GetSchemaManager>b__1 - Initializing schema manager 'ProcessSchemaManager'
+2026-02-20 08:30:23,024 [.NET TP Worker] INFO  Terrasoft.Core.SchemaManagerProvider <GetSchemaManager>b__1 - Initializing schema manager 'ProcessSchemaManager'
+2026-02-20 08:30:23,113 [.NET TP Worker] INFO  Terrasoft.Core.SchemaManagerProvider <GetSchemaManager>b__1 - Successfully initialized schema manager 'ProcessSchemaManager'
+2026-02-20 08:30:23,113 [.NET TP Worker] INFO  Terrasoft.Core.SchemaManagerProvider <GetSchemaManager>b__1 - Successfully initialized schema manager 'ProcessSchemaManager'
+2026-02-20 08:30:23,166 [.NET TP Worker] INFO  Terrasoft.Core.SchemaManagerProvider <GetSchemaManager>b__1 - Successfully initialized schema manager 'ProcessSchemaManager'
+2026-02-20 08:30:23,166 [.NET TP Worker] INFO  Terrasoft.Core.SchemaManagerProvider <GetSchemaManager>b__1 - Successfully initialized schema manager 'ProcessSchemaManager'
+2026-02-20 08:30:23,166 [.NET TP Worker] INFO  Terrasoft.Core.SchemaManagerProvider <GetSchemaManager>b__1 - Successfully initialized schema manager 'ProcessSchemaManager'
+2026-02-20 08:30:23,257 [.NET TP Worker] INFO  Terrasoft.Core.SchemaManagerProvider <GetSchemaManager>b__1 - Initializing schema manager 'ProcessUserTaskSchemaManager'
+2026-02-20 08:30:23,271 [.NET TP Worker] INFO  Terrasoft.Core.SchemaManagerProvider <GetSchemaManager>b__1 - Initializing schema manager 'ProcessUserTaskSchemaManager'
+2026-02-20 08:30:23,313 [.NET TP Worker] INFO  Terrasoft.Core.SchemaManagerProvider <GetSchemaManager>b__1 - Successfully initialized schema manager 'ProcessUserTaskSchemaManager'
+2026-02-20 08:30:23,313 [.NET TP Worker] INFO  Terrasoft.Core.SchemaManagerProvider <GetSchemaManager>b__1 - Successfully initialized schema manager 'ProcessUserTaskSchemaManager'
+2026-02-20 08:30:23,630 [.NET TP Worker] WARN  Terrasoft.Core.DB.EntitySchemaDbInfoActualizer Actualize - Actualization of EntitySchemaDbInfo started.
+2026-02-20 08:30:23,647 [.NET TP Worker] WARN  Terrasoft.Core.DB.EntitySchemaDbInfoActualizer Actualize - Actualization of EntitySchemaDbInfo completed.
+2026-02-20 08:30:23,701 [.NET TP Worker] INFO  Terrasoft.Core.SchemaManagerProvider <GetSchemaManager>b__1 - Initializing schema manager 'ServiceSchemaManager'
+2026-02-20 08:30:23,712 [.NET TP Worker] INFO  Terrasoft.Core.SchemaManagerProvider <GetSchemaManager>b__1 - Successfully initialized schema manager 'ServiceSchemaManager'
+2026-02-20 08:31:37,688 [.NET TP Worker] INFO  Terrasoft.Core.Configuration.SysWorkspace .ctor - SysWorkspace instance uses ApplicationNodeId = _b6fa3adf-873a-4e7c-86e2-92c2d8d9dc96
+2026-02-20 08:31:53,741 [.NET TP Worker] INFO Supervisor Terrasoft.Core.FeatureToggling.DbFeatureProvider AddOrUpdate - Merged duplicate 'UsePersistentFileImport' admin unit feature value. AdminUnitId = '7f3b869f-34f3-4f20-ab4d-7480a5fdf647'
+2026-02-20 08:31:53,741 [.NET TP Worker] INFO Supervisor Terrasoft.Core.FeatureToggling.DbFeatureProvider AddOrUpdate - Merged duplicate 'NotificationV2' admin unit feature value. AdminUnitId = '7f3b869f-34f3-4f20-ab4d-7480a5fdf647'
+2026-02-20 08:31:53,741 [.NET TP Worker] INFO Supervisor Terrasoft.Core.FeatureToggling.DbFeatureProvider AddOrUpdate - Merged duplicate 'IsMailboxSyncSettingsCached' admin unit feature value. AdminUnitId = '7f3b869f-34f3-4f20-ab4d-7480a5fdf647'
+2026-02-20 08:31:53,741 [.NET TP Worker] INFO Supervisor Terrasoft.Core.FeatureToggling.DbFeatureProvider AddOrUpdate - Merged duplicate 'IsCalendarCached' admin unit feature value. AdminUnitId = '7f3b869f-34f3-4f20-ab4d-7480a5fdf647'
+2026-02-20 08:31:53,741 [.NET TP Worker] INFO Supervisor Terrasoft.Core.FeatureToggling.DbFeatureProvider AddOrUpdate - Merged duplicate 'EnableWeekFirstDayConfiguration' admin unit feature value. AdminUnitId = '7f3b869f-34f3-4f20-ab4d-7480a5fdf647'
+2026-02-20 08:31:53,741 [.NET TP Worker] INFO Supervisor Terrasoft.Core.FeatureToggling.DbFeatureProvider AddOrUpdate - Merged duplicate 'ProcessFeatures.UseRootIdInProcessDataStorage' admin unit feature value. AdminUnitId = '7f3b869f-34f3-4f20-ab4d-7480a5fdf647'
+2026-02-20 08:31:53,741 [.NET TP Worker] INFO Supervisor Terrasoft.Core.FeatureToggling.DbFeatureProvider AddOrUpdate - Merged duplicate 'UseOmnichannelOptimizedOperatorsCache' admin unit feature value. AdminUnitId = '7f3b869f-34f3-4f20-ab4d-7480a5fdf647'
+2026-02-20 08:31:53,741 [.NET TP Worker] INFO Supervisor Terrasoft.Core.FeatureToggling.DbFeatureProvider AddOrUpdate - Merged duplicate 'ProcessFeatures.UseProcessLogPartitioning' admin unit feature value. AdminUnitId = '7f3b869f-34f3-4f20-ab4d-7480a5fdf647'
+2026-02-20 08:31:53,741 [.NET TP Worker] INFO Supervisor Terrasoft.Core.FeatureToggling.DbFeatureProvider AddOrUpdate - Merged duplicate 'UseNewSchemaHierarchyFolding' admin unit feature value. AdminUnitId = '7f3b869f-34f3-4f20-ab4d-7480a5fdf647'
+2026-02-20 08:31:53,741 [.NET TP Worker] INFO Supervisor Terrasoft.Core.FeatureToggling.DbFeatureProvider AddOrUpdate - Merged duplicate 'ProcessFeatures.UseRootIdInArchiveOperations' admin unit feature value. AdminUnitId = '7f3b869f-34f3-4f20-ab4d-7480a5fdf647'
+2026-02-20 08:31:53,741 [.NET TP Worker] INFO Supervisor Terrasoft.Core.FeatureToggling.DbFeatureProvider AddOrUpdate - Merged duplicate 'ProcessFeatures.UseRemovingSubProcessDataInFinalState' admin unit feature value. AdminUnitId = '7f3b869f-34f3-4f20-ab4d-7480a5fdf647'
+2026-02-20 08:31:54,341 [.NET TP Worker] INFO Supervisor Terrasoft.Core.SchemaManagerProvider PublicationOnlyViaFactory - Initializing schema manager 'AddonSchemaManager'
+2026-02-20 08:31:54,362 [.NET TP Worker] INFO Supervisor Terrasoft.Core.SchemaManagerProvider PublicationOnlyViaFactory - Successfully initialized schema manager 'AddonSchemaManager'

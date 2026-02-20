@@ -1,0 +1,111 @@
+2026-02-19 00:00:00,290 [.NET TP Worker] INFO  Terrasoft.Core.SchemaManagerProvider PublicationOnlyViaFactory - Initializing schema manager 'ServiceSchemaManager'
+2026-02-19 00:00:00,351 [.NET TP Worker] INFO  Terrasoft.Core.SchemaManagerProvider PublicationOnlyViaFactory - Successfully initialized schema manager 'ServiceSchemaManager'
+2026-02-19 00:09:23,260 [.NET TP Worker] INFO  Calendar LogInfo - [sHfmAZqME2b3JvDi6fTA.job] [CalendarFailoverJob] started.
+2026-02-19 00:09:23,271 [.NET TP Worker] INFO  Calendar LogInfo - [sHfmAZqME2b3JvDi6fTA.job] [CalendarFailoverJob] 0 accounts received for enabling synchronization.
+2026-02-19 00:09:23,271 [.NET TP Worker] INFO  Calendar LogInfo - [sHfmAZqME2b3JvDi6fTA.job] [CalendarFailoverJob] Synchronization of 0 accounts is enabled.
+2026-02-19 00:09:23,271 [.NET TP Worker] INFO  Calendar LogInfo - [sHfmAZqME2b3JvDi6fTA.job] [CalendarFailoverJob] ended.
+2026-02-19 00:24:23,264 [.NET TP Worker] INFO  Calendar LogInfo - [7y9tTHiq0GJlvTpD3lpQ.job] [CalendarFailoverJob] started.
+2026-02-19 00:24:23,271 [.NET TP Worker] INFO  Calendar LogInfo - [7y9tTHiq0GJlvTpD3lpQ.job] [CalendarFailoverJob] 0 accounts received for enabling synchronization.
+2026-02-19 00:24:23,271 [.NET TP Worker] INFO  Calendar LogInfo - [7y9tTHiq0GJlvTpD3lpQ.job] [CalendarFailoverJob] Synchronization of 0 accounts is enabled.
+2026-02-19 00:24:23,271 [.NET TP Worker] INFO  Calendar LogInfo - [7y9tTHiq0GJlvTpD3lpQ.job] [CalendarFailoverJob] ended.
+2026-02-19 00:39:23,252 [.NET TP Worker] INFO  Calendar LogInfo - [VabXm23OlUm797nOqZOfMA.job] [CalendarFailoverJob] started.
+2026-02-19 00:39:23,259 [.NET TP Worker] INFO  Calendar LogInfo - [VabXm23OlUm797nOqZOfMA.job] [CalendarFailoverJob] 0 accounts received for enabling synchronization.
+2026-02-19 00:39:23,259 [.NET TP Worker] INFO  Calendar LogInfo - [VabXm23OlUm797nOqZOfMA.job] [CalendarFailoverJob] Synchronization of 0 accounts is enabled.
+2026-02-19 00:39:23,259 [.NET TP Worker] INFO  Calendar LogInfo - [VabXm23OlUm797nOqZOfMA.job] [CalendarFailoverJob] ended.
+2026-02-19 00:54:23,253 [.NET TP Worker] INFO  Calendar LogInfo - [W2pXXT3kT0GoWD2IcYaqUw.job] [CalendarFailoverJob] started.
+2026-02-19 00:54:23,253 [.NET TP Worker] INFO  Calendar LogInfo - [W2pXXT3kT0GoWD2IcYaqUw.job] [CalendarFailoverJob] 0 accounts received for enabling synchronization.
+2026-02-19 00:54:23,253 [.NET TP Worker] INFO  Calendar LogInfo - [W2pXXT3kT0GoWD2IcYaqUw.job] [CalendarFailoverJob] Synchronization of 0 accounts is enabled.
+2026-02-19 00:54:23,253 [.NET TP Worker] INFO  Calendar LogInfo - [W2pXXT3kT0GoWD2IcYaqUw.job] [CalendarFailoverJob] ended.
+2026-02-19 01:09:23,254 [.NET TP Worker] INFO  Calendar LogInfo - [ridvf04kt0SEtyC0mT4jbw.job] [CalendarFailoverJob] started.
+2026-02-19 01:09:23,268 [.NET TP Worker] INFO  Calendar LogInfo - [ridvf04kt0SEtyC0mT4jbw.job] [CalendarFailoverJob] 0 accounts received for enabling synchronization.
+2026-02-19 01:09:23,268 [.NET TP Worker] INFO  Calendar LogInfo - [ridvf04kt0SEtyC0mT4jbw.job] [CalendarFailoverJob] Synchronization of 0 accounts is enabled.
+2026-02-19 01:09:23,268 [.NET TP Worker] INFO  Calendar LogInfo - [ridvf04kt0SEtyC0mT4jbw.job] [CalendarFailoverJob] ended.
+2026-02-19 01:15:00,078 [.NET TP Worker] WARN  Terrasoft.Core.DB.EntitySchemaDbInfoActualizer ScriptTask1Execute - Actualization of EntitySchemaDbInfo started.
+2026-02-19 01:15:00,170 [.NET TP Worker] WARN  Terrasoft.Core.DB.EntitySchemaDbInfoActualizer ScriptTask1Execute - Actualization of EntitySchemaDbInfo completed.
+2026-02-19 01:24:23,260 [.NET TP Worker] INFO  Calendar LogInfo - [X22Q0xbH0i7LxQB5iFsHA.job] [CalendarFailoverJob] started.
+2026-02-19 01:24:23,268 [.NET TP Worker] INFO  Calendar LogInfo - [X22Q0xbH0i7LxQB5iFsHA.job] [CalendarFailoverJob] 0 accounts received for enabling synchronization.
+2026-02-19 01:24:23,268 [.NET TP Worker] INFO  Calendar LogInfo - [X22Q0xbH0i7LxQB5iFsHA.job] [CalendarFailoverJob] Synchronization of 0 accounts is enabled.
+2026-02-19 01:24:23,268 [.NET TP Worker] INFO  Calendar LogInfo - [X22Q0xbH0i7LxQB5iFsHA.job] [CalendarFailoverJob] ended.
+2026-02-19 01:39:23,252 [.NET TP Worker] INFO  Calendar LogInfo - [iLbuPPMxHkw46v09jGwhA.job] [CalendarFailoverJob] started.
+2026-02-19 01:39:23,264 [.NET TP Worker] INFO  Calendar LogInfo - [iLbuPPMxHkw46v09jGwhA.job] [CalendarFailoverJob] 0 accounts received for enabling synchronization.
+2026-02-19 01:39:23,264 [.NET TP Worker] INFO  Calendar LogInfo - [iLbuPPMxHkw46v09jGwhA.job] [CalendarFailoverJob] Synchronization of 0 accounts is enabled.
+2026-02-19 01:39:23,264 [.NET TP Worker] INFO  Calendar LogInfo - [iLbuPPMxHkw46v09jGwhA.job] [CalendarFailoverJob] ended.
+2026-02-19 01:54:23,255 [.NET TP Worker] INFO  Calendar LogInfo - [lTLduI5rSEy22lFB94dKMw.job] [CalendarFailoverJob] started.
+2026-02-19 01:54:23,263 [.NET TP Worker] INFO  Calendar LogInfo - [lTLduI5rSEy22lFB94dKMw.job] [CalendarFailoverJob] 0 accounts received for enabling synchronization.
+2026-02-19 01:54:23,263 [.NET TP Worker] INFO  Calendar LogInfo - [lTLduI5rSEy22lFB94dKMw.job] [CalendarFailoverJob] Synchronization of 0 accounts is enabled.
+2026-02-19 01:54:23,263 [.NET TP Worker] INFO  Calendar LogInfo - [lTLduI5rSEy22lFB94dKMw.job] [CalendarFailoverJob] ended.
+2026-02-19 02:09:23,260 [.NET TP Worker] INFO  Calendar LogInfo - [3vwDVldP9EudZqkgCTDbdA.job] [CalendarFailoverJob] started.
+2026-02-19 02:09:23,269 [.NET TP Worker] INFO  Calendar LogInfo - [3vwDVldP9EudZqkgCTDbdA.job] [CalendarFailoverJob] 0 accounts received for enabling synchronization.
+2026-02-19 02:09:23,269 [.NET TP Worker] INFO  Calendar LogInfo - [3vwDVldP9EudZqkgCTDbdA.job] [CalendarFailoverJob] Synchronization of 0 accounts is enabled.
+2026-02-19 02:09:23,269 [.NET TP Worker] INFO  Calendar LogInfo - [3vwDVldP9EudZqkgCTDbdA.job] [CalendarFailoverJob] ended.
+2026-02-19 02:24:23,260 [.NET TP Worker] INFO  Calendar LogInfo - [0nhtEpdMvUOzG0q0vPMN0Q.job] [CalendarFailoverJob] started.
+2026-02-19 02:24:23,272 [.NET TP Worker] INFO  Calendar LogInfo - [0nhtEpdMvUOzG0q0vPMN0Q.job] [CalendarFailoverJob] 0 accounts received for enabling synchronization.
+2026-02-19 02:24:23,272 [.NET TP Worker] INFO  Calendar LogInfo - [0nhtEpdMvUOzG0q0vPMN0Q.job] [CalendarFailoverJob] Synchronization of 0 accounts is enabled.
+2026-02-19 02:24:23,272 [.NET TP Worker] INFO  Calendar LogInfo - [0nhtEpdMvUOzG0q0vPMN0Q.job] [CalendarFailoverJob] ended.
+2026-02-19 02:39:23,254 [.NET TP Worker] INFO  Calendar LogInfo - [JCBc23Xy02wFGpV8Omvg.job] [CalendarFailoverJob] started.
+2026-02-19 02:39:23,264 [.NET TP Worker] INFO  Calendar LogInfo - [JCBc23Xy02wFGpV8Omvg.job] [CalendarFailoverJob] 0 accounts received for enabling synchronization.
+2026-02-19 02:39:23,264 [.NET TP Worker] INFO  Calendar LogInfo - [JCBc23Xy02wFGpV8Omvg.job] [CalendarFailoverJob] Synchronization of 0 accounts is enabled.
+2026-02-19 02:39:23,264 [.NET TP Worker] INFO  Calendar LogInfo - [JCBc23Xy02wFGpV8Omvg.job] [CalendarFailoverJob] ended.
+2026-02-19 02:54:23,255 [.NET TP Worker] INFO  Calendar LogInfo - [0qHkxrtpuEmt3TajqRQ6Pw.job] [CalendarFailoverJob] started.
+2026-02-19 02:54:23,265 [.NET TP Worker] INFO  Calendar LogInfo - [0qHkxrtpuEmt3TajqRQ6Pw.job] [CalendarFailoverJob] 0 accounts received for enabling synchronization.
+2026-02-19 02:54:23,265 [.NET TP Worker] INFO  Calendar LogInfo - [0qHkxrtpuEmt3TajqRQ6Pw.job] [CalendarFailoverJob] Synchronization of 0 accounts is enabled.
+2026-02-19 02:54:23,265 [.NET TP Worker] INFO  Calendar LogInfo - [0qHkxrtpuEmt3TajqRQ6Pw.job] [CalendarFailoverJob] ended.
+2026-02-19 03:09:23,260 [.NET TP Worker] INFO  Calendar LogInfo - [zGs6oHiIUmZigFPIlgqiQ.job] [CalendarFailoverJob] started.
+2026-02-19 03:09:23,270 [.NET TP Worker] INFO  Calendar LogInfo - [zGs6oHiIUmZigFPIlgqiQ.job] [CalendarFailoverJob] 0 accounts received for enabling synchronization.
+2026-02-19 03:09:23,270 [.NET TP Worker] INFO  Calendar LogInfo - [zGs6oHiIUmZigFPIlgqiQ.job] [CalendarFailoverJob] Synchronization of 0 accounts is enabled.
+2026-02-19 03:09:23,270 [.NET TP Worker] INFO  Calendar LogInfo - [zGs6oHiIUmZigFPIlgqiQ.job] [CalendarFailoverJob] ended.
+2026-02-19 03:24:23,249 [.NET TP Worker] INFO  Calendar LogInfo - [hssevqr6dk2lN9oNzOubXQ.job] [CalendarFailoverJob] started.
+2026-02-19 03:24:23,263 [.NET TP Worker] INFO  Calendar LogInfo - [hssevqr6dk2lN9oNzOubXQ.job] [CalendarFailoverJob] 0 accounts received for enabling synchronization.
+2026-02-19 03:24:23,263 [.NET TP Worker] INFO  Calendar LogInfo - [hssevqr6dk2lN9oNzOubXQ.job] [CalendarFailoverJob] Synchronization of 0 accounts is enabled.
+2026-02-19 03:24:23,263 [.NET TP Worker] INFO  Calendar LogInfo - [hssevqr6dk2lN9oNzOubXQ.job] [CalendarFailoverJob] ended.
+2026-02-19 03:39:23,255 [.NET TP Worker] INFO  Calendar LogInfo - [Lz9KeGO9ykeGRjP3ZqgWA.job] [CalendarFailoverJob] started.
+2026-02-19 03:39:23,267 [.NET TP Worker] INFO  Calendar LogInfo - [Lz9KeGO9ykeGRjP3ZqgWA.job] [CalendarFailoverJob] 0 accounts received for enabling synchronization.
+2026-02-19 03:39:23,267 [.NET TP Worker] INFO  Calendar LogInfo - [Lz9KeGO9ykeGRjP3ZqgWA.job] [CalendarFailoverJob] Synchronization of 0 accounts is enabled.
+2026-02-19 03:39:23,267 [.NET TP Worker] INFO  Calendar LogInfo - [Lz9KeGO9ykeGRjP3ZqgWA.job] [CalendarFailoverJob] ended.
+2026-02-19 03:54:23,250 [.NET TP Worker] INFO  Calendar LogInfo - [wQU8ysmc02B5vasOWIYHQ.job] [CalendarFailoverJob] started.
+2026-02-19 03:54:23,262 [.NET TP Worker] INFO  Calendar LogInfo - [wQU8ysmc02B5vasOWIYHQ.job] [CalendarFailoverJob] 0 accounts received for enabling synchronization.
+2026-02-19 03:54:23,262 [.NET TP Worker] INFO  Calendar LogInfo - [wQU8ysmc02B5vasOWIYHQ.job] [CalendarFailoverJob] Synchronization of 0 accounts is enabled.
+2026-02-19 03:54:23,262 [.NET TP Worker] INFO  Calendar LogInfo - [wQU8ysmc02B5vasOWIYHQ.job] [CalendarFailoverJob] ended.
+2026-02-19 04:09:23,264 [.NET TP Worker] INFO  Calendar LogInfo - [77GY4NcSXEyQXVYlbsAe3g.job] [CalendarFailoverJob] started.
+2026-02-19 04:09:23,264 [.NET TP Worker] INFO  Calendar LogInfo - [77GY4NcSXEyQXVYlbsAe3g.job] [CalendarFailoverJob] 0 accounts received for enabling synchronization.
+2026-02-19 04:09:23,264 [.NET TP Worker] INFO  Calendar LogInfo - [77GY4NcSXEyQXVYlbsAe3g.job] [CalendarFailoverJob] Synchronization of 0 accounts is enabled.
+2026-02-19 04:09:23,275 [.NET TP Worker] INFO  Calendar LogInfo - [77GY4NcSXEyQXVYlbsAe3g.job] [CalendarFailoverJob] ended.
+2026-02-19 04:24:23,273 [.NET TP Worker] INFO  Calendar LogInfo - [gs49tYKVk6GbTse90pTA.job] [CalendarFailoverJob] started.
+2026-02-19 04:24:23,273 [.NET TP Worker] INFO  Calendar LogInfo - [gs49tYKVk6GbTse90pTA.job] [CalendarFailoverJob] 0 accounts received for enabling synchronization.
+2026-02-19 04:24:23,273 [.NET TP Worker] INFO  Calendar LogInfo - [gs49tYKVk6GbTse90pTA.job] [CalendarFailoverJob] Synchronization of 0 accounts is enabled.
+2026-02-19 04:24:23,273 [.NET TP Worker] INFO  Calendar LogInfo - [gs49tYKVk6GbTse90pTA.job] [CalendarFailoverJob] ended.
+2026-02-19 04:39:23,245 [.NET TP Worker] INFO  Calendar LogInfo - [wGBmBn9rzEC2d51wX3NI2w.job] [CalendarFailoverJob] started.
+2026-02-19 04:39:23,264 [.NET TP Worker] INFO  Calendar LogInfo - [wGBmBn9rzEC2d51wX3NI2w.job] [CalendarFailoverJob] 0 accounts received for enabling synchronization.
+2026-02-19 04:39:23,264 [.NET TP Worker] INFO  Calendar LogInfo - [wGBmBn9rzEC2d51wX3NI2w.job] [CalendarFailoverJob] Synchronization of 0 accounts is enabled.
+2026-02-19 04:39:23,265 [.NET TP Worker] INFO  Calendar LogInfo - [wGBmBn9rzEC2d51wX3NI2w.job] [CalendarFailoverJob] ended.
+2026-02-19 04:54:23,256 [.NET TP Worker] INFO  Calendar LogInfo - [9rj91leRc0aWHMXcrU4g6w.job] [CalendarFailoverJob] started.
+2026-02-19 04:54:23,263 [.NET TP Worker] INFO  Calendar LogInfo - [9rj91leRc0aWHMXcrU4g6w.job] [CalendarFailoverJob] 0 accounts received for enabling synchronization.
+2026-02-19 04:54:23,263 [.NET TP Worker] INFO  Calendar LogInfo - [9rj91leRc0aWHMXcrU4g6w.job] [CalendarFailoverJob] Synchronization of 0 accounts is enabled.
+2026-02-19 04:54:23,263 [.NET TP Worker] INFO  Calendar LogInfo - [9rj91leRc0aWHMXcrU4g6w.job] [CalendarFailoverJob] ended.
+2026-02-19 05:09:23,253 [.NET TP Worker] INFO  Calendar LogInfo - [ILlaG0smy0HPKDg5KUtg.job] [CalendarFailoverJob] started.
+2026-02-19 05:09:23,253 [.NET TP Worker] INFO  Calendar LogInfo - [ILlaG0smy0HPKDg5KUtg.job] [CalendarFailoverJob] 0 accounts received for enabling synchronization.
+2026-02-19 05:09:23,253 [.NET TP Worker] INFO  Calendar LogInfo - [ILlaG0smy0HPKDg5KUtg.job] [CalendarFailoverJob] Synchronization of 0 accounts is enabled.
+2026-02-19 05:09:23,264 [.NET TP Worker] INFO  Calendar LogInfo - [ILlaG0smy0HPKDg5KUtg.job] [CalendarFailoverJob] ended.
+2026-02-19 05:24:23,273 [.NET TP Worker] INFO  Calendar LogInfo - [v49erhe4eU2XNPy2m64dvQ.job] [CalendarFailoverJob] started.
+2026-02-19 05:24:23,273 [.NET TP Worker] INFO  Calendar LogInfo - [v49erhe4eU2XNPy2m64dvQ.job] [CalendarFailoverJob] 0 accounts received for enabling synchronization.
+2026-02-19 05:24:23,273 [.NET TP Worker] INFO  Calendar LogInfo - [v49erhe4eU2XNPy2m64dvQ.job] [CalendarFailoverJob] Synchronization of 0 accounts is enabled.
+2026-02-19 05:24:23,273 [.NET TP Worker] INFO  Calendar LogInfo - [v49erhe4eU2XNPy2m64dvQ.job] [CalendarFailoverJob] ended.
+2026-02-19 05:39:23,266 [.NET TP Worker] INFO  Calendar LogInfo - [0myd1bRaN0OkAzWWYxJvQg.job] [CalendarFailoverJob] started.
+2026-02-19 05:39:23,266 [.NET TP Worker] INFO  Calendar LogInfo - [0myd1bRaN0OkAzWWYxJvQg.job] [CalendarFailoverJob] 0 accounts received for enabling synchronization.
+2026-02-19 05:39:23,266 [.NET TP Worker] INFO  Calendar LogInfo - [0myd1bRaN0OkAzWWYxJvQg.job] [CalendarFailoverJob] Synchronization of 0 accounts is enabled.
+2026-02-19 05:39:23,266 [.NET TP Worker] INFO  Calendar LogInfo - [0myd1bRaN0OkAzWWYxJvQg.job] [CalendarFailoverJob] ended.
+2026-02-19 05:54:23,255 [.NET TP Worker] INFO  Calendar LogInfo - [g0V6agci0299cUEQRaXg.job] [CalendarFailoverJob] started.
+2026-02-19 05:54:23,264 [.NET TP Worker] INFO  Calendar LogInfo - [g0V6agci0299cUEQRaXg.job] [CalendarFailoverJob] 0 accounts received for enabling synchronization.
+2026-02-19 05:54:23,264 [.NET TP Worker] INFO  Calendar LogInfo - [g0V6agci0299cUEQRaXg.job] [CalendarFailoverJob] Synchronization of 0 accounts is enabled.
+2026-02-19 05:54:23,275 [.NET TP Worker] INFO  Calendar LogInfo - [g0V6agci0299cUEQRaXg.job] [CalendarFailoverJob] ended.
+2026-02-19 06:09:23,253 [.NET TP Worker] INFO  Calendar LogInfo - [UxqTAP1EF0aQ3QHN83Ha5w.job] [CalendarFailoverJob] started.
+2026-02-19 06:09:23,264 [.NET TP Worker] INFO  Calendar LogInfo - [UxqTAP1EF0aQ3QHN83Ha5w.job] [CalendarFailoverJob] 0 accounts received for enabling synchronization.
+2026-02-19 06:09:23,264 [.NET TP Worker] INFO  Calendar LogInfo - [UxqTAP1EF0aQ3QHN83Ha5w.job] [CalendarFailoverJob] Synchronization of 0 accounts is enabled.
+2026-02-19 06:09:23,264 [.NET TP Worker] INFO  Calendar LogInfo - [UxqTAP1EF0aQ3QHN83Ha5w.job] [CalendarFailoverJob] ended.
+2026-02-19 06:09:54,172 [.NET Signal Handler] WARN  Terrasoft.WebHost.Application Invoke - Application_End
+2026-02-19 06:09:54,417 [.NET TP Worker] INFO  Terrasoft.Core.EventBuffering.BufferPool RunFromThreadPoolDispatchLoop - Disabling buffering.
+2026-02-19 06:09:54,417 [.NET TP Worker] INFO  Terrasoft.Core.EventBuffering.BufferPool RunFromThreadPoolDispatchLoop - Disabled buffering of Terrasoft.Core.Process.EventBuffering.IProcessEventWriter(free: 1, rent: 0)
+2026-02-19 06:09:54,737 [.NET TP Worker] INFO  Terrasoft.Core.UsageContext.RecursionDepthTracker Dispose - Disabling recursion depth checker.
+2026-02-19 06:09:54,737 [.NET TP Worker] INFO  Terrasoft.Core.UsageContext.RecursionDepthTracker InternalDisable - Disabled Background recursion depth checker.
+2026-02-19 06:09:54,737 [.NET TP Worker] INFO  Terrasoft.Core.UsageContext.RecursionDepthTracker InternalDisable - Disabled Foreground recursion depth checker.
+2026-02-19 06:09:54,737 [.NET TP Worker] INFO  Terrasoft.Core.InMemoryPubSubServer ExecutionContextCallback - InMemoryPubSubServer stopped.

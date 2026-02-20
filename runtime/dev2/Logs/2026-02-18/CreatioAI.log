@@ -1,0 +1,5 @@
+2026-02-18 21:39:58,150 [.NET TP Worker] WARN Supervisor Copilot Execute - Default operation permissions have been assigned to the schema "SalesAIAssistant" (UId: 733cd2f8-dd9e-dc90-f1ce-70437961409c).
+2026-02-18 21:39:58,150 [.NET TP Worker] WARN Supervisor Copilot Execute - Default operation permissions have been assigned to the schema "SkillAdressSplitter" (UId: 03c740de-de7d-151a-61f7-5d61cb1b258b).
+2026-02-18 21:39:58,150 [.NET TP Worker] WARN Supervisor Copilot Execute - Default operation permissions have been assigned to the schema "AccountNewsAndInsights" (UId: 8f97cce2-89f8-f217-5a78-cfecd4c536bc).
+2026-02-18 21:39:58,150 [.NET TP Worker] WARN Supervisor Copilot Execute - Default operation permissions have been assigned to the schema "EnrichAccountData" (UId: 63e310ad-fc09-5ab8-6a78-c640d560f8b3).
+2026-02-18 21:39:58,165 [.NET TP Worker] WARN Supervisor Copilot Execute - Default operation permissions have been assigned to the schema "SkillIndustriesCollection" (UId: 2fec6d84-4c19-e72c-33da-9cb2edf96957).

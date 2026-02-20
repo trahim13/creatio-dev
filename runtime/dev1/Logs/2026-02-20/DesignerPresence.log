@@ -1,0 +1,7 @@
+2026-02-20 08:28:21,928 [1] INFO  DesignerPresence Init - DesignerPresentersWebSocketListener.Init() - subscribing to OnMsgChannelConnected
+2026-02-20 08:31:54,221 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnected - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-20 08:31:55,177 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnected - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-20 08:32:03,519 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnected - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-20 08:34:00,916 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnCloseConnection - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-20 08:34:00,916 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnCloseConnection - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-20 08:34:02,076 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnected - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647

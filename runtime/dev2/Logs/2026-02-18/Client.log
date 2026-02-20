@@ -1,0 +1,17 @@
+2026-02-18 18:26:22,683 [.NET TP Worker] ERROR Supervisor Client.Client LogMessage - user: Supervisor/7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+ file: http://localhost:5100/Shell/8096.hash=c784a2678e0e20eb.js
+ line: 292
+ column: 2620
+ message: Uncaught TypeError: Cannot read properties of null (reading 'caption') 
+ date: Wed Feb 18 2026 18:26:22 GMT+0000 (Всемирное координированное время)
+ stack: TypeError: Cannot read properties of null (reading 'caption')
+    at i.initCombinedModeActionsButtonHeaderMenuItemCaption (http://localhost:5100/configuration/158b915617a43387be51f2d804cfcdcaen-US/BaseDataView.js:5721:82)
+    at i.initActionsButtonHeaderMenuItemCaption (http://localhost:5100/configuration/158b915617a43387be51f2d804cfcdcaen-US/BaseDataView.js:5704:10)
+    at i._initSectionAttributes (http://localhost:5100/configuration/158b915617a43387be51f2d804cfcdcaen-US/BaseDataView.js:2647:10)
+    at e (http://localhost:5100/core/hash/combined/all-combined.js?v=-1757381931:34:20692)
+    at Object.callback (http://localhost:5100/core/hash/combined/all-combined.js?v=-1757381931:6:73147)
+    at i.<anonymous> (http://localhost:5100/configuration/158b915617a43387be51f2d804cfcdcaen-US/BaseDataView.js:6784:11)
+    at http://localhost:5100/core/hash/combined/all-combined.js?v=-1757381931:34:24558
+    at Object.execCb (http://localhost:5100/core/hash/requirejs/require.js?v=-1757381931:1701:33)
+    at Module.check (http://localhost:5100/core/hash/requirejs/require.js?v=-1757381931:884:51)
+    at Module.enable (http://localhost:5100/core/hash/requirejs/require.js?v=-1757381931:1177:22)

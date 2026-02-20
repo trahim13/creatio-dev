@@ -1,0 +1,187 @@
+2026-02-18 16:28:22,671 [1] INFO  DesignerPresence Init - DesignerPresentersWebSocketListener.Init() - subscribing to OnMsgChannelConnected
+2026-02-18 16:30:05,791 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnected - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:34:58,504 [1] INFO  DesignerPresence Init - DesignerPresentersWebSocketListener.Init() - subscribing to OnMsgChannelConnected
+2026-02-18 17:35:11,810 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnected - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:35:12,790 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnected - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:36:28,744 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnected - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:37:47,547 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnCloseConnection - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:37:47,547 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnCloseConnection - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:37:48,077 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnected - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:39:54,537 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:39:54,537 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:39:55,034 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:42:01,486 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:42:01,486 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:42:02,078 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:43:51,171 [1] INFO  DesignerPresence Init - DesignerPresentersWebSocketListener.Init() - subscribing to OnMsgChannelConnected
+2026-02-18 17:44:03,183 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnected - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:44:04,043 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnected - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:44:10,583 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnected - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:44:40,972 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnected - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:44:45,224 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnCloseConnection - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:44:45,224 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnCloseConnection - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:46:10,313 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnCloseConnection - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:46:10,313 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnCloseConnection - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:46:11,100 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnected - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:46:41,328 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnCloseConnection - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:46:41,328 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnCloseConnection - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:46:41,755 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnected - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:46:41,981 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnected - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:48:15,323 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnCloseConnection - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:48:15,323 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnCloseConnection - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:48:16,040 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:50:58,428 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:50:58,428 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:50:59,093 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:52:50,455 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:52:50,455 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:52:51,025 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:53:05,459 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:53:05,459 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:53:06,081 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:55:12,448 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:55:12,448 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:55:44,451 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:55:44,451 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 18:26:14,148 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 18:26:14,148 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 18:26:19,953 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 18:26:21,173 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 18:27:09,326 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 18:27:09,326 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 18:27:09,807 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 18:27:09,976 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 18:28:50,958 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 18:28:50,958 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 18:29:13,959 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 18:29:13,959 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 18:33:57,675 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 18:33:57,675 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 18:34:04,624 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 18:34:04,851 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 18:34:21,379 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 18:34:21,379 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 18:36:07,203 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 18:36:07,203 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 19:11:35,862 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 19:11:36,625 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 19:11:44,741 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 19:13:41,273 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 19:13:41,273 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 19:13:42,148 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 19:15:48,263 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 19:15:48,263 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 19:15:49,176 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 19:16:49,054 [1] INFO  DesignerPresence Init - DesignerPresentersWebSocketListener.Init() - subscribing to OnMsgChannelConnected
+2026-02-18 19:22:49,896 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnected - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 19:22:50,620 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnected - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 19:46:51,612 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 19:46:51,612 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 19:46:52,162 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 19:48:58,660 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 19:48:58,660 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 19:48:59,215 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 19:51:05,704 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 19:51:05,704 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 19:51:06,180 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 19:53:12,792 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 19:53:12,792 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 19:53:13,190 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 19:55:19,825 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 19:55:19,825 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 19:55:20,206 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 19:57:50,876 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 19:57:50,876 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 19:57:51,182 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 19:59:57,936 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 19:59:57,936 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 19:59:58,231 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:02:04,975 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:02:04,975 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:02:05,229 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:04:12,020 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:04:12,020 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:04:12,258 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:06:19,059 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:06:19,059 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:06:20,231 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:08:51,126 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:08:51,126 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:08:52,205 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:10:56,179 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:10:56,179 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:10:57,245 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:13:02,245 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:13:02,245 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:13:03,259 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:15:08,299 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:15:08,299 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:15:09,250 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:17:14,360 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:17:14,360 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:17:15,275 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:19:50,402 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:19:50,402 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:19:51,241 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:21:57,431 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:21:57,431 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:21:58,264 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:24:04,504 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:24:04,504 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:24:05,257 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:26:11,544 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:26:11,544 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:26:12,250 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:28:18,586 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:28:18,586 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:28:19,195 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:30:50,656 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:30:50,656 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:30:51,202 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:32:57,711 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:32:57,711 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:32:58,237 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:35:04,773 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:35:04,773 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:35:05,250 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:37:11,826 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:37:11,826 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:37:12,248 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:39:18,882 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:39:18,882 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 21:32:24,318 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 21:32:25,351 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 21:32:48,514 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 21:33:18,005 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 21:33:18,005 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 21:33:21,535 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 21:33:35,172 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 21:33:53,590 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 21:33:53,590 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 21:33:54,072 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 21:33:55,150 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 21:33:55,150 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 21:33:55,629 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 21:33:56,894 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 21:33:56,894 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 21:33:57,359 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 21:34:30,076 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 21:34:30,076 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 21:34:55,711 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 21:34:55,711 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 21:37:21,937 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 21:37:21,937 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 21:37:42,164 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 21:37:42,377 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 21:37:51,622 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 21:37:51,622 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 21:37:51,622 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 21:37:51,622 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnectionClose - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 21:37:52,527 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnNewConnection - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 21:41:04,624 [1] INFO  DesignerPresence Init - DesignerPresentersWebSocketListener.Init() - subscribing to OnMsgChannelConnected
+2026-02-18 21:41:23,723 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnected - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 21:41:24,649 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnMsgChannelConnected - OnMsgChannelConnected called for channel: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 21:41:47,316 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnCloseConnection - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 21:41:47,316 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnCloseConnection - Connection closed for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 21:41:47,316 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnCloseConnection - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 21:41:47,316 [.NET TP Worker] DEBUG Supervisor DesignerPresence OnCloseConnection - No schemas found for channel 7f3b869f-34f3-4f20-ab4d-7480a5fdf647

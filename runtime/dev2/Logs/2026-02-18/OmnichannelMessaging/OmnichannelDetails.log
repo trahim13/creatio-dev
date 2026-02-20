@@ -1,0 +1,4 @@
+2026-02-18 17:35:13,269 [.NET TP Worker] INFO Supervisor GetOperator - Optimized cache for operators loaded. Operators count = 1.
+2026-02-18 17:44:04,385 [.NET TP Worker] INFO Supervisor InitOperatorsCache - Optimized cache for operators loaded. Operators count = 1.
+2026-02-18 19:22:50,981 [.NET TP Worker] INFO Supervisor GetOperator - Optimized cache for operators loaded. Operators count = 1.
+2026-02-18 21:41:24,969 [.NET TP Worker] INFO Supervisor GetOperator - Optimized cache for operators loaded. Operators count = 1.

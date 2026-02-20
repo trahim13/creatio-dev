@@ -1,0 +1,559 @@
+2026-02-18 16:16:33,237 Operation [Build] started
+2026-02-18 16:17:24,651 Operation [Build] took 51 s 413 ms
+2026-02-18 16:36:17,212 Operation [Build] started
+2026-02-18 16:36:59,466 Operation [Build] took 42 s 255 ms
+2026-02-18 16:37:14,978 Operation [Build] started
+2026-02-18 16:37:51,525 Operation [Build] took 36 s 558 ms
+2026-02-18 17:54:49,363 Creating storage directory [/tmp/creatio/PackageInstallation/Temp]
+2026-02-18 17:54:49,363 Downloading file [UsrYachts.gz]
+2026-02-18 17:54:49,369 Unzipping [/tmp/creatio/PackageInstallation/Temp/UsrYachts.gz]
+2026-02-18 17:54:49,392 Unzipped [/tmp/creatio/PackageInstallation/Temp/UsrYachts.gz] to [/tmp/creatio/PackageInstallation/Temp/UsrYachts]
+2026-02-18 17:56:53,192 Generating schema sources count [2]: [UsrYachts.UsrTestProcess, UsrYachts.UsrTrafficLight]
+2026-02-18 17:56:54,249 Actions added for schema "UsrYachts" from package "UsrTrafficLight" in 0.416 sec. Actions details:
+    Creating workspace item "Traffic Light"("UsrTrafficLight")
+        Creating workspace item "Traffic Light"("UsrTrafficLight")
+        Creating index "I6gQlbNX6cisubAEUllo3tO6832A" for column "Created by"("CreatedById") in workspace item "Traffic Light"("UsrTrafficLight")
+        Creating index "IUw5af8wx2ZHUXSe2COtJ05P08" for column "Modified on"("ModifiedOn") in workspace item "Traffic Light"("UsrTrafficLight")
+        Creating index "IIothHLLbQWP3Y788P0YSSZqT4" for column "Modified by"("ModifiedById") in workspace item "Traffic Light"("UsrTrafficLight")
+        Creating primary key for column "Id"("Id") in workspace item "Traffic Light"("UsrTrafficLight")
+        Saving system information on workspace item "Traffic Light"("UsrTrafficLight")
+        Saving system information on column "Id"("Id") in workspace item "Traffic Light"("UsrTrafficLight")
+        Saving system information on column "Created on"("CreatedOn") in workspace item "Traffic Light"("UsrTrafficLight")
+        Saving system information on column "Created by"("CreatedById") in workspace item "Traffic Light"("UsrTrafficLight")
+        Saving system information on column "Modified on"("ModifiedOn") in workspace item "Traffic Light"("UsrTrafficLight")
+        Saving system information on column "Modified by"("ModifiedById") in workspace item "Traffic Light"("UsrTrafficLight")
+        Saving system information on column "Name"("Name") in workspace item "Traffic Light"("UsrTrafficLight")
+        Saving system information on column "Description"("Description") in workspace item "Traffic Light"("UsrTrafficLight")
+        Saving system information on column "Active processes"("ProcessListeners") in workspace item "Traffic Light"("UsrTrafficLight")
+        Saving system information on column "Code"("UsrCode") in workspace item "Traffic Light"("UsrTrafficLight")
+    Creating workspace item "Traffic Light"("SysUsrTrafficLightLcz")
+        Creating workspace item "Traffic Light"("SysUsrTrafficLightLcz")
+        Creating unique index "IRC_UsrTrafficLight" by columns: "Record"("RecordId"), "Culture"("SysCultureId") in workspace item "Traffic Light"("SysUsrTrafficLightLcz")
+        Creating index "I2OKtKryQCQTVkJMYNWqU01wdT24" for column "Record"("RecordId") in workspace item "Traffic Light"("SysUsrTrafficLightLcz")
+        Creating index "Iw9xihtXJ0nbwdiESTeUY1nT69c" for column "Culture"("SysCultureId") in workspace item "Traffic Light"("SysUsrTrafficLightLcz")
+        Creating primary key for column "Id"("Id") in workspace item "Traffic Light"("SysUsrTrafficLightLcz")
+        Creating foreign key for column "Record"("RecordId") in workspace item "Traffic Light"("SysUsrTrafficLightLcz")
+        Creating foreign key for column "Culture"("SysCultureId") in workspace item "Traffic Light"("SysUsrTrafficLightLcz")
+        Saving system information on workspace item "Traffic Light"("SysUsrTrafficLightLcz")
+        Saving system information on column "Id"("Id") in workspace item "Traffic Light"("SysUsrTrafficLightLcz")
+        Saving system information on column "Modified on"("ModifiedOn") in workspace item "Traffic Light"("SysUsrTrafficLightLcz")
+        Saving system information on column "Record"("RecordId") in workspace item "Traffic Light"("SysUsrTrafficLightLcz")
+        Saving system information on column "Culture"("SysCultureId") in workspace item "Traffic Light"("SysUsrTrafficLightLcz")
+        Saving system information on column "Name"("Name") in workspace item "Traffic Light"("SysUsrTrafficLightLcz")
+        Saving system information on column "Description"("Description") in workspace item "Traffic Light"("SysUsrTrafficLightLcz")
+
+2026-02-18 17:56:54,533 Generated schema sources count [2]
+2026-02-18 17:56:54,550 Action executed in 0.012 sec. Sql text: CREATE TABLE "public"."UsrTrafficLight" (
+	"Id" UUID CONSTRAINT "DFmZSzHmjN9DgvWXpa3RfudoHSFZE" DEFAULT (uuid_generate_v4()) NOT NULL,
+	"CreatedOn" TIMESTAMP WITHOUT TIME ZONE CONSTRAINT "DFx9iFkjud6GYoFOg5VC6MD1PVs8" DEFAULT (timezone('utc'::text, current_timestamp)) NULL,
+	"CreatedById" UUID NULL,
+	"ModifiedOn" TIMESTAMP WITHOUT TIME ZONE CONSTRAINT "DF4lf9bTWNISzeKp8FkpHFufKY4OI" DEFAULT (timezone('utc'::text, current_timestamp)) NULL,
+	"ModifiedById" UUID NULL,
+	"Name" CHARACTER VARYING(250) CONSTRAINT "DFl1ABnLVjUc2hl8pQNpKSlb1W6c" DEFAULT ('') NOT NULL,
+	"Description" CHARACTER VARYING(250) CONSTRAINT "DFoxISVrQm0VzvmyMVUvHVnqdtk" DEFAULT ('') NOT NULL,
+	"ProcessListeners" INT CONSTRAINT "DFQLGZOchmtw3CaAvyWPUdbeEVfc" DEFAULT (0) NOT NULL,
+	"UsrCode" CHARACTER VARYING(50) CONSTRAINT "DFoTkdcD302id4W6E2OViGugg" DEFAULT ('') NOT NULL
+)
+2026-02-18 17:56:54,556 Action executed in 0.005 sec. Sql text: CREATE TABLE "public"."SysUsrTrafficLightLcz" (
+	"Id" UUID CONSTRAINT "DFSl043hauVs6QGupCBkhuhe54Yj0L" DEFAULT (uuid_generate_v1()) NOT NULL,
+	"ModifiedOn" TIMESTAMP WITHOUT TIME ZONE CONSTRAINT "DF2OYVcoXcdbtUadBB7SnQ1rXd3kL" DEFAULT (timezone('utc'::text, current_timestamp)) NULL,
+	"RecordId" UUID NULL,
+	"SysCultureId" UUID NULL,
+	"Name" CHARACTER VARYING(250) NULL,
+	"Description" CHARACTER VARYING(250) NULL
+)
+2026-02-18 17:56:54,556 Action executed in 0.002 sec. Sql text: COMMENT ON TABLE "public"."UsrTrafficLight" IS $$TS.ActionType=Schema;TS.EntitySchema.UId={08BE77F9-E13C-4149-A5F3-97E61D893FB8};TS.EntitySchema.Kind=General;TS.EntitySchema.ParentSchemaUId={11AB4BCB-9B23-4B6D-9C86-520FAE925D75};TS.EntitySchema.Caption=en-US|Traffic Light,ru-RU|Объект;TS.EntitySchemaName=UsrTrafficLight;
+TS.ConstraintName=PKmZSzHmjN9DgvWXpa3RfudoHSFZE;TS.EntitySchemaColumn.UId={AE0E45CA-C495-4FE7-A39D-3AB7278E1617};TS.ActionType=PrimaryKey;$$
+2026-02-18 17:56:54,556 Action executed in 0.001 sec. Sql text: COMMENT ON TABLE "public"."SysUsrTrafficLightLcz" IS $$TS.ActionType=Schema;TS.EntitySchema.UId={08BE77F9-E13C-4149-A5F3-97E61D893FB8};TS.EntitySchema.Kind=Localization;TS.EntitySchema.ParentSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchema.Caption=en-US|Traffic Light,ru-RU|Объект;TS.EntitySchemaName=SysUsrTrafficLightLcz;
+TS.ConstraintName=PKSl043hauVs6QGupCBkhuhe54Yj0L;TS.EntitySchemaColumn.UId={04890F09-8A8A-4178-A2FF-4517A5631FEC};TS.ActionType=PrimaryKey;
+TS.EntitySchemaIndex.UId={FEC2E5EC-B1F8-5885-C3CD-7F42F1BDB316};TS.IndexName=IRC_UsrTrafficLight;TS.IsColumnIndex=False;TS.ActionType=Index;$$
+2026-02-18 17:56:54,562 Action executed in 0.002 sec. Sql text: COMMENT ON COLUMN "public"."UsrTrafficLight"."Id"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={AE0E45CA-C495-4FE7-A39D-3AB7278E1617};TS.EntitySchemaColumn.DataValueType=Guid;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Id,ru-RU|Id;TS.EntitySchemaColumn.CreatedInSchemaUId={1BAB9DCF-17D5-49F8-9536-8E0064F1DCE0};TS.ColumnName=Id;TS.ActionType=Column;$$
+2026-02-18 17:56:54,562 Action executed in 0.002 sec. Sql text: COMMENT ON COLUMN "public"."UsrTrafficLight"."CreatedOn"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={E80190A5-03B2-4095-90F7-A193A960ADEE};TS.EntitySchemaColumn.DataValueType=DateTime;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Created on,ru-RU|Дата создания;TS.EntitySchemaColumn.CreatedInSchemaUId={1BAB9DCF-17D5-49F8-9536-8E0064F1DCE0};TS.ColumnName=CreatedOn;TS.ActionType=Column;
+TS.ConstraintName=DFx9iFkjud6GYoFOg5VC6MD1PVs8;TS.EntitySchemaColumn.UId={E80190A5-03B2-4095-90F7-A193A960ADEE};TS.ActionType=DefValue;$$
+2026-02-18 17:56:54,562 Action executed in 0.003 sec. Sql text: COMMENT ON COLUMN "public"."UsrTrafficLight"."CreatedById"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={EBF6BB93-8AA6-4A01-900D-C6EA67AFFE21};TS.EntitySchemaColumn.DataValueType=Lookup;TS.EntitySchemaColumn.ReferenceSchemaUId={16BE3651-8FE2-4159-8DD0-A803D4683DD3};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Created by,ru-RU|Создал;TS.EntitySchemaColumn.CreatedInSchemaUId={1BAB9DCF-17D5-49F8-9536-8E0064F1DCE0};TS.ColumnName=CreatedById;TS.ActionType=Column;
+TS.EntitySchemaIndex.UId={EBF6BB93-8AA6-4A01-900D-C6EA67AFFE21};TS.IndexName=I6gQlbNX6cisubAEUllo3tO6832A;TS.IsColumnIndex=True;TS.ActionType=Index;$$
+2026-02-18 17:56:54,571 Action executed in 0.003 sec. Sql text: COMMENT ON COLUMN "public"."UsrTrafficLight"."ModifiedOn"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={9928EDEC-4272-425A-93BB-48743FEE4B04};TS.EntitySchemaColumn.DataValueType=DateTime;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Modified on,ru-RU|Дата изменения;TS.EntitySchemaColumn.CreatedInSchemaUId={1BAB9DCF-17D5-49F8-9536-8E0064F1DCE0};TS.ColumnName=ModifiedOn;TS.ActionType=Column;
+TS.EntitySchemaIndex.UId={9928EDEC-4272-425A-93BB-48743FEE4B04};TS.IndexName=IUw5af8wx2ZHUXSe2COtJ05P08;TS.IsColumnIndex=True;TS.ActionType=Index;
+TS.ConstraintName=DF4lf9bTWNISzeKp8FkpHFufKY4OI;TS.EntitySchemaColumn.UId={9928EDEC-4272-425A-93BB-48743FEE4B04};TS.ActionType=DefValue;$$
+2026-02-18 17:56:54,571 Action executed in 0.002 sec. Sql text: COMMENT ON COLUMN "public"."UsrTrafficLight"."ModifiedById"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={3015559E-CBC6-406A-88AF-07F7930BE832};TS.EntitySchemaColumn.DataValueType=Lookup;TS.EntitySchemaColumn.ReferenceSchemaUId={16BE3651-8FE2-4159-8DD0-A803D4683DD3};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Modified by,ru-RU|Изменил;TS.EntitySchemaColumn.CreatedInSchemaUId={1BAB9DCF-17D5-49F8-9536-8E0064F1DCE0};TS.ColumnName=ModifiedById;TS.ActionType=Column;
+TS.EntitySchemaIndex.UId={3015559E-CBC6-406A-88AF-07F7930BE832};TS.IndexName=IIothHLLbQWP3Y788P0YSSZqT4;TS.IsColumnIndex=True;TS.ActionType=Index;$$
+2026-02-18 17:56:54,571 Action executed in 0.002 sec. Sql text: COMMENT ON COLUMN "public"."UsrTrafficLight"."Name"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={736C30A7-C0EC-4FA9-B034-2552B319B633};TS.EntitySchemaColumn.DataValueType=MediumText;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Name,ru-RU|Название;TS.EntitySchemaColumn.CreatedInSchemaUId={11AB4BCB-9B23-4B6D-9C86-520FAE925D75};TS.ColumnName=Name;TS.ActionType=Column;
+TS.ConstraintName=DFl1ABnLVjUc2hl8pQNpKSlb1W6c;TS.EntitySchemaColumn.UId={736C30A7-C0EC-4FA9-B034-2552B319B633};TS.ActionType=DefValue;$$
+2026-02-18 17:56:54,571 Action executed in 0.002 sec. Sql text: COMMENT ON COLUMN "public"."UsrTrafficLight"."Description"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={9E53FD7C-DDE4-4502-A64C-B9E34148108B};TS.EntitySchemaColumn.DataValueType=MediumText;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Description,ru-RU|Описание;TS.EntitySchemaColumn.CreatedInSchemaUId={11AB4BCB-9B23-4B6D-9C86-520FAE925D75};TS.ColumnName=Description;TS.ActionType=Column;
+TS.ConstraintName=DFoxISVrQm0VzvmyMVUvHVnqdtk;TS.EntitySchemaColumn.UId={9E53FD7C-DDE4-4502-A64C-B9E34148108B};TS.ActionType=DefValue;$$
+2026-02-18 17:56:54,583 Action executed in 0.002 sec. Sql text: COMMENT ON COLUMN "public"."UsrTrafficLight"."ProcessListeners"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={3FABD836-6A53-4D8D-9069-6DF88D9DAE1E};TS.EntitySchemaColumn.DataValueType=Integer;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Active processes,ru-RU|Активные процессы;TS.EntitySchemaColumn.CreatedInSchemaUId={1BAB9DCF-17D5-49F8-9536-8E0064F1DCE0};TS.ColumnName=ProcessListeners;TS.ActionType=Column;
+TS.ConstraintName=DFQLGZOchmtw3CaAvyWPUdbeEVfc;TS.EntitySchemaColumn.UId={3FABD836-6A53-4D8D-9069-6DF88D9DAE1E};TS.ActionType=DefValue;$$
+2026-02-18 17:56:54,583 Action executed in 0.003 sec. Sql text: COMMENT ON COLUMN "public"."UsrTrafficLight"."UsrCode"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={1196807E-CC70-84D5-4D88-8F86FE7FD1C7};TS.EntitySchemaColumn.DataValueType=ShortText;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Code;TS.EntitySchemaColumn.CreatedInSchemaUId={08BE77F9-E13C-4149-A5F3-97E61D893FB8};TS.ColumnName=UsrCode;TS.ActionType=Column;
+TS.ConstraintName=DFoTkdcD302id4W6E2OViGugg;TS.EntitySchemaColumn.UId={1196807E-CC70-84D5-4D88-8F86FE7FD1C7};TS.ActionType=DefValue;$$
+2026-02-18 17:56:54,583 Action executed in 0.003 sec. Sql text: COMMENT ON COLUMN "public"."SysUsrTrafficLightLcz"."Id"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={04890F09-8A8A-4178-A2FF-4517A5631FEC};TS.EntitySchemaColumn.DataValueType=Guid;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=;TS.EntitySchemaColumn.CreatedInSchemaUId={08BE77F9-E13C-4149-A5F3-97E61D893FB8};TS.ColumnName=Id;TS.ActionType=Column;$$
+2026-02-18 17:56:54,592 Action executed in 0.003 sec. Sql text: COMMENT ON COLUMN "public"."SysUsrTrafficLightLcz"."ModifiedOn"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={21DF0FAB-FE15-435F-B48A-C1CCB79466DB};TS.EntitySchemaColumn.DataValueType=DateTime;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Modified on,ru-RU|Изменено;TS.EntitySchemaColumn.CreatedInSchemaUId={08BE77F9-E13C-4149-A5F3-97E61D893FB8};TS.ColumnName=ModifiedOn;TS.ActionType=Column;
+TS.ConstraintName=DF2OYVcoXcdbtUadBB7SnQ1rXd3kL;TS.EntitySchemaColumn.UId={21DF0FAB-FE15-435F-B48A-C1CCB79466DB};TS.ActionType=DefValue;$$
+2026-02-18 17:56:54,592 Action executed in 0.002 sec. Sql text: COMMENT ON COLUMN "public"."SysUsrTrafficLightLcz"."RecordId"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={AE0E45CA-C495-4FE7-A39D-3AB7278E1617};TS.EntitySchemaColumn.DataValueType=Lookup;TS.EntitySchemaColumn.ReferenceSchemaUId={08BE77F9-E13C-4149-A5F3-97E61D893FB8};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Record,ru-RU|Запись;TS.EntitySchemaColumn.CreatedInSchemaUId={08BE77F9-E13C-4149-A5F3-97E61D893FB8};TS.ColumnName=RecordId;TS.ActionType=Column;
+TS.EntitySchemaIndex.UId={AE0E45CA-C495-4FE7-A39D-3AB7278E1617};TS.IndexName=I2OKtKryQCQTVkJMYNWqU01wdT24;TS.IsColumnIndex=True;TS.ActionType=Index;
+TS.ConstraintName=FKPiDwDr8AWAxXPRU3cF2sRF1rRDwL;TS.EntitySchemaColumn.UId={AE0E45CA-C495-4FE7-A39D-3AB7278E1617};TS.ActionType=ForeignKey;$$
+2026-02-18 17:56:54,592 Action executed in 0.002 sec. Sql text: COMMENT ON COLUMN "public"."SysUsrTrafficLightLcz"."SysCultureId"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={910D00AB-2FA3-42AE-9B86-DA287BC6922A};TS.EntitySchemaColumn.DataValueType=Lookup;TS.EntitySchemaColumn.ReferenceSchemaUId={FFC193E1-04BC-472B-BDC0-3333D1DF84E4};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Culture,ru-RU|Культура;TS.EntitySchemaColumn.CreatedInSchemaUId={08BE77F9-E13C-4149-A5F3-97E61D893FB8};TS.ColumnName=SysCultureId;TS.ActionType=Column;
+TS.EntitySchemaIndex.UId={910D00AB-2FA3-42AE-9B86-DA287BC6922A};TS.IndexName=Iw9xihtXJ0nbwdiESTeUY1nT69c;TS.IsColumnIndex=True;TS.ActionType=Index;
+TS.ConstraintName=FKqmjHK5hnP4B2v6Tg0cuOtzmgL;TS.EntitySchemaColumn.UId={910D00AB-2FA3-42AE-9B86-DA287BC6922A};TS.ActionType=ForeignKey;$$
+2026-02-18 17:56:54,601 Action executed in 0.003 sec. Sql text: COMMENT ON COLUMN "public"."SysUsrTrafficLightLcz"."Name"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={736C30A7-C0EC-4FA9-B034-2552B319B633};TS.EntitySchemaColumn.DataValueType=MediumText;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Name,ru-RU|Название;TS.EntitySchemaColumn.CreatedInSchemaUId={11AB4BCB-9B23-4B6D-9C86-520FAE925D75};TS.ColumnName=Name;TS.ActionType=Column;$$
+2026-02-18 17:56:54,601 Action executed in 0.002 sec. Sql text: COMMENT ON COLUMN "public"."SysUsrTrafficLightLcz"."Description"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={9E53FD7C-DDE4-4502-A64C-B9E34148108B};TS.EntitySchemaColumn.DataValueType=MediumText;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Description,ru-RU|Описание;TS.EntitySchemaColumn.CreatedInSchemaUId={11AB4BCB-9B23-4B6D-9C86-520FAE925D75};TS.ColumnName=Description;TS.ActionType=Column;$$
+2026-02-18 17:56:54,601 Action executed in 0.005 sec. Sql text: CREATE INDEX "I6gQlbNX6cisubAEUllo3tO6832A" ON "public"."UsrTrafficLight"("CreatedById" ASC NULLS FIRST)
+2026-02-18 17:56:54,614 Action executed in 0.004 sec. Sql text: CREATE INDEX "IUw5af8wx2ZHUXSe2COtJ05P08" ON "public"."UsrTrafficLight"("ModifiedOn" ASC NULLS FIRST)
+2026-02-18 17:56:54,614 Action executed in 0.005 sec. Sql text: CREATE INDEX "IIothHLLbQWP3Y788P0YSSZqT4" ON "public"."UsrTrafficLight"("ModifiedById" ASC NULLS FIRST)
+2026-02-18 17:56:54,624 Action executed in 0.004 sec. Sql text: CREATE UNIQUE INDEX "IRC_UsrTrafficLight" ON "public"."SysUsrTrafficLightLcz"("RecordId" ASC NULLS FIRST, "SysCultureId" ASC NULLS FIRST)
+2026-02-18 17:56:54,624 Action executed in 0.003 sec. Sql text: CREATE INDEX "I2OKtKryQCQTVkJMYNWqU01wdT24" ON "public"."SysUsrTrafficLightLcz"("RecordId" ASC NULLS FIRST)
+2026-02-18 17:56:54,632 Action executed in 0.004 sec. Sql text: CREATE INDEX "Iw9xihtXJ0nbwdiESTeUY1nT69c" ON "public"."SysUsrTrafficLightLcz"("SysCultureId" ASC NULLS FIRST)
+2026-02-18 17:56:54,641 Action executed in 0.008 sec. Sql text: ALTER TABLE "public"."UsrTrafficLight" ADD CONSTRAINT "PKmZSzHmjN9DgvWXpa3RfudoHSFZE" PRIMARY KEY ("Id")
+2026-02-18 17:56:54,641 Action executed in 0.005 sec. Sql text: ALTER TABLE "public"."SysUsrTrafficLightLcz" ADD CONSTRAINT "PKSl043hauVs6QGupCBkhuhe54Yj0L" PRIMARY KEY ("Id")
+2026-02-18 17:56:54,655 Action executed in 0.007 sec. Sql text: ALTER TABLE "public"."SysUsrTrafficLightLcz" ADD CONSTRAINT "FKPiDwDr8AWAxXPRU3cF2sRF1rRDwL" FOREIGN KEY("RecordId") REFERENCES "public"."UsrTrafficLight"("Id") ON DELETE CASCADE
+2026-02-18 17:56:54,663 Action executed in 0.007 sec. Sql text: ALTER TABLE "public"."SysUsrTrafficLightLcz" ADD CONSTRAINT "FKqmjHK5hnP4B2v6Tg0cuOtzmgL" FOREIGN KEY("SysCultureId") REFERENCES "public"."SysCulture"("Id")
+2026-02-18 17:59:43,285 Generating schema sources count [0]: []
+2026-02-18 17:59:43,285 Generated schema sources count [0]
+2026-02-18 18:02:09,584 Generating schema sources count [2]: [UsrYachts.UsrTestProcess, UsrYachts.UsrTrafficLight]
+2026-02-18 18:02:10,154 Generated schema sources count [2]
+2026-02-18 18:31:51,288 Generating schema sources count [0]: []
+2026-02-18 18:31:51,288 Generated schema sources count [0]
+2026-02-18 18:32:03,618 InstallStart: SchemaDBStructure
+2026-02-18 18:32:04,094 Actions added for schema "UsrYachts" from package "UsrTrafficLight" in 0.401 sec. Actions details:
+    Workspace item "Traffic Light"("UsrTrafficLight") changed.
+        Column"Code"("UsrCode") in workspace item "Traffic Light"("UsrTrafficLight") changed.
+            Column "Code"("UsrCode") in workspace item "Traffic Light"("UsrTrafficLight") changed.
+            Creating default value for column "Code"("UsrCode") in workspace item "Traffic Light"("UsrTrafficLight")
+            Saving system information on column "Code"("UsrCode") in workspace item "Traffic Light"("UsrTrafficLight")
+        Saving system information on workspace item "Traffic Light"("UsrTrafficLight")
+
+2026-02-18 18:32:04,099 Action executed in 0.004 sec. Sql text: COMMENT ON TABLE "public"."UsrTrafficLight" IS $$TS.ActionType=Schema;TS.EntitySchema.UId={08BE77F9-E13C-4149-A5F3-97E61D893FB8};TS.EntitySchema.Kind=General;TS.EntitySchema.ParentSchemaUId={11AB4BCB-9B23-4B6D-9C86-520FAE925D75};TS.EntitySchema.Caption=en-US|Traffic Light,ru-RU|Объект;TS.EntitySchemaName=UsrTrafficLight;
+TS.ConstraintName=PKmZSzHmjN9DgvWXpa3RfudoHSFZE;TS.EntitySchemaColumn.UId={AE0E45CA-C495-4FE7-A39D-3AB7278E1617};TS.ActionType=PrimaryKey;$$
+2026-02-18 18:32:04,099 Action executed in 0.005 sec. Sql text: ALTER TABLE "public"."UsrTrafficLight" ALTER COLUMN "UsrCode" SET DATA TYPE CHARACTER VARYING(250);
+ALTER TABLE "public"."UsrTrafficLight" ALTER COLUMN "UsrCode" SET NOT NULL;
+2026-02-18 18:32:04,099 Action executed in 0.003 sec. Sql text: COMMENT ON COLUMN "public"."UsrTrafficLight"."UsrCode"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={1196807E-CC70-84D5-4D88-8F86FE7FD1C7};TS.EntitySchemaColumn.DataValueType=MediumText;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Code;TS.EntitySchemaColumn.CreatedInSchemaUId={08BE77F9-E13C-4149-A5F3-97E61D893FB8};TS.ColumnName=UsrCode;TS.ActionType=Column;
+TS.ConstraintName=DFoTkdcD302id4W6E2OViGugg;TS.EntitySchemaColumn.UId={1196807E-CC70-84D5-4D88-8F86FE7FD1C7};TS.ActionType=DefValue;$$
+2026-02-18 18:32:04,111 Action executed in 0.002 sec. Sql text: ALTER TABLE "public"."UsrTrafficLight" ALTER COLUMN "UsrCode" SET DEFAULT ''
+2026-02-18 18:32:04,111 InstallFinish: SchemaDBStructure
+2026-02-18 18:32:47,363 InstallStart: SchemaDBStructure
+2026-02-18 18:32:47,467 Actions skipped for schema "UsrYachts" from package "UsrTrafficLight" in 0.067 sec
+2026-02-18 18:32:47,472 InstallFinish: SchemaDBStructure
+2026-02-18 18:32:50,268 Operation [Build] started
+2026-02-18 18:32:50,268 Operation [Build] took 0 s 0 ms
+2026-02-18 18:32:50,330 InstallStart: SchemaDBStructure
+2026-02-18 18:32:50,446 Actions skipped for schema "UsrYachts" from package "UsrTrafficLight" in 0.082 sec
+2026-02-18 18:32:50,451 InstallFinish: SchemaDBStructure
+2026-02-18 18:33:10,884 Operation [Build] started
+2026-02-18 18:35:08,875 InstallStart: SchemaDBStructure
+2026-02-18 18:35:08,991 Actions skipped for schema "UsrYachts" from package "UsrTrafficLight" in 0.080 sec
+2026-02-18 18:35:08,994 InstallFinish: SchemaDBStructure
+2026-02-18 18:35:54,660 Operation [Build] took 163 s 685 ms
+2026-02-18 18:36:06,178 InstallStart: SchemaDBStructure
+2026-02-18 18:36:06,293 Actions skipped for schema "UsrYachts" from package "UsrTrafficLight" in 0.059 sec
+2026-02-18 18:36:06,296 InstallFinish: SchemaDBStructure
+2026-02-18 20:40:04,169 InstallStart: SchemaData
+2026-02-18 20:40:04,341 InstallFinish: SchemaData
+2026-02-18 21:43:10,968 Creating storage directory [/tmp/creatio/PackageInstallation/Temp]
+2026-02-18 21:43:10,968 Downloading file [CrtCustomer360AI.gz]
+2026-02-18 21:43:10,968 Unzipping [/tmp/creatio/PackageInstallation/Temp/CrtCustomer360AI.gz]
+2026-02-18 21:43:11,033 Unzipped [/tmp/creatio/PackageInstallation/Temp/CrtCustomer360AI.gz] to [/tmp/creatio/PackageInstallation/Temp/CrtCustomer360AI]
+2026-02-18 21:43:11,033 Downloading file [CrtApolloInC360.gz]
+2026-02-18 21:43:11,033 Unzipping [/tmp/creatio/PackageInstallation/Temp/CrtApolloInC360.gz]
+2026-02-18 21:43:11,050 Unzipped [/tmp/creatio/PackageInstallation/Temp/CrtApolloInC360.gz] to [/tmp/creatio/PackageInstallation/Temp/CrtApolloInC360]
+2026-02-18 21:43:11,050 Downloading file [CrtC360InUiV2.gz]
+2026-02-18 21:43:11,050 Unzipping [/tmp/creatio/PackageInstallation/Temp/CrtC360InUiV2.gz]
+2026-02-18 21:43:11,050 Unzipped [/tmp/creatio/PackageInstallation/Temp/CrtC360InUiV2.gz] to [/tmp/creatio/PackageInstallation/Temp/CrtC360InUiV2]
+2026-02-18 21:43:11,050 Downloading file [CrtCustomer360App.gz]
+2026-02-18 21:43:11,056 Unzipping [/tmp/creatio/PackageInstallation/Temp/CrtCustomer360App.gz]
+2026-02-18 21:43:11,130 Unzipped [/tmp/creatio/PackageInstallation/Temp/CrtCustomer360App.gz] to [/tmp/creatio/PackageInstallation/Temp/CrtCustomer360App]
+2026-02-18 21:43:11,130 Downloading file [CrtCustomer360Mobile.gz]
+2026-02-18 21:43:11,130 Unzipping [/tmp/creatio/PackageInstallation/Temp/CrtCustomer360Mobile.gz]
+2026-02-18 21:43:11,141 Unzipped [/tmp/creatio/PackageInstallation/Temp/CrtCustomer360Mobile.gz] to [/tmp/creatio/PackageInstallation/Temp/CrtCustomer360Mobile]
+2026-02-18 21:44:57,653 Generating schema sources count [62]: [CrtCustomer360App.AccountCompetitor, CrtCustomer360App.AccountType, CrtCustomer360App.ContactAddress, CrtCustomer360App.Contact, CrtCustomer360App.AccountAddressEventListener, CrtCustomer360App.AccountBillingInfo, CrtCustomer360App.AIInsightTimelineEntity, CrtCustomer360App.Contacts_ListPage, CrtCustomer360App.ContactBusinessRule, CrtCustomer360App.AgeActualizationC360, CrtCustomer360App.Accounts_ListPage, CrtCustomer360App.Account, CrtCustomer360App.Contacts_FormPage, CrtCustomer360App.AccountsAnalyticsDashboard, CrtCustomer360App.Contacts_FormPageBusinessRule, CrtCustomer360App.ContactAddressBusinessRule, CrtCustomer360App.ContactType, CrtCustomer360App.AIInsight, CrtCustomer360App.Contacts_MiniPage, CrtCustomer360App.BaseAddress, CrtCustomer360App.AccountAddressBusinessRule, CrtCustomer360App.AccountCategory, CrtCustomer360App.ContactRelatedPage, CrtCustomer360App.Accounts_MiniPage, CrtCustomer360App.Accounts_FormPage, CrtCustomer360App.ContactsAnalyticsDashboard, CrtCustomer360App.AccountAddress, CrtCustomer360App.AddressType, CrtCustomer360App.Accounts_FormPageBusinessRule, CrtCustomer360App.BaseAddressEventListener, CrtCustomer360App.ContactAddressEventListener, CrtCustomer360App.AccountRelatedPage, CrtCustomer360App.Contacts_MiniPageBusinessRule, CrtC360InUiV2.Tasks_FormPage, CrtCustomer360Mobile.MobileFUIAccountGridPageSettingsDefaultWorkplace, CrtCustomer360Mobile.MobileApplicationManifestDefaultWorkplace, CrtCustomer360Mobile.MobileFUIContactRecordPageSettingsDefaultWorkplace, CrtCustomer360Mobile.MobileFUIAccountRecordPageSettingsDefaultWorkplace, CrtCustomer360Mobile.MobileFUIContactGridPageSettingsDefaultWorkplace, CrtCustomer360AI.ReadAccountEmployeesNumber, CrtCustomer360AI.SalesAIAssistant, CrtCustomer360AI.CreateMessageFromAIChat, CrtCustomer360AI.FindContactDuplicates, CrtCustomer360AI.SkillAdressSplitter, CrtCustomer360AI.BingSearchProcess, CrtCustomer360AI.BusinessEntity, CrtCustomer360AI.Copilot_GetCurrentUserTimeZone, CrtCustomer360AI.AddContact, CrtCustomer360AI.CheckIfOperatorHasAccountOwnershipRights, CrtCustomer360AI.CheckAccountHasWebLink, CrtCustomer360AI.CheckBingApiKey, CrtCustomer360AI.SaveNewApiKey, CrtCustomer360AI.BingSearchApiCall, CrtCustomer360AI.ReadIndustries, CrtCustomer360AI.AccountNewsAndInsights, CrtCustomer360AI.UpdateAccountData, CrtCustomer360AI.AddContactsToAccount, CrtCustomer360AI.EnrichAccountData, CrtCustomer360AI.SkillIndustriesCollection, CrtCustomer360AI.CheckApolloZoominfoAvailableProcess, CrtCustomer360AI.AddPrimaryContact, CrtCustomer360AI.AddInsights]
+2026-02-18 21:44:59,357 Actions added for schema "CrtCoreBase, SSP, RelationshipDesigner, EmailMining, Completeness, CrtCustomer360App" from package "Account" in 0.652 sec. Actions details:
+    Workspace item "Account"("Account") changed.
+        Creating column "How they make money"("HowTheyMakeMoney")  in workspace item "Account"("Account")
+            Saving system information on column "How they make money"("HowTheyMakeMoney") in workspace item "Account"("Account")
+            Saving system information on column "How they make money"("HowTheyMakeMoney") in workspace item "Account"("Account")
+        Creating column "Products offered"("ProductsOffered")  in workspace item "Account"("Account")
+            Saving system information on column "Products offered"("ProductsOffered") in workspace item "Account"("Account")
+            Saving system information on column "Products offered"("ProductsOffered") in workspace item "Account"("Account")
+        Workspace item "Account"("Account") changed.
+        Saving system information on workspace item "Account"("Account")
+
+2026-02-18 21:44:59,433 Actions skipped for schema "CrtCoreBase, RelationshipDesigner, Completeness, SSP, MLangContent, CrtMobile7x, CrtCustomer360App" from package "Contact" in 0.074 sec
+2026-02-18 21:44:59,540 Actions added for schema "SSP, CrtBase, CrtCustomer360App" from package "ContactAddress" in 0.106 sec. Actions details:
+    Workspace item "Contact address"("ContactAddress") changed.
+        Creating column "Full address"("FullAddress")  in workspace item "Contact address"("ContactAddress")
+            Saving system information on column "Full address"("FullAddress") in workspace item "Contact address"("ContactAddress")
+            Saving system information on column "Full address"("FullAddress") in workspace item "Contact address"("ContactAddress")
+        Workspace item "Contact address"("ContactAddress") changed.
+        Saving system information on workspace item "Contact address"("ContactAddress")
+
+2026-02-18 21:44:59,764 Actions added for schema "CrtCoreBase, CrtCustomer360App" from package "ContactType" in 0.222 sec. Actions details:
+    Workspace item "Contact type"("ContactType") changed.
+        Creating column "Color"("Color")  in workspace item "Contact type"("ContactType")
+            Saving system information on column "Color"("Color") in workspace item "Contact type"("ContactType")
+            Saving system information on column "Color"("Color") in workspace item "Contact type"("ContactType")
+        Workspace item "Contact type"("ContactType") changed.
+        Saving system information on workspace item "Contact type"("ContactType")
+
+2026-02-18 21:44:59,836 Actions added for schema "CrtCustomer360App" from package "AccountCompetitor" in 0.071 sec. Actions details:
+    Creating workspace item "Account competitor"("AccountCompetitor")
+        Creating workspace item "Account competitor"("AccountCompetitor")
+        Creating index "IHxt8IMBwkhqFooJTBVgBHF18GOQ" for column "Created by"("CreatedById") in workspace item "Account competitor"("AccountCompetitor")
+        Creating index "IqsWCy5sV6KXCeiiK4tW5CEdV5qY" for column "Modified on"("ModifiedOn") in workspace item "Account competitor"("AccountCompetitor")
+        Creating index "IioJWMixUcgpcpTjmjILG81aRyC4" for column "Modified by"("ModifiedById") in workspace item "Account competitor"("AccountCompetitor")
+        Creating index "IGTAext6cD7Ly3TIvhZvF6owgKPw" for column "Account"("AccountId") in workspace item "Account competitor"("AccountCompetitor")
+        Creating primary key for column "Id"("Id") in workspace item "Account competitor"("AccountCompetitor")
+        Creating foreign key for column "Account"("AccountId") in workspace item "Account competitor"("AccountCompetitor")
+        Saving system information on workspace item "Account competitor"("AccountCompetitor")
+        Saving system information on column "Id"("Id") in workspace item "Account competitor"("AccountCompetitor")
+        Saving system information on column "Created on"("CreatedOn") in workspace item "Account competitor"("AccountCompetitor")
+        Saving system information on column "Created by"("CreatedById") in workspace item "Account competitor"("AccountCompetitor")
+        Saving system information on column "Modified on"("ModifiedOn") in workspace item "Account competitor"("AccountCompetitor")
+        Saving system information on column "Modified by"("ModifiedById") in workspace item "Account competitor"("AccountCompetitor")
+        Saving system information on column "Name"("Name") in workspace item "Account competitor"("AccountCompetitor")
+        Saving system information on column "Description"("Description") in workspace item "Account competitor"("AccountCompetitor")
+        Saving system information on column "Active processes"("ProcessListeners") in workspace item "Account competitor"("AccountCompetitor")
+        Saving system information on column "Account"("AccountId") in workspace item "Account competitor"("AccountCompetitor")
+        Saving system information on column "Web"("Web") in workspace item "Account competitor"("AccountCompetitor")
+    Creating workspace item "Account competitor"("SysAccountCompetitorLcz")
+        Creating workspace item "Account competitor"("SysAccountCompetitorLcz")
+        Creating unique index "IRC_AccountCompetitor" by columns: "Record"("RecordId"), "Culture"("SysCultureId") in workspace item "Account competitor"("SysAccountCompetitorLcz")
+        Creating index "ItvfwfFQwFsSWCPmAPXY2jm1d5gs" for column "Record"("RecordId") in workspace item "Account competitor"("SysAccountCompetitorLcz")
+        Creating index "IG0EGh6EnyMguHpWES14Sjqoufo" for column "Culture"("SysCultureId") in workspace item "Account competitor"("SysAccountCompetitorLcz")
+        Creating primary key for column "Id"("Id") in workspace item "Account competitor"("SysAccountCompetitorLcz")
+        Creating foreign key for column "Record"("RecordId") in workspace item "Account competitor"("SysAccountCompetitorLcz")
+        Creating foreign key for column "Culture"("SysCultureId") in workspace item "Account competitor"("SysAccountCompetitorLcz")
+        Saving system information on workspace item "Account competitor"("SysAccountCompetitorLcz")
+        Saving system information on column "Id"("Id") in workspace item "Account competitor"("SysAccountCompetitorLcz")
+        Saving system information on column "Modified on"("ModifiedOn") in workspace item "Account competitor"("SysAccountCompetitorLcz")
+        Saving system information on column "Record"("RecordId") in workspace item "Account competitor"("SysAccountCompetitorLcz")
+        Saving system information on column "Culture"("SysCultureId") in workspace item "Account competitor"("SysAccountCompetitorLcz")
+        Saving system information on column "Name"("Name") in workspace item "Account competitor"("SysAccountCompetitorLcz")
+        Saving system information on column "Description"("Description") in workspace item "Account competitor"("SysAccountCompetitorLcz")
+
+2026-02-18 21:44:59,978 Actions added for schema "CrtCoreBase, CrtCustomer360App" from package "AccountCategory" in 0.141 sec. Actions details:
+    Workspace item "Category of Account"("AccountCategory") changed.
+        Creating column "Color"("Color")  in workspace item "Category of Account"("AccountCategory")
+            Saving system information on column "Color"("Color") in workspace item "Category of Account"("AccountCategory")
+            Saving system information on column "Color"("Color") in workspace item "Category of Account"("AccountCategory")
+        Workspace item "Category of Account"("AccountCategory") changed.
+        Saving system information on workspace item "Category of Account"("AccountCategory")
+
+2026-02-18 21:45:00,141 Actions added for schema "CrtCoreBase, CrtCustomer360App" from package "AccountType" in 0.163 sec. Actions details:
+    Workspace item "Account type"("AccountType") changed.
+        Creating column "Color"("Color")  in workspace item "Account type"("AccountType")
+            Saving system information on column "Color"("Color") in workspace item "Account type"("AccountType")
+            Saving system information on column "Color"("Color") in workspace item "Account type"("AccountType")
+        Workspace item "Account type"("AccountType") changed.
+        Saving system information on workspace item "Account type"("AccountType")
+
+2026-02-18 21:45:00,227 Actions added for schema "CrtBase, CrtCustomer360App" from package "AccountAddress" in 0.085 sec. Actions details:
+    Workspace item "Account address"("AccountAddress") changed.
+        Creating column "Full address"("FullAddress")  in workspace item "Account address"("AccountAddress")
+            Saving system information on column "Full address"("FullAddress") in workspace item "Account address"("AccountAddress")
+            Saving system information on column "Full address"("FullAddress") in workspace item "Account address"("AccountAddress")
+        Workspace item "Account address"("AccountAddress") changed.
+        Saving system information on workspace item "Account address"("AccountAddress")
+
+2026-02-18 21:45:00,326 Actions skipped for schema "CrtBase, CrtCustomer360App" from package "AccountBillingInfo" in 0.097 sec
+2026-02-18 21:45:00,395 Actions added for schema "CrtCustomer360App" from package "AIInsight" in 0.068 sec. Actions details:
+    Creating workspace item "AI Insight"("AIInsight")
+        Creating workspace item "AI Insight"("AIInsight")
+        Creating index "IY7As635lm5SOp6gj0LV23SUUD4" for column "Created by"("CreatedById") in workspace item "AI Insight"("AIInsight")
+        Creating index "Il1EIuyFnvsjjgU0517FzgDlTGts" for column "Modified on"("ModifiedOn") in workspace item "AI Insight"("AIInsight")
+        Creating index "IIy0pRf2WKrAtzLSeiGdngQjhOvs" for column "Modified by"("ModifiedById") in workspace item "AI Insight"("AIInsight")
+        Creating index "ICuftAak3Ed8UD7OszRRepL6EWY" for column "Account"("AccountId") in workspace item "AI Insight"("AIInsight")
+        Creating primary key for column "Id"("Id") in workspace item "AI Insight"("AIInsight")
+        Creating foreign key for column "Account"("AccountId") in workspace item "AI Insight"("AIInsight")
+        Saving system information on workspace item "AI Insight"("AIInsight")
+        Saving system information on column "Id"("Id") in workspace item "AI Insight"("AIInsight")
+        Saving system information on column "Created on"("CreatedOn") in workspace item "AI Insight"("AIInsight")
+        Saving system information on column "Created by"("CreatedById") in workspace item "AI Insight"("AIInsight")
+        Saving system information on column "Modified on"("ModifiedOn") in workspace item "AI Insight"("AIInsight")
+        Saving system information on column "Modified by"("ModifiedById") in workspace item "AI Insight"("AIInsight")
+        Saving system information on column "Name"("Name") in workspace item "AI Insight"("AIInsight")
+        Saving system information on column "Description"("Description") in workspace item "AI Insight"("AIInsight")
+        Saving system information on column "Active processes"("ProcessListeners") in workspace item "AI Insight"("AIInsight")
+        Saving system information on column "Account"("AccountId") in workspace item "AI Insight"("AIInsight")
+    Creating workspace item "AI Insight"("SysAIInsightLcz")
+        Creating workspace item "AI Insight"("SysAIInsightLcz")
+        Creating unique index "IRC_AIInsight" by columns: "Record"("RecordId"), "Culture"("SysCultureId") in workspace item "AI Insight"("SysAIInsightLcz")
+        Creating index "I6tP0Q6iVtMKsqjfkebFTsLDnQ" for column "Record"("RecordId") in workspace item "AI Insight"("SysAIInsightLcz")
+        Creating index "ISVJaetigZM3zT0kVignK1YTEb8" for column "Culture"("SysCultureId") in workspace item "AI Insight"("SysAIInsightLcz")
+        Creating primary key for column "Id"("Id") in workspace item "AI Insight"("SysAIInsightLcz")
+        Creating foreign key for column "Record"("RecordId") in workspace item "AI Insight"("SysAIInsightLcz")
+        Creating foreign key for column "Culture"("SysCultureId") in workspace item "AI Insight"("SysAIInsightLcz")
+        Saving system information on workspace item "AI Insight"("SysAIInsightLcz")
+        Saving system information on column "Id"("Id") in workspace item "AI Insight"("SysAIInsightLcz")
+        Saving system information on column "Modified on"("ModifiedOn") in workspace item "AI Insight"("SysAIInsightLcz")
+        Saving system information on column "Record"("RecordId") in workspace item "AI Insight"("SysAIInsightLcz")
+        Saving system information on column "Culture"("SysCultureId") in workspace item "AI Insight"("SysAIInsightLcz")
+        Saving system information on column "Name"("Name") in workspace item "AI Insight"("SysAIInsightLcz")
+        Saving system information on column "Description"("Description") in workspace item "AI Insight"("SysAIInsightLcz")
+
+2026-02-18 21:45:00,555 Actions added for schema "CrtCoreBase, SSP, CrtCustomer360App" from package "AddressType" in 0.158 sec. Actions details:
+    Workspace item "Address type"("AddressType") changed.
+        Creating column "Color"("Color")  in workspace item "Address type"("AddressType")
+            Saving system information on column "Color"("Color") in workspace item "Address type"("AddressType")
+            Saving system information on column "Color"("Color") in workspace item "Address type"("AddressType")
+        Workspace item "Address type"("AddressType") changed.
+        Saving system information on workspace item "Address type"("AddressType")
+
+2026-02-18 21:45:04,086 Generated schema sources count [62]
+2026-02-18 21:45:04,106 Action executed in 0.014 sec. Sql text: CREATE TABLE "public"."AccountCompetitor" (
+	"Id" UUID CONSTRAINT "DFV4kxNbLCCpq521wzkNUT7A5hC0" DEFAULT (uuid_generate_v4()) NOT NULL,
+	"CreatedOn" TIMESTAMP WITHOUT TIME ZONE CONSTRAINT "DFajE7keCZ7SdnnkydSKvdojbGM" DEFAULT (timezone('utc'::text, current_timestamp)) NULL,
+	"CreatedById" UUID NULL,
+	"ModifiedOn" TIMESTAMP WITHOUT TIME ZONE CONSTRAINT "DF7vFK0mbsRcgWJTD3j8ex6aMQNQU" DEFAULT (timezone('utc'::text, current_timestamp)) NULL,
+	"ModifiedById" UUID NULL,
+	"Name" CHARACTER VARYING(250) CONSTRAINT "DFYgE5TJVEK9GHBTjdP7rV3We25U" DEFAULT ('') NOT NULL,
+	"Description" CHARACTER VARYING(250) CONSTRAINT "DFuT06zdVX23CT3UQy3HMhjzR8g" DEFAULT ('') NOT NULL,
+	"ProcessListeners" INT CONSTRAINT "DFTnnQkuzLcm4Z01qyOFhyZv946c" DEFAULT (0) NOT NULL,
+	"AccountId" UUID NULL,
+	"Web" CHARACTER VARYING(250) CONSTRAINT "DFqribPvmH9h8bQLIhogbZELnH5mg" DEFAULT ('') NOT NULL
+)
+2026-02-18 21:45:04,116 Action executed in 0.010 sec. Sql text: CREATE TABLE "public"."SysAccountCompetitorLcz" (
+	"Id" UUID CONSTRAINT "DFWgsCCTzl3PeQPlIpdisgj3DgK8L" DEFAULT (uuid_generate_v1()) NOT NULL,
+	"ModifiedOn" TIMESTAMP WITHOUT TIME ZONE CONSTRAINT "DFA3mPwQDO65LondVpmFcfBCpycgL" DEFAULT (timezone('utc'::text, current_timestamp)) NULL,
+	"RecordId" UUID NULL,
+	"SysCultureId" UUID NULL,
+	"Name" CHARACTER VARYING(250) NULL,
+	"Description" CHARACTER VARYING(250) NULL
+)
+2026-02-18 21:45:04,122 Action executed in 0.004 sec. Sql text: CREATE TABLE "public"."AIInsight" (
+	"Id" UUID CONSTRAINT "DFbRmQBS2u8Mw3H3eTQD1ywFkRkck" DEFAULT (uuid_generate_v4()) NOT NULL,
+	"CreatedOn" TIMESTAMP WITHOUT TIME ZONE CONSTRAINT "DFCoS0QtZbwnsHfKtbWm7hEaYNA" DEFAULT (timezone('utc'::text, current_timestamp)) NULL,
+	"CreatedById" UUID NULL,
+	"ModifiedOn" TIMESTAMP WITHOUT TIME ZONE CONSTRAINT "DFBd2NSNlATvJx7Onz81U6cXahIhw" DEFAULT (timezone('utc'::text, current_timestamp)) NULL,
+	"ModifiedById" UUID NULL,
+	"Name" CHARACTER VARYING(250) CONSTRAINT "DFhaoZpg9RcWQNLQL20R9fLNz9sBQ" DEFAULT ('') NOT NULL,
+	"Description" TEXT CONSTRAINT "DFVgbdNkpY35RDV1ljVdbP1eBc" DEFAULT ('') NOT NULL,
+	"ProcessListeners" INT CONSTRAINT "DFiAOLNRgyJ14XOTQiA0qmXr3DJUo" DEFAULT (0) NOT NULL,
+	"AccountId" UUID NULL
+)
+2026-02-18 21:45:04,129 Action executed in 0.007 sec. Sql text: CREATE TABLE "public"."SysAIInsightLcz" (
+	"Id" UUID CONSTRAINT "DF75817IwRP1zW9XnE6RtxkVAQC0L" DEFAULT (uuid_generate_v1()) NOT NULL,
+	"ModifiedOn" TIMESTAMP WITHOUT TIME ZONE CONSTRAINT "DFnF39CNv6XE2lN9kQrzoMqwuOX6kL" DEFAULT (timezone('utc'::text, current_timestamp)) NULL,
+	"RecordId" UUID NULL,
+	"SysCultureId" UUID NULL,
+	"Name" CHARACTER VARYING(250) NULL,
+	"Description" TEXT NULL
+)
+2026-02-18 21:45:04,129 Action executed in 0.003 sec. Sql text: COMMENT ON TABLE "public"."AccountCompetitor" IS $$TS.ActionType=Schema;TS.EntitySchema.UId={9D4C01BA-5FE4-485F-A2D1-98504DAEDB38};TS.EntitySchema.Kind=General;TS.EntitySchema.ParentSchemaUId={11AB4BCB-9B23-4B6D-9C86-520FAE925D75};TS.EntitySchema.Caption=en-US|Account competitor,ru-RU|Объект;TS.EntitySchemaName=AccountCompetitor;
+TS.ConstraintName=PKV4kxNbLCCpq521wzkNUT7A5hC0;TS.EntitySchemaColumn.UId={AE0E45CA-C495-4FE7-A39D-3AB7278E1617};TS.ActionType=PrimaryKey;$$
+2026-02-18 21:45:04,129 Action executed in 0.004 sec. Sql text: COMMENT ON TABLE "public"."SysAccountCompetitorLcz" IS $$TS.ActionType=Schema;TS.EntitySchema.UId={9D4C01BA-5FE4-485F-A2D1-98504DAEDB38};TS.EntitySchema.Kind=Localization;TS.EntitySchema.ParentSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchema.Caption=en-US|Account competitor,ru-RU|Объект;TS.EntitySchemaName=SysAccountCompetitorLcz;
+TS.ConstraintName=PKWgsCCTzl3PeQPlIpdisgj3DgK8L;TS.EntitySchemaColumn.UId={04890F09-8A8A-4178-A2FF-4517A5631FEC};TS.ActionType=PrimaryKey;
+TS.EntitySchemaIndex.UId={7E52927D-7641-EECC-AAB6-73991833FF71};TS.IndexName=IRC_AccountCompetitor;TS.IsColumnIndex=False;TS.ActionType=Index;$$
+2026-02-18 21:45:04,139 Action executed in 0.002 sec. Sql text: COMMENT ON TABLE "public"."AIInsight" IS $$TS.ActionType=Schema;TS.EntitySchema.UId={04184833-0A7D-4C43-A6DA-FCD8BDD098C5};TS.EntitySchema.Kind=General;TS.EntitySchema.ParentSchemaUId={11AB4BCB-9B23-4B6D-9C86-520FAE925D75};TS.EntitySchema.Caption=en-US|AI Insight,ru-RU|Объект;TS.EntitySchemaName=AIInsight;
+TS.ConstraintName=PKbRmQBS2u8Mw3H3eTQD1ywFkRkck;TS.EntitySchemaColumn.UId={AE0E45CA-C495-4FE7-A39D-3AB7278E1617};TS.ActionType=PrimaryKey;$$
+2026-02-18 21:45:04,139 Action executed in 0.003 sec. Sql text: COMMENT ON TABLE "public"."SysAIInsightLcz" IS $$TS.ActionType=Schema;TS.EntitySchema.UId={04184833-0A7D-4C43-A6DA-FCD8BDD098C5};TS.EntitySchema.Kind=Localization;TS.EntitySchema.ParentSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchema.Caption=en-US|AI Insight,ru-RU|Объект;TS.EntitySchemaName=SysAIInsightLcz;
+TS.ConstraintName=PK75817IwRP1zW9XnE6RtxkVAQC0L;TS.EntitySchemaColumn.UId={04890F09-8A8A-4178-A2FF-4517A5631FEC};TS.ActionType=PrimaryKey;
+TS.EntitySchemaIndex.UId={F846944F-1C5E-48C1-9D3C-1B7E10FF36B0};TS.IndexName=IRC_AIInsight;TS.IsColumnIndex=False;TS.ActionType=Index;$$
+2026-02-18 21:45:04,148 Action executed in 0.005 sec. Sql text: ALTER TABLE "public"."Account" ADD
+	"HowTheyMakeMoney" CHARACTER VARYING(500) CONSTRAINT "DF6fP8sKlvoHvgoElqC71J81lbREs" DEFAULT ('') NOT NULL,
+	ADD "ProductsOffered" CHARACTER VARYING(500) CONSTRAINT "DFgOyK1wJSHSEXSxeedArBzi6ycZY" DEFAULT ('') NOT NULL
+2026-02-18 21:45:04,148 Action executed in 0.006 sec. Sql text: ALTER TABLE "public"."ContactAddress" ADD
+	"FullAddress" TEXT CONSTRAINT "DF0HggGlV88lBrs8v326CI5wX8X5Y" DEFAULT ('') NOT NULL
+2026-02-18 21:45:04,160 Action executed in 0.004 sec. Sql text: ALTER TABLE "public"."ContactType" ADD
+	"Color" CHARACTER VARYING(250) CONSTRAINT "DFo3xbCMXvRIrf44zQw3FAzXOV1tE" DEFAULT ('') NOT NULL
+2026-02-18 21:45:04,160 Action executed in 0.002 sec. Sql text: ALTER TABLE "public"."AccountCategory" ADD
+	"Color" CHARACTER VARYING(250) CONSTRAINT "DFI5s7V0NiN8ZvTeiEoKl9C5rd3c" DEFAULT ('') NOT NULL
+2026-02-18 21:45:04,160 Action executed in 0.004 sec. Sql text: ALTER TABLE "public"."AccountType" ADD
+	"Color" CHARACTER VARYING(250) CONSTRAINT "DFQGcsE790wkONIJxDKKVA9j8ROBM" DEFAULT ('') NOT NULL
+2026-02-18 21:45:04,170 Action executed in 0.003 sec. Sql text: ALTER TABLE "public"."AccountAddress" ADD
+	"FullAddress" TEXT CONSTRAINT "DF4L5kYKD73WGYC4JMcUuQbZucNvk" DEFAULT ('') NOT NULL
+2026-02-18 21:45:04,170 Action executed in 0.004 sec. Sql text: ALTER TABLE "public"."AddressType" ADD
+	"Color" CHARACTER VARYING(250) CONSTRAINT "DFaEc2Hn94qZgPcwBAtda54N7c" DEFAULT ('') NOT NULL
+2026-02-18 21:45:04,178 Action executed in 0.003 sec. Sql text: COMMENT ON TABLE "public"."Account" IS $$TS.ActionType=Schema;TS.EntitySchema.UId={25D7C1AB-1DE0-4501-B402-02E0E5A72D6E};TS.EntitySchema.Kind=General;TS.EntitySchema.ParentSchemaUId={1BAB9DCF-17D5-49F8-9536-8E0064F1DCE0};TS.EntitySchema.Caption=en-US|Account,ru-RU|Контрагент;TS.EntitySchemaName=Account;
+TS.ConstraintName=PKy1qdbXuMene76Fud5emSWm4AOi8;TS.EntitySchemaColumn.UId={AE0E45CA-C495-4FE7-A39D-3AB7278E1617};TS.ActionType=PrimaryKey;
+TS.EntitySchemaIndex.UId={EBE37F22-D03B-4FF5-85AB-B19CFD41DE7B};TS.IndexName=IAccountAlternativeName;TS.IsColumnIndex=False;TS.ActionType=Index;$$
+2026-02-18 21:45:04,178 Action executed in 0.003 sec. Sql text: COMMENT ON TABLE "public"."ContactAddress" IS $$TS.ActionType=Schema;TS.EntitySchema.UId={D54D2218-61C8-413A-A1B7-5748C7E25F56};TS.EntitySchema.Kind=General;TS.EntitySchema.ParentSchemaUId={400E8687-9616-480D-9D81-61DE0235CC86};TS.EntitySchema.Caption=en-US|Contact address,ru-RU|Адрес контакта;TS.EntitySchemaName=ContactAddress;
+TS.ConstraintName=PKoDreKhgXJ2RDCeJSH4dgzzukn4;TS.EntitySchemaColumn.UId={AE0E45CA-C495-4FE7-A39D-3AB7278E1617};TS.ActionType=PrimaryKey;$$
+2026-02-18 21:45:04,178 Action executed in 0.002 sec. Sql text: COMMENT ON TABLE "public"."ContactType" IS $$TS.ActionType=Schema;TS.EntitySchema.UId={0B5FF414-E00A-4115-AF0C-FE872E826F07};TS.EntitySchema.Kind=General;TS.EntitySchema.ParentSchemaUId={11AB4BCB-9B23-4B6D-9C86-520FAE925D75};TS.EntitySchema.Caption=en-US|Contact type,ru-RU|Тип контакта;TS.EntitySchemaName=ContactType;
+TS.ConstraintName=PKM5PbemmhrhDYgG8KqEDcVrbd2g;TS.EntitySchemaColumn.UId={AE0E45CA-C495-4FE7-A39D-3AB7278E1617};TS.ActionType=PrimaryKey;$$
+2026-02-18 21:45:04,178 Action executed in 0.003 sec. Sql text: COMMENT ON TABLE "public"."AccountCategory" IS $$TS.ActionType=Schema;TS.EntitySchema.UId={A6FF9860-2B37-4DA2-9537-5CD6CEDF9665};TS.EntitySchema.Kind=General;TS.EntitySchema.ParentSchemaUId={11AB4BCB-9B23-4B6D-9C86-520FAE925D75};TS.EntitySchema.Caption=en-US|Category of Account,ru-RU|Категория контрагента;TS.EntitySchemaName=AccountCategory;
+TS.ConstraintName=PKGcWNpOne3H8A0uyuXwE9B4VuFQ;TS.EntitySchemaColumn.UId={AE0E45CA-C495-4FE7-A39D-3AB7278E1617};TS.ActionType=PrimaryKey;$$
+2026-02-18 21:45:04,189 Action executed in 0.002 sec. Sql text: COMMENT ON TABLE "public"."AccountType" IS $$TS.ActionType=Schema;TS.EntitySchema.UId={3AE4A2BB-D3DC-48BF-8271-9CA91DCDEBA1};TS.EntitySchema.Kind=General;TS.EntitySchema.ParentSchemaUId={11AB4BCB-9B23-4B6D-9C86-520FAE925D75};TS.EntitySchema.Caption=en-US|Account type,ru-RU|Тип контрагента;TS.EntitySchemaName=AccountType;
+TS.ConstraintName=PKQqARaxZexdGEquDvOEt1vQViNbU;TS.EntitySchemaColumn.UId={AE0E45CA-C495-4FE7-A39D-3AB7278E1617};TS.ActionType=PrimaryKey;$$
+2026-02-18 21:45:04,189 Action executed in 0.003 sec. Sql text: COMMENT ON TABLE "public"."AccountAddress" IS $$TS.ActionType=Schema;TS.EntitySchema.UId={8AB0FE8A-0340-41AC-8B09-B11F65DD83DA};TS.EntitySchema.Kind=General;TS.EntitySchema.ParentSchemaUId={400E8687-9616-480D-9D81-61DE0235CC86};TS.EntitySchema.Caption=en-US|Account address,ru-RU|Адрес контрагента;TS.EntitySchemaName=AccountAddress;
+TS.ConstraintName=PKYjbpkcbC2KpL7YMciceG9SEnCeA;TS.EntitySchemaColumn.UId={AE0E45CA-C495-4FE7-A39D-3AB7278E1617};TS.ActionType=PrimaryKey;$$
+2026-02-18 21:45:04,189 Action executed in 0.003 sec. Sql text: COMMENT ON TABLE "public"."AddressType" IS $$TS.ActionType=Schema;TS.EntitySchema.UId={50837BFC-43FF-466B-94BB-DE0847EECD1B};TS.EntitySchema.Kind=General;TS.EntitySchema.ParentSchemaUId={11AB4BCB-9B23-4B6D-9C86-520FAE925D75};TS.EntitySchema.Caption=en-US|Address type,ru-RU|Тип адреса;TS.EntitySchemaName=AddressType;
+TS.ConstraintName=PKfol9XGNhbyvjpXIZVehCRW2v9U;TS.EntitySchemaColumn.UId={AE0E45CA-C495-4FE7-A39D-3AB7278E1617};TS.ActionType=PrimaryKey;$$
+2026-02-18 21:45:04,199 Action executed in 0.002 sec. Sql text: COMMENT ON COLUMN "public"."Account"."HowTheyMakeMoney"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={C2D0EB56-A87D-EFAB-A6D2-A8075BA7A412};TS.EntitySchemaColumn.DataValueType=LongText;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|How they make money;TS.EntitySchemaColumn.CreatedInSchemaUId={2B4C6A55-4D52-4505-8E3C-F105D913136E};TS.ColumnName=HowTheyMakeMoney;TS.ActionType=Column;
+TS.ConstraintName=DF6fP8sKlvoHvgoElqC71J81lbREs;TS.EntitySchemaColumn.UId={C2D0EB56-A87D-EFAB-A6D2-A8075BA7A412};TS.ActionType=DefValue;$$
+2026-02-18 21:45:04,199 Action executed in 0.003 sec. Sql text: COMMENT ON COLUMN "public"."Account"."HowTheyMakeMoney"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={C2D0EB56-A87D-EFAB-A6D2-A8075BA7A412};TS.EntitySchemaColumn.DataValueType=LongText;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|How they make money;TS.EntitySchemaColumn.CreatedInSchemaUId={2B4C6A55-4D52-4505-8E3C-F105D913136E};TS.ColumnName=HowTheyMakeMoney;TS.ActionType=Column;
+TS.ConstraintName=DF6fP8sKlvoHvgoElqC71J81lbREs;TS.EntitySchemaColumn.UId={C2D0EB56-A87D-EFAB-A6D2-A8075BA7A412};TS.ActionType=DefValue;$$
+2026-02-18 21:45:04,199 Action executed in 0.002 sec. Sql text: COMMENT ON COLUMN "public"."Account"."ProductsOffered"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={3D1144EC-70C9-070D-BFE9-C8C1EBF0A22D};TS.EntitySchemaColumn.DataValueType=LongText;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Products offered;TS.EntitySchemaColumn.CreatedInSchemaUId={2B4C6A55-4D52-4505-8E3C-F105D913136E};TS.ColumnName=ProductsOffered;TS.ActionType=Column;
+TS.ConstraintName=DFgOyK1wJSHSEXSxeedArBzi6ycZY;TS.EntitySchemaColumn.UId={3D1144EC-70C9-070D-BFE9-C8C1EBF0A22D};TS.ActionType=DefValue;$$
+2026-02-18 21:45:04,208 Action executed in 0.003 sec. Sql text: COMMENT ON COLUMN "public"."Account"."ProductsOffered"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={3D1144EC-70C9-070D-BFE9-C8C1EBF0A22D};TS.EntitySchemaColumn.DataValueType=LongText;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Products offered;TS.EntitySchemaColumn.CreatedInSchemaUId={2B4C6A55-4D52-4505-8E3C-F105D913136E};TS.ColumnName=ProductsOffered;TS.ActionType=Column;
+TS.ConstraintName=DFgOyK1wJSHSEXSxeedArBzi6ycZY;TS.EntitySchemaColumn.UId={3D1144EC-70C9-070D-BFE9-C8C1EBF0A22D};TS.ActionType=DefValue;$$
+2026-02-18 21:45:04,208 Action executed in 0.002 sec. Sql text: COMMENT ON COLUMN "public"."ContactAddress"."FullAddress"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={CD784F1B-C816-3621-F111-BB9026662172};TS.EntitySchemaColumn.DataValueType=MaxSizeText;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Full address,ru-RU|Полный адрес;TS.EntitySchemaColumn.CreatedInSchemaUId={77D7CF2B-42C7-4BE0-9E11-0058145972A2};TS.ColumnName=FullAddress;TS.ActionType=Column;
+TS.ConstraintName=DF0HggGlV88lBrs8v326CI5wX8X5Y;TS.EntitySchemaColumn.UId={CD784F1B-C816-3621-F111-BB9026662172};TS.ActionType=DefValue;$$
+2026-02-18 21:45:04,208 Action executed in 0.003 sec. Sql text: COMMENT ON COLUMN "public"."ContactAddress"."FullAddress"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={CD784F1B-C816-3621-F111-BB9026662172};TS.EntitySchemaColumn.DataValueType=MaxSizeText;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Full address,ru-RU|Полный адрес;TS.EntitySchemaColumn.CreatedInSchemaUId={77D7CF2B-42C7-4BE0-9E11-0058145972A2};TS.ColumnName=FullAddress;TS.ActionType=Column;
+TS.ConstraintName=DF0HggGlV88lBrs8v326CI5wX8X5Y;TS.EntitySchemaColumn.UId={CD784F1B-C816-3621-F111-BB9026662172};TS.ActionType=DefValue;$$
+2026-02-18 21:45:04,208 Action executed in 0.003 sec. Sql text: COMMENT ON COLUMN "public"."ContactType"."Color"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={FA1CC2FC-6B0E-ADCE-0B00-336C3E6F585F};TS.EntitySchemaColumn.DataValueType=Color;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Color,ru-RU|Цвет;TS.EntitySchemaColumn.CreatedInSchemaUId={EB11E6A6-239A-42D5-809B-2DB7F8974CAA};TS.ColumnName=Color;TS.ActionType=Column;
+TS.ConstraintName=DFo3xbCMXvRIrf44zQw3FAzXOV1tE;TS.EntitySchemaColumn.UId={FA1CC2FC-6B0E-ADCE-0B00-336C3E6F585F};TS.ActionType=DefValue;$$
+2026-02-18 21:45:04,220 Action executed in 0.002 sec. Sql text: COMMENT ON COLUMN "public"."ContactType"."Color"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={FA1CC2FC-6B0E-ADCE-0B00-336C3E6F585F};TS.EntitySchemaColumn.DataValueType=Color;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Color,ru-RU|Цвет;TS.EntitySchemaColumn.CreatedInSchemaUId={EB11E6A6-239A-42D5-809B-2DB7F8974CAA};TS.ColumnName=Color;TS.ActionType=Column;
+TS.ConstraintName=DFo3xbCMXvRIrf44zQw3FAzXOV1tE;TS.EntitySchemaColumn.UId={FA1CC2FC-6B0E-ADCE-0B00-336C3E6F585F};TS.ActionType=DefValue;$$
+2026-02-18 21:45:04,220 Action executed in 0.003 sec. Sql text: COMMENT ON COLUMN "public"."AccountCompetitor"."Id"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={AE0E45CA-C495-4FE7-A39D-3AB7278E1617};TS.EntitySchemaColumn.DataValueType=Guid;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Id,ru-RU|Id;TS.EntitySchemaColumn.CreatedInSchemaUId={1BAB9DCF-17D5-49F8-9536-8E0064F1DCE0};TS.ColumnName=Id;TS.ActionType=Column;$$
+2026-02-18 21:45:04,220 Action executed in 0.003 sec. Sql text: COMMENT ON COLUMN "public"."AccountCompetitor"."CreatedOn"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={E80190A5-03B2-4095-90F7-A193A960ADEE};TS.EntitySchemaColumn.DataValueType=DateTime;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Created on,ru-RU|Дата создания;TS.EntitySchemaColumn.CreatedInSchemaUId={1BAB9DCF-17D5-49F8-9536-8E0064F1DCE0};TS.ColumnName=CreatedOn;TS.ActionType=Column;
+TS.ConstraintName=DFajE7keCZ7SdnnkydSKvdojbGM;TS.EntitySchemaColumn.UId={E80190A5-03B2-4095-90F7-A193A960ADEE};TS.ActionType=DefValue;$$
+2026-02-18 21:45:04,229 Action executed in 0.002 sec. Sql text: COMMENT ON COLUMN "public"."AccountCompetitor"."CreatedById"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={EBF6BB93-8AA6-4A01-900D-C6EA67AFFE21};TS.EntitySchemaColumn.DataValueType=Lookup;TS.EntitySchemaColumn.ReferenceSchemaUId={16BE3651-8FE2-4159-8DD0-A803D4683DD3};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Created by,ru-RU|Создал;TS.EntitySchemaColumn.CreatedInSchemaUId={1BAB9DCF-17D5-49F8-9536-8E0064F1DCE0};TS.ColumnName=CreatedById;TS.ActionType=Column;
+TS.EntitySchemaIndex.UId={EBF6BB93-8AA6-4A01-900D-C6EA67AFFE21};TS.IndexName=IHxt8IMBwkhqFooJTBVgBHF18GOQ;TS.IsColumnIndex=True;TS.ActionType=Index;$$
+2026-02-18 21:45:04,229 Action executed in 0.003 sec. Sql text: COMMENT ON COLUMN "public"."AccountCompetitor"."ModifiedOn"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={9928EDEC-4272-425A-93BB-48743FEE4B04};TS.EntitySchemaColumn.DataValueType=DateTime;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Modified on,ru-RU|Дата изменения;TS.EntitySchemaColumn.CreatedInSchemaUId={1BAB9DCF-17D5-49F8-9536-8E0064F1DCE0};TS.ColumnName=ModifiedOn;TS.ActionType=Column;
+TS.EntitySchemaIndex.UId={9928EDEC-4272-425A-93BB-48743FEE4B04};TS.IndexName=IqsWCy5sV6KXCeiiK4tW5CEdV5qY;TS.IsColumnIndex=True;TS.ActionType=Index;
+TS.ConstraintName=DF7vFK0mbsRcgWJTD3j8ex6aMQNQU;TS.EntitySchemaColumn.UId={9928EDEC-4272-425A-93BB-48743FEE4B04};TS.ActionType=DefValue;$$
+2026-02-18 21:45:04,229 Action executed in 0.002 sec. Sql text: COMMENT ON COLUMN "public"."AccountCompetitor"."ModifiedById"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={3015559E-CBC6-406A-88AF-07F7930BE832};TS.EntitySchemaColumn.DataValueType=Lookup;TS.EntitySchemaColumn.ReferenceSchemaUId={16BE3651-8FE2-4159-8DD0-A803D4683DD3};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Modified by,ru-RU|Изменил;TS.EntitySchemaColumn.CreatedInSchemaUId={1BAB9DCF-17D5-49F8-9536-8E0064F1DCE0};TS.ColumnName=ModifiedById;TS.ActionType=Column;
+TS.EntitySchemaIndex.UId={3015559E-CBC6-406A-88AF-07F7930BE832};TS.IndexName=IioJWMixUcgpcpTjmjILG81aRyC4;TS.IsColumnIndex=True;TS.ActionType=Index;$$
+2026-02-18 21:45:04,238 Action executed in 0.002 sec. Sql text: COMMENT ON COLUMN "public"."AccountCompetitor"."Name"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={736C30A7-C0EC-4FA9-B034-2552B319B633};TS.EntitySchemaColumn.DataValueType=MediumText;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Name,ru-RU|Название;TS.EntitySchemaColumn.CreatedInSchemaUId={11AB4BCB-9B23-4B6D-9C86-520FAE925D75};TS.ColumnName=Name;TS.ActionType=Column;
+TS.ConstraintName=DFYgE5TJVEK9GHBTjdP7rV3We25U;TS.EntitySchemaColumn.UId={736C30A7-C0EC-4FA9-B034-2552B319B633};TS.ActionType=DefValue;$$
+2026-02-18 21:45:04,238 Action executed in 0.002 sec. Sql text: COMMENT ON COLUMN "public"."AccountCompetitor"."Description"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={9E53FD7C-DDE4-4502-A64C-B9E34148108B};TS.EntitySchemaColumn.DataValueType=MediumText;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Description,ru-RU|Описание;TS.EntitySchemaColumn.CreatedInSchemaUId={11AB4BCB-9B23-4B6D-9C86-520FAE925D75};TS.ColumnName=Description;TS.ActionType=Column;
+TS.ConstraintName=DFuT06zdVX23CT3UQy3HMhjzR8g;TS.EntitySchemaColumn.UId={9E53FD7C-DDE4-4502-A64C-B9E34148108B};TS.ActionType=DefValue;$$
+2026-02-18 21:45:04,238 Action executed in 0.003 sec. Sql text: COMMENT ON COLUMN "public"."AccountCompetitor"."ProcessListeners"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={3FABD836-6A53-4D8D-9069-6DF88D9DAE1E};TS.EntitySchemaColumn.DataValueType=Integer;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Active processes,ru-RU|Активные процессы;TS.EntitySchemaColumn.CreatedInSchemaUId={1BAB9DCF-17D5-49F8-9536-8E0064F1DCE0};TS.ColumnName=ProcessListeners;TS.ActionType=Column;
+TS.ConstraintName=DFTnnQkuzLcm4Z01qyOFhyZv946c;TS.EntitySchemaColumn.UId={3FABD836-6A53-4D8D-9069-6DF88D9DAE1E};TS.ActionType=DefValue;$$
+2026-02-18 21:45:04,238 Action executed in 0.002 sec. Sql text: COMMENT ON COLUMN "public"."AccountCompetitor"."AccountId"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={8F064D8C-E1E3-6368-E97B-DB7BA5D1864A};TS.EntitySchemaColumn.DataValueType=Lookup;TS.EntitySchemaColumn.ReferenceSchemaUId={25D7C1AB-1DE0-4501-B402-02E0E5A72D6E};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Account;TS.EntitySchemaColumn.CreatedInSchemaUId={9D4C01BA-5FE4-485F-A2D1-98504DAEDB38};TS.ColumnName=AccountId;TS.ActionType=Column;
+TS.EntitySchemaIndex.UId={8F064D8C-E1E3-6368-E97B-DB7BA5D1864A};TS.IndexName=IGTAext6cD7Ly3TIvhZvF6owgKPw;TS.IsColumnIndex=True;TS.ActionType=Index;
+TS.ConstraintName=FK4R4THbfd0jfGdl3qGheJ49WvKg;TS.EntitySchemaColumn.UId={8F064D8C-E1E3-6368-E97B-DB7BA5D1864A};TS.ActionType=ForeignKey;$$
+2026-02-18 21:45:04,250 Action executed in 0.003 sec. Sql text: COMMENT ON COLUMN "public"."AccountCompetitor"."Web"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={7DA774A7-2064-426A-F39F-89BEF3093433};TS.EntitySchemaColumn.DataValueType=WebText;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Web;TS.EntitySchemaColumn.CreatedInSchemaUId={9D4C01BA-5FE4-485F-A2D1-98504DAEDB38};TS.ColumnName=Web;TS.ActionType=Column;
+TS.ConstraintName=DFqribPvmH9h8bQLIhogbZELnH5mg;TS.EntitySchemaColumn.UId={7DA774A7-2064-426A-F39F-89BEF3093433};TS.ActionType=DefValue;$$
+2026-02-18 21:45:04,250 Action executed in 0.002 sec. Sql text: COMMENT ON COLUMN "public"."SysAccountCompetitorLcz"."Id"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={04890F09-8A8A-4178-A2FF-4517A5631FEC};TS.EntitySchemaColumn.DataValueType=Guid;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=;TS.EntitySchemaColumn.CreatedInSchemaUId={9D4C01BA-5FE4-485F-A2D1-98504DAEDB38};TS.ColumnName=Id;TS.ActionType=Column;$$
+2026-02-18 21:45:04,250 Action executed in 0.003 sec. Sql text: COMMENT ON COLUMN "public"."SysAccountCompetitorLcz"."ModifiedOn"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={21DF0FAB-FE15-435F-B48A-C1CCB79466DB};TS.EntitySchemaColumn.DataValueType=DateTime;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Modified on,ru-RU|Изменено;TS.EntitySchemaColumn.CreatedInSchemaUId={9D4C01BA-5FE4-485F-A2D1-98504DAEDB38};TS.ColumnName=ModifiedOn;TS.ActionType=Column;
+TS.ConstraintName=DFA3mPwQDO65LondVpmFcfBCpycgL;TS.EntitySchemaColumn.UId={21DF0FAB-FE15-435F-B48A-C1CCB79466DB};TS.ActionType=DefValue;$$
+2026-02-18 21:45:04,259 Action executed in 0.003 sec. Sql text: COMMENT ON COLUMN "public"."SysAccountCompetitorLcz"."RecordId"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={AE0E45CA-C495-4FE7-A39D-3AB7278E1617};TS.EntitySchemaColumn.DataValueType=Lookup;TS.EntitySchemaColumn.ReferenceSchemaUId={9D4C01BA-5FE4-485F-A2D1-98504DAEDB38};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Record,ru-RU|Запись;TS.EntitySchemaColumn.CreatedInSchemaUId={9D4C01BA-5FE4-485F-A2D1-98504DAEDB38};TS.ColumnName=RecordId;TS.ActionType=Column;
+TS.EntitySchemaIndex.UId={AE0E45CA-C495-4FE7-A39D-3AB7278E1617};TS.IndexName=ItvfwfFQwFsSWCPmAPXY2jm1d5gs;TS.IsColumnIndex=True;TS.ActionType=Index;
+TS.ConstraintName=FK8pxWF605khEW4gs89cLz6JPV02AL;TS.EntitySchemaColumn.UId={AE0E45CA-C495-4FE7-A39D-3AB7278E1617};TS.ActionType=ForeignKey;$$
+2026-02-18 21:45:04,259 Action executed in 0.002 sec. Sql text: COMMENT ON COLUMN "public"."SysAccountCompetitorLcz"."SysCultureId"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={910D00AB-2FA3-42AE-9B86-DA287BC6922A};TS.EntitySchemaColumn.DataValueType=Lookup;TS.EntitySchemaColumn.ReferenceSchemaUId={FFC193E1-04BC-472B-BDC0-3333D1DF84E4};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Culture,ru-RU|Культура;TS.EntitySchemaColumn.CreatedInSchemaUId={9D4C01BA-5FE4-485F-A2D1-98504DAEDB38};TS.ColumnName=SysCultureId;TS.ActionType=Column;
+TS.EntitySchemaIndex.UId={910D00AB-2FA3-42AE-9B86-DA287BC6922A};TS.IndexName=IG0EGh6EnyMguHpWES14Sjqoufo;TS.IsColumnIndex=True;TS.ActionType=Index;
+TS.ConstraintName=FKkX6GxbzZv9x1EAmJiO3xj7ikQbcL;TS.EntitySchemaColumn.UId={910D00AB-2FA3-42AE-9B86-DA287BC6922A};TS.ActionType=ForeignKey;$$
+2026-02-18 21:45:04,259 Action executed in 0.003 sec. Sql text: COMMENT ON COLUMN "public"."SysAccountCompetitorLcz"."Name"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={736C30A7-C0EC-4FA9-B034-2552B319B633};TS.EntitySchemaColumn.DataValueType=MediumText;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Name,ru-RU|Название;TS.EntitySchemaColumn.CreatedInSchemaUId={11AB4BCB-9B23-4B6D-9C86-520FAE925D75};TS.ColumnName=Name;TS.ActionType=Column;$$
+2026-02-18 21:45:04,268 Action executed in 0.003 sec. Sql text: COMMENT ON COLUMN "public"."SysAccountCompetitorLcz"."Description"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={9E53FD7C-DDE4-4502-A64C-B9E34148108B};TS.EntitySchemaColumn.DataValueType=MediumText;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Description,ru-RU|Описание;TS.EntitySchemaColumn.CreatedInSchemaUId={11AB4BCB-9B23-4B6D-9C86-520FAE925D75};TS.ColumnName=Description;TS.ActionType=Column;$$
+2026-02-18 21:45:04,268 Action executed in 0.002 sec. Sql text: COMMENT ON COLUMN "public"."AccountCategory"."Color"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={A3F1EE04-BD5B-DD93-9F49-95C394BFF4B9};TS.EntitySchemaColumn.DataValueType=Color;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Color,ru-RU|Цвет;TS.EntitySchemaColumn.CreatedInSchemaUId={94DA7497-06F6-4B20-9553-2F00C72CA983};TS.ColumnName=Color;TS.ActionType=Column;
+TS.ConstraintName=DFI5s7V0NiN8ZvTeiEoKl9C5rd3c;TS.EntitySchemaColumn.UId={A3F1EE04-BD5B-DD93-9F49-95C394BFF4B9};TS.ActionType=DefValue;$$
+2026-02-18 21:45:04,268 Action executed in 0.003 sec. Sql text: COMMENT ON COLUMN "public"."AccountCategory"."Color"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={A3F1EE04-BD5B-DD93-9F49-95C394BFF4B9};TS.EntitySchemaColumn.DataValueType=Color;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Color,ru-RU|Цвет;TS.EntitySchemaColumn.CreatedInSchemaUId={94DA7497-06F6-4B20-9553-2F00C72CA983};TS.ColumnName=Color;TS.ActionType=Column;
+TS.ConstraintName=DFI5s7V0NiN8ZvTeiEoKl9C5rd3c;TS.EntitySchemaColumn.UId={A3F1EE04-BD5B-DD93-9F49-95C394BFF4B9};TS.ActionType=DefValue;$$
+2026-02-18 21:45:04,268 Action executed in 0.003 sec. Sql text: COMMENT ON COLUMN "public"."AccountType"."Color"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={2348A68B-FC6B-B5CA-291F-1A74E5FD23A7};TS.EntitySchemaColumn.DataValueType=Color;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Color,ru-RU|Цвет;TS.EntitySchemaColumn.CreatedInSchemaUId={2CA738F4-B386-4AAC-895D-A0D29EECC496};TS.ColumnName=Color;TS.ActionType=Column;
+TS.ConstraintName=DFQGcsE790wkONIJxDKKVA9j8ROBM;TS.EntitySchemaColumn.UId={2348A68B-FC6B-B5CA-291F-1A74E5FD23A7};TS.ActionType=DefValue;$$
+2026-02-18 21:45:04,280 Action executed in 0.002 sec. Sql text: COMMENT ON COLUMN "public"."AccountType"."Color"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={2348A68B-FC6B-B5CA-291F-1A74E5FD23A7};TS.EntitySchemaColumn.DataValueType=Color;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Color,ru-RU|Цвет;TS.EntitySchemaColumn.CreatedInSchemaUId={2CA738F4-B386-4AAC-895D-A0D29EECC496};TS.ColumnName=Color;TS.ActionType=Column;
+TS.ConstraintName=DFQGcsE790wkONIJxDKKVA9j8ROBM;TS.EntitySchemaColumn.UId={2348A68B-FC6B-B5CA-291F-1A74E5FD23A7};TS.ActionType=DefValue;$$
+2026-02-18 21:45:04,280 Action executed in 0.003 sec. Sql text: COMMENT ON COLUMN "public"."AccountAddress"."FullAddress"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={CD784F1B-C816-3621-F111-BB9026662172};TS.EntitySchemaColumn.DataValueType=MaxSizeText;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Full address,ru-RU|Полный адрес;TS.EntitySchemaColumn.CreatedInSchemaUId={77D7CF2B-42C7-4BE0-9E11-0058145972A2};TS.ColumnName=FullAddress;TS.ActionType=Column;
+TS.ConstraintName=DF4L5kYKD73WGYC4JMcUuQbZucNvk;TS.EntitySchemaColumn.UId={CD784F1B-C816-3621-F111-BB9026662172};TS.ActionType=DefValue;$$
+2026-02-18 21:45:04,280 Action executed in 0.003 sec. Sql text: COMMENT ON COLUMN "public"."AccountAddress"."FullAddress"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={CD784F1B-C816-3621-F111-BB9026662172};TS.EntitySchemaColumn.DataValueType=MaxSizeText;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Full address,ru-RU|Полный адрес;TS.EntitySchemaColumn.CreatedInSchemaUId={77D7CF2B-42C7-4BE0-9E11-0058145972A2};TS.ColumnName=FullAddress;TS.ActionType=Column;
+TS.ConstraintName=DF4L5kYKD73WGYC4JMcUuQbZucNvk;TS.EntitySchemaColumn.UId={CD784F1B-C816-3621-F111-BB9026662172};TS.ActionType=DefValue;$$
+2026-02-18 21:45:04,289 Action executed in 0.002 sec. Sql text: COMMENT ON COLUMN "public"."AIInsight"."Id"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={AE0E45CA-C495-4FE7-A39D-3AB7278E1617};TS.EntitySchemaColumn.DataValueType=Guid;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Id,ru-RU|Id;TS.EntitySchemaColumn.CreatedInSchemaUId={1BAB9DCF-17D5-49F8-9536-8E0064F1DCE0};TS.ColumnName=Id;TS.ActionType=Column;$$
+2026-02-18 21:45:04,289 Action executed in 0.002 sec. Sql text: COMMENT ON COLUMN "public"."AIInsight"."CreatedOn"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={E80190A5-03B2-4095-90F7-A193A960ADEE};TS.EntitySchemaColumn.DataValueType=DateTime;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Created on,ru-RU|Дата создания;TS.EntitySchemaColumn.CreatedInSchemaUId={1BAB9DCF-17D5-49F8-9536-8E0064F1DCE0};TS.ColumnName=CreatedOn;TS.ActionType=Column;
+TS.ConstraintName=DFCoS0QtZbwnsHfKtbWm7hEaYNA;TS.EntitySchemaColumn.UId={E80190A5-03B2-4095-90F7-A193A960ADEE};TS.ActionType=DefValue;$$
+2026-02-18 21:45:04,289 Action executed in 0.002 sec. Sql text: COMMENT ON COLUMN "public"."AIInsight"."CreatedById"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={EBF6BB93-8AA6-4A01-900D-C6EA67AFFE21};TS.EntitySchemaColumn.DataValueType=Lookup;TS.EntitySchemaColumn.ReferenceSchemaUId={16BE3651-8FE2-4159-8DD0-A803D4683DD3};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Created by,ru-RU|Создал;TS.EntitySchemaColumn.CreatedInSchemaUId={1BAB9DCF-17D5-49F8-9536-8E0064F1DCE0};TS.ColumnName=CreatedById;TS.ActionType=Column;
+TS.EntitySchemaIndex.UId={EBF6BB93-8AA6-4A01-900D-C6EA67AFFE21};TS.IndexName=IY7As635lm5SOp6gj0LV23SUUD4;TS.IsColumnIndex=True;TS.ActionType=Index;$$
+2026-02-18 21:45:04,298 Action executed in 0.003 sec. Sql text: COMMENT ON COLUMN "public"."AIInsight"."ModifiedOn"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={9928EDEC-4272-425A-93BB-48743FEE4B04};TS.EntitySchemaColumn.DataValueType=DateTime;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Modified on,ru-RU|Дата изменения;TS.EntitySchemaColumn.CreatedInSchemaUId={1BAB9DCF-17D5-49F8-9536-8E0064F1DCE0};TS.ColumnName=ModifiedOn;TS.ActionType=Column;
+TS.EntitySchemaIndex.UId={9928EDEC-4272-425A-93BB-48743FEE4B04};TS.IndexName=Il1EIuyFnvsjjgU0517FzgDlTGts;TS.IsColumnIndex=True;TS.ActionType=Index;
+TS.ConstraintName=DFBd2NSNlATvJx7Onz81U6cXahIhw;TS.EntitySchemaColumn.UId={9928EDEC-4272-425A-93BB-48743FEE4B04};TS.ActionType=DefValue;$$
+2026-02-18 21:45:04,298 Action executed in 0.003 sec. Sql text: COMMENT ON COLUMN "public"."AIInsight"."ModifiedById"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={3015559E-CBC6-406A-88AF-07F7930BE832};TS.EntitySchemaColumn.DataValueType=Lookup;TS.EntitySchemaColumn.ReferenceSchemaUId={16BE3651-8FE2-4159-8DD0-A803D4683DD3};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Modified by,ru-RU|Изменил;TS.EntitySchemaColumn.CreatedInSchemaUId={1BAB9DCF-17D5-49F8-9536-8E0064F1DCE0};TS.ColumnName=ModifiedById;TS.ActionType=Column;
+TS.EntitySchemaIndex.UId={3015559E-CBC6-406A-88AF-07F7930BE832};TS.IndexName=IIy0pRf2WKrAtzLSeiGdngQjhOvs;TS.IsColumnIndex=True;TS.ActionType=Index;$$
+2026-02-18 21:45:04,298 Action executed in 0.002 sec. Sql text: COMMENT ON COLUMN "public"."AIInsight"."Name"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={736C30A7-C0EC-4FA9-B034-2552B319B633};TS.EntitySchemaColumn.DataValueType=MediumText;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Name,ru-RU|Название;TS.EntitySchemaColumn.CreatedInSchemaUId={11AB4BCB-9B23-4B6D-9C86-520FAE925D75};TS.ColumnName=Name;TS.ActionType=Column;
+TS.ConstraintName=DFhaoZpg9RcWQNLQL20R9fLNz9sBQ;TS.EntitySchemaColumn.UId={736C30A7-C0EC-4FA9-B034-2552B319B633};TS.ActionType=DefValue;$$
+2026-02-18 21:45:04,298 Action executed in 0.003 sec. Sql text: COMMENT ON COLUMN "public"."AIInsight"."Description"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={9E53FD7C-DDE4-4502-A64C-B9E34148108B};TS.EntitySchemaColumn.DataValueType=MaxSizeText;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Description,ru-RU|Описание;TS.EntitySchemaColumn.CreatedInSchemaUId={11AB4BCB-9B23-4B6D-9C86-520FAE925D75};TS.ColumnName=Description;TS.ActionType=Column;
+TS.ConstraintName=DFVgbdNkpY35RDV1ljVdbP1eBc;TS.EntitySchemaColumn.UId={9E53FD7C-DDE4-4502-A64C-B9E34148108B};TS.ActionType=DefValue;$$
+2026-02-18 21:45:04,310 Action executed in 0.003 sec. Sql text: COMMENT ON COLUMN "public"."AIInsight"."ProcessListeners"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={3FABD836-6A53-4D8D-9069-6DF88D9DAE1E};TS.EntitySchemaColumn.DataValueType=Integer;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Active processes,ru-RU|Активные процессы;TS.EntitySchemaColumn.CreatedInSchemaUId={1BAB9DCF-17D5-49F8-9536-8E0064F1DCE0};TS.ColumnName=ProcessListeners;TS.ActionType=Column;
+TS.ConstraintName=DFiAOLNRgyJ14XOTQiA0qmXr3DJUo;TS.EntitySchemaColumn.UId={3FABD836-6A53-4D8D-9069-6DF88D9DAE1E};TS.ActionType=DefValue;$$
+2026-02-18 21:45:04,310 Action executed in 0.002 sec. Sql text: COMMENT ON COLUMN "public"."AIInsight"."AccountId"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={67209351-B01E-5218-4F75-F613E059C150};TS.EntitySchemaColumn.DataValueType=Lookup;TS.EntitySchemaColumn.ReferenceSchemaUId={25D7C1AB-1DE0-4501-B402-02E0E5A72D6E};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Account;TS.EntitySchemaColumn.CreatedInSchemaUId={04184833-0A7D-4C43-A6DA-FCD8BDD098C5};TS.ColumnName=AccountId;TS.ActionType=Column;
+TS.EntitySchemaIndex.UId={67209351-B01E-5218-4F75-F613E059C150};TS.IndexName=ICuftAak3Ed8UD7OszRRepL6EWY;TS.IsColumnIndex=True;TS.ActionType=Index;
+TS.ConstraintName=FK7EbuGHDMjcmtmCZtkpepWlUkBoU;TS.EntitySchemaColumn.UId={67209351-B01E-5218-4F75-F613E059C150};TS.ActionType=ForeignKey;$$
+2026-02-18 21:45:04,310 Action executed in 0.003 sec. Sql text: COMMENT ON COLUMN "public"."SysAIInsightLcz"."Id"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={04890F09-8A8A-4178-A2FF-4517A5631FEC};TS.EntitySchemaColumn.DataValueType=Guid;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=;TS.EntitySchemaColumn.CreatedInSchemaUId={04184833-0A7D-4C43-A6DA-FCD8BDD098C5};TS.ColumnName=Id;TS.ActionType=Column;$$
+2026-02-18 21:45:04,319 Action executed in 0.003 sec. Sql text: COMMENT ON COLUMN "public"."SysAIInsightLcz"."ModifiedOn"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={21DF0FAB-FE15-435F-B48A-C1CCB79466DB};TS.EntitySchemaColumn.DataValueType=DateTime;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Modified on,ru-RU|Изменено;TS.EntitySchemaColumn.CreatedInSchemaUId={04184833-0A7D-4C43-A6DA-FCD8BDD098C5};TS.ColumnName=ModifiedOn;TS.ActionType=Column;
+TS.ConstraintName=DFnF39CNv6XE2lN9kQrzoMqwuOX6kL;TS.EntitySchemaColumn.UId={21DF0FAB-FE15-435F-B48A-C1CCB79466DB};TS.ActionType=DefValue;$$
+2026-02-18 21:45:04,319 Action executed in 0.002 sec. Sql text: COMMENT ON COLUMN "public"."SysAIInsightLcz"."RecordId"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={AE0E45CA-C495-4FE7-A39D-3AB7278E1617};TS.EntitySchemaColumn.DataValueType=Lookup;TS.EntitySchemaColumn.ReferenceSchemaUId={04184833-0A7D-4C43-A6DA-FCD8BDD098C5};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Record,ru-RU|Запись;TS.EntitySchemaColumn.CreatedInSchemaUId={04184833-0A7D-4C43-A6DA-FCD8BDD098C5};TS.ColumnName=RecordId;TS.ActionType=Column;
+TS.EntitySchemaIndex.UId={AE0E45CA-C495-4FE7-A39D-3AB7278E1617};TS.IndexName=I6tP0Q6iVtMKsqjfkebFTsLDnQ;TS.IsColumnIndex=True;TS.ActionType=Index;
+TS.ConstraintName=FKKcEdztgulP4MpGbKvhi41JFctwL;TS.EntitySchemaColumn.UId={AE0E45CA-C495-4FE7-A39D-3AB7278E1617};TS.ActionType=ForeignKey;$$
+2026-02-18 21:45:04,319 Action executed in 0.003 sec. Sql text: COMMENT ON COLUMN "public"."SysAIInsightLcz"."SysCultureId"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={910D00AB-2FA3-42AE-9B86-DA287BC6922A};TS.EntitySchemaColumn.DataValueType=Lookup;TS.EntitySchemaColumn.ReferenceSchemaUId={FFC193E1-04BC-472B-BDC0-3333D1DF84E4};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Culture,ru-RU|Культура;TS.EntitySchemaColumn.CreatedInSchemaUId={04184833-0A7D-4C43-A6DA-FCD8BDD098C5};TS.ColumnName=SysCultureId;TS.ActionType=Column;
+TS.EntitySchemaIndex.UId={910D00AB-2FA3-42AE-9B86-DA287BC6922A};TS.IndexName=ISVJaetigZM3zT0kVignK1YTEb8;TS.IsColumnIndex=True;TS.ActionType=Index;
+TS.ConstraintName=FKa94sz3FV4jCzoTh9dS0ceG82kL;TS.EntitySchemaColumn.UId={910D00AB-2FA3-42AE-9B86-DA287BC6922A};TS.ActionType=ForeignKey;$$
+2026-02-18 21:45:04,328 Action executed in 0.003 sec. Sql text: COMMENT ON COLUMN "public"."SysAIInsightLcz"."Name"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={736C30A7-C0EC-4FA9-B034-2552B319B633};TS.EntitySchemaColumn.DataValueType=MediumText;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Name,ru-RU|Название;TS.EntitySchemaColumn.CreatedInSchemaUId={11AB4BCB-9B23-4B6D-9C86-520FAE925D75};TS.ColumnName=Name;TS.ActionType=Column;$$
+2026-02-18 21:45:04,328 Action executed in 0.002 sec. Sql text: COMMENT ON COLUMN "public"."SysAIInsightLcz"."Description"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={9E53FD7C-DDE4-4502-A64C-B9E34148108B};TS.EntitySchemaColumn.DataValueType=MaxSizeText;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Description,ru-RU|Описание;TS.EntitySchemaColumn.CreatedInSchemaUId={11AB4BCB-9B23-4B6D-9C86-520FAE925D75};TS.ColumnName=Description;TS.ActionType=Column;$$
+2026-02-18 21:45:04,328 Action executed in 0.003 sec. Sql text: COMMENT ON COLUMN "public"."AddressType"."Color"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={FF40CD49-76CB-C51A-6FA9-0021D25E544E};TS.EntitySchemaColumn.DataValueType=Color;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Color,ru-RU|Цвет;TS.EntitySchemaColumn.CreatedInSchemaUId={605554F5-CBDC-49DC-98C2-B0C919C2F2EB};TS.ColumnName=Color;TS.ActionType=Column;
+TS.ConstraintName=DFaEc2Hn94qZgPcwBAtda54N7c;TS.EntitySchemaColumn.UId={FF40CD49-76CB-C51A-6FA9-0021D25E544E};TS.ActionType=DefValue;$$
+2026-02-18 21:45:04,328 Action executed in 0.002 sec. Sql text: COMMENT ON COLUMN "public"."AddressType"."Color"
+						IS $$TS.IsTemporary=False;TS.EntitySchemaColumn.UId={FF40CD49-76CB-C51A-6FA9-0021D25E544E};TS.EntitySchemaColumn.DataValueType=Color;TS.EntitySchemaColumn.ReferenceSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.ReferenceValueListSchemaUId={00000000-0000-0000-0000-000000000000};TS.EntitySchemaColumn.Caption=en-US|Color,ru-RU|Цвет;TS.EntitySchemaColumn.CreatedInSchemaUId={605554F5-CBDC-49DC-98C2-B0C919C2F2EB};TS.ColumnName=Color;TS.ActionType=Column;
+TS.ConstraintName=DFaEc2Hn94qZgPcwBAtda54N7c;TS.EntitySchemaColumn.UId={FF40CD49-76CB-C51A-6FA9-0021D25E544E};TS.ActionType=DefValue;$$
+2026-02-18 21:45:04,341 Action executed in 0.004 sec. Sql text: CREATE INDEX "IHxt8IMBwkhqFooJTBVgBHF18GOQ" ON "public"."AccountCompetitor"("CreatedById" ASC NULLS FIRST)
+2026-02-18 21:45:04,341 Action executed in 0.003 sec. Sql text: CREATE INDEX "IqsWCy5sV6KXCeiiK4tW5CEdV5qY" ON "public"."AccountCompetitor"("ModifiedOn" ASC NULLS FIRST)
+2026-02-18 21:45:04,349 Action executed in 0.004 sec. Sql text: CREATE INDEX "IioJWMixUcgpcpTjmjILG81aRyC4" ON "public"."AccountCompetitor"("ModifiedById" ASC NULLS FIRST)
+2026-02-18 21:45:04,349 Action executed in 0.004 sec. Sql text: CREATE INDEX "IGTAext6cD7Ly3TIvhZvF6owgKPw" ON "public"."AccountCompetitor"("AccountId" ASC NULLS FIRST)
+2026-02-18 21:45:04,358 Action executed in 0.004 sec. Sql text: CREATE UNIQUE INDEX "IRC_AccountCompetitor" ON "public"."SysAccountCompetitorLcz"("RecordId" ASC NULLS FIRST, "SysCultureId" ASC NULLS FIRST)
+2026-02-18 21:45:04,358 Action executed in 0.003 sec. Sql text: CREATE INDEX "ItvfwfFQwFsSWCPmAPXY2jm1d5gs" ON "public"."SysAccountCompetitorLcz"("RecordId" ASC NULLS FIRST)
+2026-02-18 21:45:04,358 Action executed in 0.003 sec. Sql text: CREATE INDEX "IG0EGh6EnyMguHpWES14Sjqoufo" ON "public"."SysAccountCompetitorLcz"("SysCultureId" ASC NULLS FIRST)
+2026-02-18 21:45:04,369 Action executed in 0.004 sec. Sql text: CREATE INDEX "IY7As635lm5SOp6gj0LV23SUUD4" ON "public"."AIInsight"("CreatedById" ASC NULLS FIRST)
+2026-02-18 21:45:04,369 Action executed in 0.003 sec. Sql text: CREATE INDEX "Il1EIuyFnvsjjgU0517FzgDlTGts" ON "public"."AIInsight"("ModifiedOn" ASC NULLS FIRST)
+2026-02-18 21:45:04,378 Action executed in 0.004 sec. Sql text: CREATE INDEX "IIy0pRf2WKrAtzLSeiGdngQjhOvs" ON "public"."AIInsight"("ModifiedById" ASC NULLS FIRST)
+2026-02-18 21:45:04,378 Action executed in 0.004 sec. Sql text: CREATE INDEX "ICuftAak3Ed8UD7OszRRepL6EWY" ON "public"."AIInsight"("AccountId" ASC NULLS FIRST)
+2026-02-18 21:45:04,378 Action executed in 0.002 sec. Sql text: CREATE UNIQUE INDEX "IRC_AIInsight" ON "public"."SysAIInsightLcz"("RecordId" ASC NULLS FIRST, "SysCultureId" ASC NULLS FIRST)
+2026-02-18 21:45:04,389 Action executed in 0.004 sec. Sql text: CREATE INDEX "I6tP0Q6iVtMKsqjfkebFTsLDnQ" ON "public"."SysAIInsightLcz"("RecordId" ASC NULLS FIRST)
+2026-02-18 21:45:04,389 Action executed in 0.003 sec. Sql text: CREATE INDEX "ISVJaetigZM3zT0kVignK1YTEb8" ON "public"."SysAIInsightLcz"("SysCultureId" ASC NULLS FIRST)
+2026-02-18 21:45:04,401 Action executed in 0.008 sec. Sql text: ALTER TABLE "public"."AccountCompetitor" ADD CONSTRAINT "PKV4kxNbLCCpq521wzkNUT7A5hC0" PRIMARY KEY ("Id")
+2026-02-18 21:45:04,401 Action executed in 0.003 sec. Sql text: ALTER TABLE "public"."SysAccountCompetitorLcz" ADD CONSTRAINT "PKWgsCCTzl3PeQPlIpdisgj3DgK8L" PRIMARY KEY ("Id")
+2026-02-18 21:45:04,410 Action executed in 0.005 sec. Sql text: ALTER TABLE "public"."AIInsight" ADD CONSTRAINT "PKbRmQBS2u8Mw3H3eTQD1ywFkRkck" PRIMARY KEY ("Id")
+2026-02-18 21:45:04,410 Action executed in 0.004 sec. Sql text: ALTER TABLE "public"."SysAIInsightLcz" ADD CONSTRAINT "PK75817IwRP1zW9XnE6RtxkVAQC0L" PRIMARY KEY ("Id")
+2026-02-18 21:45:04,424 Action executed in 0.009 sec. Sql text: ALTER TABLE "public"."AccountCompetitor" ADD CONSTRAINT "FK4R4THbfd0jfGdl3qGheJ49WvKg" FOREIGN KEY("AccountId") REFERENCES "public"."Account"("Id")
+2026-02-18 21:45:04,429 Action executed in 0.004 sec. Sql text: ALTER TABLE "public"."SysAccountCompetitorLcz" ADD CONSTRAINT "FK8pxWF605khEW4gs89cLz6JPV02AL" FOREIGN KEY("RecordId") REFERENCES "public"."AccountCompetitor"("Id") ON DELETE CASCADE
+2026-02-18 21:45:04,429 Action executed in 0.005 sec. Sql text: ALTER TABLE "public"."SysAccountCompetitorLcz" ADD CONSTRAINT "FKkX6GxbzZv9x1EAmJiO3xj7ikQbcL" FOREIGN KEY("SysCultureId") REFERENCES "public"."SysCulture"("Id")
+2026-02-18 21:45:04,441 Action executed in 0.006 sec. Sql text: ALTER TABLE "public"."AIInsight" ADD CONSTRAINT "FK7EbuGHDMjcmtmCZtkpepWlUkBoU" FOREIGN KEY("AccountId") REFERENCES "public"."Account"("Id")
+2026-02-18 21:45:04,441 Action executed in 0.004 sec. Sql text: ALTER TABLE "public"."SysAIInsightLcz" ADD CONSTRAINT "FKKcEdztgulP4MpGbKvhi41JFctwL" FOREIGN KEY("RecordId") REFERENCES "public"."AIInsight"("Id") ON DELETE CASCADE
+2026-02-18 21:45:04,452 Action executed in 0.005 sec. Sql text: ALTER TABLE "public"."SysAIInsightLcz" ADD CONSTRAINT "FKa94sz3FV4jCzoTh9dS0ceG82kL" FOREIGN KEY("SysCultureId") REFERENCES "public"."SysCulture"("Id")

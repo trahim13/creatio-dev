@@ -1,0 +1,85 @@
+2026-02-18 16:15:20,775 [1] WARN  Initialize - workerThreads = 256 completionPortThreads = 1
+workerThreads => 100 result = False
+
+2026-02-18 16:16:19,943 [.NET TP Worker] WARN  MoveNext - IOCP:(Busy=0,Min=1,Max=1000),WORKER:(Busy=11,Min=256,Max=32767)
+2026-02-18 16:17:19,941 [.NET TP Worker] WARN  MoveNext - IOCP:(Busy=0,Min=1,Max=1000),WORKER:(Busy=11,Min=256,Max=32767)
+2026-02-18 16:32:34,843 [1] WARN  Initialize - workerThreads = 256 completionPortThreads = 1
+workerThreads => 100 result = False
+
+2026-02-18 16:32:41,085 [1] WARN  Initialize - workerThreads = 256 completionPortThreads = 1
+workerThreads => 100 result = False
+
+2026-02-18 16:32:46,912 [1] WARN  Initialize - workerThreads = 256 completionPortThreads = 1
+workerThreads => 100 result = False
+
+2026-02-18 16:32:52,761 [1] WARN  Initialize - workerThreads = 256 completionPortThreads = 1
+workerThreads => 100 result = False
+
+2026-02-18 16:32:58,603 [1] WARN  Initialize - workerThreads = 256 completionPortThreads = 1
+workerThreads => 100 result = False
+
+2026-02-18 16:33:05,241 [1] WARN  Initialize - workerThreads = 256 completionPortThreads = 1
+workerThreads => 100 result = False
+
+2026-02-18 16:33:13,549 [1] WARN  Initialize - workerThreads = 256 completionPortThreads = 1
+workerThreads => 100 result = False
+
+2026-02-18 16:33:24,977 [1] WARN  Initialize - workerThreads = 256 completionPortThreads = 1
+workerThreads => 100 result = False
+
+2026-02-18 16:33:42,645 [1] WARN  Initialize - workerThreads = 256 completionPortThreads = 1
+workerThreads => 100 result = False
+
+2026-02-18 16:34:44,566 [1] WARN  Initialize - workerThreads = 256 completionPortThreads = 1
+workerThreads => 100 result = False
+
+2026-02-18 16:36:43,789 [.NET TP Worker] WARN  MoveNext - IOCP:(Busy=0,Min=1,Max=1000),WORKER:(Busy=11,Min=256,Max=32767)
+2026-02-18 16:44:17,418 [1] WARN  Initialize - workerThreads = 256 completionPortThreads = 1
+workerThreads => 100 result = False
+
+2026-02-18 17:19:52,659 [1] WARN  Initialize - workerThreads = 256 completionPortThreads = 1
+workerThreads => 100 result = False
+
+2026-02-18 17:20:00,146 [1] WARN  Initialize - workerThreads = 256 completionPortThreads = 1
+workerThreads => 100 result = False
+
+2026-02-18 17:20:07,426 [1] WARN  Initialize - workerThreads = 256 completionPortThreads = 1
+workerThreads => 100 result = False
+
+2026-02-18 17:20:12,874 [1] WARN  Initialize - workerThreads = 256 completionPortThreads = 1
+workerThreads => 100 result = False
+
+2026-02-18 17:20:18,419 [1] WARN  Initialize - workerThreads = 256 completionPortThreads = 1
+workerThreads => 100 result = False
+
+2026-02-18 17:20:24,746 [1] WARN  Initialize - workerThreads = 256 completionPortThreads = 1
+workerThreads => 100 result = False
+
+2026-02-18 17:20:32,739 [1] WARN  Initialize - workerThreads = 256 completionPortThreads = 1
+workerThreads => 100 result = False
+
+2026-02-18 17:20:43,834 [1] WARN  Initialize - workerThreads = 256 completionPortThreads = 1
+workerThreads => 100 result = False
+
+2026-02-18 17:21:01,376 [1] WARN  Initialize - workerThreads = 256 completionPortThreads = 1
+workerThreads => 100 result = False
+
+2026-02-18 17:21:32,251 [1] WARN  Initialize - workerThreads = 256 completionPortThreads = 1
+workerThreads => 100 result = False
+
+2026-02-18 17:22:28,016 [1] WARN  Initialize - workerThreads = 256 completionPortThreads = 1
+workerThreads => 100 result = False
+
+2026-02-18 17:23:34,454 [1] WARN  Initialize - workerThreads = 256 completionPortThreads = 1
+workerThreads => 100 result = False
+
+2026-02-18 17:25:40,746 [1] WARN  Initialize - workerThreads = 256 completionPortThreads = 1
+workerThreads => 100 result = False
+
+2026-02-18 18:36:12,852 [1] WARN  Initialize - workerThreads = 256 completionPortThreads = 1
+workerThreads => 100 result = False
+
+2026-02-18 21:45:25,590 [1] WARN  Initialize - workerThreads = 256 completionPortThreads = 1
+workerThreads => 100 result = False
+
+2026-02-18 21:46:24,612 [.NET TP Worker] WARN  MoveNext - IOCP:(Busy=0,Min=1,Max=1000),WORKER:(Busy=11,Min=256,Max=32767)

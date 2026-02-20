@@ -1,0 +1,8 @@
+2026-02-18 18:26:27,254 [.NET TP Worker] INFO  LegacyCookieTransformation NonOverlappingTimerCallback - No legacy cookie usage records to dump.
+2026-02-18 19:36:59,831 [.NET TP Worker] INFO  LegacyCookieTransformation NonOverlappingTimerCallback - No legacy cookie usage records to dump.
+2026-02-18 20:37:01,346 [.NET TP Worker] INFO  LegacyCookieTransformation NonOverlappingTimerCallback - Aggregated request information for the last 60 minutes, 1000 legacy cookie users:
+2026-02-18 20:37:01,346 [.NET TP Worker] INFO  LegacyCookieTransformation NonOverlappingTimerCallback - User Identifier: Supervisor, Total Requests: 3, Most Recent User-Agent: Unknown, Last Request: 2026-02-18 20:32:46 UTC
+2026-02-18 20:37:01,346 [.NET TP Worker] INFO  LegacyCookieTransformation NonOverlappingTimerCallback - Legacy cookie usage records dumped and cleared.
+2026-02-18 21:37:03,087 [.NET TP Worker] INFO  LegacyCookieTransformation NonOverlappingTimerCallback - No legacy cookie usage records to dump.
+2026-02-18 22:46:14,705 [.NET TP Worker] INFO  LegacyCookieTransformation NonOverlappingTimerCallback - No legacy cookie usage records to dump.
+2026-02-18 23:46:18,021 [.NET TP Worker] INFO  LegacyCookieTransformation NonOverlappingTimerCallback - No legacy cookie usage records to dump.

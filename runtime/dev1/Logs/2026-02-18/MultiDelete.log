@@ -1,0 +1,78 @@
+2026-02-18 18:16:59,038 [.NET TP Worker] INFO Supervisor DeleteRecordsAsync - Start.
+2026-02-18 18:16:59,051 [.NET TP Worker] INFO Supervisor Enqueue - Deletes '0' records from queue.
+2026-02-18 18:16:59,063 [.NET TP Worker] INFO Supervisor Enqueue - Sets '1' records to queue.
+2026-02-18 18:16:59,076 [.NET TP Worker] INFO Supervisor ApplyOperations - Deleting entity: Lookup, id: 3f39546e-69fa-4d4b-ab15-9ad10dd26c23
+2026-02-18 18:16:59,106 [.NET TP Worker] INFO Supervisor ApplyOperations - Done
+2026-02-18 18:16:59,106 [.NET TP Worker] INFO Supervisor GetRecordProcessedEventArgs - 3f39546e-69fa-4d4b-ab15-9ad10dd26c23success
+
+2026-02-18 18:16:59,106 [.NET TP Worker] INFO Supervisor RecordProcessed - Post message start. MultiDelete_{"total":1,"processed":1,"skipped":0,"operationKey":"00cdb7df-c001-4de4-9a20-12f302799006"}
+2026-02-18 18:16:59,106 [.NET TP Worker] INFO Supervisor RecordProcessed - Post message end. MultiDelete_{"total":1,"processed":1,"skipped":0,"operationKey":"00cdb7df-c001-4de4-9a20-12f302799006"}
+2026-02-18 18:16:59,106 [.NET TP Worker] INFO Supervisor RecordProcessed - Post message start. MultiDelete_{"total":1,"processed":1,"skipped":0,"operationKey":"00cdb7df-c001-4de4-9a20-12f302799006"}
+2026-02-18 18:16:59,106 [.NET TP Worker] INFO Supervisor RecordProcessed - Post message end. MultiDelete_{"total":1,"processed":1,"skipped":0,"operationKey":"00cdb7df-c001-4de4-9a20-12f302799006"}
+2026-02-18 18:16:59,106 [.NET TP Worker] INFO Supervisor DeleteRecordsAsync - End.
+
+2026-02-18 18:17:32,903 [.NET TP Worker] INFO Supervisor DeleteRecordsAsync - Start.
+2026-02-18 18:17:32,903 [.NET TP Worker] INFO Supervisor Enqueue - Deletes '0' records from queue.
+2026-02-18 18:17:32,903 [.NET TP Worker] INFO Supervisor Enqueue - Sets '1' records to queue.
+2026-02-18 18:17:32,917 [.NET TP Worker] INFO Supervisor ApplyOperations - Deleting entity: Lookup, id: 45091f7e-3bde-4a67-8812-999e142aba13
+2026-02-18 18:17:32,928 [.NET TP Worker] INFO Supervisor ApplyOperations - Done
+2026-02-18 18:17:32,928 [.NET TP Worker] INFO Supervisor GetRecordProcessedEventArgs - 45091f7e-3bde-4a67-8812-999e142aba13success
+
+2026-02-18 18:17:32,931 [.NET TP Worker] INFO Supervisor RecordProcessed - Post message start. MultiDelete_{"total":1,"processed":1,"skipped":0,"operationKey":"17a3830c-d43d-4675-a62a-a4e7c379daf5"}
+2026-02-18 18:17:32,931 [.NET TP Worker] INFO Supervisor RecordProcessed - Post message end. MultiDelete_{"total":1,"processed":1,"skipped":0,"operationKey":"17a3830c-d43d-4675-a62a-a4e7c379daf5"}
+2026-02-18 18:17:32,931 [.NET TP Worker] INFO Supervisor RecordProcessed - Post message start. MultiDelete_{"total":1,"processed":1,"skipped":0,"operationKey":"17a3830c-d43d-4675-a62a-a4e7c379daf5"}
+2026-02-18 18:17:32,931 [.NET TP Worker] INFO Supervisor RecordProcessed - Post message end. MultiDelete_{"total":1,"processed":1,"skipped":0,"operationKey":"17a3830c-d43d-4675-a62a-a4e7c379daf5"}
+2026-02-18 18:17:32,931 [.NET TP Worker] INFO Supervisor DeleteRecordsAsync - End.
+
+2026-02-18 18:23:43,659 [.NET TP Worker] INFO Supervisor DeleteRecordsAsync - Start.
+2026-02-18 18:23:43,659 [.NET TP Worker] INFO Supervisor Enqueue - Deletes '0' records from queue.
+2026-02-18 18:23:43,659 [.NET TP Worker] INFO Supervisor Enqueue - Sets '1' records to queue.
+2026-02-18 18:23:43,674 [.NET TP Worker] INFO Supervisor ApplyOperations - Deleting entity: Lookup, id: 03129dee-27fb-4430-8163-e0dbe4ed57b9
+2026-02-18 18:23:43,686 [.NET TP Worker] INFO Supervisor ApplyOperations - Done
+2026-02-18 18:23:43,686 [.NET TP Worker] INFO Supervisor GetRecordProcessedEventArgs - 03129dee-27fb-4430-8163-e0dbe4ed57b9success
+
+2026-02-18 18:23:43,690 [.NET TP Worker] INFO Supervisor RecordProcessed - Post message start. MultiDelete_{"total":1,"processed":1,"skipped":0,"operationKey":"f928b06d-1e5c-48ac-9568-83af43769ef3"}
+2026-02-18 18:23:43,690 [.NET TP Worker] INFO Supervisor RecordProcessed - Post message end. MultiDelete_{"total":1,"processed":1,"skipped":0,"operationKey":"f928b06d-1e5c-48ac-9568-83af43769ef3"}
+2026-02-18 18:23:43,690 [.NET TP Worker] INFO Supervisor RecordProcessed - Post message start. MultiDelete_{"total":1,"processed":1,"skipped":0,"operationKey":"f928b06d-1e5c-48ac-9568-83af43769ef3"}
+2026-02-18 18:23:43,690 [.NET TP Worker] INFO Supervisor RecordProcessed - Post message end. MultiDelete_{"total":1,"processed":1,"skipped":0,"operationKey":"f928b06d-1e5c-48ac-9568-83af43769ef3"}
+2026-02-18 18:23:43,690 [.NET TP Worker] INFO Supervisor DeleteRecordsAsync - End.
+
+2026-02-18 18:28:20,587 [.NET TP Worker] INFO Supervisor DeleteRecordsAsync - Start.
+2026-02-18 18:28:20,587 [.NET TP Worker] INFO Supervisor Enqueue - Deletes '0' records from queue.
+2026-02-18 18:28:20,587 [.NET TP Worker] INFO Supervisor Enqueue - Sets '1' records to queue.
+2026-02-18 18:28:20,602 [.NET TP Worker] INFO Supervisor ApplyOperations - Deleting entity: Lookup, id: 71a46f29-a296-4007-a528-bb859e39dc3e
+2026-02-18 18:28:20,615 [.NET TP Worker] INFO Supervisor ApplyOperations - Done
+2026-02-18 18:28:20,615 [.NET TP Worker] INFO Supervisor GetRecordProcessedEventArgs - 71a46f29-a296-4007-a528-bb859e39dc3esuccess
+
+2026-02-18 18:28:20,617 [.NET TP Worker] INFO Supervisor RecordProcessed - Post message start. MultiDelete_{"total":1,"processed":1,"skipped":0,"operationKey":"a0078284-f82c-41eb-a534-597cf41d6adf"}
+2026-02-18 18:28:20,617 [.NET TP Worker] INFO Supervisor RecordProcessed - Post message end. MultiDelete_{"total":1,"processed":1,"skipped":0,"operationKey":"a0078284-f82c-41eb-a534-597cf41d6adf"}
+2026-02-18 18:28:20,617 [.NET TP Worker] INFO Supervisor RecordProcessed - Post message start. MultiDelete_{"total":1,"processed":1,"skipped":0,"operationKey":"a0078284-f82c-41eb-a534-597cf41d6adf"}
+2026-02-18 18:28:20,617 [.NET TP Worker] INFO Supervisor RecordProcessed - Post message end. MultiDelete_{"total":1,"processed":1,"skipped":0,"operationKey":"a0078284-f82c-41eb-a534-597cf41d6adf"}
+2026-02-18 18:28:20,617 [.NET TP Worker] INFO Supervisor DeleteRecordsAsync - End.
+
+2026-02-18 18:31:00,320 [.NET TP Worker] INFO Supervisor DeleteRecordsAsync - Start.
+2026-02-18 18:31:00,320 [.NET TP Worker] INFO Supervisor Enqueue - Deletes '0' records from queue.
+2026-02-18 18:31:00,320 [.NET TP Worker] INFO Supervisor Enqueue - Sets '1' records to queue.
+2026-02-18 18:31:00,335 [.NET TP Worker] INFO Supervisor ApplyOperations - Deleting entity: Lookup, id: 4d04626e-7fc3-472a-bd26-f798641fe652
+2026-02-18 18:31:00,346 [.NET TP Worker] INFO Supervisor ApplyOperations - Done
+2026-02-18 18:31:00,346 [.NET TP Worker] INFO Supervisor GetRecordProcessedEventArgs - 4d04626e-7fc3-472a-bd26-f798641fe652success
+
+2026-02-18 18:31:00,349 [.NET TP Worker] INFO Supervisor RecordProcessed - Post message start. MultiDelete_{"total":1,"processed":1,"skipped":0,"operationKey":"9ef6bb21-e270-47f6-af82-a05c700a3e26"}
+2026-02-18 18:31:00,349 [.NET TP Worker] INFO Supervisor RecordProcessed - Post message end. MultiDelete_{"total":1,"processed":1,"skipped":0,"operationKey":"9ef6bb21-e270-47f6-af82-a05c700a3e26"}
+2026-02-18 18:31:00,349 [.NET TP Worker] INFO Supervisor RecordProcessed - Post message start. MultiDelete_{"total":1,"processed":1,"skipped":0,"operationKey":"9ef6bb21-e270-47f6-af82-a05c700a3e26"}
+2026-02-18 18:31:00,349 [.NET TP Worker] INFO Supervisor RecordProcessed - Post message end. MultiDelete_{"total":1,"processed":1,"skipped":0,"operationKey":"9ef6bb21-e270-47f6-af82-a05c700a3e26"}
+2026-02-18 18:31:00,349 [.NET TP Worker] INFO Supervisor DeleteRecordsAsync - End.
+
+2026-02-18 20:37:53,252 [.NET TP Worker] INFO Supervisor DeleteRecordsAsync - Start.
+2026-02-18 20:37:53,270 [.NET TP Worker] INFO Supervisor Enqueue - Deletes '0' records from queue.
+2026-02-18 20:37:53,279 [.NET TP Worker] INFO Supervisor Enqueue - Sets '1' records to queue.
+2026-02-18 20:37:53,296 [.NET TP Worker] INFO Supervisor ApplyOperations - Deleting entity: UsrTrafficLight, id: eb1b4f77-237f-4477-b312-a39073a3d5b1
+2026-02-18 20:37:53,376 [.NET TP Worker] INFO Supervisor ApplyOperations - Done
+2026-02-18 20:37:53,376 [.NET TP Worker] INFO Supervisor GetRecordProcessedEventArgs - eb1b4f77-237f-4477-b312-a39073a3d5b1success
+
+2026-02-18 20:37:53,387 [.NET TP Worker] INFO Supervisor RecordProcessed - Post message start. MultiDelete_{"total":1,"processed":1,"skipped":0,"operationKey":"321bc6be-3b32-46a1-91e9-3ad828471da8"}
+2026-02-18 20:37:53,387 [.NET TP Worker] INFO Supervisor RecordProcessed - Post message end. MultiDelete_{"total":1,"processed":1,"skipped":0,"operationKey":"321bc6be-3b32-46a1-91e9-3ad828471da8"}
+2026-02-18 20:37:53,388 [.NET TP Worker] INFO Supervisor RecordProcessed - Post message start. MultiDelete_{"total":1,"processed":1,"skipped":0,"operationKey":"321bc6be-3b32-46a1-91e9-3ad828471da8"}
+2026-02-18 20:37:53,388 [.NET TP Worker] INFO Supervisor RecordProcessed - Post message end. MultiDelete_{"total":1,"processed":1,"skipped":0,"operationKey":"321bc6be-3b32-46a1-91e9-3ad828471da8"}
+2026-02-18 20:37:53,388 [.NET TP Worker] INFO Supervisor DeleteRecordsAsync - End.
+

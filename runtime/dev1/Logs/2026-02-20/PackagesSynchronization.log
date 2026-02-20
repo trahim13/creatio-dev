@@ -1,0 +1,58 @@
+2026-02-20 08:27:35,396 --> PackageDBStorage.Load
+2026-02-20 08:28:18,093 <-- PackageDBStorage.Load
+2026-02-20 08:32:09,239 --> PackageInstallUtilities.LoadPackagesToDB
+2026-02-20 08:32:09,239 --> PackageFileDesignModeStorage.Load
+2026-02-20 08:32:10,512 <-- PackageFileDesignModeStorage.Load
+2026-02-20 08:32:10,512 --> PackageFileDesignModeDBStorage.Load
+2026-02-20 08:32:51,530 <-- PackageFileDesignModeDBStorage.Load
+2026-02-20 08:32:51,537 --> PackageStorageComposer.Compose
+2026-02-20 08:32:51,537 --> PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-20 08:32:51,537 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-20 08:32:51,551 --> PackageFileDesignModeDBStorage.ActualizePackageResourcesState
+2026-02-20 08:32:51,559 <-- PackageFileDesignModeDBStorage.ActualizePackageResourcesState
+2026-02-20 08:32:51,559 <-- PackageStorageComposer.Compose
+2026-02-20 08:32:51,559 --> PackageFileDesignModeDBStorage.Save: Packages [1] Schemas [11] ReferenceAssemblies [0] SqlScripts [2] PackageData [15] SchemaResources [148] CoreResources [0]
+2026-02-20 08:32:51,602 --> PackageFileDesignModeDBStorage.SavePackage - UsrYacht
+2026-02-20 08:32:51,615 --> PackageDBStorage.Load
+2026-02-20 08:33:30,958 <-- PackageDBStorage.Load
+2026-02-20 08:33:30,958 Terrasoft.Common.InvalidNameException: "UsrTestProcess" configuration schema already exists in the following package(s): "UsrYacht", "UsrYachts"
+   at Terrasoft.Core.SchemaDuplicationDetector.CheckDuplicateSchemaNameExists(SchemaDescriptor schema, IEnumerable`1 schemas)
+   at Terrasoft.Core.InstallSchemaDuplicationDetector.CheckDuplicateSchemaNameExists(SchemaDescriptor schema)
+   at Terrasoft.Core.Packages.PackageDBStorage.CheckIsSchemaWithSameNameExist(SchemaDescriptor schema)
+   at Terrasoft.Core.Packages.PackageDBStorage.<>c__DisplayClass514_1.<SaveModifiedPackageSchemas>b__1()
+   at Terrasoft.Core.Packages.PackageStorage.SafeItemOperation(Descriptor descriptor, Action action)
+2026-02-20 08:33:30,962 Terrasoft.Common.InvalidNameException: "UsrTrafficLight" configuration schema already exists in the following package(s): "UsrYacht", "UsrYachts"
+   at Terrasoft.Core.SchemaDuplicationDetector.CheckDuplicateSchemaNameExists(SchemaDescriptor schema, IEnumerable`1 schemas)
+   at Terrasoft.Core.InstallSchemaDuplicationDetector.CheckDuplicateSchemaNameExists(SchemaDescriptor schema)
+   at Terrasoft.Core.Packages.PackageDBStorage.CheckIsSchemaWithSameNameExist(SchemaDescriptor schema)
+   at Terrasoft.Core.Packages.PackageDBStorage.<>c__DisplayClass514_1.<SaveModifiedPackageSchemas>b__1()
+   at Terrasoft.Core.Packages.PackageStorage.SafeItemOperation(Descriptor descriptor, Action action)
+2026-02-20 08:33:31,957 <-- PackageFileDesignModeDBStorage.SavePackage - UsrYacht
+2026-02-20 08:33:50,775 --> PackageInstallUtilities.LoadPackagesToDB
+2026-02-20 08:33:50,775 --> PackageFileDesignModeStorage.Load
+2026-02-20 08:33:52,038 <-- PackageFileDesignModeStorage.Load
+2026-02-20 08:33:52,038 --> PackageFileDesignModeDBStorage.Load
+2026-02-20 08:34:32,758 <-- PackageFileDesignModeDBStorage.Load
+2026-02-20 08:34:32,762 --> PackageStorageComposer.Compose
+2026-02-20 08:34:32,762 --> PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-20 08:34:32,762 <-- PackageStorageComposer.SpecifySourceStorageChanges
+2026-02-20 08:34:32,762 --> PackageFileDesignModeDBStorage.ActualizePackageResourcesState
+2026-02-20 08:34:32,776 <-- PackageFileDesignModeDBStorage.ActualizePackageResourcesState
+2026-02-20 08:34:32,776 <-- PackageStorageComposer.Compose
+2026-02-20 08:34:32,776 --> PackageFileDesignModeDBStorage.Save: Packages [1] Schemas [11] ReferenceAssemblies [0] SqlScripts [2] PackageData [15] SchemaResources [148] CoreResources [0]
+2026-02-20 08:34:32,809 --> PackageFileDesignModeDBStorage.SavePackage - UsrYacht
+2026-02-20 08:34:32,812 --> PackageDBStorage.Load
+2026-02-20 08:35:12,957 <-- PackageDBStorage.Load
+2026-02-20 08:35:12,959 Terrasoft.Common.InvalidNameException: "UsrTestProcess" configuration schema already exists in the following package(s): "UsrYacht", "UsrYachts"
+   at Terrasoft.Core.SchemaDuplicationDetector.CheckDuplicateSchemaNameExists(SchemaDescriptor schema, IEnumerable`1 schemas)
+   at Terrasoft.Core.InstallSchemaDuplicationDetector.CheckDuplicateSchemaNameExists(SchemaDescriptor schema)
+   at Terrasoft.Core.Packages.PackageDBStorage.CheckIsSchemaWithSameNameExist(SchemaDescriptor schema)
+   at Terrasoft.Core.Packages.PackageDBStorage.<>c__DisplayClass514_1.<SaveModifiedPackageSchemas>b__1()
+   at Terrasoft.Core.Packages.PackageStorage.SafeItemOperation(Descriptor descriptor, Action action)
+2026-02-20 08:35:12,959 Terrasoft.Common.InvalidNameException: "UsrTrafficLight" configuration schema already exists in the following package(s): "UsrYacht", "UsrYachts"
+   at Terrasoft.Core.SchemaDuplicationDetector.CheckDuplicateSchemaNameExists(SchemaDescriptor schema, IEnumerable`1 schemas)
+   at Terrasoft.Core.InstallSchemaDuplicationDetector.CheckDuplicateSchemaNameExists(SchemaDescriptor schema)
+   at Terrasoft.Core.Packages.PackageDBStorage.CheckIsSchemaWithSameNameExist(SchemaDescriptor schema)
+   at Terrasoft.Core.Packages.PackageDBStorage.<>c__DisplayClass514_1.<SaveModifiedPackageSchemas>b__1()
+   at Terrasoft.Core.Packages.PackageStorage.SafeItemOperation(Descriptor descriptor, Action action)
+2026-02-20 08:35:13,859 <-- PackageFileDesignModeDBStorage.SavePackage - UsrYacht

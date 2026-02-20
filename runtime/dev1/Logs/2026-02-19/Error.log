@@ -1,0 +1,7 @@
+2026-02-19 06:09:54,512 [.NET Signal Handler] ERROR  AppEventDispatcher OnAppEvent - Error when handling event
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Terrasoft.Configuration.DataForge.DataForgeEventListener.get_AppConnection()
+   at Terrasoft.Configuration.DataForge.DataForgeEventListener.get_UserConnection()
+   at Terrasoft.Configuration.DataForge.DataForgeEventListener.OnAppEnd(AppEventContext context)
+   at Terrasoft.Web.Common.AppEventDispatcher.<>c__DisplayClass10_0.<OnAppEnd>b__0(IAppEventListener listener)
+   at Terrasoft.Web.Common.AppEventDispatcher.OnAppEvent(Action`1 method)

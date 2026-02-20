@@ -1,0 +1,11 @@
+2026-02-18 17:56:55,053 [.NET TP Worker] INFO Supervisor AppInfoSynchronization SaveApplicationInfo - Saving application info to the system (code: UsrYachts)...
+2026-02-18 17:56:55,198 [.NET TP Worker] INFO Supervisor AppInfoSynchronization SaveApplicationInfo - Saved new application UsrYachts
+2026-02-18 18:02:10,396 [.NET TP Worker] INFO Supervisor AppInfoSynchronization SaveApplicationInfo - Saving application info to the system (code: UsrYachts)...
+2026-02-18 18:02:10,430 [.NET TP Worker] INFO Supervisor AppInfoSynchronization SaveApplicationInfo - Saved new application UsrYachts
+2026-02-18 19:08:33,102 [.NET TP Worker] INFO Supervisor AppInfoSynchronization WriteAppDescriptorToFile - Application info (code: UsrYachts) saved to file /app/Terrasoft.Configuration/Pkg/UsrYachts/Files/app-descriptor.json
+2026-02-18 19:09:00,355 [.NET TP Worker] INFO Supervisor AppInfoSynchronization WriteAppDescriptorToFile - Application info (code: UsrYachts) saved to file /app/Terrasoft.Configuration/Pkg/UsrYachts/Files/app-descriptor.json
+2026-02-18 19:09:22,378 [.NET TP Worker] INFO Supervisor AppInfoSynchronization WriteAppDescriptorToFile - Application info (code: UsrYachts) saved to file /app/Terrasoft.Configuration/Pkg/UsrYachts/Files/app-descriptor.json
+2026-02-18 20:31:05,173 [.NET TP Worker] INFO Supervisor AppInfoSynchronization WriteAppInfoExcludingExistingData - Application info (code: UsrYachts) saved to file /app/Terrasoft.Configuration/Pkg/UsrYachts/Files/app-descriptor.json
+2026-02-18 21:45:06,425 [.NET TP Worker] INFO Supervisor AppInfoSynchronization SaveApplicationInfo - Saving application info to the system (code: CrtCustomer360App)...
+2026-02-18 21:45:06,477 [.NET TP Worker] INFO Supervisor AppInfoSynchronization SaveApplicationInfo - Saved new application CrtCustomer360App
+2026-02-18 21:45:18,481 [.NET TP Worker] INFO Supervisor AppInfoSynchronization GetAppInfo - App "554b1f8d-13e0-4c32-b30d-a7c55809b3d2" contains 0 editable primary packages, auto adjustment skipped (auto adjustment is True, editable packages count is 0)

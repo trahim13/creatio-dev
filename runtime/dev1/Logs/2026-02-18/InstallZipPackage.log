@@ -1,0 +1,510 @@
+2026-02-18 17:54:49,281 [.NET TP Worker] INFO Supervisor InstallZipPackage LogInfo - Loading file: UsrYachts_2026-02-18_15.20.34.zip 100%
+2026-02-18 17:55:11,448 [.NET TP Worker] INFO Supervisor InstallZipPackage LogInfo - Packages validation started
+2026-02-18 17:55:57,261 [.NET TP Worker] INFO Supervisor InstallZipPackage <Validate>b__0 - Packages have been validated
+2026-02-18 17:55:57,289 [.NET TP Worker] INFO Supervisor InstallZipPackage <CreateBackup>b__0 - Configuration backup started.
+2026-02-18 17:55:57,296 [.NET TP Worker] INFO Supervisor InstallZipPackage Load - Loading packages from archive
+2026-02-18 17:55:57,300 [.NET TP Worker] INFO Supervisor InstallZipPackage <Load>b__0 - Package "UsrYachts" loaded
+2026-02-18 17:55:57,314 [.NET TP Worker] INFO Supervisor InstallZipPackage <CreateBackup>b__0 - Configuration backup successfully created.
+2026-02-18 17:55:57,354 [.NET TP Worker] WARN Supervisor InstallZipPackage LogWarn - Application install from file started. Application name: UsrYachts_2026-02-18_15.20.34. Code: UsrYachts_2026-02-18_15.20.34.
+2026-02-18 17:55:57,354 [.NET TP Worker] WARN Supervisor InstallZipPackage LogWarn - Preparing packages for installation
+2026-02-18 17:56:12,730 [.NET TP Worker] WARN Supervisor InstallZipPackage LogWarn - The non-critical error occurred while retrieving the Marketplace Application Id. AppCode = "UsrYachts", AppFileName="". Exception: System.Net.WebException: An error occurred while sending the request.
+ ---> System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.Net.Http.HttpIOException: The response ended prematurely. (ResponseEnded)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   --- End of inner exception stack trace ---
+   at Terrasoft.Services.Runtime.ServiceClient.GetResponseData(IServiceClientRequest serviceRequest, CancellationToken cancellationToken, TimeSpan timeout)
+   at Terrasoft.Services.Runtime.ServiceClient.ExecuteAsync(IServiceClientRequest request, CancellationToken cancellationToken)
+   at Terrasoft.Configuration.CreatioMarketplaceApiClient.TryGetMarketplaceAppId(MarketplaceAppSearchRequest searchRequest, CancellationToken cancellationToken)
+   at Terrasoft.Common.Threading.AsyncPump.Run[T](Func`1 asyncMethod)
+   at Terrasoft.Core.ServiceModelContract.PackageInstaller.AppInstallerServiceInternal.TryGetMarketplaceAppId(IAppMarketplaceApiClient appMarketplaceApiClient, MarketplaceAppSearchRequest request, String& marketplaceAppId)
+2026-02-18 17:56:12,763 [.NET TP Worker] INFO Supervisor InstallZipPackage Load - Loading packages from archive
+2026-02-18 17:56:12,763 [.NET TP Worker] INFO Supervisor InstallZipPackage <Load>b__0 - Package "UsrYachts" loaded
+2026-02-18 17:56:12,776 [.NET TP Worker] INFO Supervisor InstallZipPackage GetTargetPackages - Skipped - Loading packages from database (new application)
+2026-02-18 17:56:12,776 [.NET TP Worker] INFO Supervisor InstallZipPackage ComposesPackages - Composing packages
+2026-02-18 17:56:52,149 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "UsrTestProcess" saved in package "UsrYachts"
+2026-02-18 17:56:52,164 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "UsrTrafficLight" saved in package "UsrYachts"
+2026-02-18 17:56:52,193 [.NET TP Worker] INFO Supervisor InstallZipPackage OnFileContentChanged - Files saved in package "UsrYachts"
+2026-02-18 17:56:52,211 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSaved - Package "UsrYachts" saved
+2026-02-18 17:56:52,516 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageDependenciesSaved - Added - dependencies of package "UsrYachts"
+2026-02-18 17:56:52,633 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageResourceSaved - Added - resources in package "UsrYachts"
+2026-02-18 17:56:52,874 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemasCaptionLocalizationSaved - Added - schema caption localizations in package "UsrYachts"
+2026-02-18 17:56:53,070 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageHierarchyUpdating - Package hierarchy actualization is started
+2026-02-18 17:56:53,185 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageHierarchyUpdated - Package hierarchy actualization is completed. Affected records: 124
+2026-02-18 17:56:53,185 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageHierarchySaved - Package hierarchy updated
+2026-02-18 17:56:53,606 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallStart - Updating tables structure in database
+2026-02-18 17:56:54,145 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "UsrTrafficLight" from package UsrYachts generated
+2026-02-18 17:56:54,249 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemaDBActionsAdded - Actions added for schema "UsrTrafficLight" from package "UsrYachts" in 0.416 sec
+2026-02-18 17:56:54,324 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "UsrTestProcess" from package UsrYachts generated
+2026-02-18 17:56:54,522 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "UsrTrafficLight" from package  generated
+2026-02-18 17:56:54,533 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallStart - Updating modified schemas
+2026-02-18 17:56:54,533 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallFinish - Updated modified schemas
+2026-02-18 17:56:54,663 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Structure saved: UsrTrafficLight from package UsrYachts
+2026-02-18 17:56:54,686 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallStart - Installing data
+2026-02-18 17:56:55,020 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallStart - Executing default install scripts
+2026-02-18 17:56:55,022 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Default install script "Creatio.Copilot.GrantDefIntentPermissionsExecutor" executed for package "UsrYachts"
+2026-02-18 17:56:55,222 [.NET TP Worker] INFO Supervisor InstallZipPackage Save - Compiling configuration dll
+2026-02-18 17:59:03,235 [.NET TP Worker] WARN Supervisor InstallZipPackage LogWarn - Uninstall application
+2026-02-18 17:59:03,322 [.NET TP Worker] INFO Supervisor InstallZipPackage Load - Loading packages from database
+2026-02-18 17:59:42,784 [.NET TP Worker] INFO Supervisor InstallZipPackage ComposesPackages - Composing packages
+2026-02-18 17:59:43,185 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSaved - Package "UsrYachts" saved
+2026-02-18 17:59:43,255 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageHierarchyUpdating - Package hierarchy actualization is started
+2026-02-18 17:59:43,285 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageHierarchyUpdated - Package hierarchy actualization is completed. Affected records: 0
+2026-02-18 17:59:43,285 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageHierarchySaved - Package hierarchy updated
+2026-02-18 17:59:43,285 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallStart - Updating modified schemas
+2026-02-18 17:59:43,285 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallFinish - Updated modified schemas
+2026-02-18 17:59:43,697 [.NET TP Worker] INFO Supervisor InstallZipPackage ConfigurationBuildStarted - Configuration build started
+2026-02-18 17:59:43,703 [.NET TP Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - Current schemas info loaded
+2026-02-18 17:59:45,350 [.NET TP Worker] ERROR Supervisor InstallZipPackage LogError - System.IO.FileNotFoundException: /app/Terrasoft.Configuration/Pkg/UsrYachts/Files/UsrYachts.csproj
+   at Terrasoft.Core.Compilation.ProjectBuilder.Build(String projectFilePath, String tempPath, BuildCommandParameters parameters)
+   at Terrasoft.Core.Packages.WorkspaceBuilder.BuildProject(String projectPath, BuildCommandParameters commandParameters)
+   at Terrasoft.Core.Packages.WorkspaceBuilder.BuildProjects(IEnumerable`1 projectsPaths, BuildCommandParameters commandParameters, IList`1 buildResults)
+   at Terrasoft.Core.Packages.WorkspaceBuilder.BuildProjects(Boolean force, Boolean isNeedCompileAllPackages, IEnumerable`1 allPackages, IEnumerable`1 packagesToCompile, IEnumerable`1 sortedStandalonePackagesToCompile)
+   at Terrasoft.Core.Packages.WorkspaceBuilder.BuildConfigurationProjects(Boolean force, Stopwatch stopwatch, IEnumerable`1 packagesNamesToCompile)
+   at Terrasoft.Core.Packages.WorkspaceBuilder.BuildConfigurationInternal(Boolean force, BuildResultType& buildResultType, IEnumerable`1 packagesNames)
+   at Terrasoft.Core.Packages.WorkspaceBuilder.BuildWorkspace(IEnumerable`1 packagesNames)
+   at Terrasoft.Core.Applications.Packages.Operations.SystemPackageOperations.Save(IEnumerable`1 packages, PackageInstallOptions options)
+   at Terrasoft.Core.Applications.Packages.Operations.CommonPackageOperations.Save(IEnumerable`1 packages, PackageInstallOptions options)
+   at Terrasoft.Core.Applications.Packages.SystemPackageManager.SavePackages(PackageInstallOptions installOptions, ICollection`1 composedPackagesCollection)
+   at Terrasoft.Core.Applications.Packages.SystemPackageManager.Save(PackageInstallOptions installOptions)
+   at Terrasoft.Core.Applications.Installation.PackageZipInstaller.Install(String sourcePath, String destinationPath, PackageInstallOptions installOptions, String originalSourcePath)
+   at Terrasoft.Core.Applications.Installation.AppInstaller.Install(String sourcePath, String destinationPath, PackageInstallOptions installOptions, IInstalledAppInfo installedAppInfo, String originalSourcePath)
+   at Terrasoft.Core.ServiceModelContract.PackageInstaller.AppInstallerServiceInternal.<>c__DisplayClass26_0.<InstallApp>b__0()
+   at Terrasoft.Core.ServiceModelContract.PackageInstaller.BaseInstallerServiceInternal.InvokeWithLogging[TResult](Func`1 action)
+2026-02-18 17:59:45,567 [.NET TP Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - New schemas info loaded
+2026-02-18 17:59:45,682 [.NET TP Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - Configuration state loaded
+2026-02-18 17:59:45,682 [.NET TP Worker] INFO Supervisor InstallZipPackage BuildChangedServerContent - Configuration server content generation started
+2026-02-18 17:59:45,682 [.NET TP Worker] INFO Supervisor InstallZipPackage BuildChangedServerContent - Configuration server content generated
+2026-02-18 17:59:45,709 [.NET TP Worker] INFO Supervisor InstallZipPackage UpdateMetaInfo - Meta info file updated
+2026-02-18 17:59:45,711 [.NET TP Worker] INFO Supervisor InstallZipPackage MoveNext - File content generation started
+2026-02-18 17:59:54,747 [.NET TP Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors obtained
+2026-02-18 17:59:54,772 [.NET TP Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors generated
+2026-02-18 17:59:54,925 [.NET TP Worker] INFO Supervisor InstallZipPackage MoveNext - File content bootstraps generated
+2026-02-18 17:59:54,925 [.NET TP Worker] INFO Supervisor InstallZipPackage ConfigurationBuildFinished - Configuration build finished
+2026-02-18 17:59:55,102 [.NET TP Worker] WARN Supervisor InstallZipPackage LogWarn - Application uninstalled successfully
+2026-02-18 18:31:51,360 [.NET TP Worker] INFO Supervisor InstallZipPackage ConfigurationBuildStarted - Configuration build started
+2026-02-18 18:31:51,367 [.NET TP Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - Current schemas info loaded
+2026-02-18 18:31:53,752 [.NET TP Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - New schemas info loaded
+2026-02-18 18:31:54,114 [.NET TP Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - Configuration state loaded
+2026-02-18 18:31:54,114 [.NET TP Worker] INFO Supervisor InstallZipPackage BuildChangedServerContent - Configuration server content generation started
+2026-02-18 18:31:54,158 [.NET TP Worker] INFO Supervisor InstallZipPackage BuildChangedServerContent - Configuration server content generated
+2026-02-18 18:31:54,185 [.NET TP Worker] INFO Supervisor InstallZipPackage UpdateMetaInfo - Meta info file updated
+2026-02-18 18:31:54,185 [.NET TP Worker] INFO Supervisor InstallZipPackage MoveNext - File content generation started
+2026-02-18 18:32:03,382 [.NET TP Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors obtained
+2026-02-18 18:32:03,395 [.NET TP Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors generated
+2026-02-18 18:32:03,537 [.NET TP Worker] INFO Supervisor InstallZipPackage MoveNext - File content bootstraps generated
+2026-02-18 18:32:03,537 [.NET TP Worker] INFO Supervisor InstallZipPackage ConfigurationBuildFinished - Configuration build finished
+2026-02-18 18:35:54,660 [.NET TP Worker] INFO Supervisor InstallZipPackage ConfigurationBuildStarted - Configuration build started
+2026-02-18 18:35:54,660 [.NET TP Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - Current schemas info loaded
+2026-02-18 18:35:56,796 [.NET TP Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - New schemas info loaded
+2026-02-18 18:35:56,870 [.NET TP Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - Configuration state loaded
+2026-02-18 18:35:56,870 [.NET TP Worker] INFO Supervisor InstallZipPackage BuildChangedServerContent - Configuration server content generation started
+2026-02-18 18:35:56,902 [.NET TP Worker] INFO Supervisor InstallZipPackage BuildChangedServerContent - Configuration server content generated
+2026-02-18 18:35:56,918 [.NET TP Worker] INFO Supervisor InstallZipPackage UpdateMetaInfo - Meta info file updated
+2026-02-18 18:35:56,918 [.NET TP Worker] INFO Supervisor InstallZipPackage MoveNext - File content generation started
+2026-02-18 18:36:05,693 [.NET TP Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors obtained
+2026-02-18 18:36:05,699 [.NET TP Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors generated
+2026-02-18 18:36:05,836 [.NET TP Worker] INFO Supervisor InstallZipPackage MoveNext - File content bootstraps generated
+2026-02-18 18:36:05,836 [.NET TP Worker] INFO Supervisor InstallZipPackage ConfigurationBuildFinished - Configuration build finished
+2026-02-18 19:09:22,378 [.NET TP Worker] INFO Supervisor InstallZipPackage LogInfo - Loading packages from database
+2026-02-18 20:31:05,173 [.NET TP Worker] INFO Supervisor InstallZipPackage Load - Loading packages from database
+2026-02-18 21:31:05,560 [.NET TP Worker] ERROR Supervisor InstallZipPackage LogError - System.IO.FileNotFoundException: Error occured when attempting to download the package archive from the 'https://marketplace.creatio.com/sites/marketplace/files/distribution/2025-11/CrtCustomer360App_1.13.43.zip' repository to the '' local folder
+ ---> System.Net.WebException: An error occurred while sending the request.
+ ---> System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.Net.Http.HttpIOException: The response ended prematurely. (ResponseEnded)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.Metrics.MetricsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.Net.WebClient.GetWebResponse(WebRequest request)
+   at System.Net.WebClient.DownloadBits(WebRequest request, Stream writeStream)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Terrasoft.Core.Packages.PackageWebClient.DownloadFile(Uri address, String fileName)
+   at Terrasoft.Core.Applications.AppDownloader.WebClientDownloadFile(Uri uri, String uploadingFilePath)
+   at Terrasoft.Core.Applications.AppDownloader.WebClientDownloadFile(Uri uri, String uploadingFilePath)
+   at Terrasoft.Core.Applications.AppDownloader.DownloadApp(Uri uri)
+   at Terrasoft.Core.ServiceModelContract.PackageInstaller.AppInstallerServiceInternal.<>c__DisplayClass25_0.<DownloadApp>b__0()
+   at Terrasoft.Core.ServiceModelContract.PackageInstaller.BaseInstallerServiceInternal.InvokeWithLogging(Action action)
+2026-02-18 21:35:52,586 [.NET TP Worker] ERROR Supervisor InstallZipPackage LogError - System.IO.FileNotFoundException: Error occured when attempting to download the package archive from the 'https://marketplace.creatio.com/sites/marketplace/files/distribution/2025-11/CrtCustomer360App_1.13.43.zip' repository to the '' local folder
+ ---> System.Net.WebException: An error occurred while sending the request.
+ ---> System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.Net.Http.HttpIOException: The response ended prematurely. (ResponseEnded)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.Metrics.MetricsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.Net.WebClient.GetWebResponse(WebRequest request)
+   at System.Net.WebClient.DownloadBits(WebRequest request, Stream writeStream)
+   at System.Net.WebClient.DownloadFile(Uri address, String fileName)
+   at Terrasoft.Core.Packages.PackageWebClient.DownloadFile(Uri address, String fileName)
+   at Terrasoft.Core.Applications.AppDownloader.WebClientDownloadFile(Uri uri, String uploadingFilePath)
+   at Terrasoft.Core.Applications.AppDownloader.WebClientDownloadFile(Uri uri, String uploadingFilePath)
+   at Terrasoft.Core.Applications.AppDownloader.DownloadApp(Uri uri)
+   at Terrasoft.Core.ServiceModelContract.PackageInstaller.AppInstallerServiceInternal.<>c__DisplayClass25_0.<DownloadApp>b__0()
+   at Terrasoft.Core.ServiceModelContract.PackageInstaller.BaseInstallerServiceInternal.InvokeWithLogging(Action action)
+2026-02-18 21:43:10,863 [.NET TP Worker] INFO Supervisor InstallZipPackage UploadChunkedFile - Loading file: CrtCustomer360App_1.13.43.zip 100%
+2026-02-18 21:43:13,143 [.NET TP Worker] INFO Supervisor InstallZipPackage <Validate>b__0 - Packages validation started
+2026-02-18 21:43:56,940 [.NET TP Worker] INFO Supervisor InstallZipPackage <Validate>b__0 - Packages have been validated
+2026-02-18 21:43:56,971 [.NET TP Worker] INFO Supervisor InstallZipPackage <CreateBackup>b__0 - Configuration backup started.
+2026-02-18 21:43:56,981 [.NET TP Worker] INFO Supervisor InstallZipPackage Load - Loading packages from archive
+2026-02-18 21:43:57,006 [.NET TP Worker] INFO Supervisor InstallZipPackage <Load>b__0 - Package "CrtCustomer360App" loaded
+2026-02-18 21:43:57,006 [.NET TP Worker] INFO Supervisor InstallZipPackage <Load>b__0 - Package "CrtApolloInC360" loaded
+2026-02-18 21:43:57,006 [.NET TP Worker] INFO Supervisor InstallZipPackage <Load>b__0 - Package "CrtC360InUiV2" loaded
+2026-02-18 21:43:57,006 [.NET TP Worker] INFO Supervisor InstallZipPackage <Load>b__0 - Package "CrtCustomer360Mobile" loaded
+2026-02-18 21:43:57,006 [.NET TP Worker] INFO Supervisor InstallZipPackage <Load>b__0 - Package "CrtCustomer360AI" loaded
+2026-02-18 21:43:57,029 [.NET TP Worker] INFO Supervisor InstallZipPackage <CreateBackup>b__0 - Configuration backup successfully created.
+2026-02-18 21:43:57,063 [.NET TP Worker] WARN Supervisor InstallZipPackage LogWarn - Application install from file started. Application name: CrtCustomer360App_1.13.43. Code: CrtCustomer360App_1.13.43.
+2026-02-18 21:43:57,063 [.NET TP Worker] WARN Supervisor InstallZipPackage LogWarn - Preparing packages for installation
+2026-02-18 21:44:11,948 [.NET TP Worker] WARN Supervisor InstallZipPackage LogWarn - The non-critical error occurred while retrieving the Marketplace Application Id. AppCode = "CrtCustomer360App", AppFileName="". Exception: System.Net.WebException: An error occurred while sending the request.
+ ---> System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.Net.Http.HttpIOException: The response ended prematurely. (ResponseEnded)
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   --- End of inner exception stack trace ---
+   at Terrasoft.Services.Runtime.ServiceClient.GetResponseData(IServiceClientRequest serviceRequest, CancellationToken cancellationToken, TimeSpan timeout)
+   at Terrasoft.Services.Runtime.ServiceClient.ExecuteAsync(IServiceClientRequest request, CancellationToken cancellationToken)
+   at Terrasoft.Configuration.CreatioMarketplaceApiClient.TryGetMarketplaceAppId(MarketplaceAppSearchRequest searchRequest, CancellationToken cancellationToken)
+   at Terrasoft.Common.Threading.AsyncPump.Run[T](Func`1 asyncMethod)
+   at Terrasoft.Core.ServiceModelContract.PackageInstaller.AppInstallerServiceInternal.TryGetMarketplaceAppId(IAppMarketplaceApiClient appMarketplaceApiClient, MarketplaceAppSearchRequest request, String& marketplaceAppId)
+2026-02-18 21:44:11,971 [.NET TP Worker] INFO Supervisor InstallZipPackage Load - Loading packages from archive
+2026-02-18 21:44:11,982 [.NET TP Worker] INFO Supervisor InstallZipPackage <Load>b__0 - Package "CrtCustomer360App" loaded
+2026-02-18 21:44:11,982 [.NET TP Worker] INFO Supervisor InstallZipPackage <Load>b__0 - Package "CrtApolloInC360" loaded
+2026-02-18 21:44:11,982 [.NET TP Worker] INFO Supervisor InstallZipPackage <Load>b__0 - Package "CrtC360InUiV2" loaded
+2026-02-18 21:44:11,982 [.NET TP Worker] INFO Supervisor InstallZipPackage <Load>b__0 - Package "CrtCustomer360Mobile" loaded
+2026-02-18 21:44:11,982 [.NET TP Worker] INFO Supervisor InstallZipPackage <Load>b__0 - Package "CrtCustomer360AI" loaded
+2026-02-18 21:44:11,996 [.NET TP Worker] INFO Supervisor InstallZipPackage GetTargetPackages - Skipped - Loading packages from database (new application)
+2026-02-18 21:44:11,996 [.NET TP Worker] INFO Supervisor InstallZipPackage ComposesPackages - Composing packages
+2026-02-18 21:44:51,828 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "AccountCompetitor" saved in package "CrtCustomer360App"
+2026-02-18 21:44:51,841 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "AccountType" saved in package "CrtCustomer360App"
+2026-02-18 21:44:51,857 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "ContactAddress" saved in package "CrtCustomer360App"
+2026-02-18 21:44:51,867 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "Contact" saved in package "CrtCustomer360App"
+2026-02-18 21:44:51,884 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "AccountAddressEventListener" saved in package "CrtCustomer360App"
+2026-02-18 21:44:51,894 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "AccountBillingInfo" saved in package "CrtCustomer360App"
+2026-02-18 21:44:51,901 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "AIInsightTimelineEntity" saved in package "CrtCustomer360App"
+2026-02-18 21:44:51,916 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "Contacts_ListPage" saved in package "CrtCustomer360App"
+2026-02-18 21:44:51,923 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "ContactBusinessRule" saved in package "CrtCustomer360App"
+2026-02-18 21:44:51,932 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "AgeActualizationC360" saved in package "CrtCustomer360App"
+2026-02-18 21:44:51,932 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "Accounts_ListPage" saved in package "CrtCustomer360App"
+2026-02-18 21:44:51,948 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "Account" saved in package "CrtCustomer360App"
+2026-02-18 21:44:51,961 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "Contacts_FormPage" saved in package "CrtCustomer360App"
+2026-02-18 21:44:51,971 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "AccountsAnalyticsDashboard" saved in package "CrtCustomer360App"
+2026-02-18 21:44:51,971 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "Contacts_FormPageBusinessRule" saved in package "CrtCustomer360App"
+2026-02-18 21:44:51,981 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "ContactAddressBusinessRule" saved in package "CrtCustomer360App"
+2026-02-18 21:44:51,981 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "ContactType" saved in package "CrtCustomer360App"
+2026-02-18 21:44:51,998 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "AIInsight" saved in package "CrtCustomer360App"
+2026-02-18 21:44:52,008 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "Contacts_MiniPage" saved in package "CrtCustomer360App"
+2026-02-18 21:44:52,016 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "BaseAddress" saved in package "CrtCustomer360App"
+2026-02-18 21:44:52,016 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "AccountAddressBusinessRule" saved in package "CrtCustomer360App"
+2026-02-18 21:44:52,026 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "AccountCategory" saved in package "CrtCustomer360App"
+2026-02-18 21:44:52,033 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "ContactRelatedPage" saved in package "CrtCustomer360App"
+2026-02-18 21:44:52,033 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "Accounts_MiniPage" saved in package "CrtCustomer360App"
+2026-02-18 21:44:52,046 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "Accounts_FormPage" saved in package "CrtCustomer360App"
+2026-02-18 21:44:52,055 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "ContactsAnalyticsDashboard" saved in package "CrtCustomer360App"
+2026-02-18 21:44:52,063 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "AccountAddress" saved in package "CrtCustomer360App"
+2026-02-18 21:44:52,063 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "AddressType" saved in package "CrtCustomer360App"
+2026-02-18 21:44:52,074 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "Accounts_FormPageBusinessRule" saved in package "CrtCustomer360App"
+2026-02-18 21:44:52,084 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "BaseAddressEventListener" saved in package "CrtCustomer360App"
+2026-02-18 21:44:52,084 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "ContactAddressEventListener" saved in package "CrtCustomer360App"
+2026-02-18 21:44:52,094 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "AccountRelatedPage" saved in package "CrtCustomer360App"
+2026-02-18 21:44:52,094 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaSaved - Schema "Contacts_MiniPageBusinessRule" saved in package "CrtCustomer360App"
+2026-02-18 21:44:52,113 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSqlScriptSaved - SQL script "UpdateContactAccountFullAddress_MSSQL" saved in package "CrtCustomer360App"
+2026-02-18 21:44:52,113 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSqlScriptSaved - SQL script "UpdateContactAccountFullAddress_Oracle" saved in package "CrtCustomer360App"
+2026-02-18 21:44:52,113 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSqlScriptSaved - SQL script "UpdateContactAccountFullAddress_PostgreSQL" saved in package "CrtCustomer360App"
+2026-02-18 21:44:52,163 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaDataSaved - Schema data "SysModuleEdit_Contact" saved in package "CrtCustomer360App"
+2026-02-18 21:44:52,175 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaDataSaved - Schema data "SysModuleInWorkplace_Accounts" saved in package "CrtCustomer360App"
+2026-02-18 21:44:52,186 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaDataSaved - Schema data "AccountCategory_Color" saved in package "CrtCustomer360App"
+2026-02-18 21:44:52,193 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaDataSaved - Schema data "SysAdminUnitInWorkplace_Customer360" saved in package "CrtCustomer360App"
+2026-02-18 21:44:52,201 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaDataSaved - Schema data "QuickAddItem_Contact" saved in package "CrtCustomer360App"
+2026-02-18 21:44:52,214 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaDataSaved - Schema data "AddressType_Colors" saved in package "CrtCustomer360App"
+2026-02-18 21:44:52,224 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaDataSaved - Schema data "ContactType_Color" saved in package "CrtCustomer360App"
+2026-02-18 21:44:52,247 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaDataSaved - Schema data "SysModule_Accounts" saved in package "CrtCustomer360App"
+2026-02-18 21:44:52,253 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaDataSaved - Schema data "SysSchemaAdminUnitRight_ContactsAnalyticsDashboard_e8fq3qo" saved in package "CrtCustomer360App"
+2026-02-18 21:44:52,253 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaDataSaved - Schema data "SysSchemaAdminUnitRight_AccountsAnalyticsDashboards_l5j2vrx" saved in package "CrtCustomer360App"
+2026-02-18 21:44:52,277 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaDataSaved - Schema data "SysModule_Contacts" saved in package "CrtCustomer360App"
+2026-02-18 21:44:52,284 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaDataSaved - Schema data "SysProfileData_AccountsSection" saved in package "CrtCustomer360App"
+2026-02-18 21:44:52,284 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaDataSaved - Schema data "SysProfileData_ContactsSection" saved in package "CrtCustomer360App"
+2026-02-18 21:44:52,294 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaDataSaved - Schema data "SysModuleInWorkplace_Contacts" saved in package "CrtCustomer360App"
+2026-02-18 21:44:52,303 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaDataSaved - Schema data "DuplicatesRule" saved in package "CrtCustomer360App"
+2026-02-18 21:44:52,303 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaDataSaved - Schema data "QuickAddItem_Account" saved in package "CrtCustomer360App"
+2026-02-18 21:44:52,313 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaDataSaved - Schema data "AccountType_Color" saved in package "CrtCustomer360App"
+2026-02-18 21:44:52,322 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaDataSaved - Schema data "SysImage_SectionIcon_Accounts" saved in package "CrtCustomer360App"
+2026-02-18 21:44:52,322 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaDataSaved - Schema data "SysModuleEntity_Accounts" saved in package "CrtCustomer360App"
+2026-02-18 21:44:52,338 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaDataSaved - Schema data "SysModuleEdit_Account" saved in package "CrtCustomer360App"
+2026-02-18 21:44:52,347 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaDataSaved - Schema data "SysWorkplace_Customer360" saved in package "CrtCustomer360App"
+2026-02-18 21:44:52,353 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaDataSaved - Schema data "SysImage_SectionIcon_Contacts" saved in package "CrtCustomer360App"
+2026-02-18 21:44:52,353 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaDataSaved - Schema data "SysModuleEntity_Contacts" saved in package "CrtCustomer360App"
+2026-02-18 21:44:52,367 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaDataSaved - Schema data "SysImage_Accounts" saved in package "CrtCustomer360App"
+2026-02-18 21:44:52,374 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSchemaDataSaved - Schema data "SysImage_Contacts" saved in package "CrtCustomer360App"
+2026-02-18 21:44:52,419 [.NET TP Worker] INFO Supervisor InstallZipPackage OnFileContentChanged - Files saved in package "CrtCustomer360App"
+2026-02-18 21:44:52,427 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSaved - Package "CrtCustomer360App" saved
+2026-02-18 21:44:52,439 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemaSaved - Schema "Tasks_FormPage" saved in package "CrtC360InUiV2"
+2026-02-18 21:44:52,472 [.NET TP Worker] INFO Supervisor InstallZipPackage OnFileContentChanged - Files saved in package "CrtC360InUiV2"
+2026-02-18 21:44:52,472 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSaved - Package "CrtC360InUiV2" saved
+2026-02-18 21:44:52,491 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemaSaved - Schema "MobileFUIAccountGridPageSettingsDefaultWorkplace" saved in package "CrtCustomer360Mobile"
+2026-02-18 21:44:52,491 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemaSaved - Schema "MobileApplicationManifestDefaultWorkplace" saved in package "CrtCustomer360Mobile"
+2026-02-18 21:44:52,504 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemaSaved - Schema "MobileFUIContactRecordPageSettingsDefaultWorkplace" saved in package "CrtCustomer360Mobile"
+2026-02-18 21:44:52,512 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemaSaved - Schema "MobileFUIAccountRecordPageSettingsDefaultWorkplace" saved in package "CrtCustomer360Mobile"
+2026-02-18 21:44:52,512 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemaSaved - Schema "MobileFUIContactGridPageSettingsDefaultWorkplace" saved in package "CrtCustomer360Mobile"
+2026-02-18 21:44:52,526 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemaDataSaved - Schema data "Feature_UseMobileCustomer360" saved in package "CrtCustomer360Mobile"
+2026-02-18 21:44:52,532 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemaDataSaved - Schema data "AdminUnitFeatureState_UseMobileCustomer360" saved in package "CrtCustomer360Mobile"
+2026-02-18 21:44:52,566 [.NET TP Worker] INFO Supervisor InstallZipPackage OnFileContentChanged - Files saved in package "CrtCustomer360Mobile"
+2026-02-18 21:44:52,566 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSaved - Package "CrtCustomer360Mobile" saved
+2026-02-18 21:44:52,580 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemaSaved - Schema "ReadAccountEmployeesNumber" saved in package "CrtCustomer360AI"
+2026-02-18 21:44:52,586 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemaSaved - Schema "SalesAIAssistant" saved in package "CrtCustomer360AI"
+2026-02-18 21:44:52,594 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemaSaved - Schema "CreateMessageFromAIChat" saved in package "CrtCustomer360AI"
+2026-02-18 21:44:52,594 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemaSaved - Schema "FindContactDuplicates" saved in package "CrtCustomer360AI"
+2026-02-18 21:44:52,605 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemaSaved - Schema "SkillAdressSplitter" saved in package "CrtCustomer360AI"
+2026-02-18 21:44:52,614 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemaSaved - Schema "BingSearchProcess" saved in package "CrtCustomer360AI"
+2026-02-18 21:44:52,614 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemaSaved - Schema "BusinessEntity" saved in package "CrtCustomer360AI"
+2026-02-18 21:44:52,625 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemaSaved - Schema "Copilot_GetCurrentUserTimeZone" saved in package "CrtCustomer360AI"
+2026-02-18 21:44:52,631 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemaSaved - Schema "AddContact" saved in package "CrtCustomer360AI"
+2026-02-18 21:44:52,631 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemaSaved - Schema "CheckIfOperatorHasAccountOwnershipRights" saved in package "CrtCustomer360AI"
+2026-02-18 21:44:52,646 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemaSaved - Schema "CheckAccountHasWebLink" saved in package "CrtCustomer360AI"
+2026-02-18 21:44:52,652 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemaSaved - Schema "CheckBingApiKey" saved in package "CrtCustomer360AI"
+2026-02-18 21:44:52,652 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemaSaved - Schema "SaveNewApiKey" saved in package "CrtCustomer360AI"
+2026-02-18 21:44:52,661 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemaSaved - Schema "BingSearchApiCall" saved in package "CrtCustomer360AI"
+2026-02-18 21:44:52,661 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemaSaved - Schema "ReadIndustries" saved in package "CrtCustomer360AI"
+2026-02-18 21:44:52,661 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemaSaved - Schema "AccountNewsAndInsights" saved in package "CrtCustomer360AI"
+2026-02-18 21:44:52,684 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemaSaved - Schema "UpdateAccountData" saved in package "CrtCustomer360AI"
+2026-02-18 21:44:52,684 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemaSaved - Schema "AddContactsToAccount" saved in package "CrtCustomer360AI"
+2026-02-18 21:44:52,694 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemaSaved - Schema "EnrichAccountData" saved in package "CrtCustomer360AI"
+2026-02-18 21:44:52,694 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemaSaved - Schema "SkillIndustriesCollection" saved in package "CrtCustomer360AI"
+2026-02-18 21:44:52,708 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemaSaved - Schema "CheckApolloZoominfoAvailableProcess" saved in package "CrtCustomer360AI"
+2026-02-18 21:44:52,713 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemaSaved - Schema "AddPrimaryContact" saved in package "CrtCustomer360AI"
+2026-02-18 21:44:52,713 [.NET TP Worker] INFO Supervisor InstallZipPackage SafeItemOperation - Schema "AddInsights" saved in package "CrtCustomer360AI"
+2026-02-18 21:44:52,728 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemaDataSaved - Schema data "WebService_SysSettings_BingSearchApiCall" saved in package "CrtCustomer360AI"
+2026-02-18 21:44:52,734 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemaDataSaved - Schema data "WebService_SysSettings_BingSearch" saved in package "CrtCustomer360AI"
+2026-02-18 21:44:52,734 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemaDataSaved - Schema data "CopilotIntentPageQuickLinks" saved in package "CrtCustomer360AI"
+2026-02-18 21:44:52,742 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemaDataSaved - Schema data "SysSchemaOperationRight_Skill_EnrichAccountData_Access" saved in package "CrtCustomer360AI"
+2026-02-18 21:44:52,790 [.NET TP Worker] INFO Supervisor InstallZipPackage OnFileContentChanged - Files saved in package "CrtCustomer360AI"
+2026-02-18 21:44:52,791 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageSaved - Package "CrtCustomer360AI" saved
+2026-02-18 21:44:53,120 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageDependenciesSaved - Added - dependencies of package "CrtCustomer360App"
+2026-02-18 21:44:53,126 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageDependenciesSaved - Added - dependencies of package "CrtC360InUiV2"
+2026-02-18 21:44:53,126 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageDependenciesSaved - Added - dependencies of package "CrtCustomer360Mobile"
+2026-02-18 21:44:53,133 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageDependenciesSaved - Added - dependencies of package "CrtCustomer360AI"
+2026-02-18 21:44:53,461 [.NET TP Worker] INFO Supervisor InstallZipPackage OnResourceSaved - Added - resources in package "CrtCustomer360App"
+2026-02-18 21:44:53,483 [.NET TP Worker] INFO Supervisor InstallZipPackage OnResourceSaved - Added - resources in package "CrtC360InUiV2"
+2026-02-18 21:44:53,534 [.NET TP Worker] INFO Supervisor InstallZipPackage OnResourceSaved - Added - resources in package "CrtCustomer360Mobile"
+2026-02-18 21:44:54,844 [.NET TP Worker] INFO Supervisor InstallZipPackage OnResourceSaved - Added - resources in package "CrtCustomer360AI"
+2026-02-18 21:44:56,791 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemasCaptionLocalizationSaved - Added - schema caption localizations in package "CrtCustomer360App"
+2026-02-18 21:44:56,963 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemasCaptionLocalizationSaved - Added - schema caption localizations in package "CrtC360InUiV2"
+2026-02-18 21:44:57,020 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemasCaptionLocalizationSaved - Added - schema caption localizations in package "CrtCustomer360Mobile"
+2026-02-18 21:44:57,088 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemasCaptionLocalizationSaved - Added - schema caption localizations in package "CrtCustomer360AI"
+2026-02-18 21:44:57,202 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageHierarchyUpdating - Package hierarchy actualization is started
+2026-02-18 21:44:57,644 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageHierarchyUpdated - Package hierarchy actualization is completed. Affected records: 406
+2026-02-18 21:44:57,644 [.NET TP Worker] INFO Supervisor InstallZipPackage OnPackageHierarchySaved - Package hierarchy updated
+2026-02-18 21:44:58,398 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallStart - Updating tables structure in database
+2026-02-18 21:44:58,572 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "MobileApplicationManifestDefaultWorkplace" from package CrtCustomer360Mobile generated
+2026-02-18 21:44:58,651 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "MobileFUIAccountGridPageSettingsDefaultWorkplace" from package CrtCustomer360Mobile generated
+2026-02-18 21:44:58,687 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "MobileFUIAccountRecordPageSettingsDefaultWorkplace" from package CrtCustomer360Mobile generated
+2026-02-18 21:44:58,699 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "BusinessEntity" from package CrtCustomer360AI generated
+2026-02-18 21:44:58,702 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "AddContactsToAccount" from package CrtCustomer360AI generated
+2026-02-18 21:44:58,712 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "MobileFUIContactRecordPageSettingsDefaultWorkplace" from package CrtCustomer360Mobile generated
+2026-02-18 21:44:58,712 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "CheckBingApiKey" from package CrtCustomer360AI generated
+2026-02-18 21:44:58,736 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "Copilot_GetCurrentUserTimeZone" from package CrtCustomer360AI generated
+2026-02-18 21:44:58,736 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "MobileFUIContactGridPageSettingsDefaultWorkplace" from package CrtCustomer360Mobile generated
+2026-02-18 21:44:58,783 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "CheckAccountHasWebLink" from package CrtCustomer360AI generated
+2026-02-18 21:44:58,797 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "CheckIfOperatorHasAccountOwnershipRights" from package CrtCustomer360AI generated
+2026-02-18 21:44:58,809 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "AddInsights" from package CrtCustomer360AI generated
+2026-02-18 21:44:58,817 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "FindContactDuplicates" from package CrtCustomer360AI generated
+2026-02-18 21:44:58,817 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "ReadAccountEmployeesNumber" from package CrtCustomer360AI generated
+2026-02-18 21:44:58,829 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "ContactRelatedPage" from package CrtCustomer360App generated
+2026-02-18 21:44:58,871 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "AddPrimaryContact" from package CrtCustomer360AI generated
+2026-02-18 21:44:58,871 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "Contacts_FormPage" from package CrtCustomer360App generated
+2026-02-18 21:44:58,892 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "Contacts_FormPageBusinessRule" from package CrtCustomer360App generated
+2026-02-18 21:44:58,892 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "BingSearchProcess" from package CrtCustomer360AI generated
+2026-02-18 21:44:58,902 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "SaveNewApiKey" from package CrtCustomer360AI generated
+2026-02-18 21:44:58,916 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "BingSearchApiCall" from package CrtCustomer360AI generated
+2026-02-18 21:44:58,926 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "CreateMessageFromAIChat" from package CrtCustomer360AI generated
+2026-02-18 21:44:58,963 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "ContactsAnalyticsDashboard" from package CrtCustomer360App generated
+2026-02-18 21:44:58,987 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "ReadIndustries" from package CrtCustomer360AI generated
+2026-02-18 21:44:59,187 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "CheckApolloZoominfoAvailableProcess" from package CrtCustomer360AI generated
+2026-02-18 21:44:59,219 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "AddContact" from package CrtCustomer360AI generated
+2026-02-18 21:44:59,257 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "Accounts_ListPage" from package CrtCustomer360App generated
+2026-02-18 21:44:59,274 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "Accounts_FormPageBusinessRule" from package CrtCustomer360App generated
+2026-02-18 21:44:59,318 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "AgeActualizationC360" from package CrtCustomer360App generated
+2026-02-18 21:44:59,332 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "AIInsightTimelineEntity" from package CrtCustomer360App generated
+2026-02-18 21:44:59,344 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "AccountCompetitor" from package CrtCustomer360App generated
+2026-02-18 21:44:59,357 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemaDBActionsAdded - Actions added for schema "Account" from package "CrtCoreBase, SSP, RelationshipDesigner, EmailMining, Completeness, CrtCustomer360App" in 0.652 sec
+2026-02-18 21:44:59,386 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "BaseAddress" from package CrtCustomer360App generated
+2026-02-18 21:44:59,392 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "ContactType" from package CrtCustomer360App generated
+2026-02-18 21:44:59,426 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "Contacts_ListPage" from package CrtCustomer360App generated
+2026-02-18 21:44:59,433 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemaDBActionsAdded - Actions skipped for schema "Contact" from package "CrtCoreBase, RelationshipDesigner, Completeness, SSP, MLangContent, CrtMobile7x, CrtCustomer360App" in 0.074 sec
+2026-02-18 21:44:59,469 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "Contacts_MiniPage" from package CrtCustomer360App generated
+2026-02-18 21:44:59,476 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "BaseAddressEventListener" from package CrtCustomer360App generated
+2026-02-18 21:44:59,486 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "Contacts_MiniPageBusinessRule" from package CrtCustomer360App generated
+2026-02-18 21:44:59,499 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "UpdateAccountData" from package CrtCustomer360AI generated
+2026-02-18 21:44:59,540 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemaDBActionsAdded - Actions added for schema "ContactAddress" from package "SSP, CrtBase, CrtCustomer360App" in 0.106 sec
+2026-02-18 21:44:59,551 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "Tasks_FormPage" from package CrtC360InUiV2 generated
+2026-02-18 21:44:59,599 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "AddressType" from package CrtCustomer360App generated
+2026-02-18 21:44:59,638 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "Accounts_MiniPage" from package CrtCustomer360App generated
+2026-02-18 21:44:59,673 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "AccountsAnalyticsDashboard" from package CrtCustomer360App generated
+2026-02-18 21:44:59,764 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemaDBActionsAdded - Actions added for schema "ContactType" from package "CrtCoreBase, CrtCustomer360App" in 0.222 sec
+2026-02-18 21:44:59,836 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemaDBActionsAdded - Actions added for schema "AccountCompetitor" from package "CrtCustomer360App" in 0.071 sec
+2026-02-18 21:44:59,865 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "AIInsight" from package CrtCustomer360App generated
+2026-02-18 21:44:59,978 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemaDBActionsAdded - Actions added for schema "AccountCategory" from package "CrtCoreBase, CrtCustomer360App" in 0.141 sec
+2026-02-18 21:44:59,994 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "AccountType" from package CrtCustomer360App generated
+2026-02-18 21:45:00,066 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "ContactAddress" from package CrtCustomer360App generated
+2026-02-18 21:45:00,141 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemaDBActionsAdded - Actions added for schema "AccountType" from package "CrtCoreBase, CrtCustomer360App" in 0.163 sec
+2026-02-18 21:45:00,227 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemaDBActionsAdded - Actions added for schema "AccountAddress" from package "CrtBase, CrtCustomer360App" in 0.085 sec
+2026-02-18 21:45:00,269 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "AccountAddress" from package CrtCustomer360App generated
+2026-02-18 21:45:00,326 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemaDBActionsAdded - Actions skipped for schema "AccountBillingInfo" from package "CrtBase, CrtCustomer360App" in 0.097 sec
+2026-02-18 21:45:00,395 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemaDBActionsAdded - Actions added for schema "AIInsight" from package "CrtCustomer360App" in 0.068 sec
+2026-02-18 21:45:00,555 [.NET TP Worker] INFO Supervisor InstallZipPackage OnSchemaDBActionsAdded - Actions added for schema "AddressType" from package "CrtCoreBase, SSP, CrtCustomer360App" in 0.158 sec
+2026-02-18 21:45:00,568 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "AccountCategory" from package CrtCustomer360App generated
+2026-02-18 21:45:01,333 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "AccountBillingInfo" from package CrtCustomer360App generated
+2026-02-18 21:45:01,371 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "AccountAddressEventListener" from package CrtCustomer360App generated
+2026-02-18 21:45:02,429 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "Contact" from package CrtCustomer360App generated
+2026-02-18 21:45:02,470 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "ContactAddressEventListener" from package CrtCustomer360App generated
+2026-02-18 21:45:02,489 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "ContactAddressBusinessRule" from package CrtCustomer360App generated
+2026-02-18 21:45:02,489 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "ContactBusinessRule" from package CrtCustomer360App generated
+2026-02-18 21:45:03,058 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "Account" from package CrtCustomer360App generated
+2026-02-18 21:45:03,092 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "Accounts_FormPage" from package CrtCustomer360App generated
+2026-02-18 21:45:03,108 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "AccountAddressBusinessRule" from package CrtCustomer360App generated
+2026-02-18 21:45:03,120 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "AccountRelatedPage" from package CrtCustomer360App generated
+2026-02-18 21:45:03,231 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "AccountType" from package  generated
+2026-02-18 21:45:03,296 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "AIInsight" from package  generated
+2026-02-18 21:45:03,309 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "AccountCompetitor" from package  generated
+2026-02-18 21:45:03,309 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "ContactType" from package  generated
+2026-02-18 21:45:03,309 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "AccountCategory" from package  generated
+2026-02-18 21:45:03,333 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "AccountBillingInfo" from package  generated
+2026-02-18 21:45:03,339 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "AddressType" from package  generated
+2026-02-18 21:45:03,373 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "AccountAddress" from package  generated
+2026-02-18 21:45:03,402 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "ContactAddress" from package  generated
+2026-02-18 21:45:03,402 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "BaseAddress" from package  generated
+2026-02-18 21:45:03,487 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "Account" from package  generated
+2026-02-18 21:45:03,649 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "Contact" from package  generated
+2026-02-18 21:45:03,802 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "SysImage" from package  generated
+2026-02-18 21:45:03,838 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "ContactDecisionRole" from package  generated
+2026-02-18 21:45:03,838 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "AccountAnnualRevenue" from package  generated
+2026-02-18 21:45:03,859 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "AccountOwnership" from package  generated
+2026-02-18 21:45:03,859 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "AccountEmployeesNumber" from package  generated
+2026-02-18 21:45:03,878 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "ContactSalutationType" from package  generated
+2026-02-18 21:45:03,889 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "AccountIndustry" from package  generated
+2026-02-18 21:45:03,889 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "Job" from package  generated
+2026-02-18 21:45:03,900 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "Gender" from package  generated
+2026-02-18 21:45:03,900 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "City" from package  generated
+2026-02-18 21:45:03,909 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "Country" from package  generated
+2026-02-18 21:45:03,909 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "Department" from package  generated
+2026-02-18 21:45:03,909 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "Region" from package  generated
+2026-02-18 21:45:03,909 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "SysLanguage" from package  generated
+2026-02-18 21:45:04,086 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Schema source code "SocialAccount" from package  generated
+2026-02-18 21:45:04,088 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallStart - Updating modified schemas
+2026-02-18 21:45:04,088 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallFinish - Updated modified schemas
+2026-02-18 21:45:04,452 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Structure saved: AccountCompetitor from package CrtCustomer360App
+2026-02-18 21:45:04,459 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Structure saved: AIInsight from package CrtCustomer360App
+2026-02-18 21:45:04,459 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Structure saved: AccountType from package CrtCoreBase, CrtCustomer360App
+2026-02-18 21:45:04,468 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Structure saved: ContactAddress from package SSP, CrtBase, CrtCustomer360App
+2026-02-18 21:45:04,468 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Structure saved: Account from package CrtCoreBase, SSP, RelationshipDesigner, EmailMining, Completeness, CrtCustomer360App
+2026-02-18 21:45:04,481 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Structure saved: ContactType from package CrtCoreBase, CrtCustomer360App
+2026-02-18 21:45:04,481 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Structure saved: AccountCategory from package CrtCoreBase, CrtCustomer360App
+2026-02-18 21:45:04,490 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Structure saved: AccountAddress from package CrtBase, CrtCustomer360App
+2026-02-18 21:45:04,490 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallSuccess - Structure saved: AddressType from package CrtCoreBase, SSP, CrtCustomer360App
+2026-02-18 21:45:04,527 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallStart - Installing data
+2026-02-18 21:45:04,933 [.NET TP Worker] INFO Supervisor InstallZipPackage InstallPackageSchemaData - Data "Feature_UseMobileCustomer360" from package "CrtCustomer360Mobile" installed
+2026-02-18 21:45:04,995 [.NET TP Worker] INFO Supervisor InstallZipPackage InstallPackageSchemaData - Data "AdminUnitFeatureState_UseMobileCustomer360" from package "CrtCustomer360Mobile" installed
+2026-02-18 21:45:05,057 [.NET TP Worker] INFO Supervisor InstallZipPackage InstallPackageSchemaData - Data "SysModuleEdit_Contact" from package "CrtCustomer360App" installed
+2026-02-18 21:45:05,171 [.NET TP Worker] INFO Supervisor InstallZipPackage InstallPackageSchemaData - Data "SysModuleInWorkplace_Accounts" from package "CrtCustomer360App" installed
+2026-02-18 21:45:05,230 [.NET TP Worker] INFO Supervisor InstallZipPackage InstallPackageSchemaData - Data "AccountCategory_Color" from package "CrtCustomer360App" installed
+2026-02-18 21:45:05,266 [.NET TP Worker] INFO Supervisor InstallZipPackage InstallPackageSchemaData - Data "SysAdminUnitInWorkplace_Customer360" from package "CrtCustomer360App" installed
+2026-02-18 21:45:05,318 [.NET TP Worker] INFO Supervisor InstallZipPackage InstallPackageSchemaData - Data "QuickAddItem_Contact" from package "CrtCustomer360App" installed
+2026-02-18 21:45:05,418 [.NET TP Worker] INFO Supervisor InstallZipPackage InstallPackageSchemaData - Data "AddressType_Colors" from package "CrtCustomer360App" installed
+2026-02-18 21:45:05,468 [.NET TP Worker] INFO Supervisor InstallZipPackage InstallPackageSchemaData - Data "ContactType_Color" from package "CrtCustomer360App" installed
+2026-02-18 21:45:05,538 [.NET TP Worker] INFO Supervisor InstallZipPackage InstallPackageSchemaData - Data "SysModule_Accounts" from package "CrtCustomer360App" installed
+2026-02-18 21:45:05,594 [.NET TP Worker] INFO Supervisor InstallZipPackage InstallPackageSchemaData - Data "SysSchemaAdminUnitRight_ContactsAnalyticsDashboard_e8fq3qo" from package "CrtCustomer360App" installed
+2026-02-18 21:45:05,600 [.NET TP Worker] INFO Supervisor InstallZipPackage InstallPackageSchemaData - Data "SysSchemaAdminUnitRight_AccountsAnalyticsDashboards_l5j2vrx" from package "CrtCustomer360App" installed
+2026-02-18 21:45:05,622 [.NET TP Worker] INFO Supervisor InstallZipPackage InstallPackageSchemaData - Data "SysModule_Contacts" from package "CrtCustomer360App" installed
+2026-02-18 21:45:05,664 [.NET TP Worker] INFO Supervisor InstallZipPackage InstallPackageSchemaData - Data "SysProfileData_AccountsSection" from package "CrtCustomer360App" installed
+2026-02-18 21:45:05,669 [.NET TP Worker] INFO Supervisor InstallZipPackage InstallPackageSchemaData - Data "SysProfileData_ContactsSection" from package "CrtCustomer360App" installed
+2026-02-18 21:45:05,680 [.NET TP Worker] INFO Supervisor InstallZipPackage InstallPackageSchemaData - Data "SysModuleInWorkplace_Contacts" from package "CrtCustomer360App" installed
+2026-02-18 21:45:05,758 [.NET TP Worker] INFO Supervisor InstallZipPackage InstallPackageSchemaData - Data "DuplicatesRule" from package "CrtCustomer360App" installed
+2026-02-18 21:45:05,769 [.NET TP Worker] INFO Supervisor InstallZipPackage InstallPackageSchemaData - Data "QuickAddItem_Account" from package "CrtCustomer360App" installed
+2026-02-18 21:45:05,822 [.NET TP Worker] INFO Supervisor InstallZipPackage InstallPackageSchemaData - Data "AccountType_Color" from package "CrtCustomer360App" installed
+2026-02-18 21:45:05,854 [.NET TP Worker] INFO Supervisor InstallZipPackage InstallPackageSchemaData - Data "SysImage_SectionIcon_Accounts" from package "CrtCustomer360App" installed
+2026-02-18 21:45:05,882 [.NET TP Worker] INFO Supervisor InstallZipPackage InstallPackageSchemaData - Data "SysModuleEntity_Accounts" from package "CrtCustomer360App" installed
+2026-02-18 21:45:05,888 [.NET TP Worker] INFO Supervisor InstallZipPackage InstallPackageSchemaData - Data "SysModuleEdit_Account" from package "CrtCustomer360App" installed
+2026-02-18 21:45:05,953 [.NET TP Worker] INFO Supervisor InstallZipPackage InstallPackageSchemaData - Data "SysWorkplace_Customer360" from package "CrtCustomer360App" installed
+2026-02-18 21:45:05,958 [.NET TP Worker] INFO Supervisor InstallZipPackage InstallPackageSchemaData - Data "SysImage_SectionIcon_Contacts" from package "CrtCustomer360App" installed
+2026-02-18 21:45:05,970 [.NET TP Worker] INFO Supervisor InstallZipPackage InstallPackageSchemaData - Data "SysModuleEntity_Contacts" from package "CrtCustomer360App" installed
+2026-02-18 21:45:05,980 [.NET TP Worker] INFO Supervisor InstallZipPackage InstallPackageSchemaData - Data "SysImage_Accounts" from package "CrtCustomer360App" installed
+2026-02-18 21:45:05,980 [.NET TP Worker] INFO Supervisor InstallZipPackage InstallPackageSchemaData - Data "SysImage_Contacts" from package "CrtCustomer360App" installed
+2026-02-18 21:45:06,032 [.NET TP Worker] INFO Supervisor InstallZipPackage InstallPackageSchemaData - Data "WebService_SysSettings_BingSearchApiCall" from package "CrtCustomer360AI" installed
+2026-02-18 21:45:06,032 [.NET TP Worker] INFO Supervisor InstallZipPackage InstallPackageSchemaData - Data "WebService_SysSettings_BingSearch" from package "CrtCustomer360AI" installed
+2026-02-18 21:45:06,079 [.NET TP Worker] INFO Supervisor InstallZipPackage InstallPackageSchemaData - Data "CopilotIntentPageQuickLinks" from package "CrtCustomer360AI" installed
+2026-02-18 21:45:06,128 [.NET TP Worker] INFO Supervisor InstallZipPackage InstallPackageSchemaData - Data "SysSchemaOperationRight_Skill_EnrichAccountData_Access" from package "CrtCustomer360AI" installed
+2026-02-18 21:45:06,128 [.NET TP Worker] INFO Supervisor InstallZipPackage InstallColumnLookupValues - Lookup values "AdminUnitFeatureState_UseMobileCustomer360" from package "CrtCustomer360Mobile" installed
+2026-02-18 21:45:06,155 [.NET TP Worker] INFO Supervisor InstallZipPackage InstallColumnLookupValues - Lookup values "SysProfileData_ContactsSection" from package "CrtCustomer360App" installed
+2026-02-18 21:45:06,158 [.NET TP Worker] INFO Supervisor InstallZipPackage InstallColumnLookupValues - Lookup values "SysProfileData_AccountsSection" from package "CrtCustomer360App" installed
+2026-02-18 21:45:06,172 [.NET TP Worker] INFO Supervisor InstallZipPackage InstallColumnLookupValues - Lookup values "SysWorkplace_Customer360" from package "CrtCustomer360App" installed
+2026-02-18 21:45:06,178 [.NET TP Worker] INFO Supervisor InstallZipPackage InstallColumnLookupValues - Lookup values "QuickAddItem_Account" from package "CrtCustomer360App" installed
+2026-02-18 21:45:06,192 [.NET TP Worker] INFO Supervisor InstallZipPackage InstallColumnLookupValues - Lookup values "QuickAddItem_Contact" from package "CrtCustomer360App" installed
+2026-02-18 21:45:06,201 [.NET TP Worker] INFO Supervisor InstallZipPackage InstallColumnLookupValues - Lookup values "SysAdminUnitInWorkplace_Customer360" from package "CrtCustomer360App" installed
+2026-02-18 21:45:06,209 [.NET TP Worker] INFO Supervisor InstallZipPackage InstallColumnLookupValues - Lookup values "SysModuleInWorkplace_Contacts" from package "CrtCustomer360App" installed
+2026-02-18 21:45:06,218 [.NET TP Worker] INFO Supervisor InstallZipPackage InstallColumnLookupValues - Lookup values "SysModuleInWorkplace_Accounts" from package "CrtCustomer360App" installed
+2026-02-18 21:45:06,231 [.NET TP Worker] INFO Supervisor InstallZipPackage InstallColumnLookupValues - Lookup values "SysSchemaAdminUnitRight_AccountsAnalyticsDashboards_l5j2vrx" from package "CrtCustomer360App" installed
+2026-02-18 21:45:06,238 [.NET TP Worker] INFO Supervisor InstallZipPackage InstallColumnLookupValues - Lookup values "SysSchemaAdminUnitRight_ContactsAnalyticsDashboard_e8fq3qo" from package "CrtCustomer360App" installed
+2026-02-18 21:45:06,238 [.NET TP Worker] INFO Supervisor InstallZipPackage InstallColumnLookupValues - Lookup values "SysModule_Contacts" from package "CrtCustomer360App" installed
+2026-02-18 21:45:06,259 [.NET TP Worker] INFO Supervisor InstallZipPackage InstallColumnLookupValues - Lookup values "SysModule_Accounts" from package "CrtCustomer360App" installed
+2026-02-18 21:45:06,268 [.NET TP Worker] INFO Supervisor InstallZipPackage InstallColumnLookupValues - Lookup values "WebService_SysSettings_BingSearchApiCall" from package "CrtCustomer360AI" installed
+2026-02-18 21:45:06,268 [.NET TP Worker] INFO Supervisor InstallZipPackage InstallColumnLookupValues - Lookup values "SysSchemaOperationRight_Skill_EnrichAccountData_Access" from package "CrtCustomer360AI" installed
+2026-02-18 21:45:06,323 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallStart - Installing SQL scripts
+2026-02-18 21:45:06,370 [.NET TP Worker] INFO Supervisor InstallZipPackage ExecuteSqlScript - SQL script "UpdateContactAccountFullAddress_PostgreSQL" from package "CrtCustomer360App" installed
+2026-02-18 21:45:06,370 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallStart - Executing default install scripts
+2026-02-18 21:45:06,370 [.NET TP Worker] INFO Supervisor InstallZipPackage ExecuteAfterInstallAnyPackageScript - Default install script "Creatio.Copilot.GrantDefIntentPermissionsExecutor" executed for package "CrtCustomer360Mobile"
+2026-02-18 21:45:06,370 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallStart - Executing default install scripts
+2026-02-18 21:45:06,370 [.NET TP Worker] INFO Supervisor InstallZipPackage ExecuteAfterInstallAnyPackageScript - Default install script "Creatio.Copilot.GrantDefIntentPermissionsExecutor" executed for package "CrtCustomer360App"
+2026-02-18 21:45:06,370 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallStart - Executing default install scripts
+2026-02-18 21:45:06,370 [.NET TP Worker] INFO Supervisor InstallZipPackage ExecuteAfterInstallAnyPackageScript - Default install script "Creatio.Copilot.GrantDefIntentPermissionsExecutor" executed for package "CrtC360InUiV2"
+2026-02-18 21:45:06,370 [.NET TP Worker] INFO Supervisor InstallZipPackage OnInstallStart - Executing default install scripts
+2026-02-18 21:45:06,410 [.NET TP Worker] INFO Supervisor InstallZipPackage ExecuteAfterInstallAnyPackageScript - Default install script "Creatio.Copilot.GrantDefIntentPermissionsExecutor" executed for package "CrtCustomer360AI"
+2026-02-18 21:45:06,528 [.NET TP Worker] INFO Supervisor InstallZipPackage ConfigurationBuildStarted - Configuration build started
+2026-02-18 21:45:06,528 [.NET TP Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - Current schemas info loaded
+2026-02-18 21:45:08,792 [.NET TP Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - New schemas info loaded
+2026-02-18 21:45:08,907 [.NET TP Worker] INFO Supervisor InstallZipPackage GetConfigurationSchemasState - Configuration state loaded
+2026-02-18 21:45:08,909 [.NET TP Worker] INFO Supervisor InstallZipPackage BuildChangedServerContent - Configuration server content generation started
+2026-02-18 21:45:09,148 [.NET TP Worker] INFO Supervisor InstallZipPackage BuildChangedServerContent - Configuration server content generated
+2026-02-18 21:45:09,185 [.NET TP Worker] INFO Supervisor InstallZipPackage UpdateMetaInfo - Meta info file updated
+2026-02-18 21:45:09,188 [.NET TP Worker] INFO Supervisor InstallZipPackage MoveNext - File content generation started
+2026-02-18 21:45:18,222 [.NET TP Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors obtained
+2026-02-18 21:45:18,235 [.NET TP Worker] INFO Supervisor InstallZipPackage MoveNext - File content descriptors generated
+2026-02-18 21:45:18,391 [.NET TP Worker] INFO Supervisor InstallZipPackage MoveNext - File content bootstraps generated
+2026-02-18 21:45:18,391 [.NET TP Worker] INFO Supervisor InstallZipPackage ConfigurationBuildFinished - Configuration build finished
+2026-02-18 21:45:18,495 [.NET TP Worker] WARN Supervisor InstallZipPackage <InstallApp>b__0 - Application installed successfully

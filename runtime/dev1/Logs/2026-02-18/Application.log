@@ -1,0 +1,55 @@
+2026-02-18 16:15:21,310 [1] WARN  Terrasoft.Core.LicManager Initialize - [ExtendedLicenseLogging] LicManager.Initialize started
+2026-02-18 16:15:21,310 [1] WARN  Terrasoft.Core.LicManager Initialize - [ExtendedLicenseLogging] LicManager.Initialize finished
+2026-02-18 16:16:04,003 [.NET TP Worker] WARN Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - [ExtendedLicenseLogging] RedistributeUserLicenses called for user: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 16:16:04,024 [.NET TP Worker] INFO Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - Redistribution: package count = 0, userId=7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 16:34:45,087 [1] WARN  Terrasoft.Core.LicManager Initialize - [ExtendedLicenseLogging] LicManager.Initialize started
+2026-02-18 16:34:45,087 [1] WARN  Terrasoft.Core.LicManager Initialize - [ExtendedLicenseLogging] LicManager.Initialize finished
+2026-02-18 16:35:39,556 [.NET TP Worker] WARN Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - [ExtendedLicenseLogging] RedistributeUserLicenses called for user: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 16:35:39,579 [.NET TP Worker] INFO Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - Redistribution: package count = 0, userId=7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 16:44:17,747 [1] WARN  Terrasoft.Core.LicManager Initialize - [ExtendedLicenseLogging] LicManager.Initialize started
+2026-02-18 16:44:17,747 [1] WARN  Terrasoft.Core.LicManager Initialize - [ExtendedLicenseLogging] LicManager.Initialize finished
+2026-02-18 16:45:07,768 [.NET TP Worker] WARN Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - [ExtendedLicenseLogging] RedistributeUserLicenses called for user: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 16:45:07,773 [.NET TP Worker] INFO Supervisor Terrasoft.Core.LicManager GetUserLicensesRedistributions - Redistribution: package count = 0, userId=7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 16:47:46,646 [.NET TP Worker] WARN Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - [ExtendedLicenseLogging] RedistributeUserLicenses called for user: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 16:47:46,646 [.NET TP Worker] INFO Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - Redistribution: package count = 0, userId=7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:23:34,944 [1] WARN  Terrasoft.Core.LicManager Initialize - [ExtendedLicenseLogging] LicManager.Initialize started
+2026-02-18 17:23:34,944 [1] WARN  Terrasoft.Core.LicManager Initialize - [ExtendedLicenseLogging] LicManager.Initialize finished
+2026-02-18 17:25:41,147 [1] WARN  Terrasoft.Core.LicManager Initialize - [ExtendedLicenseLogging] LicManager.Initialize started
+2026-02-18 17:25:41,147 [1] WARN  Terrasoft.Core.LicManager Initialize - [ExtendedLicenseLogging] LicManager.Initialize finished
+2026-02-18 17:28:06,172 [.NET TP Worker] WARN Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - [ExtendedLicenseLogging] RedistributeUserLicenses called for user: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:28:06,172 [.NET TP Worker] INFO Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - Redistribution: package count = 0, userId=7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:54:30,107 [.NET TP Worker] WARN Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - [ExtendedLicenseLogging] RedistributeUserLicenses called for user: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:54:30,123 [.NET TP Worker] INFO Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - Redistribution: package count = 0, userId=7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:56:53,185 [.NET TP Worker] WARN Supervisor Terrasoft.Core.LicManager RefreshPackagesLicOperationsCache - [ExtendedLicenseLogging] RefreshPackagesLicOperationsCache called
+2026-02-18 17:58:46,162 [.NET TP Worker] WARN Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - [ExtendedLicenseLogging] RedistributeUserLicenses called for user: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:58:46,167 [.NET TP Worker] INFO Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - Redistribution: package count = 0, userId=7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 17:59:43,285 [.NET TP Worker] WARN Supervisor Terrasoft.Core.LicManager OnPackageLicOperationManagerChanged - [ExtendedLicenseLogging] RefreshPackagesLicOperationsCache called
+2026-02-18 18:02:09,584 [.NET TP Worker] WARN Supervisor Terrasoft.Core.LicManager OnPackageLicOperationManagerChanged - [ExtendedLicenseLogging] RefreshPackagesLicOperationsCache called
+2026-02-18 18:13:16,595 [.NET TP Worker] WARN Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - [ExtendedLicenseLogging] RedistributeUserLicenses called for user: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 18:13:16,595 [.NET TP Worker] INFO Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - Redistribution: package count = 0, userId=7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 18:16:35,563 [.NET TP Worker] WARN Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - [ExtendedLicenseLogging] RedistributeUserLicenses called for user: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 18:16:35,566 [.NET TP Worker] INFO Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - Redistribution: package count = 0, userId=7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 18:24:25,475 [.NET TP Worker] WARN Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - [ExtendedLicenseLogging] RedistributeUserLicenses called for user: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 18:24:25,475 [.NET TP Worker] INFO Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - Redistribution: package count = 0, userId=7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 18:28:09,842 [.NET TP Worker] WARN Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - [ExtendedLicenseLogging] RedistributeUserLicenses called for user: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 18:28:09,847 [.NET TP Worker] INFO Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - Redistribution: package count = 0, userId=7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 18:31:51,288 [.NET TP Worker] WARN Supervisor Terrasoft.Core.LicManager OnPackageLicOperationManagerChanged - [ExtendedLicenseLogging] RefreshPackagesLicOperationsCache called
+2026-02-18 18:34:35,796 [.NET TP Worker] WARN Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - [ExtendedLicenseLogging] RedistributeUserLicenses called for user: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 18:34:35,796 [.NET TP Worker] INFO Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - Redistribution: package count = 0, userId=7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 18:36:13,388 [1] WARN  Terrasoft.Core.LicManager Initialize - [ExtendedLicenseLogging] LicManager.Initialize started
+2026-02-18 18:36:13,388 [1] WARN  Terrasoft.Core.LicManager Initialize - [ExtendedLicenseLogging] LicManager.Initialize finished
+2026-02-18 20:31:03,655 [.NET TP Worker] WARN Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - [ExtendedLicenseLogging] RedistributeUserLicenses called for user: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:31:03,688 [.NET TP Worker] INFO Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - Redistribution: package count = 0, userId=7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:31:04,978 [.NET TP Worker] WARN Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - [ExtendedLicenseLogging] RedistributeUserLicenses called for user: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:31:04,983 [.NET TP Worker] INFO Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - Redistribution: package count = 0, userId=7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:32:46,728 [.NET TP Worker] WARN Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - [ExtendedLicenseLogging] RedistributeUserLicenses called for user: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:32:46,740 [.NET TP Worker] INFO Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - Redistribution: package count = 0, userId=7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:37:27,774 [.NET TP Worker] WARN Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - [ExtendedLicenseLogging] RedistributeUserLicenses called for user: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 20:37:27,774 [.NET TP Worker] INFO Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - Redistribution: package count = 0, userId=7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 21:34:43,968 [.NET TP Worker] WARN Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - [ExtendedLicenseLogging] RedistributeUserLicenses called for user: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 21:34:43,968 [.NET TP Worker] INFO Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - Redistribution: package count = 0, userId=7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 21:41:59,073 [.NET TP Worker] WARN Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - [ExtendedLicenseLogging] RedistributeUserLicenses called for user: 7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 21:41:59,081 [.NET TP Worker] INFO Supervisor Terrasoft.Core.LicManager RedistributeUserLicenses - Redistribution: package count = 0, userId=7f3b869f-34f3-4f20-ab4d-7480a5fdf647
+2026-02-18 21:44:57,644 [.NET TP Worker] WARN Supervisor Terrasoft.Core.LicManager OnPackageLicOperationManagerChanged - [ExtendedLicenseLogging] RefreshPackagesLicOperationsCache called
+2026-02-18 21:45:26,074 [1] WARN  Terrasoft.Core.LicManager Initialize - [ExtendedLicenseLogging] LicManager.Initialize started
+2026-02-18 21:45:26,074 [1] WARN  Terrasoft.Core.LicManager Initialize - [ExtendedLicenseLogging] LicManager.Initialize finished
