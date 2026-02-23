@@ -1622,3 +1622,11 @@
 2026-02-20 15:48:16,062 [.NET TP Worker] INFO  Redis ExecuteWithMonitoring - All session keys: 1.Expired session keys: 0.
 2026-02-20 15:48:16,065 [.NET TP Worker] INFO  Redis ExecuteWithMonitoring - All session keys: 1.Expired session keys: 0.
 2026-02-20 15:48:16,065 [.NET TP Worker] INFO  Redis CheckExpiredSessionsCallback - PerformanceMonitor - CheckExpiredSessionsCallback [Success] [00:00:00.002]
+2026-02-20 15:49:16,109 [.NET TP Worker] INFO  Redis NonOverlappingTimerCallback - CheckExpiredSessionsCallback invoked.
+2026-02-20 15:49:16,109 [.NET TP Worker] INFO  Redis ExecuteWithMonitoring - All session keys: 1.Expired session keys: 0.
+2026-02-20 15:49:16,109 [.NET TP Worker] INFO  Redis ExecuteWithMonitoring - All session keys: 1.Expired session keys: 0.
+2026-02-20 15:49:16,109 [.NET TP Worker] INFO  Redis CheckExpiredSessionsCallback - PerformanceMonitor - CheckExpiredSessionsCallback [Success] [00:00:00.001]
+2026-02-20 15:50:16,200 [.NET TP Worker] INFO  Redis NonOverlappingTimerCallback - CheckExpiredSessionsCallback invoked.
+2026-02-20 15:50:16,200 [.NET TP Worker] INFO  Redis ExecuteWithMonitoring - All session keys: 1.Expired session keys: 0.
+2026-02-20 15:50:16,200 [.NET TP Worker] INFO  Redis ExecuteWithMonitoring - All session keys: 1.Expired session keys: 0.
+2026-02-20 15:50:16,200 [.NET TP Worker] INFO  Redis CheckExpiredSessionsCallback - PerformanceMonitor - CheckExpiredSessionsCallback [Success] [00:00:00.001]

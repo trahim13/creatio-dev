@@ -2368,3 +2368,14 @@ Autofac.Core.DependencyResolutionException: An exception was thrown while activa
 2026-02-20 15:35:25,805 [.NET TP Worker] INFO  Calendar LogInfo - [nOKHUMkre0iW2dul0rQVA.job] [CalendarFailoverJob] 0 accounts received for enabling synchronization.
 2026-02-20 15:35:25,805 [.NET TP Worker] INFO  Calendar LogInfo - [nOKHUMkre0iW2dul0rQVA.job] [CalendarFailoverJob] Synchronization of 0 accounts is enabled.
 2026-02-20 15:35:25,815 [.NET TP Worker] INFO  Calendar LogInfo - [nOKHUMkre0iW2dul0rQVA.job] [CalendarFailoverJob] ended.
+2026-02-20 15:50:25,689 [.NET TP Worker] INFO  Calendar LogInfo - [tmLFVzmqwEKaA4lkKHGukw.job] [CalendarFailoverJob] started.
+2026-02-20 15:50:25,698 [.NET TP Worker] INFO  Calendar LogInfo - [tmLFVzmqwEKaA4lkKHGukw.job] [CalendarFailoverJob] 0 accounts received for enabling synchronization.
+2026-02-20 15:50:25,698 [.NET TP Worker] INFO  Calendar LogInfo - [tmLFVzmqwEKaA4lkKHGukw.job] [CalendarFailoverJob] Synchronization of 0 accounts is enabled.
+2026-02-20 15:50:25,698 [.NET TP Worker] INFO  Calendar LogInfo - [tmLFVzmqwEKaA4lkKHGukw.job] [CalendarFailoverJob] ended.
+2026-02-20 15:50:33,105 [.NET Signal Handler] WARN  Terrasoft.WebHost.Application Invoke - Application_End
+2026-02-20 15:50:33,369 [.NET TP Worker] INFO  Terrasoft.Core.EventBuffering.BufferPool RunFromThreadPoolDispatchLoop - Disabling buffering.
+2026-02-20 15:50:33,369 [.NET TP Worker] INFO  Terrasoft.Core.EventBuffering.BufferPool RunFromThreadPoolDispatchLoop - Disabled buffering of Terrasoft.Core.Process.EventBuffering.IProcessEventWriter(free: 1, rent: 0)
+2026-02-20 15:50:33,796 [.NET TP Worker] INFO  Terrasoft.Core.UsageContext.RecursionDepthTracker Dispose - Disabling recursion depth checker.
+2026-02-20 15:50:33,796 [.NET TP Worker] INFO  Terrasoft.Core.UsageContext.RecursionDepthTracker InternalDisable - Disabled Background recursion depth checker.
+2026-02-20 15:50:33,796 [.NET TP Worker] INFO  Terrasoft.Core.UsageContext.RecursionDepthTracker InternalDisable - Disabled Foreground recursion depth checker.
+2026-02-20 15:50:33,796 [.NET TP Worker] INFO  Terrasoft.Core.InMemoryPubSubServer RunInternal - InMemoryPubSubServer stopped.
